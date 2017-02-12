@@ -1,0 +1,17 @@
+<p>
+  <hr />
+  <div style="text-align:center;">
+    ...
+    <br><strong>{{ include.page.title }}</strong>
+    {% assign collection = site.collections | where:'label', include.page.collection %}
+    <br>( {{ include.page.collection }} )
+    <br>by {{ site.author }}
+    <br>{{ site.url }}
+    <br>published: {{ include.page.date }}
+    <br>...
+    <br>This work is licensed under a
+    <br><a href="{{ site.license_url }}" rel="license">{{ site.license_name}}</a>.
+    <br>...
+  </div>
+  <hr />
+</p>

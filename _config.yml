@@ -19,9 +19,13 @@ description: >
   initially an experiment to port stories.upthebuzzard.com
   from wordpress.com to Jekyll on GitHub
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://stories.upthebuzzard.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: upthebuzzard
 github_username:  upthebuzzard
+author: Chris Gathercole
+
+license_name: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+license_url: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # Build settings
 markdown: kramdown
@@ -34,3 +38,4 @@ exclude:
 collections:
   grey_parrot_stories:
     output: true
+    title: Gray Parrot Story

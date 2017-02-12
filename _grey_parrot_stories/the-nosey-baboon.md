@@ -8,18 +8,7 @@ categories: []
 extract: >
   One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 ---
-<hr />
-
-<div style="text-align:center;"><strong>The Nosey Baboon</strong></div>
-<div style="text-align:center;">by Chris Gathercole</div>
-<div style="text-align:center;">stories.upthebuzzard.com</div>
-<div style="text-align:center;">last changed: 1 October 2011</div>
-<div style="text-align:center;">...</div>
-<div style="text-align:center;">This work is licensed under a</div>
-<div style="text-align:center;"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
-<div style="text-align:center;">...</div>
-
-<hr />
+{% include_relative story_header_include.html page=page %}
 
 One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 

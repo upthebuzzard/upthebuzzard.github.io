@@ -9,18 +9,7 @@ extract: >
   The marmalade elephant was not happy.
   His elephant friends blended in with the colours and shapes of the grass and bushes. But the marmalade elephant was a bright orange against green grass. You could almost hear how bright he was.
 ---
-<hr />
-
-<div style="text-align:center;"><strong>The Marmalade Elephant</strong></div>
-<div style="text-align:center;">by Chris Gathercole</div>
-<div style="text-align:center;">stories.upthebuzzard.com</div>
-<div style="text-align:center;">last changed: 30 September 2011</div>
-<div style="text-align:center;">...</div>
-<div style="text-align:center;">This work is licensed under a</div>
-<div style="text-align:center;"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
-<div style="text-align:center;">...</div>
-
-<hr />
+{% include_relative story_header_include.html page=page %}
 
 The marmalade elephant was not happy.
 
