@@ -32,5 +32,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 collections:
-  grey_parrot:
+  grey_parrot_stories:
     output: true
