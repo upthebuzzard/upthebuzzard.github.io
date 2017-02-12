@@ -2,9 +2,8 @@
   <hr />
   <div style="text-align:center;">
     ...
-    <br><strong>{{ include.page.title }}</strong>
-    {% assign collection = site.collections | where:'label', include.page.collection %}
-    <br>( {{ include.page.collection }} )
+    {% assign collection = (site.collections | where:"label", include.page.collection | first %}
+    <br><strong>{{ include.page.title }}</strong> ( a {{ collection.title }} )
     <br>by {{ site.author }}
     <br>{{ site.url }}
     <br>published: {{ include.page.date }}
