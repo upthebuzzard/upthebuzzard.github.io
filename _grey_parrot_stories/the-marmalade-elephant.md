@@ -74,9 +74,9 @@ And this is what the marmalade elephant found: too much water, or no water. All 
 Everywhere he went, it was the same story.
 &lt;cue: different voices&gt;
 
-"Sorry. No sticky pond here."
-"It’s the dry season."
-"Hasn't been a sticky pond round here for months."
+"Sorry. No sticky pond here."  
+"It’s the dry season."  
+"Hasn't been a sticky pond round here for months."  
 "Have you tried over in the other part of the jungle?"
 
 After struggling through the jungle, pushing through leaves and branches and trees and bushes, to find seventeen small dry ponds, and three big wet ponds, the marmalade elephant stood at the edge of a big lake, with no sticky mud anywhere to be seen.
