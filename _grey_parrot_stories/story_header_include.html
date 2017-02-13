@@ -6,7 +6,7 @@
     <br><strong>{{ include.page.title }}</strong> ( a {{ collection.title }} )
     <br>by {{ site.author }}
     <br>{{ site.url }}
-    <br>published: {{ include.page.date }}
+    <br>published: {{ include.page.date | date_to_long_string }}
     <br>...
     <br>This work is licensed under a
     <br><a href="{{ site.license_url }}" rel="license">{{ site.license_name}}</a>.
