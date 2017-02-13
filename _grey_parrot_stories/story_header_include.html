@@ -3,7 +3,7 @@
   <div style="text-align:center;">
     ...
     {% assign collection = (site.collections | where:"label", include.page.collection | first %}
-    <br><strong>{{ include.page.title }}</strong> ( a {{ collection.title }} )
+    <br><strong>{{ include.page.title }}</strong> ( a <a href=".">{{ collection.title }}</a> )
     <br>by {{ site.author }}
     <br>{{ site.url }}
     <br>published: {{ include.page.date | date_to_long_string }}

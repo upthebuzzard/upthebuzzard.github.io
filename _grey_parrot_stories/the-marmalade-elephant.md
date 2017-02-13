@@ -31,11 +31,11 @@ He waited politely under the branch as the grey parrot cracked open a nut with i
 
 "Craaaaaaack", said the grey parrot, "go and live in the desert."
 
-"What?
-No!
-All my friends are here.
-I want to stay here.
-I'm not a camel",
+"What?  
+No!  
+All my friends are here.  
+I want to stay here.  
+I'm not a camel",  
 said the marmalade elephant.
 
 "Craaaaack", said the grey parrot, "you didn't say that in your question."
