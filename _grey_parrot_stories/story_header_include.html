@@ -1,9 +1,36 @@
+
+{% capture the_collection %}{{include.page.collection}}{% endcapture %}
+{% if include.page.collection %}
+  {% assign document = (site[the_collection] | where:"layout", "post" | sort: 'date') %}
+{% endif %}
+
+{% if document.size > 1 %}
+  {% assign prevurl = document.last.url %}
+  {% assign nexturl = document.first.url %}
+{% endif %}
+
+{% for links in document %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
 <p>
   <hr />
   <div style="text-align:center;">
     ...
     {% assign collection = (site.collections | where:"label", include.page.collection | first %}
-    <br><strong>{{ include.page.title }}</strong> ( a <a href=".">{{ collection.title }}</a> )
+    <br><strong>{{ include.page.title }}</strong> ( a <a href=".">{{ collection.title }}</a> - 
+    {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %}
+    {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT</a>{% endif %}
+    )
     <br>by {{ site.author }}
     <br>{{ site.url }}
     <br>published: {{ include.page.date | date_to_long_string }}
