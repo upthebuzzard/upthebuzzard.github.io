@@ -27,9 +27,12 @@
   <div style="text-align:center;">
     ...
     {% assign collection = (site.collections | where:"label", include.page.collection | first %}
-    <br><strong>{{ include.page.title }}</strong> ( a <a href=".">{{ collection.title }}</a> - 
-    {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %}
-    {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT</a>{% endif %}
+    <br><strong>{{ include.page.title }}</strong> ( a <a href=".">{{ collection.title }}</a>
+    {% if document.size > 1 %}
+      -
+      {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %}
+      {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT</a>{% endif %}
+    {% endif %}
     )
     <br>by {{ site.author }}
     <br>{{ site.url }}
