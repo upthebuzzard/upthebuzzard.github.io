@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-{% assign collection_name = include.collection %}{%
+{% assign collection_name = include.page.collection %}{%
 assign collection = (site.collections | where:"label", collection_name | first %}{%
-assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date') %}{%
-capture collection_path %}{{site.url}}/{{collection.label}}/feed.xml{% endcapture
+assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
 %}<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">
     <channel>
         <title>{{ collection.title }}</title>
-        <link>{{ site.url }}</link>
+        <link>A {{ site.url }}</link>
         <copyright>All rights reserved.</copyright>
         <description>{{ collection.description }}</description>
-        <atom:link href="{{ collection_path }}" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
         {% for post in posts %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
                 <description>{{ post.extract | xml_escape }}</description>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-                <link>{{ post.url | prepend: site.url }}</link>
-                <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+                <link>{{ post.url | absolute_url }}</link>
+                <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
             </item>
         {% endfor %}
     </channel>

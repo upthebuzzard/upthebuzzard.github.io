@@ -5,8 +5,7 @@
     <link>{{ site.url }}</link>
     <copyright>All rights reserved.</copyright>
     <description>{{ site.description }}</description>
-    {% capture feed_path  %}{{site.url}}/feed.xml{% endcapture %}
-    <atom:link href="{{ feed_path }}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ include.page.url | absolute_url }}" rel="self" type="application/rss+xml" />
       {% assign posts = site.documents | where: 'layout', "post" | sort: 'date' | reverse %}
       {% for post in posts limit:10 %}
         {% if post.collection != "posts" %}
@@ -17,8 +16,8 @@
           <title>{{ collection_prefix }}{{ post.title | xml_escape }}</title>
           <description>{{ post.extract | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-          <link>{{ post.url | prepend: site.url }}</link>
-          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+          <link>{{ post.url | absolute_url }}</link>
+          <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         </item>
       {% endfor %}
   </channel>

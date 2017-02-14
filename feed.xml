@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{% include all_feed.xml %}
+{% include all_feed.xml page=page %}
