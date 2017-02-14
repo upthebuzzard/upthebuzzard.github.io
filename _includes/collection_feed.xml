@@ -12,7 +12,7 @@ assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
             <item>
                 <title>{{ post.title | xml_escape }}</title>
                 <description>{{ post.extract | xml_escape }}</description>
-                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <link>{{ post.url | prepend: site.url }}</link>
                 <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
             </item>
