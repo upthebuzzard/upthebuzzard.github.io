@@ -4,8 +4,8 @@ assign collection = (site.collections | where:"label", collection_name | first %
 assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
 %}<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">
     <channel>
-        <title>{{ collection.title }}</title>
-        <link>A {{ site.url }}</link>
+        <title>A {{ collection.title }}</title>
+        <link>{{ site.url }}</link>
         <copyright>All rights reserved.</copyright>
         <description>{{ collection.description }}</description>
         <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
