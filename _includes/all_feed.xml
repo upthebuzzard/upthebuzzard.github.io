@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">
+  <channel>
+    <title>{{ site.title }} by {{ site.author }}</title>
+    <link>{{ site.url }}</link>
+    <copyright>All rights reserved.</copyright>
+    <description>{{ site.description }}</description>
+      {% assign posts = site.documents | where: 'layout', "post" | sort: 'date' | reverse %}
+      {% for post in posts limit:10 %}
+        {% if post.collection != "posts" %}
+          {% assign collection = (site.collections | where:"label", post.collection | first %}
+          {% capture collection_prefix %} A {{ collection.title }} - {% endcapture %}
+        {% endif %}
+        <item>
+          <title>{{ collection_prefix }}{{ post.title | xml_escape }}</title>
+          <description>{{ post.extract | xml_escape }}</description>
+          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+          <link>{{ post.url | prepend: site.url }}</link>
+          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+        </item>
+      {% endfor %}
+  </channel>
+</rss>

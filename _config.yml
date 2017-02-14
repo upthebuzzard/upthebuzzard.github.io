@@ -23,6 +23,7 @@ url: http://stories.upthebuzzard.com # the base hostname & protocol for your sit
 twitter_username: upthebuzzard
 github_username:  upthebuzzard
 author: Chris Gathercole
+lang: en
 
 license_name: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 license_url: http://creativecommons.org/licenses/by-nc-sa/3.0/
@@ -39,3 +40,4 @@ collections:
   grey_parrot_stories:
     output: true
     title: Grey Parrot Story
+    description: a collection of stories about the (too) clever grey parrot

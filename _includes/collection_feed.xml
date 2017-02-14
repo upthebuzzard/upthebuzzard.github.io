@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% assign collection_name = include.collection %}{%
+assign collection = (site.collections | where:"label", collection_name | first %}{%
+assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
+%}<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">
+    <channel>
+        <title>{{ collection.title }}</title>
+        <link>{{ site.url }}</link>
+        <copyright>All rights reserved.</copyright>
+        <description>{{ collection.description }}</description>
+        {% for post in posts %}
+            <item>
+                <title>{{ post.title | xml_escape }}</title>
+                <description>{{ post.extract | xml_escape }}</description>
+                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+                <link>{{ post.url | prepend: site.url }}</link>
+                <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+            </item>
+        {% endfor %}
+    </channel>
+</rss>
