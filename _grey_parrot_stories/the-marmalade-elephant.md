@@ -9,7 +9,7 @@ extract: >
   The marmalade elephant was not happy.
   His elephant friends blended in with the colours and shapes of the grass and bushes. But the marmalade elephant was a bright orange against green grass. You could almost hear how bright he was.
 ---
-{% include_relative story_header_include.html page=page %}
+{% include story_header.html page=page %}
 
 The marmalade elephant was not happy.
 

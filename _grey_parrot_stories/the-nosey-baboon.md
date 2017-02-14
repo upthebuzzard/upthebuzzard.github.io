@@ -8,7 +8,7 @@ categories: []
 extract: >
   One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 ---
-{% include_relative story_header_include.html page=page %}
+{% include story_header.html page=page %}
 
 One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 
