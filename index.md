@@ -4,5 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-* [Grey Parrot Stories](/grey_parrot_stories)
+{% for collection in site.collections %}
+  {% if collection.label != "posts" %}
+* [{{ collection.title }}]({{ collection.label }})
+  {% endif %}
+{% endfor %}

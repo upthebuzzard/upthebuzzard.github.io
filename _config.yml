@@ -39,5 +39,6 @@ exclude:
 collections:
   grey_parrot_stories:
     output: true
-    title: Grey Parrot Story
+    title: The Grey Parrot Stories
+    title_singular: A Grey Parrot Story
     description: a collection of stories about the (too) clever grey parrot
