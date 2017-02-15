@@ -18,9 +18,9 @@ The giraffe was annoyed, and said, "Go away, and stop making fun of my sore nose
 
 The nosey baboon looked around, and asked some fireflies, "What is the bright shiny thing?"
 
-"I am", said one firefly.
-"No, I am", said another.
-"Me too", said another.
+"I am", said one firefly.  
+"No, I am", said another.  
+"Me too", said another.  
 "Me too", said yet another.
 
 And then all the fireflies started buzzing around each other, arguing about who was the bright shiny one.
@@ -67,10 +67,10 @@ And so, he went off to find some bees at home. Which meant a bees' nest. Which m
 
 Right at the top of a medium-sized tree, the nosey baboon found a little hive. He put his ear to the side of the hive, and listened.
 
-What he heard was this:
-"NNNNNNNNNNNNNNNNNNNN".
-Not, "MMMMMMMMMMMM".
-Or, "ZZZZZZZZZZZZZZ".
+What he heard was this:  
+"NNNNNNNNNNNNNNNNNNNN".  
+Not, "MMMMMMMMMMMM".  
+Or, "ZZZZZZZZZZZZZZ".  
 But, "NNNNNNNNNNNNN".
 
 And all that time, the nosey baboon was getting stung. He kept listening, and getting stung, but the sound did not change.
@@ -108,11 +108,11 @@ not really trying very hard to sound like a cow, because he was very cross and s
 
 "All I got was 'MOO' and 'NNN'", complained the nosey baboon, "Just 'MOO' and 'NNNN'".
 
-"Hang on.
-MOO and NNNN.
-MOO     NNN.
-MOO  NNN
-MOONNNN.
+"Hang on.  
+MOO and NNNN.  
+MOO     NNN.  
+MOO  NNN  
+MOONNNN.  
 Moon!"
 
 "That's it. The bright shiny thing, in the river over there, tonight is the moon", said the sore and tired, but now happy, nosey baboon.
