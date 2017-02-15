@@ -4,12 +4,10 @@ title: The Nosey Baboon
 date: 2011-09-30 23:26
 author: upthebuzzard
 comments: true
-categories: []
+categories: [story]
 extract: >
   One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 ---
-{% include story_header.html page=page %}
-
 One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 
 He went and asked a giraffe, "What is the bright shiny thing?"
@@ -123,5 +121,3 @@ Moon!"
 
 <div style="text-align:center;">THE</div>
 <div style="text-align:center;">END</div>
-
-<hr />

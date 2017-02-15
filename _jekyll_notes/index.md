@@ -13,6 +13,14 @@ Look up source files for layouts from default theme
 * ```bundle show minima```
    * where ```theme: minima``` is specified in \_config.yml
 * via https://jekyllrb.com/docs/themes/
+* can concatenate lists
+
+{% raw %}
+{% assign fruits = "apples, oranges, peaches, tomatoes" | split: ", " %}  
+{% assign vegetables = "broccoli, carrots, lettuce, tomatoes" | split: ", " %}  
+{% assign plants = fruits | concat: vegetables %}
+{% endraw %}
+
 
 # Notes
 * having to build assorted basic functionality because using collections
@@ -20,6 +28,11 @@ Look up source files for layouts from default theme
 # Issues
 silent fails, e.g.
 * misspelling a category name in \_config.yml so it doesn't agree with the folder name
+* for some reason, can't make this work  
+
+```{\% assign posts = site.documents | where_exp:"item", 'item.layout == "post" or item.layout == "story_post"' | sort: 'date' | reverse \%}```
+
+
 
 # Posts
 {% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date') | reverse %}
