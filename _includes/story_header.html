@@ -1,6 +1,6 @@
 
-{% capture the_collection %}{{include.page.collection}}{% endcapture %}
-{% if include.page.collection %}
+{% capture the_collection %}{{ page.collection }}{% endcapture %}
+{% if page.collection %}
   {% assign document = (site[the_collection] | where:"layout", "post" | sort: 'date') %}
 {% endif %}
 
@@ -26,8 +26,8 @@
   <hr />
   <div style="text-align:center;">
     ...
-    {% assign collection = (site.collections | where:"label", include.page.collection | first %}
-    <br><strong>{{ include.page.title }}</strong> (<a href=".">{{ collection.title }}</a>
+    {% assign collection = (site.collections | where:"label", page.collection | first %}
+    <br><strong>{{ page.title }}</strong> (<a href=".">{{ collection.title }}</a>
     {% if document.size > 1 %}
       -
       {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %}
@@ -36,7 +36,7 @@
     )
     <br>by {{ site.author }}
     <br>{{ site.url }}, <span class="rss-subscribe"><a href="feed.xml">RSS</a></span>
-    <br>published: {{ include.page.date | date_to_long_string }}
+    <br>published: {{ page.date | date_to_long_string }}
     <br>...
     <br>This work is licensed under a
     <br><a href="{{ site.license_url }}" rel="license">{{ site.license_name}}</a>.

@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{% include collection_feed.xml page=page %}
+{% include collection_feed.xml %}

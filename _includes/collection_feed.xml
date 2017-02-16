@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-{% assign collection_name = include.page.collection %}{%
+{% assign collection_name = page.collection %}{%
 assign collection = (site.collections | where:"label", collection_name | first %}{%
 assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
 %}<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">

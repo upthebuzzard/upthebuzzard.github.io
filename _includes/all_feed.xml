@@ -5,7 +5,7 @@
     <link>{{ site.url }}</link>
     <copyright>All rights reserved.</copyright>
     <description>{{ site.description }}</description>
-    <atom:link href="{{ include.page.url | absolute_url }}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
       {% assign posts = site.documents | where:"layout", "post" | sort: 'date' | reverse %}
       {% for post in posts limit:10 %}
         {% assign collection_prefix = "" %}
