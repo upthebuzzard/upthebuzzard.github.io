@@ -15,6 +15,9 @@ Look up source files for layouts from default theme
 * via https://jekyllrb.com/docs/themes/
 * can concatenate lists
 
+markdown spec
+* https://kramdown.gettalong.org/syntax.html
+
 {% raw %}
 {% assign fruits = "apples, oranges, peaches, tomatoes" | split: ", " %}  
 {% assign vegetables = "broccoli, carrots, lettuce, tomatoes" | split: ", " %}  

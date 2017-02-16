@@ -37,21 +37,27 @@ exclude:
   - Gemfile
   - Gemfile.lock
 collections:
-  grey_parrot_stories:
-    output: true
-    title: The Grey Parrot Stories
-    title_singular: A Grey Parrot Story
-    description: a collection of stories about the (too) clever grey parrot
-    sequence: 2
   moose_and_goose_stories:
     output: true
     title: The Moose and Goose Stories
     title_singular: A Moose and Goose Story
     description: a collection of stories about Moose and Goose, Solvers of Tricky Problems
     sequence: 1
+  grey_parrot_stories:
+    output: true
+    title: The Grey Parrot Stories
+    title_singular: A Grey Parrot Story
+    description: a collection of stories about the (too) clever grey parrot
+    sequence: 2
+  predicting_the_present:
+    output: true
+    title: Predicting the Present
+    title_singular: Predicting the Present
+    description: this short stories are less predicting the future and more “predicting the present”.
+    sequence: 3
   jekyll_notes:
     output: true
     title: Jekyll Notes
     title_singular: A Jekyll Note
     description: a collection of notes and observations from and aid-memoires for using Jekyll for the first time.
-    sequence: 3
+    sequence: 4
