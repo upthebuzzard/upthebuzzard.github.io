@@ -8,5 +8,6 @@ layout: home
 {% for collection in sorted %}
   {% if collection.label != "posts" %}
 * [{{ collection.title }}]({{ collection.label }})
+> {{ collection.description }}
   {% endif %}
 {% endfor %}

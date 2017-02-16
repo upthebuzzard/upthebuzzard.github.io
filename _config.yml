@@ -65,5 +65,5 @@ collections:
     output: true
     title: Jekyll Notes
     title_singular: A Jekyll Note
-    description: a collection of notes and observations from and aid-memoires for using Jekyll for the first time.
+    description: a collection of notes and observations from and aide-memoires for using Jekyll for the first time.
     sequence: 100
