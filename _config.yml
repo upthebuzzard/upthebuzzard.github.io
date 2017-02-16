@@ -61,6 +61,12 @@ collections:
     title_singular: Emus All The Way Down
     description: riffing on the Predicting The Present story "Emus All The Way Down".
     sequence: 11
+  fragments:
+    output: true
+    title: Fragments of writing
+    title_singular: A Fragment
+    description: riffing on whatever is riff-worthy
+    sequence: 20
   jekyll_notes:
     output: true
     title: Jekyll Notes
