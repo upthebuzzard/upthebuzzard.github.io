@@ -4,7 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-{% for collection in site.collections %}
+{% assign sorted = (site.collections | sort: 'sequence') %}
+{% for collection in sorted %}
   {% if collection.label != "posts" %}
 * [{{ collection.title }}]({{ collection.label }})
   {% endif %}

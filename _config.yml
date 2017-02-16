@@ -42,13 +42,16 @@ collections:
     title: The Grey Parrot Stories
     title_singular: A Grey Parrot Story
     description: a collection of stories about the (too) clever grey parrot
+    sequence: 2
+  moose_and_goose_stories:
+    output: true
+    title: The Moose and Goose Stories
+    title_singular: A Moose and Goose Story
+    description: a collection of stories about Moose and Goose, Solvers of Tricky Problems
+    sequence: 1
   jekyll_notes:
     output: true
     title: Jekyll Notes
     title_singular: A Jekyll Note
     description: a collection of notes and observations from and aid-memoires for using Jekyll for the first time.
-  moose_and_goose_stories:
-    output: true
-    title: The Moose and Goose Stories
-    title_singular: A Moose and Goose Story
-    description: a collection of stories about Moose and Goose
+    sequence: 3
