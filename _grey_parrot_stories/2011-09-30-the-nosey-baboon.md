@@ -118,6 +118,3 @@ Moon!"
 "Thanks grey parrot", said the nosey baboon
 
 "Craaack, no problem", said the grey parrot.
-
-<div style="text-align:center;">THE</div>
-<div style="text-align:center;">END</div>

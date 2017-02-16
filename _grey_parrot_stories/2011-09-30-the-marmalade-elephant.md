@@ -127,6 +127,3 @@ They were gathered round an ant hill having a chat and a scratch.
 "All we see is a bush", said his friends.
 
 "Exactly", said the marmalade elephant.
-
-<div style="text-align:center;">THE</div>
-<div style="text-align:center;">END</div>

@@ -19,7 +19,7 @@ permalink: /:collection/index.html
 </p>
 
 <p>
-	{% assign sorted = (site.grey_parrot_stories | where:"layout", "post" | sort: 'date') | reverse %}
+	{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date') | reverse %}
 	{% for item in sorted %}
 		<ul>
 			<li><a href="{{ item.url }}">{{ item.title }}</a></li>

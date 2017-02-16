@@ -1,0 +1,28 @@
+---
+layout: page
+title: A brief history of Moose & Goose
+date: 2011-09-26 20:57
+author: upthebuzzard
+categories: [story]
+---
+Back in 2007, two opinionated boys, 4yo and 7yo, demanded the spoken word before they would even consider turning in for the night, <strong>both at the same time</strong>, but not from the same book. We had tried several books from our excellent local library, looking for a good compromise but, although there were <a title="Other Good Bedtime Reads" href="/other-good-bedtime-reads/">some excellent individual reads</a>, they were either too old for the younger, or deja vu all over again for the elder. Desperate times.
+
+Somewhat hesitantly, I proposed making up a story on the spot. "What, you?", I was asked, somewhat brutally. "No, us", was the improvised reply. And we gave it a go. The earliest of our improvisations are lost to the mists of time, but a theme emerged. A template that could be warmed up at a moment's notice every evening. An array of familiar characters and situations that we could rely on, yet could take us in oodles of unknown directions. Ladies and gentlemen, boys and girls, I give you: <a title="Moose &amp; Goose Stories" href="/moose-goose-stories/">Moose &amp; Goose, private investigators, and solvers of tricky problems</a>. Naturally enough, one boy was Moose, and the other was Goose. They each insisted on saying their lines as they came up. It became like a play where the actors had not learned their lines, so were listening for the hissed prompts from the wings.
+
+At the time, my understanding was that Moose and Goose were nicknames, pure and simple, along the lines of Tom Cruise's wingman in Top Gun, and that they were two late-30s blokes, probably dads, who had somehow landed themselves a satisfying, interesting and not-at-all-envy-inducing career, albeit on the rates they charged I couldn't see how they made it pay. It transpired, however, that the boys initially considered these characters to actually be a moose and a goose, respectively, around about the same ages as themselves. I hesitate to say there is a right or a wrong here but, well, I did most of the talking, so I believe me.
+
+Each evening, the boys would take turns to specify a room, an object, and a colour. I would have approximately 10 seconds to construct a scenario in my head that tied those words together, and we'd be off. The common intro where Moose &amp; Goose sit around of a Monday morning having a cup of tea before the phone rings is, frankly, a bit of blatant playing for time.
+
+The stories were initially quite fantastical, with talking animals around every corner. As we painted in more details of this new world, the fantastical element was dialled down, fading away until we were left with only two talking, human-like animals, Sammy Seagull and Percy Penguin, who we rarely, if ever, saw. These two characters were the competing business brains behind most of the shops in the, it turned out, little seaside town, and were constantly on the lookout for an advantage over their arch business rival. They were always in need of Moose &amp; Goose's services for bit of industrial espionage, or to engineer a solution to a tricky problem.
+
+Even Percy began fading away eventually, leaving Sammy Seagull as the last fantastical link to the world of talking animals. Moose and Goose began receiving more requests from other people in the town, and further afield. For some reason, it quickly became apparent that there's more going on with seagulls than meets the eye, and this came to a head in '<a title="Crushed Pastries" href="2011-10-01-crushed-pastries">Crushed Pastries</a>' which, I think I can say, is probably my favourite Moose &amp; Goose story. (Although, the '<a title="Burj Al Camel" href="2011-10-05-burj-al-camel">Burj Al Camel</a>' is also a favourite, with not even a hint of seagull.)
+
+The more commonly understood laws of physics and rules of engineering were adhered to, mostly, unless they got in the way of the story. We factored in assorted daily ephemera such as chicken pox, eczema, bullying, snot, poo, etc. There was the occasional moralising hidden in assorted stories, but I have mostly forgotten where and, anyway, the boys could instantly spot the arrival of a message from the sponsor and would demand we return immediately to the story in hand.
+
+The boys never seemed to want bright, colourful pictures to pore over, which was lucky since there were none. It was all in our heads, and we all helped to keep the stories consistent, both internally and with the other stories. When the situation called for some brainstorming, we did it there and then. No idea was too stupid to be included. We practised what Moose and Goose preached.
+
+The boys were happy with the occasional non-obvious word. After giving it a while to try and work out it out, based on the context, one of the boys would blink first and ask what the word meant, triggering a discussion, and then the story would be back on track. For example, entrepreneur. Once the word was aired, it was then noticed in subsequent radio news items, or TV programs, so everyone was OK with it. Just as long as there was not too much of that sort of thing interfering with the stories...
+
+Only just in time, I started <a title="Upcoming Moose &amp; Goose" href="upcoming-moose-and-goose">jotting down some notes</a> about the more appreciated stories, and was able to recreate/embellish some of those for a later re-run.  And <a title="Moose &amp; Goose Stories" href=".">these</a> are they.
+
+Some other stories emerged during the same period, but involved a different lead character, the Gray Parrot, and <a title="The Grey Parrot Stories" href="/grey_parrot_stories/">these</a> are they.

@@ -47,3 +47,8 @@ collections:
     title: Jekyll Notes
     title_singular: A Jekyll Note
     description: a collection of notes and observations from and aid-memoires for using Jekyll for the first time.
+  moose_and_goose_stories:
+    output: true
+    title: The Moose and Goose Stories
+    title_singular: A Moose and Goose Story
+    description: a collection of stories about Moose and Goose

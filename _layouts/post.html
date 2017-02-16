@@ -11,6 +11,10 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
     {% if page.categories contains "story" %}
+      <p></p>
+      <div style="text-align:center;">THE</div>
+      <div style="text-align:center;">END</div>
+      <p></p>
       {% include story_header.html page=page %}
     {% endif %}
   </div>
