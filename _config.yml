@@ -52,7 +52,7 @@ collections:
   predicting_the_present:
     output: true
     title: Predicting the Present
-    title_singular: Predicting the Present
+    title_singular: A Predicting the Present Story
     description: this short stories are less predicting the future and more “predicting the present”.
     sequence: 10
   emus_all_the_way_down:
