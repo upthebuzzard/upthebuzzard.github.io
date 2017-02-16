@@ -54,10 +54,16 @@ collections:
     title: Predicting the Present
     title_singular: Predicting the Present
     description: this short stories are less predicting the future and more “predicting the present”.
-    sequence: 3
+    sequence: 10
+  emus_all_the_way_down:
+    output: true
+    title: Emus All The Way Down
+    title_singular: Emus All The Way Down
+    description: riffing on the story "Emus All The Way Down".
+    sequence: 11
   jekyll_notes:
     output: true
     title: Jekyll Notes
     title_singular: A Jekyll Note
     description: a collection of notes and observations from and aid-memoires for using Jekyll for the first time.
-    sequence: 4
+    sequence: 100
