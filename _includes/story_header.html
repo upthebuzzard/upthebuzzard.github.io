@@ -1,7 +1,7 @@
 
-{% capture the_collection %}{{ page.collection }}{% endcapture %}
-{% if page.collection %}
-  {% assign document = (site[the_collection] | where:"layout", "post" | sort: 'date') %}
+{% capture collection_name %}{{ page.collection }}{% endcapture %}
+{% if collection_name %}
+  {% assign document = (site[collection_name] | where:"layout", "post" | sort: 'date') %}
 {% endif %}
 
 {% if document.size > 1 %}
@@ -27,7 +27,8 @@
   <div style="text-align:center;">
     ...
     {% assign collection = (site.collections | where:"label", page.collection | first %}
-    <br><strong>{{ page.title }}</strong> (<a href=".">{{ collection.title }}</a>
+    <br><strong>{{ page.title }}</strong>
+    <br>(from <a href=".">{{ collection.title }}</a>
     {% if document.size > 1 %}
       -
       {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %}
