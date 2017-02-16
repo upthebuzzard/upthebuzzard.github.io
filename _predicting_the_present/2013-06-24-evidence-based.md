@@ -3,8 +3,10 @@ layout: post
 title: Evidence-Based
 date: 2013-06-24 21:09
 author: upthebuzzard
-comments: true
 categories: [story]
+extract: >
+  The origins of the evidence-based social upheaval are now clear to see. Though not apparent at the time, key pieces of the spasm were beginning to move into place.
+sequence: 2
 ---
 > **Evidence-based medicine** is "the conscientious, explicit and judicious use of current best evidence in making decisions about the care of individual patients." [<a title="so what does &quot;evidence-based&quot; mean?" href="http://en.wikipedia.org/wiki/Evidence-based"  >wikipedia</a>]
 

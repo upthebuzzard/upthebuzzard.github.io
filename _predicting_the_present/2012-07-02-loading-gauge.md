@@ -3,8 +3,10 @@ layout: post
 title: Loading Gauge
 date: 2012-07-02 23:29
 author: upthebuzzard
-comments: true
 categories: [story]
+extract: >
+  As two trains approached a passing place from opposite directions, the passengers themselves, collectively, would decide who had right of way.
+sequence: 1
 ---
 > A <strong>loading gauge</strong> defines the maximum height and width for railway vehicles and their loads to ensure safe passage through bridges, tunnels and other structures. [<a title="so what is a &quot;loading gauge&quot;?" href="http://en.wikipedia.org/wiki/Loading_gauge"  >wikipedia</a>]
 
