@@ -59,7 +59,7 @@ collections:
     output: true
     title: Emus All The Way Down
     title_singular: Emus All The Way Down
-    description: riffing on the story "Emus All The Way Down".
+    description: riffing on the Predicting The Present story "Emus All The Way Down".
     sequence: 11
   jekyll_notes:
     output: true

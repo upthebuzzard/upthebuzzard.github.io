@@ -19,6 +19,23 @@ who's there at the start (or one of the starts) and works out what happens at th
 <p>
 	{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
 	{% for item in sorted %}
+		{% unless item.categories contains 'tangential' %}
+			<ul>
+				<li>
+					<a href="{{ item.url }}">{{ item.title }}</a>
+				</li>
+				<blockquote>{{ item.extract }}</blockquote>
+			</ul>
+			{% endunless %}
+	{% endfor %}
+</p>
+...
+
+## contemporaneous, or possibly precursors
+
+<p>
+	{% assign sorted = (site[page.collection] | where:"layout", "post" | where_exp:"item", "item.categories contains 'tangential'" | sort: 'sequence') %}
+	{% for item in sorted %}
 		<ul>
 			<li>
 				<a href="{{ item.url }}">{{ item.title }}</a>
@@ -27,9 +44,6 @@ who's there at the start (or one of the starts) and works out what happens at th
 		</ul>
 	{% endfor %}
 </p>
-
-
-## contemporaneous, or possibly precursors
 
 
 ## glossary

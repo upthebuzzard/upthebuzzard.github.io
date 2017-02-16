@@ -1,6 +1,6 @@
 ---
 layout: post
-title: More EMUs - The Idiot Orc
+title: The Idiot Orc
 date: 2014-02-11 23:05
 author: upthebuzzard
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: More EMUs - Moaning Minnie
+title: Moaning Minnie
 date: 2015-04-16 21:27
 author: upthebuzzard
 comments: true
