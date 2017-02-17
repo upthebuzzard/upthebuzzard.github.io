@@ -21,7 +21,11 @@ His friends would only walk with him at night.
 
 So, the marmalade elephant decided to ask the grey parrot for advice. The grey parrot was very clever, and would surely help him.
 
-The marmalade elephant went looking, struggling through the jungle, pushing through leaves and branches and trees and bushes. After a lot of pushing, he found the grey parrot.
+The marmalade elephant went looking, struggling through the jungle, pushing through leaves and branches and trees and bushes.
+
+<p/>{: .porthole}
+
+After a lot of pushing, he found the grey parrot.
 
 He waited politely under the branch as the grey parrot cracked open a nut with its beak.
 
@@ -62,6 +66,8 @@ Now, a sticky tree is hard to find because there are not many of them. The berri
 After asking several animals, the marmalade elephant eventually found a sticky tree. He chewed the sticky berries, and rubbed them all over his skin. They tasted horrible. They sounded horrible. They felt horrible. He looked, well, he still looked marmalade.
 
 Very grumpy now, the marmalade elephant went off in search of a sticky pond, struggling through the jungle, pushing through leaves and branches and trees and bushes.
+
+<p/>{: .porthole}
 
 But this time, bits and pieces of jungle were starting to stick to him. Mosquitoes, flies, fruit. Leaves, vines, chameleons. Hyena hair, twigs, dust. All stuck to his head and back. Criss-crossing the jungle, looking for the right pond. Branches and grass hanging from his tummy. Ants between his toes.
 

@@ -1,0 +1,17 @@
+{% if page.collection %}
+  {% assign collection = (site.collections | where:"label", page.collection | first %}
+  {% if collection.background_image_url %}
+    <style>
+      .porthole {
+        width: 100%;
+        height: 100px;
+        background-attachment: fixed;
+        background-position: 50% 25px;
+        background-repeat: no-repeat;
+        position: relative;
+        background-image: url({{ collection.background_image_url }});
+        background-size: cover;
+      }
+    </style>
+  {% endif %}
+{% endif %}

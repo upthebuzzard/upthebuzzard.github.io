@@ -29,6 +29,8 @@ Moose answered it, "Hello".
 
 Moose and Goose then did what they always do in cases like this: they went and had a look, on their bicycles.
 
+<p/>{: .porthole}
+
 Leaving their bicycles by the zoo gate, they wandered round the zoo. The zoo keeper came up to them and introduced himself, having been warned by Sammy they were coming.
 
 Reginald showed them all the new animals like the pygmy hippo, the dwarf rhino, and the skunk. He showed them the new, enlarged enclosures, where Sammy had bought land next to the zoo and they had expanded into it. And he showed them the new café with its automated cookie oven for baking fresh cookies.

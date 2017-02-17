@@ -43,12 +43,14 @@ collections:
     title_singular: A Moose and Goose Story
     description: a collection of stories about Moose and Goose, Solvers of Tricky Problems
     sequence: 1
+    background_image_url: /assets/P1070818.JPG
   grey_parrot_stories:
     output: true
     title: The Grey Parrot Stories
     title_singular: A Grey Parrot Story
     description: a collection of stories about the (too) clever grey parrot
     sequence: 2
+    background_image_url: /assets/P1070812.JPG
   predicting_the_present:
     output: true
     title: Predicting the Present

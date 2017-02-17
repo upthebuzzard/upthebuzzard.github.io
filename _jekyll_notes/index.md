@@ -14,6 +14,7 @@ Look up source files for layouts from default theme
    * where ```theme: minima``` is specified in \_config.yml
 * via https://jekyllrb.com/docs/themes/
 * can concatenate lists
+* [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions)
 
 markdown spec
 * https://kramdown.gettalong.org/syntax.html

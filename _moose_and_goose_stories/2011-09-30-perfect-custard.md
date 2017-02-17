@@ -35,7 +35,11 @@ Don't worry about your fees. If you can help, I'll pay whatever you ask. What do
 
 "Great. I'll call the factory to let them know you are coming", finished Sammy.
 
-Flinging their jackets on, Moose and Goose dashed from their office, grabbed their bicycles, and pedalled like mad across town to the confectionery factory. The chief food technician met them at the main gates and they ran into the custard mixing room.
+Flinging their jackets on, Moose and Goose dashed from their office, grabbed their bicycles, and pedalled like mad across town to the confectionery factory.
+
+<p/>{: .porthole}
+
+The chief food technician met them at the main gates and they ran into the custard mixing room.
 
 "The custard will need to be sealed, stirred for several hours a day, kept cool most of the time, but regularly warmed for several hours a day. And all of this for a whole week", explained the food technician in a rush, who had also introduced himself as Albert in the middle of all that.
 
