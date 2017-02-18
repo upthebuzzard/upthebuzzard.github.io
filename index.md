@@ -7,7 +7,8 @@ layout: home
 {% assign sorted = (site.collections | sort: 'sequence') %}
 {% for collection in sorted %}
   {% if collection.label != "posts" %}
-* [{{ collection.title }}]({{ collection.label }})
+    {% assign posts = (site[collection.label] | where:"layout", "post") %}
+* [{{ collection.title }}]({{ collection.label }}) [ {{ posts.size }} ]
 > {{ collection.description }}
 
   {% endif %}
