@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: collection
 title: Emus All The Way Down
 date: 2013-06-24 21:33
 author: upthebuzzard
 categories: []
 permalink: /:collection/index.html
 ---
-Starting with a <a title="Predicting The Present" href="/predicting_the_present/">Predicting The Present</a> story, <a title="Emus all the way down" href="/predicting_the_present/2013-06-29-emus-all-the-way-down/">EMUs all the way down</a>, and taking it a bit further, exploring some nooks and crannies.
+Starting with a [Predicting The Present](/predicting_the_present/) story, [Emus all the way down](/predicting_the_present/2013-06-29-emus-all-the-way-down.html), and taking it a bit further, exploring some nooks and crannies.
 
 Very slow progress. Is there a full-length novel in here somewhere? Not at the rate I'm going. But it appears I can write in bursts of about 1000 words if the immediate topic appeals. This marathon is a series of sprints. Trying to work it into shape.
 
@@ -16,40 +16,24 @@ Pieces so far:
 
 who's there at the start (or one of the starts) and works out what happens at the end
 
-<p>
-	{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
-	{% for item in sorted %}
-		{% unless item.categories contains 'tangential' %}
-			<ul>
-				<li>
-					<a href="{{ item.url }}">{{ item.title }}</a>
-				</li>
-				<blockquote>{{ item.extract }}</blockquote>
-			</ul>
-			{% endunless %}
-	{% endfor %}
-</p>
+{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
+{% for item in sorted %}
+	{% unless item.categories contains 'tangential' %}
+* [{{ item.title }}](item.url)
+> {{ item.extract }}
+	{% endunless %}
+{% endfor %}
+
 ...
 
 ## contemporaneous, or possibly precursors
 
-<p>
-	{% assign sorted = (site[page.collection] | where:"layout", "post" | where_exp:"item", "item.categories contains 'tangential'" | sort: 'sequence') %}
-	{% for item in sorted %}
-		<ul>
-			<li>
-				<a href="{{ item.url }}">{{ item.title }}</a>
-			</li>
-			<blockquote>{{ item.extract }}</blockquote>
-		</ul>
-	{% endfor %}
-</p>
-
+{% assign sorted = (site[page.collection] | where:"layout", "post" | where_exp:"item", "item.categories contains 'tangential'" | sort: 'sequence') %}
+{% for item in sorted %}
+* [{{ item.title }}]({{ item.url }})
+> {{ item.extract }}
+{% endfor %}
 
 ## glossary
 
-* NPC : non playing character in a computer game, similar to an 'extra' in a film. Usually a very simple automaton, considered cannon (or sword) fodder, but sometimes there to help move the (paying) human-driven characters along with hints about what they should do next..</li>
-
-<p>
-	Or <span class="rss-subscribe">subscribe <a href="feed.xml">via RSS</a></span>
-</p>
+* NPC : non playing character in a computer game, similar to an 'extra' in a film. Usually a very simple automaton, considered cannon (or sword) fodder, but sometimes there to help move the (paying) human-driven characters along with hints about what they should do next..
