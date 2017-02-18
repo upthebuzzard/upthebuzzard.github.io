@@ -1,17 +1,38 @@
-{% if page.collection %}
-  {% assign collection = (site.collections | where:"label", page.collection | first %}
-  {% if collection.background_image_url %}
-    <style>
-      .porthole {
-        width: 100%;
-        height: 100px;
-        background-attachment: fixed;
-        background-position: 50% 25px;
-        background-repeat: no-repeat;
-        position: relative;
-        background-image: url({{ collection.background_image_url }});
-        background-size: cover;
-      }
-    </style>
-  {% endif %}
-{% endif %}
+<!--
+This allows a fixed background image to be viewed through a scrollable panel in a markdown post,
+aka a 'portal'.
+It uses the page's background image, otherwise defaults to the collection's then the site's.
+To include a portal within a markdown post, write
+  <p/>{:.porthole}
+You can adjust the size of the portal, e.g.
+  <p/>{:.porthole style="height:200px;"}
+
+To include a portal within an html page, write
+  <p class="porthole"/>
+  or adjust it, e.g.
+  <p class="porthole" style="height:200px;"/>  
+-->
+<style>
+  .porthole {
+    width: 100%;
+    height: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image: url({{ site.default_collection_background_image_url }});
+    {% assign background_image_url = site.default_collection_background_image_url %}
+    {% if page.collection %}
+      {% assign collection = (site.collections | where:"label", page.collection | first) %}
+      {% if collection.background_image_url %}
+        {% assign background_image_url = collection.background_image_url %}
+      {% endif %}
+    {% endif %}
+    {% if page.background_image_url %}
+      {% assign background_image_url = page.background_image_url %}
+    {% endif %}
+    {% if background_image_url %}
+      background-image: url({{ background_image_url }});
+    {% endif %}
+  }
+</style>

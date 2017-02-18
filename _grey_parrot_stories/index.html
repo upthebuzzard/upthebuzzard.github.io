@@ -18,6 +18,8 @@ permalink: /:collection/index.html
 	These are short stories for kids, to be read aloud by a grown up at bedtime. They all follow the same theme. There are no pictures. Imaginations are essential. Participation is encouraged. <a title="yes, begged for" href="#respond">Feedback </a>is begged for.
 </p>
 
+<p class="porthole"/>
+
 <p>
 	{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date') | reverse %}
 	{% for item in sorted %}

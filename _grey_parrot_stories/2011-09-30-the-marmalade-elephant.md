@@ -23,7 +23,7 @@ So, the marmalade elephant decided to ask the grey parrot for advice. The grey p
 
 The marmalade elephant went looking, struggling through the jungle, pushing through leaves and branches and trees and bushes.
 
-<p/>{: .porthole}
+<p/>{:.porthole}
 
 After a lot of pushing, he found the grey parrot.
 

@@ -9,5 +9,8 @@ layout: home
   {% if collection.label != "posts" %}
 * [{{ collection.title }}]({{ collection.label }})
 > {{ collection.description }}
+
   {% endif %}
 {% endfor %}
+
+<p/>{:.porthole style="height:50px;"}
