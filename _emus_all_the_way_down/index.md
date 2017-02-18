@@ -19,7 +19,7 @@ who's there at the start (or one of the starts) and works out what happens at th
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
 {% for item in sorted %}
 	{% unless item.categories contains 'tangential' %}
-* [{{ item.title }}](item.url)
+* [{{ item.title }}]({{ item.url }})
 > {{ item.extract }}
 	{% endunless %}
 {% endfor %}
