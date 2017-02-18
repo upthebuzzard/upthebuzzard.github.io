@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: collection
 title: Fragments
 date: 2013-06-24 21:33
 author: upthebuzzard
@@ -31,8 +31,3 @@ Hence searching around and finding it mentioned in a promo video. Boo.
 Hence wondering if what I was doing was yak shaving or procrastination.
 
 I was looking up the difference between 'yak shaving' and procrastination when I found that 'cat waxing' is also [a thing](https://johnpmurphy.net/2013/07/08/yak-shaving-vs-cat-waxing-a-difference-of-vital-importance/).
-
-
-### The collection also available
-
-...[via RSS](feed.xml){:.rss-subscribe}

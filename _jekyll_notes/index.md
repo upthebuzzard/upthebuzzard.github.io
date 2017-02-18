@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: collection
 title: Jeykll Notes
 author: upthebuzzard
 categories: []
@@ -27,6 +27,7 @@ markdown spec
 
 
 # Notes
+
 * having to build assorted basic functionality because using collections
 
 # Issues
@@ -34,7 +35,9 @@ silent fails, e.g.
 * misspelling a category name in \_config.yml so it doesn't agree with the folder name
 * for some reason, can't make this work  
 
-```{\% assign posts = site.documents | where_exp:"item", 'item.layout == "post" or item.layout == "story_post"' | sort: 'date' | reverse \%}```
+{% raw %}
+    {% assign posts = site.documents | where_exp:"item", 'item.layout == "post" or item.layout == "story_post"' | sort: 'date' | reverse %}
+{% endraw %}
 
 
 
@@ -42,8 +45,5 @@ silent fails, e.g.
 {% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date') | reverse %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
-
-   ```{{ item.extract }}```
+> {{ item.extract }}
 {% endfor %}
-
-<span class="rss-subscribe">subscribe <a href="feed.xml">via RSS</a></span>
