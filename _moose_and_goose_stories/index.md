@@ -25,3 +25,11 @@ And so, to the stories. <em>There are tricky problems to solve</em>...
 * [{{ item.title }}]({{ item.url }}){% if forloop.first %}<span style="color:#00ff00;"> &lt;-- START HERE</span>{% endif %}
 > {{ item.extract }}
 {% endfor %}
+
+### Sammy Seagull and Percy Penguin: The early years of industrial espionage
+
+… [more to come](upcoming-moose-and-goose)
+
+These stories all follow the same theme. There are no pictures. Imaginations are essential. Participation is encouraged, especially in the brainstorming sections (where ‘…’ means the audience is meant to contribute). Feedback is begged for.
+
+There is no commercial printing of these stories (yet). They can be read out quite satisfactorily from a smartphone, or a tablet. In fact, field studies have shown that the gently glowing screen in a darkened room works really well, adding a sense of drama.
