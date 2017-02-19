@@ -8,7 +8,7 @@ categories: []
 excerpt: >
   A brief experiment with how to add a simple view within a scrolling Jekyll collection post onto a fixed image 'behind' it.
 ---
-A brief experiment with how to add a simple view within a scrolling Jekyll collection post onto a fixed image 'behind' it.
+A brief experiment with how to add a simple view within a scrolling Jekyll collection post onto a fixed image 'behind' it. NB, nothing particular to do with collections, will work in a standard post.
 
 The key phrases are:
 * CSS background-attachment
@@ -70,7 +70,7 @@ and include it in `_includes/default.html`
 
 <p/>{: .porthole}
 
-add a background_image_url to your collection spec in `_config.yml` referencing an image in your `/assets` folder, e.g.
+add a `background_image_url` to your collection spec in `_config.yml` referencing an image in your `/assets` folder (or in the front matter of an individual post), e.g.
 
 {% raw %}
 ```
