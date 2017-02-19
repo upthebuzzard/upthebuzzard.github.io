@@ -70,6 +70,12 @@ collections:
     title_singular: A Fragment
     description: riffing on whatever is riff-worthy
     sequence: 20
+  distractions:
+    output: true
+    title: Distractions
+    title_singular: A Distraction
+    description: a collection of interesting links
+    sequence: 90
   jekyll_notes:
     output: true
     title: Jekyll Notes
