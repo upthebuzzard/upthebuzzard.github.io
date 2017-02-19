@@ -1,21 +1,19 @@
-
-{% capture collection_name %}{{ page.collection }}{% endcapture %}
-{% if collection_name %}
-  {% assign document = (site[collection_name] | where:"layout", "post" | sort: 'date') %}
+{% if page.collection %}
+  {% assign posts = (site[page.collection] | where:"layout", "post" | sort: 'date') %}
 {% endif %}
 
-{% if document.size > 1 %}
-  {% assign prevurl = document.last.url %}
-  {% assign nexturl = document.first.url %}
+{% if posts.size > 1 %}
+  {% assign prevurl = posts.last.url %}
+  {% assign nexturl = posts.first.url %}
 {% endif %}
 
-{% for links in document %}
+{% for links in posts %}
   {% if links.title == page.title %}
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
     {% endunless %}
     {% unless forloop.last %}
-      {% assign next = document[forloop.index] %}
+      {% assign next = posts[forloop.index] %}
       {% assign nexturl = next.url %}
     {% endunless %}
   {% endif %}
@@ -29,7 +27,7 @@
     {% assign collection = (site.collections | where:"label", page.collection | first %}
     <br><strong>{{ page.title }}</strong>
     <br>(from <a href=".">{{ collection.title }}</a>
-    {% if document.size > 1 %}
+    {% if posts.size > 1 %}
       -
       {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %}
       {% if nexturl %}<a href="{{nexturl}}" class="nxt">NEXT</a>{% endif %}

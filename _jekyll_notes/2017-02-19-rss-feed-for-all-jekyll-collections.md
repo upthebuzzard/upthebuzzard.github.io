@@ -6,7 +6,7 @@ author: upthebuzzard
 comments: true
 categories: []
 extract: >
-  look up the collection via the page param and don't forget about the spurious newlines
+  look up the site.documents, filter by posts, then prefix the collection title 
 ---
 Creating a generic rss feed template, to serve up all the posts in all the Jekyll collections.
 
