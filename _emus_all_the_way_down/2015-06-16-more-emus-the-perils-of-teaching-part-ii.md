@@ -4,7 +4,7 @@ title: The Perils of Teaching, Part II
 date: 2015-06-16 00:18
 author: upthebuzzard
 categories: [story]
-extract: >
+excerpt: >
   Chel was once again behind and to the left of Eli, talking to the back of his head
 sequence: 7
 ---

@@ -5,7 +5,7 @@ date: 2017-02-19 11:00
 author: upthebuzzard
 comments: true
 categories: []
-extract: >
+excerpt: >
   add a sequence attribute to each collection and sort by that
 ---
 Somewhat annoyingly, Jekyll's default list of collections is in alphabetical order of collection name.

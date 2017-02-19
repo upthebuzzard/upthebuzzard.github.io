@@ -19,5 +19,5 @@ These are short stories for kids, to be read aloud by a grown up at bedtime. The
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date') | reverse %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
-> {{ item.extract }}
+> {{ item.excerpt }}
 {% endfor %}

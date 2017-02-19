@@ -5,7 +5,7 @@ date: 2011-10-05 22:30
 author: upthebuzzard
 categories: [story]
 sequence: 1
-extract: >
+excerpt: >
   "I have a problem. I own a zoo in town, as you know, and it’s been getting a bit quiet. Not many people are visiting. They seem a bit bored with it. We want to do a re-launch, generate lots of publicity, get more people to visit. You know the sort of thing. We need a theme, something interesting, something exciting, something that will get this town buzzing."
 ---
 

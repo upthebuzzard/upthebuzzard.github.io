@@ -4,7 +4,7 @@ title: The Perils of Teaching, Part I
 date: 2015-04-10 00:43
 author: upthebuzzard
 categories: [story]
-extract: >
+excerpt: >
   It's unlikely they will dip their algorithmic snouts into the metaphorical trough of mostly unprocessed swill we call the training data and emerge chewing on some nuggets of goodness.
 sequence: 6
 ---

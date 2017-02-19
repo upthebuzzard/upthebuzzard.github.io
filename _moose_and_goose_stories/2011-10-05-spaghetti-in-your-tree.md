@@ -5,7 +5,7 @@ date: 2011-10-05 22:42
 author: upthebuzzard
 categories: [story]
 sequence: 8
-extract: >
+excerpt: >
   Last week was busy, this week was quiet. No work to do; no-one calling; no challenging puzzles to solve; nothing.
 ---
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, bored. Last week was busy, this week was quiet. No work to do; no-one calling; no challenging puzzles to solve; nothing.

@@ -5,7 +5,7 @@ date: 2014-02-11 23:05
 author: upthebuzzard
 comments: true
 categories: [story]
-extract: >
+excerpt: >
   And just like that, Eli was in trouble, skewered by his colleague’s entirely reasonable question.
 sequence: 1
 ---

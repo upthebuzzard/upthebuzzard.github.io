@@ -11,7 +11,7 @@ So what are these stories about?
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
-> {{ item.extract }}
+> {{ item.excerpt }}
 {% endfor %}
 
 and some extrapolations...

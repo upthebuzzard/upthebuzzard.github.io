@@ -5,7 +5,7 @@ date: 2017-02-19 10:00
 author: upthebuzzard
 comments: true
 categories: []
-extract: >
+excerpt: >
   somewhat clumsy idiom to locate collection object via name
 ---
 So I want to access details of the collection from within a page (or post) in that collection.

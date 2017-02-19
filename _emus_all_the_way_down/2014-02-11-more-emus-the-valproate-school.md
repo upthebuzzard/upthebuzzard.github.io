@@ -5,7 +5,7 @@ date: 2014-02-11 23:09
 author: upthebuzzard
 comments: true
 categories: [story, tangential]
-extract: >
+excerpt: >
   These kids are incredibly vulnerable to any stray influence. They are picking up on every cue from everyone around them, be it body language, choice of words, weather, praise, criticism, bullying, cynicism, the lot. Everything is an input, and it goes straight in.
 sequence: 100
 ---

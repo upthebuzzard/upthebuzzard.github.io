@@ -5,7 +5,7 @@ date: 2011-09-30 23:26
 author: upthebuzzard
 comments: true
 categories: [story]
-extract: >
+excerpt: >
   One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.
 ---
 One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.

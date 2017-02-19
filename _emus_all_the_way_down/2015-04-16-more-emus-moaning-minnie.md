@@ -5,7 +5,7 @@ date: 2015-04-16 21:27
 author: upthebuzzard
 comments: true
 categories: [story]
-extract: >
+excerpt: >
   The Women in IT therapy group was in session.
 sequence: 2
 ---

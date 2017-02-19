@@ -28,6 +28,6 @@ An assortment of links that were to be used as [ distraction \| bribery \| rewar
 {% if sorted.size > 0 %}
   {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
-> {{ item.extract }}
+> {{ item.excerpt }}
   {% endfor %}
 {% endif %}

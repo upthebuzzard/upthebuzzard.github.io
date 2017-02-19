@@ -5,7 +5,7 @@ date: 2017-02-19 13:00
 author: upthebuzzard
 comments: true
 categories: []
-extract: >
+excerpt: >
 
 ---
 If you use Collections in Jekyll, you lose some of the default plumbing that 'just works' for normal posts etc. One such piece of plumbing is the idea of the previous and next posts within a collection.

@@ -4,7 +4,7 @@ title: Leak Analysis Central
 date: 2014-02-11 23:14
 author: upthebuzzard
 categories: [story, tangential]
-extract: >
+excerpt: >
   A query, passed through the chain of connections back to the leaker-in-hiding, yielded a belated response, laden with expletives, mainly along the lines of “I put my life on the line to get this stuff out and you are complaining I didn’t make it easy enough for you? Stick it in a search engine.”
 sequence: 101
 ---

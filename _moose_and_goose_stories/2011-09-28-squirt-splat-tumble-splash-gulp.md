@@ -5,7 +5,7 @@ date: 2011-09-28 23:09
 author: upthebuzzard
 categories: [story]
 sequence: 3
-extract: >
+excerpt: >
   "The pygmy hippos are being attacked by nasty, bitey, buzzy flies. They don't like it. We don't like it. The visitors don't like it. And we are out of ideas. Can you help?"
 ---
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of Orange Blossom tea, when the phone rang.

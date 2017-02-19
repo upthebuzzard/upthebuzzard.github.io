@@ -4,7 +4,7 @@ title: The Ambush was Successful
 date: 2014-07-05 19:34
 author: upthebuzzard
 categories: [story]
-extract: >
+excerpt: >
   He had won. He’d destroyed her. He’d shamed her in front of all her friends and colleagues, in the company she’d founded. He’d made his points clearly and unavoidably. He’d won. Revenge was … not sweet.
 sequence: 3
 ---

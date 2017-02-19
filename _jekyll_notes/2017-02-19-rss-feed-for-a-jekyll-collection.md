@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Creating an RSS feed for a single Jekyll Collection
-date: 2017-02-19 13:00
+date: 2017-02-19 14:00
 author: upthebuzzard
 comments: true
 categories: []
-extract: >
+excerpt: >
   look up the collection via the page param and don't forget about the spurious newlines
 ---
 Creating a generic rss feed template, specific to the current Jekyll collection.
@@ -55,7 +55,7 @@ assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
         {% for post in posts limit:20 %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
-                <description>{{ post.extract | xml_escape }}</description>
+                <description>{{ post.excerpt | xml_escape }}</description>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <link>{{ post.url | absolute_url }}</link>
                 <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>

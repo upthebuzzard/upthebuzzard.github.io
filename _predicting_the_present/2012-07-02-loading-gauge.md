@@ -4,7 +4,7 @@ title: Loading Gauge
 date: 2012-07-02 23:29
 author: upthebuzzard
 categories: [story]
-extract: >
+excerpt: >
   As two trains approached a passing place from opposite directions, the passengers themselves, collectively, would decide who had right of way.
 sequence: 1
 ---

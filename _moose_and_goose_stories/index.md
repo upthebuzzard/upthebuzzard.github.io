@@ -23,7 +23,7 @@ And so, to the stories. <em>There are tricky problems to solve</em>...
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }}){% if forloop.first %}<span style="color:#00ff00;"> &lt;-- START HERE</span>{% endif %}
-> {{ item.extract }}
+> {{ item.excerpt }}
 {% endfor %}
 
 ### Sammy Seagull and Percy Penguin: The early years of industrial espionage

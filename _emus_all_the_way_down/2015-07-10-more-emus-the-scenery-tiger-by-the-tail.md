@@ -4,7 +4,7 @@ title: The Scenery Tiger by the Tail
 date: 2015-07-10 22:35
 author: upthebuzzard
 categories: [story]
-extract: >
+excerpt: >
   It's basic, small potatoes. Scratching the tip of a very much bigger and more complicated decision-berg. We need to move the smarts into the NPCs.
 sequence: 8
 ---

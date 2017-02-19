@@ -10,7 +10,7 @@ permalink: /:collection/index.html
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date') %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
-> {{ item.extract }}  
+> {{ item.excerpt }}  
 {% endfor %}
 
 <br>

@@ -5,7 +5,7 @@ date: 2011-10-01 10:33
 author: upthebuzzard
 categories: [story]
 sequence: 5
-extract: >
+excerpt: >
   As they were walking from the tower, they saw a group of people bunched together, looking up at the tower. One of those people had a big video camera on their shoulder. Another was using a drawing board, sketching a picture of the tower. One wore a beret, and shouted at everyone else in the group.
 ---
 On this particular Monday morning, however, Moose was not there.

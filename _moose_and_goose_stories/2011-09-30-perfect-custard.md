@@ -5,7 +5,7 @@ date: 2011-09-30 23:39
 author: upthebuzzard
 categories: [story]
 sequence: 2
-extract: >
+excerpt: >
   “I own a luxury confectionery factory, which makes really rich and gooey cakes for the cake shops and cafés in the town. One gooey thing we make a lot of is custard. This morning we started to make a batch of our best, most expensive, deluxe vanilla custard, but something has gone wrong."
 ---
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of green tea, when the phone rang.

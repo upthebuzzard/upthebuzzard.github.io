@@ -5,7 +5,7 @@ date: 2017-02-19 13:00
 author: upthebuzzard
 comments: true
 categories: []
-extract: >
+excerpt: >
   look up the site.documents, filter by posts, then prefix the collection title
 ---
 Creating a generic rss feed template, to serve up all the posts in all the Jekyll collections.
@@ -44,7 +44,7 @@ and create the file, `_includes/all_feed.xml`
           endif
         %}<item>
           <title>{{ collection_prefix }}{{ post.title | xml_escape }}</title>
-          <description>{{ post.extract | xml_escape }}</description>
+          <description>{{ post.excerpt | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <link>{{ post.url | absolute_url }}</link>
           <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>

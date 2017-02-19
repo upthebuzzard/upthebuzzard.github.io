@@ -5,7 +5,7 @@ date: 2011-09-30 21:42
 author: upthebuzzard
 comments: true
 categories: [story]
-extract: >
+excerpt: >
   The marmalade elephant was not happy.
   His elephant friends blended in with the colours and shapes of the grass and bushes. But the marmalade elephant was a bright orange against green grass. You could almost hear how bright he was.
 ---

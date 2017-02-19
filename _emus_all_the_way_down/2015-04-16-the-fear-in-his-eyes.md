@@ -4,7 +4,7 @@ title: The fear in his eyes
 date: 2015-04-16 22:25
 author: upthebuzzard
 categories: [story]
-extract: >
+excerpt: >
   In the one meeting room, door quietly closed, coffee mugs in hand.
 sequence: 5
 ---
