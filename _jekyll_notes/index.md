@@ -20,15 +20,12 @@ markdown spec
 * https://kramdown.gettalong.org/syntax.html
 
 {% raw %}
+```handlebars
 {% assign fruits = "apples, oranges, peaches, tomatoes" | split: ", " %}  
 {% assign vegetables = "broccoli, carrots, lettuce, tomatoes" | split: ", " %}  
 {% assign plants = fruits | concat: vegetables %}
+```
 {% endraw %}
-
-
-# Notes
-
-* having to build assorted basic functionality because using collections
 
 # Issues
 silent fails, e.g.
@@ -36,8 +33,15 @@ silent fails, e.g.
 * for some reason, can't make this work  
 
 {% raw %}
+```handlebars
     {% assign posts = site.documents | where_exp:"item", 'item.layout == "post" or item.layout == "story_post"' | sort: 'date' | reverse %}
+```
 {% endraw %}
+
+# Notes for posts
+
+* having to build assorted basic functionality because using collections
+* naff default sort order of collections
 
 
 
