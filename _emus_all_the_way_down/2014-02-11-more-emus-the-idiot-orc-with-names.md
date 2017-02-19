@@ -27,9 +27,9 @@ The few remaining game crew in the office, mostly systems support, did not look 
 
 Chel stepped into the breach. “But Jen is a top-grade AI architect. I’m sure she’s got some algorithm up her sleeve to give them some smarts.”
 
-“Here we go”, groaned Eli, slumping some more. “ ‘<em>Jen did it before and she’ll do it again</em>.’ After winning the Elisa competition and then the Turing Test with her bot, she gets the big bucks and the NPCs to play with. She stole my code!”
+“Here we go”, groaned Eli, slumping some more. “ ‘_Jen did it before and she’ll do it again_.’ After winning the Elisa competition and then the Turing Test with her bot, she gets the big bucks and the NPCs to play with. She stole my code!”
 
-Chel was having none of this. “Your <em>open source </em>code. Your <em>creative commons share alike</em> code. She cited you and profusely credited you with having built the main chat engine.”
+Chel was having none of this. “Your _open source_ code. Your _creative commons share alike_ code. She cited you and profusely credited you with having built the main chat engine.”
 
 “Ah, yes, but, she hardly made any changes to it”.
 
@@ -61,19 +61,19 @@ Skewered, is what Eli was.
 
 Chel, meanwhile, relished the opportunity to unload her own frustrations of the day.
 
-“I’m a-unable to think rationally? About this?
-Do you use this line of argument with your girlfriend?
-You do have a girlfriend, right?
-Yes, of course you do. I’ve met her.
-She seemed nice which is why I was confused.
-So, yes, is she also a-unable to think rationally?
-Often, or indeed ever?
-Have you let her know your thoughts on her a-inability?
-If you’ve yet to let her know, I’m happy to give you feedback on how that line is working right now.
-See, the thing is, its not working too well.
-I’m waiting for your next few words.
-Quite a lot hangs on them.
-Some choices may not end in violence.
+“I’m a-unable to think rationally? About this?  
+Do you use this line of argument with your girlfriend?  
+You do have a girlfriend, right?  
+Yes, of course you do. I’ve met her.  
+She seemed nice which is why I was confused.  
+So, yes, is she also a-unable to think rationally?  
+Often, or indeed ever?  
+Have you let her know your thoughts on her a-inability?  
+If you’ve yet to let her know, I’m happy to give you feedback on how that line is working right now.  
+See, the thing is, its not working too well.  
+I’m waiting for your next few words.  
+Quite a lot hangs on them.  
+Some choices may not end in violence.  
 So, what have you got?”
 
 The rest of the office was now paying attention. This was quality.
@@ -84,30 +84,30 @@ Silence.
 
 Chel, calm stare, sitting centrally on her seat, kept up the pressure.
 
-“Nope, thing is, you did.
-I remember.
-I was there, and so were you.
+“Nope, thing is, you did.  
+I remember.  
+I was there, and so were you.  
 Strike 1 by the way.”
 
 “erm, it didn’t come out right?”. Eli tried the raised eyebrows again.
 
 Chel leaned back. This was no contest.
 
-“<em>I</em> told <em>you</em> that.
-I still don’t see any significant improvement in your situation.
+“_I_ told _you_ that.  
+I still don’t see any significant improvement in your situation.  
 Strike only one left.”
 
 Eli paused for a couple of seconds, aware that any longer and it was all over.
 
-“Ah, it is <em>just</em> possible that through a lack of care on my part I may have inadvertently let slip a choice of words which could be easily misconstrued in such a way as to cause offence, and that since this was entirely my fault I accept full responsibility, and in the spirit of friendship and cooperation and in no way attempting to bribe you into not launching a full scale attack by the sisters on my male sexist pig ass, I would be happy nay delighted to help sort out your laptop Windows setup which I hear has been getting on your ti-nerves.”
+“Ah, it is _just_ possible that through a lack of care on my part I may have inadvertently let slip a choice of words which could be easily misconstrued in such a way as to cause offence, and that since this was entirely my fault I accept full responsibility, and in the spirit of friendship and cooperation and in no way attempting to bribe you into not launching a full scale attack by the sisters on my male sexist pig ass, I would be happy nay delighted to help sort out your laptop Windows setup which I hear has been getting on your ti-nerves.”
 
 Some light clapping had started from across the room as his craven apology ticked all the boxes, and then a couple of ‘ooh’s and the clapping stopped on his final phrase.
 
 Chel stood up, and brushed down the front of her trousers.
 
-“Oh, nicely played and yet so nearly lost at the last ti-moment.
-Tomorrow would be good, during lunch.
-I’m off home now.
+“Oh, nicely played and yet so nearly lost at the last ti-moment.  
+Tomorrow would be good, during lunch.  
+I’m off home now.  
 Bye.”
 
 Eli, closed down his game session, put the PC into suspend mode, switched off the screen, stood, picked up his satchel, mock-wiped his brow for the few folks who looked up, and left the office. Considering how it had very nearly ended, today had actually been a good day.
