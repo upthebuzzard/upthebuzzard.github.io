@@ -14,17 +14,30 @@ layout: default
             <span itemprop="name">{{ page.author }}</span>
           </span>
       {% endif %}
+      {% if page.collection != 'posts' %}
+        {% unless page.categories contains "story" %}
+          , {{ page.date | date_to_long_string }}
+        {% endunless %}
+        , {% include collection_prev_next.html %}
+      {% endif %}
+
     </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    {% if page.categories contains "story" %}
-      <p></p>
-      <div style="text-align:center;">THE</div>
-      <div style="text-align:center;">END</div>
-      <p></p>
-      {% include story_header.html %}
+
+    {% if page.collection != 'posts' %}
+      {% if page.categories contains "story" %}
+        <p></p>
+        <div style="text-align:center;">THE</div>
+        <div style="text-align:center;">END</div>
+        <p></p>
+        {% include story_details.html %}
+      {% else %}
+        <h3>Other posts</h3>
+        {% include collection_prev_next.html %}
+      {% endif %}
     {% endif %}
   </div>
 

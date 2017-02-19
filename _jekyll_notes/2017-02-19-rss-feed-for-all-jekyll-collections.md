@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Creating an RSS feed to combine all Jekyll Collections
-date: 2017-02-15 13:00
+date: 2017-02-19 13:00
 author: upthebuzzard
 comments: true
 categories: []
 extract: >
-  look up the site.documents, filter by posts, then prefix the collection title 
+  look up the site.documents, filter by posts, then prefix the collection title
 ---
 Creating a generic rss feed template, to serve up all the posts in all the Jekyll collections.
 

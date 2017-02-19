@@ -1,0 +1,51 @@
+{{!--
+  This include will write the prev and next links for posts in the current post's collection.
+  It will look for: sort_by, prev, and next,  as include.* params:
+  * sort_by - defaults to 'sequence' if that is part of post.first, then 'date', but could specify a different attribute of the collection posts
+  * prev - defaults to 'PREV', but could be any text to display in the link for the previous post
+  * next - defaults to 'NEXT', but could be any text to display in the link for the next post
+  --}}
+
+{% if page.collection %}
+  {% assign posts = (site[page.collection] | where:"layout", "post") %}
+  {% if posts.size > 1 %}
+    {% if include.sort_by %}
+      {% assign posts = (posts | sort: include.sort_by ) %}
+    {% elsif posts.first.sequence %}
+      {% assign posts = (posts | sort: 'sequence' ) %}
+    {% else %}
+      {% assign posts = (posts | sort: 'date') %}
+    {% endif %}
+
+    {% assign prevurl = posts.last.url %}
+    {% assign nexturl = posts.first.url %}
+
+    {% for links in posts %}
+      {% if links.title == page.title %}
+        {% unless forloop.first %}
+          {% assign prevurl = prev.url %}
+        {% endunless %}
+        {% unless forloop.last %}
+          {% assign next = posts[forloop.index] %}
+          {% assign nexturl = next.url %}
+        {% endunless %}
+      {% endif %}
+      {% assign prev = links %}
+    {% endfor %}
+
+    {% if include.prev %}
+      {% assign prevtext = include.prev %}
+    {% else %}
+      {% assign prevtext = 'PREV' %}
+    {% endif %}
+
+    {% if include.next %}
+      {% assign nexttext = include.next %}
+    {% else %}
+      {% assign nexttext = 'NEXT' %}
+    {% endif %}
+
+    <a href="{{ prevurl }}" class="prev">{{ prevtext }}</a>
+    <a href="{{ nexturl }}" class="next">{{ nexttext }}</a>
+  {% endif %}
+{% endif %}

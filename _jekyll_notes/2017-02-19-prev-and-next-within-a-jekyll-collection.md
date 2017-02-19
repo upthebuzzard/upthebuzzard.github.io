@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating previous and next links within a Jekyll Collection
-date: 2017-02-15 13:00
+date: 2017-02-19 13:00
 author: upthebuzzard
 comments: true
 categories: []

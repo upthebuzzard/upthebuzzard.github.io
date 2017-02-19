@@ -52,7 +52,7 @@ silent fails, e.g.
 * allowing a simple include in a markdown post file without creating a plugin/gem (because Windows and Github) or using the capture thing (as asked here: http://stackoverflow.com/questions/7226076/in-jekyll-is-there-a-concise-way-to-render-a-markdown-partial): using Attribute List Definitions (kramdown) <p/>{:.porthole}
 * creating a collection-specific rss feed, including not inserting format-busting spaces via the handlebars - DONE
 * creating a rss feed of all collections posts and *not* the unaffiliated posts (which are in a collection called 'posts'), could have looped over all collections and concatenated the lists of posts - DONE
-* creating PREV and NEXT links for posts *within* a collection
+* creating PREV and NEXT links for posts *within* a collection (via https://gist.github.com/budparr/3e637e575471401d01ec) - DONE
 * added the 'porthole' (which does not work on mobile - boooo), can change size via styles <p/>{:.porthole style="height:50px;"}
 * adding extract: attribute to posts with > (YAML)
 * creating a 404 page
