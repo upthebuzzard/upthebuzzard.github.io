@@ -54,4 +54,3 @@ silent fails, e.g.
 * creating a collection-specific rss feed, including not inserting format-busting spaces via the handlebars - DONE
 * creating a rss feed of all collections posts and *not* the unaffiliated posts (which are in a collection called 'posts'), could have looped over all collections and concatenated the lists of posts - DONE
 * creating PREV and NEXT links for posts *within* a collection (via https://gist.github.com/budparr/3e637e575471401d01ec) - DONE
-* creating a 404 page
