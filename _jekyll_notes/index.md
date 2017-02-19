@@ -8,6 +8,13 @@ permalink: /:collection/index.html
 {% assign collection = (site.collections | where:"label", page.collection | first %}
 {{ collection.description }}
 
+# Posts
+{% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date') | reverse %}
+{% for item in sorted %}
+* [{{ item.title }}]({{ item.url }})
+> {{ item.extract }}
+{% endfor %}
+
 # Aide-memoires
 Look up source files for layouts from default theme
 * ```bundle show minima```
@@ -42,12 +49,3 @@ silent fails, e.g.
 
 * having to build assorted basic functionality because using collections
 * naff default sort order of collections
-
-
-
-# Posts
-{% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date') | reverse %}
-{% for item in sorted %}
-* [{{ item.title }}]({{ item.url }})
-> {{ item.extract }}
-{% endfor %}
