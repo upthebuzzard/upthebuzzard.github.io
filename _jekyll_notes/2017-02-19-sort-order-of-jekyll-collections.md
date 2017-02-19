@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sort order of Jekyll Collections
-date: 2017-02-15 19:42
+date: 2017-02-15 11:00
 author: upthebuzzard
 comments: true
 categories: []

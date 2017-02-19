@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Accessing Jekyll Collection details from post
-date: 2017-02-15 19:42
+date: 2017-02-15 10:00
 author: upthebuzzard
 comments: true
 categories: []
