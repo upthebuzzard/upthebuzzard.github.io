@@ -86,7 +86,7 @@ NB, because the handlebar processing has side-effects and leaves newlines in the
 ```
 {% endraw %}
 
-... will create an invalid RSS file.
+... will create an invalid RSS file, depending where in the xml the linefeeds occur.
 
 Instead, doing the least-worst mangling of the code as follows
 
