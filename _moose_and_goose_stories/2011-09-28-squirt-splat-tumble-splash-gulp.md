@@ -42,7 +42,7 @@ He counted them off with his fingers:
 1. Nets. They don't work. Flies always seem to find a way in. Once one fly is in, they all get in.
 1. Fly spray. Nope. Too dangerous for the other animals, especially the hippos.
 1. Fly swatters. Nope. Too tiring. The keepers can't stand round the hippo enclosure all day waving fly swatters.
-1.…
+1. …
 
 Moose and Goose made a few suggestions of their own.
 
