@@ -12,9 +12,11 @@ A brief experiment with how to add a simple view within a scrolling Jekyll colle
 
 The key phrases are:
 * CSS background-attachment
+   * which won't work on mobile browsers
 * parallax scrolling
-* hard to include within markdown
-* won't work on mobile browsers
+* hard to include markdown code rendered within markdown without creating a plugin/gem to do it (ugh)
+* [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions)
+   * or, modifying the css properties of an html element within markdown (in this case, a <p> tag)
 
 <p/>{: .porthole}
 
@@ -88,9 +90,11 @@ and include the porthole as `<p/>{: .porthole}` in any posts (markdown or html) 
 ```markdown
 The key phrases are:
 * CSS background-attachment
+   * which won't work on mobile browsers
 * parallax scrolling
-* hard to include within markdown
-* won't work on mobile browsers
+* hard to include markdown code rendered within markdown without creating a plugin/gem (ugh)
+* [Attribute List Definitions](https://kramdown.gettalong.org/syntax.html#attribute-list-definitions)
+   * or, modifying the css properties of an html element within markdown (in this case, a <p> tag)
 
 <p/>{: .porthole}
 
