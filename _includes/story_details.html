@@ -1,14 +1,17 @@
-<p>
+<div style="text-align:center;">
   <hr />
-  <div style="text-align:center;">
+  ...<br>
+
+  {% include collection_prev_next.html %}
+  <br>...
+  <hr />
+  <div>
     ...
     {% assign collection = (site.collections | where:"label", page.collection | first %}
     <br><strong>{{ page.title }}</strong>
-    <br>(from <a href=".">{{ collection.title }}</a>
-    {% include collection_prev_next.html %}
-    )
+    <br>(from <a href=".">{{ collection.title }}</a>)
     <br>by {{ site.author }}
-    <br>{{ site.url }}, <span class="rss-subscribe"><a href="feed.xml">RSS</a></span>
+    <br><a href="{{ site.url }}">{{ site.url }}</a>, <span class="rss-subscribe"><a href="feed.xml">RSS</a></span>
     <br>published: {{ page.date | date_to_long_string }}
     <br>...
     <br>This work is licensed under a
@@ -16,4 +19,4 @@
     <br>...
   </div>
   <hr />
-</p>
+</div>
