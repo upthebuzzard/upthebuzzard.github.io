@@ -16,8 +16,13 @@
       <div class="trigger">
         {% assign collections = (site.collections | sort: 'sequence') %}
         {% for collection in collections %}
+          {% if collection.label == page.collection %}
+            {% assign prefix = "*&nbsp;" %}
+          {% else %}
+            {% assign prefix = "" %}
+          {% endif %}
           {% if collection.title %}
-          <a class="page-link" href="{{ collection.label | relative_url }}">{{ collection.title | escape }}</a>
+          <a class="page-link" href="{{ collection.label | relative_url }}">{{ prefix }}{{ collection.title | escape }}</a>
           {% endif %}
         {% endfor %}
 
@@ -26,6 +31,34 @@
           <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
+
+        {% if page.collection %}
+          {% assign sorted_posts = (site[page.collection] | where:"layout", "post" | sort: 'date' | sort: 'sequence') %}
+          {% if sorted_posts.size > 0 %}
+            <hr/>
+            {% for my_post in sorted_posts %}
+              {% if my_post.title == page.title %}
+                {% assign prefix = "*&nbsp;" %}
+              {% else %}
+                {% assign prefix = "" %}
+              {% endif %}
+              <a class="page-link" href="{{ my_post.url | relative_url }}">{{ prefix }}{{ my_post.title | escape }}</a>
+            {% endfor %}
+          {% endif %}
+
+          {% assign sorted_pages = (site[page.collection] | where:"layout", "page" | sort: 'date' | sort: 'sequence') %}
+          {% if sorted_pages.size > 0 %}
+            <hr/>
+            {% for my_page in sorted_pages %}
+              {% if my_page.title == page.title %}
+                {% assign prefix = "*&nbsp;" %}
+              {% else %}
+                {% assign prefix = "" %}
+              {% endif %}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ prefix }}{{ my_page.title | escape }}</a>
+            {% endfor %}
+          {% endif %}
+        {% endif %}
       </div>
     </nav>
 
