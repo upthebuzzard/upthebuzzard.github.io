@@ -2,7 +2,7 @@
 layout: page
 title: About
 date: 2007-03-06 15:27
-comments: true
+
 categories: []
 ---
 Hi,

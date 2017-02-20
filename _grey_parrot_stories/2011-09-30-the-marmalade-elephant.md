@@ -2,7 +2,6 @@
 layout: post
 title: The Marmalade Elephant
 date: 2011-09-30 21:42
-comments: true
 categories: [story]
 excerpt: >
   The marmalade elephant was not happy.

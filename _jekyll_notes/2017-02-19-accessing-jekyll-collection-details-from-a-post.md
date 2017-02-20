@@ -2,7 +2,6 @@
 layout: post
 title: Accessing Jekyll Collection details from a post
 date: 2017-02-19 10:00
-comments: true
 categories: []
 excerpt: >
   somewhat clumsy idiom to locate collection object via name

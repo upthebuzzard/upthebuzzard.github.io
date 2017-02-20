@@ -2,7 +2,6 @@
 layout: post
 title: The Nosey Baboon
 date: 2011-09-30 23:26
-comments: true
 categories: [story]
 excerpt: >
   One night, by the river, a nosey baboon saw a bright shiny thing in the calm water, and wondered what it was.

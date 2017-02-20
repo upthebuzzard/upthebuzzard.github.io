@@ -2,7 +2,6 @@
 layout: post
 title: The Idiot Orc
 date: 2014-02-11 23:05
-comments: true
 categories: [story]
 excerpt: >
   And just like that, Eli was in trouble, skewered by his colleague’s entirely reasonable question.

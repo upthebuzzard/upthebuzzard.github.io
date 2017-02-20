@@ -2,7 +2,6 @@
 layout: post
 title: An experiment with parallax scrolling in Jekyll posts
 date: 2017-02-19 18:00
-comments: true
 categories: []
 excerpt: >
   A brief experiment with how to add a simple view within a scrolling Jekyll collection post onto a fixed image 'behind' it.

@@ -2,7 +2,6 @@
 layout: post
 title: Creating previous and next links within a Jekyll Collection
 date: 2017-02-19 15:00
-comments: true
 categories: []
 excerpt: >
   If you use Collections in Jekyll, you lose some of the default plumbing that 'just works' for normal posts etc. One such piece of plumbing is the idea of the previous and next posts within a collection.

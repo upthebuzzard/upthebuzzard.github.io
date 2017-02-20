@@ -2,7 +2,6 @@
 layout: post
 title: Sort order of Jekyll Collections
 date: 2017-02-19 11:00
-comments: true
 categories: []
 excerpt: >
   add a sequence attribute to each collection and sort by that
