@@ -28,7 +28,12 @@
 
         {% for my_page in site.pages %}
           {% if my_page.title and my_page.layout == 'page' %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {% if my_page.title == page.title %}
+              {% assign prefix = "*&nbsp;" %}
+            {% else %}
+              {% assign prefix = "" %}
+            {% endif %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ prefix }}{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
 
