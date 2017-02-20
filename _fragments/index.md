@@ -8,7 +8,8 @@ permalink: /:collection/index.html
 
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date') %}
 {% for item in sorted %}
-* [{{ item.title }}]({{ item.url }})
+  {% assign wordCount = item.content | number_of_words %}
+* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
 > {{ item.excerpt }}  
 {% endfor %}
 
