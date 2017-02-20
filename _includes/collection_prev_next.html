@@ -45,7 +45,6 @@
       {% assign nexttext = 'NEXT&gt;&gt;' %}
     {% endif %}
 
-    <a href="{{ prevurl }}" class="prev">{{ prevtext }}</a>
-    <a href="{{ nexturl }}" class="next">{{ nexttext }}</a>
+    <a href="{{ prevurl }}" class="prev">{{ prevtext }}</a>&nbsp;<a href="{{ nexturl }}" class="next">{{ nexttext }}</a>
   {% endif %}
 {% endif %}
