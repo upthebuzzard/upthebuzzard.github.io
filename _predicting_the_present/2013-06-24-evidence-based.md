@@ -2,7 +2,6 @@
 layout: post
 title: Evidence-Based
 date: 2013-06-24 21:09
-author: upthebuzzard
 categories: [story]
 excerpt: >
   The origins of the evidence-based social upheaval are now clear to see. Though not apparent at the time, key pieces of the spasm were beginning to move into place.

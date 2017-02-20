@@ -2,7 +2,6 @@
 layout: post
 title: Pin The Tail On The Hippo
 date: 2011-10-05 22:30
-author: upthebuzzard
 categories: [story]
 sequence: 1
 excerpt: >

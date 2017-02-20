@@ -2,7 +2,6 @@
 layout: post
 title: The Idiot Orc
 date: 2014-02-11 23:05
-author: upthebuzzard
 comments: true
 categories: [story]
 excerpt: >

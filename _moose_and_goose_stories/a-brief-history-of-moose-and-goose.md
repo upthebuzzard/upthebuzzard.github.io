@@ -2,7 +2,6 @@
 layout: page
 title: A brief history of Moose & Goose
 date: 2011-09-26 20:57
-author: upthebuzzard
 categories: [story]
 ---
 Back in 2007, two opinionated boys, 4yo and 7yo, demanded the spoken word before they would even consider turning in for the night, <strong>both at the same time</strong>, but not from the same book. We had tried several books from our excellent local library, looking for a good compromise but, although there were [some excellent individual reads](other-good-bedtime-reads), they were either too old for the younger, or deja vu all over again for the elder. Desperate times.

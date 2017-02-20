@@ -2,7 +2,6 @@
 layout: post
 title: New Shoes
 date: 2017-01-23 20:39
-author: upthebuzzard
 categories: [story]
 excerpt: >
   A slow scan of the choices available, the nearest sales bod getting edgy as 5pm loomed large. A smile which flickered between hope and despair as I asked to try on these in size 9.5

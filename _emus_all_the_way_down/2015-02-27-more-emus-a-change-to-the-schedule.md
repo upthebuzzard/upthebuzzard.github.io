@@ -2,7 +2,6 @@
 layout: post
 title: A change to the schedule
 date: 2015-02-27 21:09
-author: upthebuzzard
 categories: [story]
 excerpt: >
   "Er, hi, my name is Eli Thorne, that's Thorne with a silent e. I used to do the trees."

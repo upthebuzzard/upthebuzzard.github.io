@@ -2,7 +2,6 @@
 layout: post
 title: Sunburn Emergency
 date: 2011-10-01 10:15
-author: upthebuzzard
 categories: [story]
 sequence: 4
 excerpt: >

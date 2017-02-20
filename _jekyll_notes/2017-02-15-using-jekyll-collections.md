@@ -2,7 +2,6 @@
 layout: post
 title: Using Jekyll Collections
 date: 2017-02-15 19:42
-author: upthebuzzard
 comments: true
 categories: []
 excerpt: >

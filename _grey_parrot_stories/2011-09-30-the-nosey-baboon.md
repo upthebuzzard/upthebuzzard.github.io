@@ -2,7 +2,6 @@
 layout: post
 title: The Nosey Baboon
 date: 2011-09-30 23:26
-author: upthebuzzard
 comments: true
 categories: [story]
 excerpt: >

@@ -2,7 +2,6 @@
 layout: post
 title: Burj Al Camel
 date: 2011-10-05 22:59
-author: upthebuzzard
 categories: [story]
 sequence: 7
 excerpt: >

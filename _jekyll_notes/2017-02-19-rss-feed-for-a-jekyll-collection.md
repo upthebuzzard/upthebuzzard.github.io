@@ -2,7 +2,6 @@
 layout: post
 title: Creating an RSS feed for a single Jekyll Collection
 date: 2017-02-19 14:00
-author: upthebuzzard
 comments: true
 categories: []
 excerpt: >

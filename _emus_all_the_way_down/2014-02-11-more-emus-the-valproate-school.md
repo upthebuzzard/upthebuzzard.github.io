@@ -2,7 +2,6 @@
 layout: post
 title: Valproate School
 date: 2014-02-11 23:09
-author: upthebuzzard
 comments: true
 categories: [story, tangential]
 excerpt: >

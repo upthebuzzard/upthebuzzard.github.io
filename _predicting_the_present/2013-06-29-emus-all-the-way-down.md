@@ -2,7 +2,6 @@
 layout: post
 title: Emus all the way down
 date: 2013-06-29 18:57
-author: upthebuzzard
 categories: [story]
 excerpt: >
   Just when it seemed Big Data had done its worst, one of the biggest questions troubling science and philosophy fell before its onslaught: what is human intelligence?

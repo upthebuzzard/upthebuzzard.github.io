@@ -2,7 +2,6 @@
 layout: post
 title: Beer for religion
 date: 2015-04-05 18:11
-author: upthebuzzard
 categories: [story]
 excerpt: >
   Although the original, as brewed and served in Dublin is unbeatable, apparently, there is sufficient of note in the pale shadow that is the exported version to keep at it.

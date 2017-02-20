@@ -2,7 +2,6 @@
 layout: post
 title: 9 hours
 date: 2017-01-23 21:03
-author: upthebuzzard
 categories: [story]
 excerpt: >
   9 hours, is, it turns out, how long our house alarm's battery lasts if you make a mess of fitting a new ceiling light

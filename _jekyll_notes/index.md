@@ -1,7 +1,6 @@
 ---
 layout: collection
 title: Jeykll Notes
-author: upthebuzzard
 categories: []
 permalink: /:collection/index.html
 ---

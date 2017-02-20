@@ -2,7 +2,6 @@
 layout: post
 title: Perfect Custard
 date: 2011-09-30 23:39
-author: upthebuzzard
 categories: [story]
 sequence: 2
 excerpt: >

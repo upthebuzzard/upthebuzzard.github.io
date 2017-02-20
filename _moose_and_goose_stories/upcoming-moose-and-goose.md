@@ -2,7 +2,6 @@
 layout: page
 title: Upcoming Moose & Goose
 date: 2011-11-13 15:25
-author: upthebuzzard
 categories: []
 ---
 In addition to the Moose &amp; Goose stories <a title="Moose &amp; Goose Stories" href=".">already written up</a>, here are a few more possibilities in note form awaiting their moment. With sufficient time or <a href="#respond">encouragement</a>, some of these might yet see the light of day as fully fleshed out stories. See the <a title="A brief history of Moose &amp; Goose" href="a-brief-history-of-moose-and-goose">history page</a> for more about PP and SS etc.

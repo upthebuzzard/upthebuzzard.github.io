@@ -2,7 +2,6 @@
 layout: post
 title: Lunch Mayhem
 date: 2011-10-05 22:51
-author: upthebuzzard
 categories: [story]
 sequence: 6
 excerpt: >

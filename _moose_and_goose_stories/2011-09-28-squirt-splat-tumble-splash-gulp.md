@@ -2,7 +2,6 @@
 layout: post
 title: Squirt Splat Tumble Splash Gulp
 date: 2011-09-28 23:09
-author: upthebuzzard
 categories: [story]
 sequence: 3
 excerpt: >

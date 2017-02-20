@@ -2,7 +2,6 @@
 layout: post
 title: An experiment with parallax scrolling in Jekyll posts
 date: 2017-02-19 18:00
-author: upthebuzzard
 comments: true
 categories: []
 excerpt: >

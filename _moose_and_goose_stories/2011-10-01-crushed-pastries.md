@@ -2,7 +2,6 @@
 layout: post
 title: Crushed Pastries
 date: 2011-10-01 10:33
-author: upthebuzzard
 categories: [story]
 sequence: 5
 excerpt: >

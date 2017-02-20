@@ -2,7 +2,6 @@
 layout: collection
 title: Distractions
 date: 2011-09-30 21:33
-author: upthebuzzard
 categories: []
 permalink: /:collection/index.html
 ---

@@ -2,7 +2,6 @@
 layout: collection
 title: Emus All The Way Down
 date: 2013-06-24 21:33
-author: upthebuzzard
 categories: []
 permalink: /:collection/index.html
 ---

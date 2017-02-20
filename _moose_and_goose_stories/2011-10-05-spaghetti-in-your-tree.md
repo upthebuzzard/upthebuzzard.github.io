@@ -2,7 +2,6 @@
 layout: post
 title: Spaghetti In Your Tree
 date: 2011-10-05 22:42
-author: upthebuzzard
 categories: [story]
 sequence: 8
 excerpt: >

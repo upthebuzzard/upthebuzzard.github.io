@@ -2,7 +2,6 @@
 layout: post
 title: Moaning Minnie
 date: 2015-04-16 21:27
-author: upthebuzzard
 comments: true
 categories: [story]
 excerpt: >

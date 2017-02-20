@@ -2,7 +2,6 @@
 layout: page
 title: Other Good Bedtime Reads
 date: 2011-10-15 09:58
-author: upthebuzzard
 categories: []
 ---
 Our local library is stuffed full of great children's books - literature has really come on a lot since [The Famous Five](http://en.wikipedia.org/wiki/The_Famous_Five_(series)).
