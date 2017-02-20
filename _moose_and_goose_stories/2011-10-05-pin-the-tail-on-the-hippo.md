@@ -44,14 +44,14 @@ Moose, Goose, and Reginald wandered over to the café for a cup of tea. Goose go
 
 Moose and Goose started making lots of suggestions, writing everything down. (When you are thinking like this, it is important to write everything down and not ignore anything, no matter how silly it sounds at the time. Every idea is a good idea, even though Reginald got a bit worried about just how silly some of these ideas were, thinking maybe Moose and Goose were trying to ruin his zoo. He soon relaxed and began to enjoy the process)
 
-* Can we pretend there is an elephant?
-* Pin the tail on the hippo? (Reginald blinked)
-* paint a target on each animal and give each visitor a paint gun (Reginald looked cross)
-disguise an animal as an elephant? (Reginald shook his head thinking it would not look very realistic)
+* Can we pretend there is an elephant? _(everyone looked quizzical)_
+* Pin the tail on the hippo? _(Reginald blinked)_
+* paint a target on each animal and give each visitor a paint gun _(Reginald looked cross)_
+* disguise an animal as an elephant? _(Reginald shook his head thinking it would not look very realistic)_
 * animal races
-* let the animals run loose through the town? (Reginald's eyes went very wide)
-* dressing up an animal as an elephant as a joke? (this seemed to be quite funny)
-* how about dressing up all the animals as elephants?
+* let the animals run loose through the town? _(Reginald's eyes went very wide)_
+* dressing up an animal as an elephant as a joke? _(this seemed to be quite funny)_
+* how about dressing up all the animals as elephants? _(everyone leaned forward)_
 * how about … Elephant Day!
 
 And suddenly, Moose, Goose and Reginald were looking at each other with big grins on their faces. Now that was a fine idea. They imagined all the animals dressed as elephants. Thinking about each animal in turn, it did seem doable.
