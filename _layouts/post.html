@@ -23,7 +23,7 @@ layout: default
         {% unless page.categories contains "story" %}
           , {{ page.date | date_to_long_string }}
         {% endunless %}
-        , {% include collection_prev_next.html %}
+        {% include collection_prev_next.html %}
       {% endif %}
 
     </p>
