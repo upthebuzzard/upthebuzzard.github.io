@@ -6,7 +6,7 @@ categories: []
 excerpt: >
   Using Jekyll Collections allows for rich structures, but means re-building a bunch of what would have been default functionality for vanilla posts and pages.
 ---
-Using Jekyll Collections allows for rich site structures without needing to hack about with categories and tags, but it does mean re-building a few aspects of what would have been default functionality if you just had plain old posts and pages.
+Using [Jekyll Collections](https://jekyllrb.com/docs/collections/) allows for rich site structures without needing to hack about with categories and tags, but it does mean re-building a few aspects of what would have been default functionality if you just had plain old posts and pages.
 
 That said, it is easy to do so:
 
