@@ -24,7 +24,7 @@ collections:
 ```
 {% endraw %}
 
-Create a file called `_jekyll/feed.xml`
+Create a file called `_jekyll_notes/feed.xml`
 
 {% raw %}
 ```jekyll
