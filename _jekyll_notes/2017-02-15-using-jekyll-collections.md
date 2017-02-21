@@ -123,7 +123,7 @@ You can create a site-wide nav of all the collections and top-level pages, by am
 ```
 {% endraw %}
 
-Because I have quite a few collections, the default behaviour to list all them in the header was looking messy, so the \_sass/minima/\_layout.scss file was tweaked to always display the nav via the 'hamburger' view by commenting out the media query that only triggered the hamburger view for small screens:
+Because I have quite a few collections, the default behaviour to list all of them in the header was looking messy, so the \_sass/minima/\_layout.scss file was tweaked to always display the nav via the 'hamburger' view by commenting out the media query that only triggered the hamburger view for small screens:
 
 {% raw %}
 ```css
