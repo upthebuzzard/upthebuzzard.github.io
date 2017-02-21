@@ -20,7 +20,7 @@ The main gotchas (well, annoyances, really) are:
 
 * normal, unaffiliated posts are, it turns out, in a collection called 'posts', so bear that in mind when you try and list *all* collections
 * annoyingly, Jekyll seems to ignore the order you specify the categories in the config file, defaulting to alphabetical, so something like the sequence trick (see below) is needed to impose your choice of ordering.
-* when you are in a page or a post which is in a collection (i.e. is in the collection folder), the Jekyll `page` object has a `collection` attribute, `page.collection`. This refers to the _name_ of the collection, aka the `label`, so to get at the details of the collection that the page is in, you have to use the page.collection name to look it up in the list of `site.collections`, where is why this is a common idiom:
+* when you are in a page or a post which is in a collection (i.e. is in the collection folder), the Jekyll `page` object has a `collection` attribute, `page.collection`. This refers to the _name_ of the collection, aka the `label`, so to get at the details of the collection that the page is in, you have to use the page.collection name to look it up in the list of `site.collections`, which is why this is a common idiom:
 {% raw %}
 ```jekyll
 {% assign collection = (site.collections | where:"label", page.collection | first %}
