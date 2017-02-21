@@ -31,7 +31,7 @@ This too is quite straightforward:
 * create a stub page for each author which specifies the author id in the front matter
    * in the \_posts folder, or an author-specific folder, or even a [collection](https://jekyllrb.com/docs/collections/) of authors
 
-Ideally, you'd want to auto-generate the stubs of the author pages directly from the list of authors in the data list above. Literally all the author stub page would need is
+Ideally, you'd want to auto-generate the stubs of the author pages directly from the list of authors in the data list above. For an author, e.g. `i_am_legume`, you'd just need a stub page called, say, \_/authors/i_am_legume.md, containing
 
 {% raw %}
 ```jekyll
@@ -44,7 +44,9 @@ author: i_am_legume
 
 and the author layout would do the rest.
 
-This is in fact possible using a plugin called a  [generator](https://jekyllrb.com/docs/plugins/#generators), some roll-yer-own ruby code you can include and run with the jekyll build step. This is doable, but not trivial. The main gotcha, however, is that Github _disable custom plugins for security reasons_ so that's a no-no for me.
+If you were feeling brave, in the author layout you could probably read the author id from the file name and not even need to specify it in the front matter.
+
+Generating these stub files automatically is in fact possible using a plugin called a  [generator](https://jekyllrb.com/docs/plugins/#generators), some roll-yer-own ruby code you can include and run with the jekyll build step. This is doable, but not trivial. The main gotcha, however, is that Github _disable custom plugins for security reasons_ so that's a no-no for me.
 
 Instead, it seems the only practical option is to manually create a stub page for each new author by hand, whenever you add a new author to the data list.
 
