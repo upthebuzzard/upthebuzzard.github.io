@@ -11,21 +11,16 @@ Using [Jekyll Collections](https://jekyllrb.com/docs/collections/) allows for ri
 That said, it is easy to do so:
 
 * create a new collection layout to list all the posts in the collection
-* create a new collection-specific RSS include file
-* create a new all-collections RSS include file
+* create a new [collection-specific RSS](2017-02-19-rss-feed-for-a-jekyll-collection.html) include file
+* create a new [all-collections RSS](2017-02-19-rss-feed-for-all-jekyll-collections.html) include file
 * modify the header nav to list all the collections
 * modify the home index page to list collections
 
 The main gotchas (well, annoyances, really) are:
 
 * normal, unaffiliated posts are, it turns out, in a collection called 'posts', so bear that in mind when you try and list *all* collections
-* annoyingly, Jekyll seems to ignore the order you specify the categories in the config file, defaulting to alphabetical, so something like the sequence trick (see below) is needed to impose your choice of ordering.
-* when you are in a page or a post which is in a collection (i.e. is in the collection folder), the Jekyll `page` object has a `collection` attribute, `page.collection`. This refers to the _name_ of the collection, aka the `label`, so to get at the details of the collection that the page is in, you have to use the page.collection name to look it up in the list of `site.collections`, which is why this is a common idiom:
-{% raw %}
-```jekyll
-{% assign collection = (site.collections | where:"label", page.collection | first %}
-```
-{% endraw %}
+* annoyingly, Jekyll seems to ignore the order you specify the categories in the config file, defaulting to alphabetical, so something like [the sequence trick](2017-02-19-sort-order-of-jekyll-collections.html) (and see below) is needed to impose your choice of ordering.
+* when you are in a page or a post which is in a collection (i.e. is in the collection folder), the Jekyll `page` object has a `collection` attribute, `page.collection`. This refers to the _name_ of the collection, aka the `label`, [rather than the details of the collection](2017-02-19-accessing-jekyll-collection-details-from-a-post.html).
 
 Define the collections in \_config.yml, e.g.
 

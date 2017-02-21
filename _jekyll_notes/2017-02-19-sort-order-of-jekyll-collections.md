@@ -11,7 +11,7 @@ Somewhat annoyingly, Jekyll's default list of collections is in alphabetical ord
 So if your \_config.yml specifies
 
 {% raw %}
-```yaml
+```jekyll
 collections:
   moose_and_goose_stories:
     title: The Moose and Goose Stories
