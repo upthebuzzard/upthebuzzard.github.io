@@ -19,10 +19,10 @@ description: >
   initially an experiment to port stories.upthebuzzard.com
   from wordpress.com to Jekyll on GitHub
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://upthebuzzard.github.io # stories.upthebuzzard.com # the base hostname & protocol for your site, e.g. http://example.com
+url: http://stories.upthebuzzard.com # upthebuzzard.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: upthebuzzard
 github_username:  upthebuzzard
-githib_repo: https://github.com/upthebuzzard/upthebuzzard.github.io
+github_repo: https://github.com/upthebuzzard/upthebuzzard.github.io
 author: Chris Gathercole
 lang: en
 default_collection_background_image_url: /assets/P1070749-H800.JPG
