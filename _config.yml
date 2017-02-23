@@ -19,7 +19,7 @@ description: >
   initially an experiment to port stories.upthebuzzard.com
   from wordpress.com to Jekyll on GitHub
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://stories.upthebuzzard.com # upthebuzzard.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://stories.upthebuzzard.com # upthebuzzard.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: upthebuzzard
 github_username:  upthebuzzard
 github_repo: https://github.com/upthebuzzard/upthebuzzard.github.io
