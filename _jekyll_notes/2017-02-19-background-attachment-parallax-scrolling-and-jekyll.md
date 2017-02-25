@@ -68,7 +68,7 @@ and include it in `_includes/default.html`
 
 <p/>{: .porthole}
 
-add a `background_image_url` to your collection spec in `_config.yml` referencing an image in your `/assets` folder (or in the front matter of an individual post), e.g.
+add a `background_image_url` to your collection spec in `_config.yml` referencing an image in your `/assets` folder, e.g.
 
 {% raw %}
 ```
@@ -82,7 +82,9 @@ jekyll_notes:
 ```
 {% endraw %}
 
-and include the porthole as `<p/>{: .porthole}` in any posts (markdown or html) as often as you like, e.g.
+or specify something like `site.default_collection_background_image_url` or even `site.flumpf` in `_config.yml`, or include `background_image_url: /assets/....jpg` in the front matter of an individual post, as long as you refer to it correctly in the porthole.html file.
+
+Then, include the porthole as `<p/>{: .porthole}` in any posts (markdown or html) as often as you like, e.g.
 
 {% raw %}
 ```markdown
