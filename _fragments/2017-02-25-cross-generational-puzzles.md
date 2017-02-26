@@ -56,4 +56,4 @@ Son the younger bounces back into the other room, making no attempt to hide smug
 
 Son the elder mutters into his metaphorical beard about lack of principles, and "that was the easier of the two questions".
 
-Son the elder, still stoked, apparently unaware of the effort and interest he was now exhibiting, escorts DIY-avoiding dad back into the kitchen for more cake and nudges.
+Son the younger, still stoked, apparently unaware of the effort and interest he was now exhibiting, escorts DIY-avoiding dad back into the kitchen for more cake and nudges.
