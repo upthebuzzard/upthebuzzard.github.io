@@ -7,21 +7,21 @@ excerpt: >
   In the one meeting room, door quietly closed, coffee mugs in hand.
 sequence: 5
 ---
-> From: Chel
-> To: Jen
-> Subject: Eli in trouble?
+> From: Chel  
+> To: Jen  
+> Subject: Eli in trouble?  
 >
 > J, what happened yesterday? Had a concerned call from Eli's partner that he'd come home in severe shock, hasn't slept well, is hiding in the bedroom refusing to talk or come out. She's asking if he's been fired, or been in a fight. V. worried.
 >
 >Ch.
 
-> From: Jen
-> To: Chel
-> Subject: re: Eli in trouble?
+> From: Jen  
+> To: Chel  
+> Subject: re: Eli in trouble?  
 >
 > no, not really.  
 > best over coffee.  
-> get it brewing and I'll be over in 5.
+> get it brewing and I'll be over in 5.  
 >
 > J.
 
