@@ -18,6 +18,9 @@
         {% for collection in collections %}
           {% if collection.label == page.collection %}
             {% assign prefix = "*&nbsp;" %}
+            {% if collection.reverse_posts %}
+              {% assign reverse_collection_posts = true %}
+            {% endif %}
           {% else %}
             {% assign prefix = "" %}
           {% endif %}
@@ -39,6 +42,9 @@
 
         {% if page.collection %}
           {% assign sorted_posts = (site[page.collection] | where:"layout", "post" | sort: 'date' | sort: 'sequence') %}
+          {% if reverse_collection_posts %}
+            {% assign sorted_posts = sorted_posts | reverse %}
+          {% endif %}
           {% if sorted_posts.size > 0 %}
             <hr/>
             {% for my_post in sorted_posts %}

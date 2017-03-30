@@ -7,7 +7,17 @@
   --}}
 
 {% if page.collection %}
+  {% assign collections = (site.collections | sort: 'sequence') %}
+  {% for collection in collections %}
+    {% if collection.label == page.collection %}
+      {% if collection.reverse_posts %}
+        {% assign reverse_collection_posts = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
   {% assign posts = (site[page.collection] | where:"layout", "post") %}
+
   {% if posts.size > 1 %}
     {% if include.sort_by %}
       {% assign posts = (posts | sort: include.sort_by ) %}
@@ -15,6 +25,10 @@
       {% assign posts = (posts | sort: 'sequence' ) %}
     {% else %}
       {% assign posts = (posts | sort: 'date') %}
+    {% endif %}
+
+    {% if reverse_collection_posts %}
+      {% assign posts = posts | reverse %}
     {% endif %}
 
     {% assign prevurl = posts.last.url %}

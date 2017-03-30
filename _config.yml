@@ -73,6 +73,7 @@ collections:
     title_singular: A Fragment
     description: riffing on whatever is riff-worthy
     sequence: 20
+    reverse_posts: true
   distractions:
     output: true
     title: Distractions
