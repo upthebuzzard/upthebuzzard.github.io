@@ -1,6 +1,6 @@
 # upthebuzzard.github.io, aka stories.upthebuzzard.com
 
-http:stories.upthebuzzard.com
+http://stories.upthebuzzard.com
 
 ## History
 
