@@ -48,6 +48,6 @@ For details of the code, see the [pull request](https://github.com/upthebuzzard/
 
 Regarding the /search.json file. It does get large, especially if you include all the posts' content, so this would obviously become untenable for large sites. However, GitHub Pages does seems to support "Accept-Encoding: gzip" so that helps stave off the inevitable reckoning for a bit longer.
 
-You can check the response headers via (an online HTTP viewer)[http://www.rexswain.com/httpview.html]
+You can check the response headers via [an online HTTP viewer](http://www.rexswain.com/httpview.html)
 * set URL to http://stories.upthebuzzard.com/search.json, or your own such file
 * set Accept-Encoding to gzip
