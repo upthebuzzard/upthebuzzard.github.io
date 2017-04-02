@@ -26,7 +26,6 @@
         }
 
         var json = JSON.parse(oReq.responseText);
-        console.log('processJson: json=', json);
         thenFn(json);
       }
     }
@@ -44,7 +43,7 @@
         return;
       }
 
-      resultsH2Elt.textContent = "Search Results for q=" + q;
+      resultsH2Elt.textContent = "Search Results: " + q;
 
       const resultsUlElt = resultsDivElt.getElementsByTagName('ul')[0];
       if (! resultsUlElt) {
@@ -60,7 +59,8 @@
             const li = document.createElement("li");
             const linkElt = document.createElement("a");
             linkElt.href = page.href;
-            linkElt.textContent = page.title
+            const text = page.title + ((page.categories.includes("story"))? " (story)": "");
+            linkElt.textContent = text;
             li.appendChild(linkElt);
             resultsUlElt.appendChild(li);
           }
