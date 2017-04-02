@@ -8,7 +8,7 @@ permalink: /:collection/index.html
 {{ collection.description }}
 
 # Posts
-{% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date') %}
+{% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date' | reverse) %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
 > {{ item.excerpt }}
