@@ -1,3 +1,74 @@
 <script>
-  alert("some js goes here");
+  (function() {
+
+    const JSON_URL = '/search.json';
+
+    function urlParam(name){
+      var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+      if (results==null){
+         return null;
+      }
+      else{
+         return decodeURIComponent(results[1]) || 0;
+      }
+    }
+
+    function getAndProcessJsonThen( thenFn ) {
+      var oReq    = new XMLHttpRequest();
+      oReq.onload = processJson;
+      oReq.open("get", JSON_URL, true);
+      oReq.send(null);
+
+      function processJson(e) {
+        if (this.status != 200) {
+          console.log("Error: failed to processJson: status=" + this.status);
+          return;
+        }
+
+        var json = JSON.parse(oReq.responseText);
+        console.log('processJson: json=', json);
+        thenFn(json);
+      }
+    }
+
+    function displayResults(json){
+      const q = urlParam('q');
+      const resultsDivElt = document.getElementById('results');
+      if (! resultsDivElt) {
+        console.log("Error: could not find 'results' element");
+        return;
+      }
+      const resultsH2Elt = resultsDivElt.getElementsByTagName('h2')[0];
+      if (! resultsH2Elt) {
+        console.log("Error: could not find results h2 element");
+        return;
+      }
+
+      resultsH2Elt.textContent = "Search Results for q=" + q;
+
+      const resultsUlElt = resultsDivElt.getElementsByTagName('ul')[0];
+      if (! resultsUlElt) {
+        console.log("Error: could not find results ul element");
+        return;
+      }
+
+      const re = new RegExp(q, 'i');
+
+      json.forEach(page => {
+        if (page) {
+          if (page.title.match(re)) {
+            const li = document.createElement("li");
+            const linkElt = document.createElement("a");
+            linkElt.href = page.href;
+            linkElt.textContent = page.title
+            li.appendChild(linkElt);
+            resultsUlElt.appendChild(li);
+          }
+        }
+      });
+
+    }
+
+    getAndProcessJsonThen( displayResults );
+  })();
 </script>
