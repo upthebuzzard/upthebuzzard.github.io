@@ -30,6 +30,54 @@
       }
     }
 
+    const permutator = (inputArr) => {
+      let result = [];
+      const permute = (arr, m = []) => {
+        if (arr.length === 0) {
+          result.push(m)
+        } else {
+          for (let i = 0; i < arr.length; i++) {
+            let curr = arr.slice();
+            let next = curr.splice(i, 1);
+            permute(curr.slice(), m.concat(next))
+         }
+       }
+     }
+     permute(inputArr)
+     return result;
+    }
+
+    function constructSearchRegExps( q ){ // yeah, well, why not go for it? process the query param into a complicated regex
+      const regExpsStrings = [];
+      let tidiedQ = q.replace(/\+/g, ' ');    // replace + with space
+      tidiedQ = tidiedQ.trim();               // remove trailing/leading spaces
+      tidiedQ = tidiedQ.replace(/\s+/g, ' '); // compress multiple spaces into 1
+      let match;
+      if (match = tidiedQ.match(/^"(.*)"$/)) {
+        regExpsStrings.push( match[1] );
+      } else if (match = tidiedQ.match(/^[\w\s]+$/)) { // create regex matching on word breaks, then another on partial
+        let words = tidiedQ.split(' ');
+        let exactWords = words.map(w => { return '\\b' + w + '\\b'; });
+
+        if (words.length > 5) { // don't let a long list of words kill us with permutations
+          regExpsStrings.push( tidiedQ );
+        } else {
+          [exactWords, words].forEach(list => {
+            let permutations = permutator(list);
+            let permutationsPartialRegex = permutations.map(p => {
+              return p.join('.*');
+            });
+            let regex = permutationsPartialRegex.join('|');
+            regExpsStrings.push( '(' + regex + ')' );
+          });
+        }
+      } else {
+        regExpsStrings.push( tidiedQ );
+      }
+
+      return regExpsStrings.map(r => { return new RegExp(r, 'i'); });
+    }
+
     function displayResults(json){
       const q = urlParam('q');
       const resultsDivElt = document.getElementById('results');
@@ -51,29 +99,47 @@
         return;
       }
 
-      const re = new RegExp(q, 'i');
       const knownPageHrefs = {};
       const textFieldsToScan = ['title', 'content'];
 
-      textFieldsToScan.forEach( textField => {
-        json.forEach(page => {
-          if (
-            page
-            && page.href.endsWith('.html')
-            && !knownPageHrefs[page.href]
-            && page[textField].match(re)
-          ) {
-              knownPageHrefs[page.href] = true;
-              const li      = document.createElement("li");
-              const linkElt = document.createElement("a");
-              linkElt.href = page.href;
-              const text = page.title + ((page.categories.includes("story"))? " (story)": "");
-              linkElt.textContent = text;
-              li.appendChild(linkElt);
-              resultsUlElt.appendChild(li);
-          }
+      const regexs = constructSearchRegExps(q);
+      let numExactMatches = 0;
+
+      regexs.forEach( (re, regexI) => {
+        textFieldsToScan.forEach( textField => {
+          json.forEach(page => {
+            if (
+              page
+              && page.href.endsWith('.html')
+              && !knownPageHrefs[page.href]
+              && page[textField].match(re)
+            ) {
+                knownPageHrefs[page.href] = true;
+                const li      = document.createElement('li');
+                const linkElt = document.createElement('a');
+                linkElt.href = page.href;
+                const text = page.title + ((page.categories.includes('story'))? ' (story)': '');
+                linkElt.textContent = text;
+                li.appendChild(linkElt);
+                resultsUlElt.appendChild(li);
+            }
+          });
         });
+
+        if (regexI == 0 ){
+          numExactMatches = Object.keys(knownPageHrefs).length;
+        }
       });
+
+      if (Object.keys(knownPageHrefs).length == 0) {
+        const pElt = document.createElement('p');
+        pElt.textContent = "No Results found.";
+        resultsDivElt.appendChild(pElt);
+      } else if (numExactMatches == 0) {
+        const pElt = document.createElement('p');
+        pElt.textContent = "No exact matches found.";
+        resultsDivElt.insertBefore(pElt, resultsDivElt.childNodes[0]);
+      }
     }
 
     getAndProcessJsonThen( displayResults );
