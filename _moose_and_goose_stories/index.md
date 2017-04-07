@@ -19,12 +19,16 @@ And so, to the stories. <em>There are tricky problems to solve</em>...
 
 <p/>{:.porthole}
 
+{% assign totalWordCount = 0 %}
 {% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
+  {% assign totalWordCount = totalWordCount | plus: wordCount %}
 * [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words) {% if forloop.first %}<span style="color:#00ff00;"> &lt;-- START HERE</span>{% endif %}
 > {{ item.excerpt }}
 {% endfor %}
+
+Total Word Count: {{ totalWordCount }} ...
 
 ### Sammy Seagull and Percy Penguin: The early years of industrial espionage
 
