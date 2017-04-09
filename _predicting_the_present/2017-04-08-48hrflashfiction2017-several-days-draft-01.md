@@ -2,7 +2,7 @@
 layout: post
 title: Several Days - draft 1
 date: 2017-04-08 18:14
-categories: [story]
+categories: [draft]
 excerpt: >
   Five minutes, that's all it takes.
 sequence: 5

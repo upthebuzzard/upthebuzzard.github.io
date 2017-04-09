@@ -17,6 +17,9 @@
     <br>This work is licensed under a
     <br><a href="{{ site.license_url }}" rel="license">{{ site.license_name}}</a>.
     <br>...
+    {% if page.related-posts %}
+    <br>{% include related-posts.html %}
+    {% endif %}
   </div>
   <hr />
 </div>

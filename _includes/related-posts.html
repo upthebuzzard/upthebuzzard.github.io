@@ -1,0 +1,5 @@
+{% if page.related-posts %}
+    related: {% for related in page.related-posts %}
+<a href="{{ related[1] }}">{{ related[0] }}</a>
+    {% endfor %}
+{% endif %}

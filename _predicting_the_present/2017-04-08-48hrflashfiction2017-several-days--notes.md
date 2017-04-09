@@ -2,7 +2,7 @@
 layout: post
 title: Several Days - notes
 date: 2017-04-08 12:14
-categories: [story]
+categories: [notes]
 excerpt: >
   Title	SEVERAL DAYS
   Dialogue	Five minutes, that's all it takes.

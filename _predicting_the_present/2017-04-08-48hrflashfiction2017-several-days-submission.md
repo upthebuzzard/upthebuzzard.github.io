@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Several Days - draft 2
+title: Several Days - submission
 date: 2017-04-08 18:14
 categories: [story]
 excerpt: >
   Five minutes, that's all it takes.
 sequence: 5
+related-posts:
+  notes: /predicting_the_present/2017-04-08-48hrflashfiction2017-several-days--notes
+  draft-01: /predicting_the_present/2017-04-08-48hrflashfiction2017-several-days-draft-01
 ---
 Hello darkness, my old friend.
 

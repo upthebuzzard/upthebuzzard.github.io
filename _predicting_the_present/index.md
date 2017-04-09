@@ -7,14 +7,16 @@ permalink: /:collection/index.html
 ---
 So what are these stories about?
 
-{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
+{% assign sorted = (site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'sequence') %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
 * [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
 > {{ item.excerpt }}
 {% endfor %}
 
-and some extrapolations...
+and some extrapolations
+
+* [Emus all the way down ...](/emus_all_the_way_down)
 
 ## Found Foundation Myths
 
