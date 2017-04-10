@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Several Days
-date: 2017-04-08 18:14
+date: 2017-04-09 14:52
 categories: [story]
 excerpt: >
   Submitted to the SCI-FI-LONDON 48 Hour Flash Fiction Challenge 2017
