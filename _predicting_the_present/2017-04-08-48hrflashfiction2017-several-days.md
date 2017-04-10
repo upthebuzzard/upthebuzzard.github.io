@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Several Days - submission
+title: Several Days
 date: 2017-04-08 18:14
 categories: [story]
 excerpt: >
-  Five minutes, that's all it takes.
+  Submitted to the SCI-FI-LONDON 48 Hour Flash Fiction Challenge 2017
 sequence: 5
 related-posts:
   notes: /predicting_the_present/2017-04-08-48hrflashfiction2017-several-days--notes
@@ -70,7 +70,7 @@ Voice pleased, “Ok, that is superb. A nice clear signal. We might just get a r
 
 Voice goes loud and slow, “Option one is return to stasis.”
 
-Loud and slow, “Option two is to be awoken fully, though I can’t see why you’d want this since its only been ten years”.
+Loud and slow, “Option two is to be awoken fully, though I can’t see why you’d want this since it's only been ten years”.
 
 Voice goes muffled, “What? That’s not leading the witness. He was meant to have had time to ask questions about the world as it is now in order to make his decision, but there’s no time. He wakes now, he’s broke, and you know the other issues.”
 
