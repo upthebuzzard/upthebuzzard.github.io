@@ -37,6 +37,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-sitemap # via https://help.github.com/articles/sitemaps-for-github-pages/
 exclude:
   - Gemfile
   - Gemfile.lock
