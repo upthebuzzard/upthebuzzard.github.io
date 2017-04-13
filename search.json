@@ -1,7 +1,7 @@
 ---
 ---
 [
-  {% assign posts = site.documents | reverse %}
+  {% assign posts = site.documents | where:"layout", "post" | reverse %}
   {% for post in posts %}
   {
     "title"    : {{ post.title | jsonify }},
@@ -13,7 +13,7 @@
       "month" : "{{ post.date | date: "%B" }}",
       "year"  : "{{ post.date | date: "%Y" }}"
     },
-    "content" : {{ post.content | jsonify }}
+    "content" : {{ post.content | markdownify | strip_html | jsonify }}
   },  {% endfor %}
   null
 ]
