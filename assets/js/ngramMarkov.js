@@ -1,6 +1,8 @@
 var NMGenerator = (function() {
 
   const MAXNGRAM = 3; // 1 => single words, 2 => pairs of words, 3 => triples of words, etc
+  const DEFAULT_NUM_SENTENCES = 5;
+  const DEFAULT_SENTENCE_LENGTH = 7;
 
   function build(textList){
     const nmStruct = {
@@ -72,7 +74,39 @@ var NMGenerator = (function() {
   }
 
 
-  function generate(){}
+  function generate(nmStruct, numSentences=DEFAULT_NUM_SENTENCES){
+    const sentences = [];
+
+    for (var s = 0; s < numSentences; s++) {
+      const sentence = generateSentence(nmStruct)
+      sentences.push(sentence);
+    }
+
+    return sentences;
+  }
+
+  function generateSentence( nmStruct, numWords=DEFAULT_SENTENCE_LENGTH ){
+    const words = [];
+
+    const word = randomValueFromGroup(nmStruct.starts);
+    words.push(word);
+
+    return words;
+  }
+
+  function randomValueFromGroup(group){
+    const target = Math.floor(Math.random() * group.totalCount);
+
+    let value = null;
+    let total = 0;
+    for (var i = 0; i < group.values.length; i++) {
+      value = group.values[i];
+      total = total + group.counts[i];
+      if (total > target) { break; }
+    }
+
+    return value;
+  }
 
   return {
 		build:    build,
@@ -83,3 +117,7 @@ var NMGenerator = (function() {
 var test = NMGenerator.build(['a big apple fell', 'to the cold forest floor quietly']);
 
 console.log(`test: ${JSON.stringify(test, null, 2)}`);
+
+var gen = NMGenerator.generate(test);
+
+console.log(`gen: ${JSON.stringify(gen, null, 2)}`);
