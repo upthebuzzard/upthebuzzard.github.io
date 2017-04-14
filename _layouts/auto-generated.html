@@ -6,7 +6,7 @@ layout: default
   <header class="post-header">
     {% assign collection = (site.collections | where:"label", page.collection | first %}
 
-    <h1 class="post-title">... in the style of <br>{{ collection.title | escape }}</h1>
+    <h1 class="post-title">{{ site.auto-generated-title }} <br>{{ collection.title | escape }}</h1>
   </header>
 
   <div class="post-content">
