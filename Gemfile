@@ -13,7 +13,7 @@ ruby '2.2.6'
 # and github-pages is installed only when on github, i.e. not on Windows.
 # Really really really don't want to go through the faff of building the github-pages gem on Windows.
 
-gem "jekyll", "3.4.0" if Gem.win_platform?
+gem "jekyll"
 gem "github-pages", group: :jekyll_plugins if ! Gem.win_platform?
 
 # This will help ensure the proper Jekyll version is running.

@@ -25,7 +25,7 @@ GEM
       typhoeus (~> 0.7)
       yell (~> 2.0)
     i18n (0.8.1)
-    jekyll (3.4.0)
+    jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -80,7 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
-  jekyll (= 3.4.0)
+  jekyll
   jekyll-feed (~> 0.6)
   jekyll-sitemap
   minima (~> 2.0)
