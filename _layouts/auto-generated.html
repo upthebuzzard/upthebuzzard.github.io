@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {% assign collection = (site.collections | where:"label", page.collection | first %}
+
+    <h1 class="post-title">... in the style of <br>{{ collection.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+
+    <h2 id="auto-title"></h2>
+    <p>
+      <div id="auto-content"></div>
+    </p>
+
+    <script src="/assets/js/ngramMarkov.js"></script>
+
+    <script  type="text/javascript">
+      console.log("in script");
+      document.addEventListener("DOMContentLoaded", function(event) {
+        console.log("DOM fully loaded and parsed");
+        const url = 'search.json';
+
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        fetch( url )
+        .then( response => { return response.json() } )
+        .catch(err => {
+          console.log(`ERROR: whilst using fetch: ${err}`);
+        })
+        .then( json => {
+          {
+            let ngrams = NMGenerator.buildFromListField(json, 'title');
+            let generatedContent = NMGenerator.generate(ngrams, 1, 10, 2);
+
+            let text = generatedContent.map(sentence => {
+              return capitalizeFirstLetter( sentence.join(' ').concat('.'));
+            }).join(' ');
+
+            const elt = document.getElementById('auto-title');
+            elt.innerHTML = text;
+          }
+          {
+            let ngrams = NMGenerator.buildFromListField(json, 'content');
+            let generatedContent = NMGenerator.generate(ngrams, 20, 20);
+
+            let text = generatedContent.map(sentence => {
+              return capitalizeFirstLetter( sentence.join(' ').concat('.'));
+            }).join(' ');
+
+            const elt = document.getElementById('auto-content');
+            elt.innerHTML = text;
+          }
+        })
+        .catch(err => {
+          console.log(`ERROR: whilst parsing json: ${err}`);
+        })
+        ;
+
+      });
+    </script>
+  </div>
+</article>
