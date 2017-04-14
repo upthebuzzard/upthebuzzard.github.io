@@ -1,8 +1,9 @@
 var NMGenerator = (function() {
 
   const MAXNGRAM = 3; // 1 => single words, 2 => pairs of words, 3 => triples of words, etc
-  const DEFAULT_NUM_SENTENCES = 5;
-  const DEFAULT_SENTENCE_LENGTH = 7;
+  const DEFAULT_NUM_SENTENCES = 10;
+  const DEFAULT_SENTENCE_LENGTH = 20;
+  const DEFAULT_END_WITHIN = 3;
 
   function build(textList){
     const nmStruct = {
@@ -25,9 +26,13 @@ var NMGenerator = (function() {
     }
 
     for( const text of textList ){
+      if (! text ) { continue; }
       const sentences = text.split('.');
       for( const sentence of sentences ){
-        const words = sentence.match(/\b(\w+)\b/g);
+        if( !sentence ) {continue;}
+        let words = sentence.replace(/'/g, "").match(/\b(\w+)\b/g);
+        if( !words ) {continue;}
+        words = words.map(word => {return word.toLowerCase()});
         for (let w = 0; w < words.length; w++) {
           for (let n = 1; n <= MAXNGRAM; n++) {
             if (n <= (w+1)) {
@@ -45,7 +50,7 @@ var NMGenerator = (function() {
   }
 
   function addTuple(group, tuple){
-    console.log(`addTuple: ${tuple}`);
+    // console.log(`addTuple: ${tuple}`);
     if (! group.totalCount) {
       group.values     = [];
       group.counts     = [];
@@ -74,24 +79,25 @@ var NMGenerator = (function() {
   }
 
 
-  function generate(nmStruct, numSentences=DEFAULT_NUM_SENTENCES){
+  function generate(nmStruct, numSentences, numWords, maxNG=MAXNGRAM){
     const sentences = [];
 
     for (var s = 0; s < numSentences; s++) {
-      const sentence = generateSentence(nmStruct)
+      const sentence = generateSentence(nmStruct, numWords, maxNG)
       sentences.push(sentence);
     }
 
     return sentences;
   }
 
-  function generateSentence( nmStruct, numWords=DEFAULT_SENTENCE_LENGTH ){
+  function generateSentence( nmStruct, numWords, maxNG=MAXNGRAM ){
     const words = [];
+    maxNG = (MAXNGRAM < maxNG)? MAXNGRAM : maxNG;
 
     words.push(randomValueFromGroup(nmStruct.starts));
 
-    for (var w = 2; w <= numWords; w++) {
-      const ng = (w < MAXNGRAM)? w : MAXNGRAM;
+    for (var w = 2; w <= numWords + DEFAULT_END_WITHIN; w++) {
+      const ng = (w < maxNG)? w : maxNG;
       let word = null;
       // loop over smaller tuples if returned word is null
       for (var n = ng; n >= 1; n--) {
@@ -99,7 +105,13 @@ var NMGenerator = (function() {
         word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
         if (word !== null) { break; }
       }
+
       words.push(word);
+
+      if ( (w >= (numWords - DEFAULT_END_WITHIN))
+        && nmStruct.ends.values.includes(word) ) {
+        break;
+      }
     }
 
     return words;
@@ -124,16 +136,31 @@ var NMGenerator = (function() {
     return value;
   }
 
+  function buildFromListField(list, fieldname){
+    const texts = list.map(item => { if(item) { return item[fieldname]}});
+    return build(texts);
+  }
+
   return {
-		build:    build,
-		generate: generate
+		 buildFromTextList: build,
+    buildFromListField: buildFromListField,
+		          generate: generate
 	};
 })();
 
-var test = NMGenerator.build(['a big apple fell', 'to the cold forest floor quietly']);
-
-console.log(`test: ${JSON.stringify(test, null, 2)}`);
-
-var gen = NMGenerator.generate(test);
-
-console.log(`gen: ${JSON.stringify(gen, null, 2)}`);
+  // const url = 'http://stories.upthebuzzard.com/search.json';
+  //
+  // fetch( url )
+  // .then( response => { return response.json() } )
+  // .then( json => {
+  // let built     = NMGenerator.buildFromListField(json, 'content');
+  // let generated = NMGenerator.generate(built);
+  // console.log('buildFromListField:');
+  // generated.forEach(sentence => {
+  //   console.log(sentence.join(' '));
+  // });
+  // })
+  // .catch(err => {
+	//    console.log(`ERROR: whilst using fetch: ${err}`);
+  // })
+  // ;
