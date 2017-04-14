@@ -3,7 +3,9 @@ var NMGenerator = (function() {
   const MAXNGRAM = 3; // 1 => single words, 2 => pairs of words, 3 => triples of words, etc
   const DEFAULT_NUM_SENTENCES = 10;
   const DEFAULT_SENTENCE_LENGTH = 20;
-  const DEFAULT_END_WITHIN = 3;
+  const DEFAULT_END_WITHIN = Math.floor(DEFAULT_SENTENCE_LENGTH/3);
+  const PROPORTION_SKIP_HIGHER_NGRAMS = 0.1;
+  const REPEAT_TO_END_ON_ENDS_WORD = 3;
 
   function build(textList){
     const nmStruct = {
@@ -27,10 +29,15 @@ var NMGenerator = (function() {
 
     for( const text of textList ){
       if (! text ) { continue; }
-      const sentences = text.split('.');
+      let processedText = text
+      .replace(/e\.g\./ig, "eg")
+      .replace(/i\.e\./ig, "ie")
+      .replace(/Part II?/g, "Part")
+      ;
+      const sentences = processedText.split('.');
       for( const sentence of sentences ){
         if( !sentence ) {continue;}
-        let words = sentence.replace(/'/g, "").match(/\b(\w+)\b/g);
+        let words = sentence.match(/\b(\w+(?:[\’\']\w+)?)\b/g); // allow apostrophes to remain in words
         if( !words ) {continue;}
         words = words.map(word => {return word.toLowerCase()});
         for (let w = 0; w < words.length; w++) {
@@ -43,6 +50,11 @@ var NMGenerator = (function() {
         }
         addTuple(nmStruct.starts, [words[0]]);
         addTuple(nmStruct.ends,   [words[words.length - 1]]);
+        // ['i','e','a', 'g'].forEach(word => {
+        //   if (words[words.length - 1] == word) {
+        //     console.log(`adding ends word: ${word}: sentence="${sentence}"`);
+        //   }
+        // });
       }
     }
 
@@ -91,28 +103,39 @@ var NMGenerator = (function() {
   }
 
   function generateSentence( nmStruct, numWords, maxNG=MAXNGRAM ){
-    const words = [];
     maxNG = (MAXNGRAM < maxNG)? MAXNGRAM : maxNG;
+    let words;
 
-    words.push(randomValueFromGroup(nmStruct.starts));
+    for (var e = 0; e < REPEAT_TO_END_ON_ENDS_WORD; e++) { // repeat a few times if we don't end on a words in ends
+      words = [];
+      words.push(randomValueFromGroup(nmStruct.starts)); // start with a weighted random word from starts
+      for (var w = 2; w <= numWords + DEFAULT_END_WITHIN; w++) {
+        const ng = (w < maxNG)? w : maxNG;
+        let word = null;
+        // start with higher ngram, loop over smaller ngram if returned word is null
+        for (var n = ng; n >= 1; n--) {
+          if ((ng > 2) && (Math.random() < PROPORTION_SKIP_HIGHER_NGRAMS)) { continue; } // don't always use the higher ngram
+          const tupleSoFar = words.slice(w - n, w - 1);
+          word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
+          if (word !== null) { break; }
+        }
 
-    for (var w = 2; w <= numWords + DEFAULT_END_WITHIN; w++) {
-      const ng = (w < maxNG)? w : maxNG;
-      let word = null;
-      // loop over smaller tuples if returned word is null
-      for (var n = ng; n >= 1; n--) {
-        const tupleSoFar = words.slice(w - n, w - 1);
-        word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
-        if (word !== null) { break; }
+        words.push(word);
+
+        if ( (w >= (numWords - DEFAULT_END_WITHIN)) // if we are nearing the end of the sentence, be looking out for a word from ends
+          && nmStruct.ends.values.includes(word) ) {
+          break;
+        }
       }
 
-      words.push(word);
-
-      if ( (w >= (numWords - DEFAULT_END_WITHIN))
-        && nmStruct.ends.values.includes(word) ) {
+      if (nmStruct.ends.values.includes( words[words.length-1] )) { // if we did find a word from ends, great, otherwise keep looping
         break;
       }
     }
+
+    // if (! nmStruct.ends.values.includes( words[words.length-1] )) {
+    //   console.log(`not ending on ends word: ${word}`);
+    // }
 
     return words;
   }
