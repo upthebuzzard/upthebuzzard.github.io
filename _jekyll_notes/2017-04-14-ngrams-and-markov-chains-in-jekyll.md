@@ -10,10 +10,11 @@ The previous [Simple Site Search post](/jekyll_notes/2017-04-02-simple-site-sear
 
 > The tyres a big flapping of wings and the heat from inside its tummy.
 
-
 Cue n-grams and Markov Chains. A fairly common toy challenge with collections of texts is to ingest all the texts and auto-generate text 'in the style of' them, using words and phrases from the texts, re-arranged randomly, but still retaining something of the essence of the original texts. Among many posts returned by Google, [this one](http://www.soliantconsulting.com/blog/2013/02/title-generator-using-markov-chains) did an ok job of explaining the main steps.
 
 > Ah yes she said in surprise before dressing the bed with sheets of red card and lay them.
+
+Here's the page showing [auto-generated Moose & Goose stories](/moose_and_goose_stories/generated.html).
 
 ## How it works
 
