@@ -88,21 +88,33 @@ var NMGenerator = (function() {
   function generateSentence( nmStruct, numWords=DEFAULT_SENTENCE_LENGTH ){
     const words = [];
 
-    const word = randomValueFromGroup(nmStruct.starts);
-    words.push(word);
+    words.push(randomValueFromGroup(nmStruct.starts));
+
+    for (var w = 2; w <= numWords; w++) {
+      const ng = (w < MAXNGRAM)? w : MAXNGRAM;
+      // loop over smaller tuples if returned word is null
+      const tupleSoFar = words.slice(w - ng, w - 1);
+      const word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
+      words.push(word);
+    }
 
     return words;
   }
 
-  function randomValueFromGroup(group){
-    const target = Math.floor(Math.random() * group.totalCount);
-
+  function randomValueFromGroup(group, tupleSoFar=[]){
     let value = null;
-    let total = 0;
-    for (var i = 0; i < group.values.length; i++) {
-      value = group.values[i];
-      total = total + group.counts[i];
-      if (total > target) { break; }
+
+    if( tupleSoFar.length == 0 ){
+      const target = Math.floor(Math.random() * group.totalCount);
+
+      let total = 0;
+      for (var i = 0; i < group.values.length; i++) {
+        value = group.values[i];
+        total = total + group.counts[i];
+        if (total > target) { break; }
+      }
+    } else if( group.values.includes(tupleSoFar[0]) ) {
+      value = randomValueFromGroup( group.next[tupleSoFar[0]], tupleSoFar.slice(1));
     }
 
     return value;
