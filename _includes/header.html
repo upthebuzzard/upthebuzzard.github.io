@@ -16,6 +16,7 @@
       </span>
 
       <div class="trigger">
+        <!-- list main collections -->
         {% assign collections = (site.collections | sort: 'sequence') %}
         {% for collection in collections %}
           {% if collection.label == page.collection %}
@@ -31,6 +32,7 @@
           {% endif %}
         {% endfor %}
 
+        <!-- list main site pages, e.g. 'about' -->
         {% for my_page in site.pages %}
           {% if my_page.title and my_page.layout == 'page' %}
             {% if my_page.title == page.title %}
@@ -43,6 +45,8 @@
         {% endfor %}
 
         {% if page.collection %}
+
+          <!-- list posts in collection -->
           {% assign sorted_posts = (site[page.collection] | where:"layout", "post" | sort: 'date' | sort: 'sequence') %}
           {% if reverse_collection_posts %}
             {% assign sorted_posts = sorted_posts | reverse %}
@@ -59,7 +63,8 @@
             {% endfor %}
           {% endif %}
 
-          {% assign sorted_pages = (site[page.collection] | where:"layout", "page" | sort: 'date' | sort: 'sequence') %}
+          <!-- list pages in collection -->
+          {% assign sorted_pages = (site[page.collection] | where:"layout", 'page' | sort: 'date' | sort: 'sequence') %}
           {% if sorted_pages.size > 0 %}
             <hr/>
             {% for my_page in sorted_pages %}
@@ -71,7 +76,24 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ prefix }}{{ my_page.title | escape }}</a>
             {% endfor %}
           {% endif %}
+
+          <!-- list auto-generated page in collection -->
+          {% assign sorted_pages = (site[page.collection] | where:"layout", 'auto-generated' | sort: 'date' | sort: 'sequence') %}
+          {% if sorted_pages.size > 0 %}
+            <hr/>
+            {% for my_page in sorted_pages %}
+              {% if my_page.title == page.title %}
+                {% assign prefix = "*&nbsp;" %}
+              {% else %}
+                {% assign prefix = "" %}
+              {% endif %}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ prefix }}{{ site.auto-generated-title | escape }}</a>
+            {% endfor %}
+          {% endif %}
+
         {% endif %}
+
+        <div class="page-link">  </div>
       </div>
     </nav>
 
