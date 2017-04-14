@@ -92,9 +92,13 @@ var NMGenerator = (function() {
 
     for (var w = 2; w <= numWords; w++) {
       const ng = (w < MAXNGRAM)? w : MAXNGRAM;
+      let word = null;
       // loop over smaller tuples if returned word is null
-      const tupleSoFar = words.slice(w - ng, w - 1);
-      const word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
+      for (var n = ng; n >= 1; n--) {
+        const tupleSoFar = words.slice(w - n, w - 1);
+        word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
+        if (word !== null) { break; }
+      }
       words.push(word);
     }
 
