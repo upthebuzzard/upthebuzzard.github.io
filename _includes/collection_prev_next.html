@@ -17,6 +17,9 @@
   {% endfor %}
 
   {% assign posts = (site[page.collection] | where:"layout", "post" | where: "categories","story" ) %}
+  {% if posts.size == 0 %}
+    {% assign posts = (site[page.collection] | where:"layout", "post" ) %}
+  {% endif %}
 
   {% if posts.size > 1 %}
     {% if include.sort_by %}
