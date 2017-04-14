@@ -22,5 +22,5 @@ With the GitHub Pages restriction forbidding the use of bespoke Ruby code, it re
 ## TODO
 
 * find a simple way of enabling https (currently not supported for custom domains on GitHib Pages).
-* some kind of search facility
+* set up Circle-CI integration
 * and some other things...
