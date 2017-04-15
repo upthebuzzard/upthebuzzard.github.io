@@ -14,7 +14,16 @@ Cue n-grams and Markov Chains. A fairly common toy challenge with collections of
 
 > Ah yes she said in surprise before dressing the bed with sheets of red card and lay them.
 
-Here's the page showing [auto-generated Moose & Goose stories](/moose_and_goose_stories/generated.html).
+## Examples
+
+{% assign collections = (site.collections | sort: 'sequence') %}
+{% for collection in collections %}
+  {% assign collection_pages = (site[collection.label] | where:"layout", 'auto-generated' %}
+  {% if collection_pages.size > 0 %}
+    {% assign relurl = collection.label | relative_url | append: '/generated.html' %}
+* _in the style of_ &nbsp; [{{ collection.title | escape }}]({{ relurl }})
+  {% endif %}
+{% endfor%}
 
 ## How it works
 
