@@ -29,6 +29,13 @@ layout: default
     </p>
   </header>
 
+{% if page.context %}
+  <hr>
+  <div class="post-context">{{ page.context | markdownify }}</div>
+  <hr>
+  <br>
+{% endif %}
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
 
