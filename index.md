@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-An eclectic mixture of stories, ranging from a bedtime-crowd-sourced children's detective series to assorted surreal-ish, near-future musings, and some other stuff, and some notes on using Jekyll (to create this site).
+{{ site.description }}
 
 <h2 class="page-heading">Collections</h2>
 

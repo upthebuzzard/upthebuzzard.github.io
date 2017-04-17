@@ -16,8 +16,11 @@
 title: A Smattering of Stories
 email: cgathercole@gmail.com
 description: >
-  initially an experiment to port stories.upthebuzzard.com
-  from wordpress.com to Jekyll on GitHub
+  An eclectic mixture of stories, ranging from
+  a bedtime-crowd-sourced children’s detective series
+  to assorted surreal-ish, near-future musings,
+  and some other stuff,
+  and some notes on using Jekyll (to create this site).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://stories.upthebuzzard.com # upthebuzzard.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: upthebuzzard
@@ -60,7 +63,7 @@ collections:
     output: true
     title: Predicting the Present
     title_singular: A Predicting the Present Story
-    description: this short stories are less predicting the future and more “predicting the present”.
+    description: these short stories are less predicting the future and more “predicting the present”.
     sequence: 10
   emus_all_the_way_down:
     output: true
