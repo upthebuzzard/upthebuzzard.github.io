@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-
+ <div>
     <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
     {% include search.html %}
@@ -96,6 +96,17 @@
         <div class="page-link">  </div>
       </div>
     </nav>
+  </div>
+    {% if page.collection %}
+      {% assign collections = (site.collections | sort: 'sequence') %}
+      {% for collection in collections %}
+        {% if collection.label == page.collection %}
+    <blockquote class="site-collection-description">
+      <p>{{ collection.description }}</p>
+    </bloackquote>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
   </div>
 
