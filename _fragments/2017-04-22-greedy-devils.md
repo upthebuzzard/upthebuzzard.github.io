@@ -8,24 +8,18 @@ excerpt: >
 context: >
   This was written as an entry for the 2017 Challenge, "Design a role-playing game using 200 words or less", at https://200wordrpg.github.io/. Closing date: 2017-04-23 23:59 EST. Additional comments: I have a hankering to achieve a rich, RPG/board-game-esque vibe with a standard deck of playing cards, moving away from the usual hand-based games (such as Bridge, Whist, Rummy, etc). The only way to have a chance of achieving that (it seems to me) is to overload the cards with different uses in different contexts (as in Race for the Galaxy), *and* have a tiled map (as in Carcassonne). A limitation of rectangular cards is that they only really offer NESW connectivity, and you can only achieve a fairly small grid with a standard deck. By considering the card values as heights, you get a much richer landscape and, as the cards change, the landscape changes. A card, when picked up by a player, can become food and/or a weapon, and affects the player's capabilities. This means four different ways of interpreting a card. Fighting borrows from Top Trumps and, in fact, there are lots of possibilities for different fight mechanics making more use of all the cards in each pouch plus the location in the landscape. The food you need to win makes poor weapons, but you'll need weapons to fight and defend your food (which resonates a little with Lamarckian Poker). Synchronisation of fighting/moving/picking, etc, was borrowed from RoboRally. The pouch limitation comes from Munchkin. There are myriad ways this game can (and should) be tuned, and awkward edge cases will keep cropping up. The theme, greedy rats-with-pouches (aka Tasmanian Devils) fighting for food on a rubbish heap, helps stitch all the mechanics together into one coherent drama.
 ---
-You are greedy (Tasmanian) devils on an ever-shifting rubbish heap, struggling to be first with a pouch full of different-valued foods up above all the others. You fight using what you can carry, and that also leaches into you, changing your capabilities. So pick wisely.
+You are greedy (Tasmanian) devils on an ever-shifting rubbish heap. The first with a pouch full of food, sitting highest on the heap, wins. Everything you carry (a) leaches into you, changing your capabilities, (b) is a weapon. Pick wisely.
 
-Shuffle 52 playing cards, face down, in a 5x5 grid.
+For the rubbish heap, shuffle 52 playing cards, deal face down as a 5x5 grid. Always reveal top cards. Aces low, Kings high (literally). Each card can be food (if smaller than 6), or a weapon (bigger is better).
 
-Always reveal top cards.
+You start next to the heap.
 
-You see
-* the rubbish heap: Nothing=bedrock, Aces low, Kings high (literally).
-* weapons: Bigger is better.
-* food: Any card less than 6.
+To synchronize each turn's action, everyone reveals their coin simultaneously: heads => MOVE/PICK/DISCARD (first), tails => FIGHT. Toss for sequencing.
 
-You have
-* placeholder: Start on bedrock.
-* coin: For synchronizing each turn's action, everyone reveals heads to MOVE/FIGHT (happens 2nd), or tails otherwise. Toss for sequencing.
-* pouch: Visible. Hearts=pouch+1*, Spades=PICK+1, Clubs=weapon+1, Diamonds=MOVE+1. Max 5 cards* - immediately THROW one to make room.
+Your pouch of PICKed cards is visible: immediately DISCARD if duplicate values or more than 5* cards. Leaching by Hearts => pouch+1*, Spades => PICKx2, Clubs => weapon+1, Diamonds => MOVEx2.
 
-Action
-* MOVE: NESW, on or next to heap. One step uphill (if <=3 higher), can step twice if level, slide way down, or stay (but not on a peak).
+Actions
+* MOVE: NESW, on/beside heap. One step uphill (if <4 higher) or along, can keep sliding down, or stay (but not on local peak).
 * PICK: The card you're standing on, or from below higher neighbouring point.
-* THROW: as far as MOVE.
-* FIGHT: On same heap location, each secretly picks a pouch card. Compare weapons. Biggest wins. All weapons THROWn. Winner chooses card from loser's pouch.
+* DISCARD: as far as MOVE.
+* FIGHT: Pair-wise, on same heap location, each secretly picks a pouch card. Compare as weapons, DISCARD both. Winner chooses card from loser's pouch.
