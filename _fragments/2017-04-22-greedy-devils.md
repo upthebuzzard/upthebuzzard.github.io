@@ -2,7 +2,7 @@
 layout: post
 title: Greedy Devils
 date: 2017-04-22 21:59
-categories: [story rpg]
+categories: [story, rpg]
 excerpt: >
   It's a vicious fight for supremacy across the rubbish heap, gathering weapons and food. Who can get a pouch full of foods to safety?
 context: >
