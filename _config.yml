@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: A Smattering of Stories
-email: cgathercole@gmail.com
 description: >
   An eclectic mixture of stories, ranging from
   a bedtime-crowd-sourced children’s detective series
