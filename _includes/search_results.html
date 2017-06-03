@@ -9,7 +9,7 @@
          return null;
       }
       else{
-         return decodeURIComponent(results[1]) || 0;
+         return decodeURIComponent(results[1]) || '';
       }
     }
 
@@ -48,6 +48,9 @@
     }
 
     function constructSearchRegExps( q ){ // yeah, well, why not go for it? process the query param into a complicated regex
+      if (q == null) {
+        q = '';
+      }
       const regExpsStrings = [];
       let tidiedQ = q.replace(/\+/g, ' ');    // replace + with space
       tidiedQ = tidiedQ.trim();               // remove trailing/leading spaces
