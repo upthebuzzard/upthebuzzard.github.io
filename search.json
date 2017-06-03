@@ -3,14 +3,12 @@
 [
   {% assign posts = site.documents | where_exp:"item", "item.title != 'Search'" | where_exp:"item", "item.title != 'Feed'" | reverse %}
   {% for post in posts %}
-    {% assign collection = (site.collections | where:"label", post.collection | first %}
   {
     "title"    : {{ post.title | jsonify }},
     "categories" : [{% for c in post.categories %}"{{ c }}",{% endfor %} null],
     "tags"     : [{% for tag in post.tags %}"{{ tag }}",{% endfor %} null],
     "href"     : "{{ post.url }}",
     "layout"   : "{{post.layout}}",
-    "collection" : "{{collection.title}}",
     "date"     : {
       "day"   : "{{ post.date | date: "%d" }}",
       "month" : "{{ post.date | date: "%B" }}",
