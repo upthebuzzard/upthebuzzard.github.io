@@ -3,6 +3,7 @@ layout: page
 title: Greedy Devils
 date: 2017-06-03 10:50
 categories: []
+background_image_url: /assets/1024px-Tasmanian_Devil_roadsign.jpg
 permalink:  /:collection/greedy-devils/
 ---
 Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering.
@@ -16,6 +17,8 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 You are greedy [(Tasmanian)](https://en.wikipedia.org/wiki/Tasmanian_devil) devils on an ever-shifting rubbish heap, scrabbling around for food, and fighting for survival. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely.
 
 The first with a pouch full of food, standing higher than all the other devils on the heap, wins.
+
+<p/>{:.porthole}
 
 _Warning: the Tasmanian Devil metaphor is somewhat overstretched here._
 
