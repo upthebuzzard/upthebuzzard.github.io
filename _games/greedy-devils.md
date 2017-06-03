@@ -5,7 +5,9 @@ date: 2017-06-03 10:50
 categories: []
 permalink:  /:collection/greedy-devils/
 ---
-Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering,  ...
+Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering.
+
+Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
 # The Rules (version 1.1, 2017-06-03)
 
@@ -60,8 +62,9 @@ In each round, each player in turn chooses one of the following actions
 Moves are one step NESW to a neighbouring spot on the 5x5 grid, staying on or beside the heap.
 
 You can
+* step along to a card of the same value
 * step uphill, from a lower card to a higher-value card, if the difference is <= 4 (or <= 5 if you hold a diamond)
-* slide downhill all the way in one glorious swoosh, following a sequence of ever lower cards
+* slide downhill all the way in one glorious swoosh (as far as you choose), as long as you follow a sequence of ever lower cards
 * stay where you are
 
 ### PICK
@@ -99,6 +102,9 @@ Or make up your own solution for fairly mixing up the order in which everyone ge
 -- End of the rules --
 
 <br><br>
+
+Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
+
 
 # Edge Cases, Worries, Weaknesses, Maybes
 
