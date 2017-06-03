@@ -94,7 +94,7 @@ For each fight between two devils, each gathers up their pouch and secretly sele
 
 ## Taking turns
 
-In each round, each player takes their turn to choose one action (with a caveat that a fight could break out at any time). And when deciding of there is to be a fight, the players are consulted in the same order as for choosing actions.
+In each round, each player takes their turn to choose one action (with a caveat that a fight could break out at any time). And when deciding if there is to be a fight, the players are consulted in the same order as for choosing actions.
 
 For 2 players, alternate who goes first in each round.
 
