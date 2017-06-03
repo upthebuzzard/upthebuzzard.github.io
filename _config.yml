@@ -77,6 +77,13 @@ collections:
     description: riffing on whatever is riff-worthy
     sequence: 20
     reverse_posts: true
+  games:
+    output: true
+    title: Notes on games
+    title_singular: A Note
+    description: exploring games
+    sequence: 30
+    reverse_posts: true
   distractions:
     output: true
     title: Distractions
