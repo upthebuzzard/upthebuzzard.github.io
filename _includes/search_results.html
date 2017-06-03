@@ -110,15 +110,29 @@
           json.forEach(page => {
             if (
               page
-              && page.href.endsWith('.html')
               && !knownPageHrefs[page.href]
+              && page[textField] !== null
               && page[textField].match(re)
             ) {
                 knownPageHrefs[page.href] = true;
                 const li      = document.createElement('li');
                 const linkElt = document.createElement('a');
                 linkElt.href = page.href;
-                const text = page.title + ((page.categories.includes('story'))? ' (story)': '');
+                let titleExtras = [];
+                if (page.categories.includes('story')) {
+                  titleExtras.push('story');
+                } else if(page.layout == 'page') {
+                  titleExtras.push('page');
+                } else if(page.layout == 'collection') {
+                  titleExtras.push('index');
+                } else if(page.layout == 'post') {
+                  titleExtras.push('post');
+                }
+                if (page.collection !== null) {
+                  titleExtras.push(page.collection);
+                }
+                const titleExtra = (titleExtras.length > 0)? ` (${titleExtras.join(', ')})` : '';
+                const text = page.title + titleExtra;
                 linkElt.textContent = text;
                 li.appendChild(linkElt);
                 resultsUlElt.appendChild(li);
