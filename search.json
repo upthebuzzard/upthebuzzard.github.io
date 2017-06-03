@@ -3,6 +3,7 @@
 [
   {% assign posts = site.documents | where_exp:"item", "item.title != 'Search'" | where_exp:"item", "item.title != 'Feed'" | reverse %}
   {% for post in posts %}
+  {% assign collection = (site.collections | where:"label", post.collection | first) %}
   {
     "title"    : {{ post.title | jsonify }},
     "categories" : [{% for c in post.categories %}"{{ c }}",{% endfor %} null],
