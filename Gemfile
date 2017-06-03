@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby '2.2.6'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -13,7 +13,7 @@ ruby RUBY_VERSION
 # and github-pages is installed only when on github, i.e. not on Windows.
 # Really really really don't want to go through the faff of building the github-pages gem on Windows.
 
-gem "jekyll", "3.4.0" if Gem.win_platform?
+gem "jekyll"
 gem "github-pages", group: :jekyll_plugins if ! Gem.win_platform?
 
 # This will help ensure the proper Jekyll version is running.
@@ -31,6 +31,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem "jekyll-sitemap"
+   gem "html-proofer"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
