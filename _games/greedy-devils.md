@@ -48,7 +48,7 @@ As you scramble across the heap, you can pick up cards to put in your pouch. It 
 
 Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are fighting.
 
-Each card in your pouch can be considered as food (if smaller than 6, ie. Ace,1,2,3,4,5), or a weapon to be used in a fight (bigger is better). Furthermore, they 'leach' into you affecting your capabilities.
+Each card in your pouch can be considered as food (if smaller than 6, ie. Ace,1,2,3,4,5), or a weapon to be used in a fight (bigger is better). Furthermore, they 'leach' into you, affecting your capabilities.
 
 If you have any
 * Spades => you can PICK two cards (rather than one),
@@ -74,33 +74,33 @@ You can
 
 You can pick
 * the card you're standing on (and so reveal the one underneath that),
-* or a card from below a higher neighbouring point (as if you digging into the side of a hill).
+* or a card from below a higher neighbouring point (as if you're digging into the side of a hill).
 
 ### DISCARD
 
-You can choose to just discard a card from your existing pouch, or maybe you have to make room for a new pick.
+You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
 The card is discarded as far away as a MOVE, i.e. to a neighbouring position, or can slide all the way down. When it comes to rest, it is the new top card.
 
-You can only discard under your own position if it doesn't raise your height by more than 4.
+You can only discard onto your own position if it doesn't raise your height by more than 4.
 
 ## FIGHT
 
 Any time two or more devils are on the same location, however fleetingly, any of them can immediately initiate a fight.
 
-Each devil in turn has a chance to initiate a fight with one other devil.
+Each devil in turn has a chance to initiate a fight with one other devil. This might mean choosing to fight again with the devil who started the previous fight.
 
-For each fight between two devils, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the highest score wins. Both cards are immediately discarded. The pouches are revealed again, and the winner (if there is one) chooses a card from loser's pouch.
+For each fight between two devils, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. Both cards are immediately discarded. The pouches are revealed again, and the winner (if there is one) chooses a card from the loser's pouch.
 
 ## Taking turns
 
-In each round, each player takes their turn to choose one action (with a caveat that a fight could break out at any time).
+In each round, each player takes their turn to choose one action (with a caveat that a fight could break out at any time). And when deciding of there is to be a fight, the players are consulted in the same order as for choosing actions.
 
 For 2 players, alternate who goes first in each round.
 
 For 3 or more players, rotate clockwise around the group who goes first in each round. Within each round, rotate clockwise around the group for the remainder of that round. Once every player has started a round, continue to rotate clockwise around the group for who goes first, but rotate anti-clockwise around the group for the remainder of that round. Etc.
 
-Or make up your own solution for fairly mixing up the order in which everyone gets to make their choices.
+Or make up your own fair solution for mixing up the order in which everyone gets to make their choices.
 
 -- End of the rules --
 
