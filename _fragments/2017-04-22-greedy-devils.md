@@ -6,12 +6,14 @@ categories: [story, rpg]
 excerpt: >
   It's a vicious fight for supremacy across the rubbish heap, gathering weapons and food. Who can get a pouch full of foods to safety?
 context: >
-  This was written as an entry for the 2017 Challenge, "Design a role-playing game using 200 words or less", at [200wordrpg.github.io](https://200wordrpg.github.io/). Closing date: 2017-04-23 23:59 EST.
-
-
+  The Greedy Devils game has been [developed further](/games/greedy-devils/).
+  <br>
+  <br>
+  This is the original version, written as an entry for the 2017 Challenge, _"Design a role-playing game using 200 words or less"_, at [200wordrpg.github.io](https://200wordrpg.github.io/). Closing date: 2017-04-23 23:59 EST.
+  <br>
+  <br>
   Additional comments
-
-
+  <br>
   I have a hankering to achieve a rich, RPG/board-game-esque vibe with a standard deck of playing cards, moving away from the usual hand-based games (such as Bridge, Whist, Rummy, etc). The only way to have a chance of achieving that (it seems to me) is to overload the cards with different uses in different contexts (as in Race for the Galaxy), *and* have a tiled map (as in Carcassonne). A limitation of rectangular cards is that they only really offer NESW connectivity, and you can only achieve a fairly small grid with a standard deck. By considering the card values as heights, you get a much richer landscape and, as the cards change, the landscape changes. A card, when picked up by a player, can become food and/or a weapon, and affects the player's capabilities. This means four different ways of interpreting a card. Fighting borrows from Top Trumps and, in fact, there are lots of possibilities for different fight mechanics making more use of all the cards in each pouch plus the location in the landscape. The food you need, in order to win, makes poor weapons, but you'll need weapons to fight and defend your food, and will probably discard good cards along the way (which resonates  with Lamarckian Poker). Synchronisation of fighting/moving/picking, etc, was borrowed from RoboRally, and that too could be extended to lock in longer sequences of actions. The pouch limitation comes from Munchkin. There are myriad ways this game can be tuned; awkward edge cases will keep cropping up. The theme, greedy rats-with-pouches (aka Tasmanian Devils) fighting for food on a rubbish heap, helps stitch all the mechanics together into one coherent drama.
 ---
 You are greedy (Tasmanian) devils on an ever-shifting rubbish heap. The first with a pouch full of food, standing highest on the heap, wins. Everything you carry (a) leaches into you, changing your capabilities, (b) is a weapon. Pick wisely.
