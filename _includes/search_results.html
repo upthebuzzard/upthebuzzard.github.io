@@ -9,7 +9,7 @@
          return null;
       }
       else{
-         return decodeURIComponent(results[1]) || '';
+         return decodeURIComponent(results[1]) || 0;
       }
     }
 
@@ -48,9 +48,6 @@
     }
 
     function constructSearchRegExps( q ){ // yeah, well, why not go for it? process the query param into a complicated regex
-      if (q == null) {
-        q = '';
-      }
       const regExpsStrings = [];
       let tidiedQ = q.replace(/\+/g, ' ');    // replace + with space
       tidiedQ = tidiedQ.trim();               // remove trailing/leading spaces
@@ -113,29 +110,15 @@
           json.forEach(page => {
             if (
               page
+              && page.href.endsWith('.html')
               && !knownPageHrefs[page.href]
-              && page[textField] !== null
               && page[textField].match(re)
             ) {
                 knownPageHrefs[page.href] = true;
                 const li      = document.createElement('li');
                 const linkElt = document.createElement('a');
                 linkElt.href = page.href;
-                let titleExtras = [];
-                if (page.categories.includes('story')) {
-                  titleExtras.push('story');
-                } else if(page.layout == 'page') {
-                  titleExtras.push('page');
-                } else if(page.layout == 'collection') {
-                  titleExtras.push('index');
-                } else if(page.layout == 'post') {
-                  titleExtras.push('post');
-                }
-                if (page.collection !== null) {
-                  titleExtras.push(page.collection);
-                }
-                const titleExtra = (titleExtras.length > 0)? ` (${titleExtras.join(', ')})` : '';
-                const text = page.title + titleExtra;
+                const text = page.title + ((page.categories.includes('story'))? ' (story)': '');
                 linkElt.textContent = text;
                 li.appendChild(linkElt);
                 resultsUlElt.appendChild(li);
