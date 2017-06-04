@@ -9,7 +9,7 @@ context: >
   The Greedy Devils game has been [developed further](/games/greedy-devils/).
   <br>
   <br>
-  This is the original version, written as an entry for the 2017 Challenge, _"Design a role-playing game using 200 words or less"_, at [200wordrpg.github.io](https://200wordrpg.github.io/). Closing date: 2017-04-23 23:59 EST.
+  This is the original version, written as an [entry](https://200wordrpg.github.io//2017/rpg/2017/04/23/GreedyDevils.html) for the 2017 Challenge, _"Design a role-playing game using 200 words or less"_, at [200wordrpg.github.io](https://200wordrpg.github.io/). Closing date: 2017-04-23 23:59 EST.
   <br>
   <br>
   Additional comments
