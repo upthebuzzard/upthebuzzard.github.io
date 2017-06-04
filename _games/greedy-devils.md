@@ -10,7 +10,7 @@ Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.2, 2017-06-03)
+# The Rules (version 1.2, 2017-06-04)
 
 ## Setting the scene
 
