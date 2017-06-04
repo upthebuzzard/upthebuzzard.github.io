@@ -10,13 +10,13 @@ Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.1, 2017-06-03)
+# The Rules (version 1.2, 2017-06-03)
 
 ## Setting the scene
 
 You are greedy [(Tasmanian)](https://en.wikipedia.org/wiki/Tasmanian_devil) devils on an ever-shifting rubbish heap, scrabbling around for food, and fighting for survival. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely.
 
-The first with a pouch full of food, standing higher than all the other devils on the heap, wins.
+The first greedy devil with a pouch full of 5 different foods, standing higher than all the other devils on the heap, wins.
 
 <p/>{:.porthole}
 
@@ -27,16 +27,16 @@ _Warning: the Tasmanian Devil metaphor is somewhat overstretched here._
 * a standard deck of playing cards
 * at least 2 players
    * _we are testing with 3 and 4 players e'en now_
-* a unique token for each player
+* a unique token to mark each player's position on the heap
    * small enough so that a few can fit on a single playing card
    * e.g. chess or monopoly pieces
 * enough space
-   * in the middle, to lay out a 5x5 grid of cards
+   * in the middle, to lay out a 5x5 grid of cards, with room round the edge
    * in front of each player, to display up to 6 cards
 
 ## Prepare the heap
 
-Shuffle 52 playing cards, and deal them face down as 25 mini piles arranged in a 5x5 grid. Doesn't matter if the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
+Shuffle the deck of 52 playing cards, and deal them face down as 25 mini piles arranged in a 5x5 grid. Doesn't matter if the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
 The value of the top card in each of 5x5 piles represents the height above bedrock of the heap at that location. Aces are low, Kings are high (literally).
 
@@ -44,11 +44,11 @@ You start next to the heap, and can move alongside or onto the heap.
 
 ## Your pouch
 
-As you scramble across the heap, you can pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any duplicate values or excess cards.
+As you scramble across the heap, you can pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any excess cards.
 
 Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are fighting.
 
-Each card in your pouch can be considered as food (if smaller than 6, ie. Ace,1,2,3,4,5), or a weapon to be used in a fight (bigger is better). Furthermore, they 'leach' into you, affecting your capabilities.
+Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch. Furthermore, the cards in your possession 'leach' into you, affecting your capabilities.
 
 If you have any
 * Spades => you can PICK two cards (rather than one),
@@ -66,7 +66,7 @@ Moves are one step NESW to a neighbouring spot on the 5x5 grid, staying on or be
 
 You can
 * step along to a card of the same value
-* step uphill, from a lower card to a higher-value card, if the difference is <= 4 (or <= 5 if you hold a diamond)
+* step uphill, from a lower card to a higher-value card, if the difference is less than or equal to 4 (or 5, if you hold a diamond)
 * slide downhill all the way in one glorious swoosh (as far as you choose), as long as you follow a sequence of ever lower cards
 * stay where you are
 
@@ -80,7 +80,7 @@ You can pick
 
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
-The card is discarded as far away as a MOVE, i.e. to a neighbouring position, or can slide all the way down. When it comes to rest, it is the new top card.
+The card is discarded as far away as a MOVE, i.e. to a neighbouring NESW position, or can slide all the way down. When it comes to rest, it is the new top card.
 
 You can only discard onto your own position if it doesn't raise your height by more than 4.
 
@@ -130,3 +130,5 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * discarding onto your current location has been clarified, so cannot raise yourself up too high.
    * Staying on a local peak is now ok
    * sequencing has been clarified. No more coins. There is a specified turn order within each round.
+* 1.2
+   * allow the pouch to hold duplicate values, but to win you need one of each of the food values: Ace, 2, 3, 4, 5.
