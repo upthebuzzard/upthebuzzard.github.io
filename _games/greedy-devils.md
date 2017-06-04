@@ -116,6 +116,19 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 * No reason why the heap can't expand out beyond the 5x5 grid with discards.
 * Maybe there is a better metaphor than Tasmanian Devils?
 
+# Alternative Names
+
+* Pouches of Destiny
+* It's a rubbish life
+* Heap of Trouble
+* Scramble
+* Scavengers
+* Top Rat
+* Piles
+* Marauding Marsupials
+* Fill the Pouch
+* ...
+
 # Major changes
 
 * 1.0 The initial version [as submitted to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html)
