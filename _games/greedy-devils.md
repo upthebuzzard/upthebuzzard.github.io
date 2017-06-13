@@ -10,13 +10,13 @@ Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.2, 2017-06-04)
+# The Rules (version 1.3, 2017-06-04)
 
 ## Setting the scene
 
 You are greedy [(Tasmanian)](https://en.wikipedia.org/wiki/Tasmanian_devil) devils on an ever-shifting rubbish heap, scrabbling around for food, and fighting for survival. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely.
 
-The first greedy devil with a pouch full of 5 different foods, standing higher than all the other devils on the heap, wins.
+The first greedy devil with a pouch full of 5 different foods, standing on the highest (or equal highest) spot on the heap, when a round has finished, wins.
 
 <p/>{:.porthole}
 
@@ -25,11 +25,12 @@ _Warning: the Tasmanian Devil metaphor is somewhat overstretched here._
 ## You will need
 
 * a standard deck of playing cards
-* at least 2 players
-   * _we are testing with 3 and 4 players e'en now_
+* at least 2 players (also works with 3)
+   * _we are testing with 4 players e'en now_
 * a unique token to mark each player's position on the heap
    * small enough so that a few can fit on a single playing card
    * e.g. chess or monopoly pieces
+      * or actual little plastic marsupial figures for that extra touch of authenticity...
 * enough space
    * in the middle, to lay out a 5x5 grid of cards, with room round the edge
    * in front of each player, to display up to 6 cards
@@ -63,6 +64,8 @@ In each round, each player in turn chooses one of the following actions
 ### MOVE
 
 Moves are one step NESW to a neighbouring spot on the 5x5 grid, staying on or beside the heap.
+
+If you are beside the heap, you can move diagonally, cutting across the corner of a heap card, to another spot beside the heap.
 
 You can
 * step along to a card of the same value
@@ -98,7 +101,7 @@ In each round, each player takes their turn to choose one action (with a caveat 
 
 For 2 players, alternate who goes first in each round.
 
-For 3 or more players, rotate clockwise around the group who goes first in each round. Within each round, rotate clockwise around the group for the remainder of that round. Once every player has started a round, continue to rotate clockwise around the group for who goes first, but rotate anti-clockwise around the group for the remainder of that round. Etc.
+For 3 or more players, rotate clockwise around the group who goes first in each round. Within each round, rotate clockwise around the group for the remainder of that round. Once every player has started a round, continue to rotate clockwise around the group for who goes first, but rotate anti-clockwise around the group for the remainder of that round. Etc. It helps to have, say, the Snake of Selection, to mark which player began the current round, and point in which direction the choice is rotating.
 
 Or make up your own fair solution for mixing up the order in which everyone gets to make their choices.
 
@@ -145,3 +148,8 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * sequencing has been clarified. No more coins. There is a specified turn order within each round.
 * 1.2
    * allow the pouch to hold duplicate values, but to win you need one of each of the food values: Ace, 2, 3, 4, 5.
+* 1.3
+   * refined off-heap movement to allow diagonal steps
+   * winning now requires being on the highest (or equal highest) spot
+   * the mechanic for taking turns can be confusing, and is definitely helped by using the Snake of Selection to mark the start and direction of rotation of each round
+   * swooshing is very pleasing indeed.
