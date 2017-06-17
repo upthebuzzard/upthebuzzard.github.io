@@ -41,7 +41,7 @@ _Warning: the Tasmanian Devil metaphor is somewhat overstretched here._
 
 Shuffle the deck of 52 playing cards, and deal them face down as 25 mini piles arranged in a 5x5 grid. Doesn't matter if the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
-![An example heap](/assets/img/greedy-devils/P1080042w800.JPG){:width="50%"}
+![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
 
 The value of the top card in each of 5x5 piles represents the height above bedrock of the heap at that location. Aces are low, Kings are high (literally).
 
