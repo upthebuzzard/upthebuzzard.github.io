@@ -140,7 +140,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 * Fill the Pouch
 * ...
 
-# Major changes
+# Major rule changes
 
 * 1.0 The initial version [as submitted to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html)
 * 1.1
