@@ -7,7 +7,7 @@ permalink: /:collection/index.html
 ---
 Welcome!
 
-* [Greedy Devils](greedy-devils) - use a standard deck of playing cards to enter a world of garbage and desperation
+* [Pouches of Destiny](pouches-of-destiny) - use a standard deck of playing cards to enter a world of garbage and marsupial desperation
 
 <BR><BR>
 
