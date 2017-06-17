@@ -3,7 +3,7 @@ layout: page
 title: Greedy Devils
 date: 2017-06-03 10:50
 categories: []
-background_image_url: /assets/1024px-Tasmanian_Devil_roadsign.jpg
+background_image_url: /assets/greedy-devils/1024px-Tasmanian_Devil_roadsign.jpg
 permalink:  /:collection/greedy-devils/
 ---
 ![a Greedy Devil on the heap](/assets/greedy-devils/P1080049w800.JPG)
