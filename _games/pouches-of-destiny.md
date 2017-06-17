@@ -1,28 +1,24 @@
 ---
 layout: page
-title: Greedy Devils
-date: 2017-06-03 10:50
+title: Pouches of Destiny
+date: 2017-06-17 20:44
 categories: []
-background_image_url: /assets/img/greedy-devils/1024px-Tasmanian_Devil_roadsign.jpg
-permalink:  /:collection/greedy-devils/
+permalink:  /:collection/pouches-of-destiny/
+redirect_from: /games/greedy-devils/
 ---
-![a Greedy Devil on the heap](/assets/img/greedy-devils/P1080049w800.JPG)
+![a Tasmanian Devil on the heap](/assets/img/greedy-devils/P1080049w800.JPG)
 
-Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering.
+Pouches of Destiny started as Greedy Devils which started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering.
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.3, 2017-06-04)
+# The Rules (version 1.4, 2017-06-17)
 
 ## Setting the scene
 
-You are greedy [(Tasmanian)](https://en.wikipedia.org/wiki/Tasmanian_devil) devils on an ever-shifting rubbish heap, scrabbling around for food, and fighting for survival. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely.
+You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), scrabbling around for food on an ever-shifting rubbish heap, fighting for survival and supremacy. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely. _(ok, so, marsupials don't usually carry food in their pouches, but, artistic license, dammit!)_
 
-The first greedy devil with a pouch full of 5 different foods, standing on the highest (or equal highest) spot on the heap, when a round has finished, wins.
-
-<p/>{:.porthole}
-
-_Warning: the Tasmanian Devil metaphor is somewhat overstretched here._
+The first marsupial with a pouch full of 5 different foods, standing on the highest (or equal highest) spot on the heap, when a round has finished, wins.
 
 ## You will need
 
@@ -93,13 +89,13 @@ You can only discard onto your own position if it doesn't raise your height by m
 
 ## FIGHT
 
-Any time two or more devils are on the same location, however fleetingly, any of them can immediately initiate a fight.
+Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight.
 
 ![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
-Each devil in turn has a chance to initiate a fight with one other devil. This might mean choosing to fight again with the devil who started the previous fight.
+Each marsupial in turn has a chance to initiate a fight with one other marsupial. This might mean choosing to fight again with the marsupial who started the previous fight.
 
-For each fight between two devils, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. Both cards are immediately discarded. The pouches are revealed again, and the winner (if there is one) chooses a card from the loser's pouch.
+For each fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. Both cards are immediately discarded. The pouches are revealed again, and the winner (if there is one) chooses a card from the loser's pouch.
 
 ## Taking turns
 
@@ -126,10 +122,13 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 * Perhaps the heap could be built from 2 or more decks of cards?
 * No reason why the heap can't expand out beyond the 5x5 grid with discards.
 * Maybe there is a better metaphor than Tasmanian Devils?
+   * Marsupials !
+      * ... which do not carry food in their pouches :-(
 
 # Alternative Names
 
 * Pouches of Destiny
+   * Cheek Pouches of Destiny ? (with squirrels)
 * It's a rubbish life
 * Heap of Trouble
 * Scramble
@@ -149,7 +148,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
       * hearts now is a tie-breaker in fights, rather than an enlarged pouch
       * diamonds now allow climbing higher, rather than moving twice
    * fighting
-      * can now happen any time 2 or more devils occupy the same location, rather than being an explicit action
+      * can now happen any time 2 or more marsupials occupy the same location, rather than being an explicit action
       * sequencing is clarified
    * discarding onto your current location has been clarified, so cannot raise yourself up too high.
    * Staying on a local peak is now ok
@@ -161,3 +160,6 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * winning now requires being on the highest (or equal highest) spot
    * the mechanic for taking turns can be confusing, and is definitely helped by using the Snake of Selection to mark the start and direction of rotation of each round
    * swooshing is very pleasing indeed.
+* 1.4
+   * Name change: Pouches of Destiny !!!
+      * the over-strained metaphor, 'greedy devils', breathes a sigh of relief.
