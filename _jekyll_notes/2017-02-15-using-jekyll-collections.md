@@ -40,7 +40,7 @@ collections:
     title_singular: A Jekyll Note
     description: a collection of notes and observations from and aide-memoires for using Jekyll for the first time.
     sequence: 100
-    background_image_url: /assets/JekyllAndHydeWikipedia.jpg
+    background_image_url: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
     ...etc
 ```
 {% endraw %}
