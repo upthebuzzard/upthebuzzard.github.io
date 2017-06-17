@@ -3,10 +3,10 @@ layout: page
 title: Greedy Devils
 date: 2017-06-03 10:50
 categories: []
-background_image_url: /assets/greedy-devils/1024px-Tasmanian_Devil_roadsign.jpg
+background_image_url: /assets/img/greedy-devils/1024px-Tasmanian_Devil_roadsign.jpg
 permalink:  /:collection/greedy-devils/
 ---
-![a Greedy Devil on the heap](/assets/greedy-devils/P1080049w800.JPG)
+![a Greedy Devil on the heap](/assets/img/greedy-devils/P1080049w800.JPG)
 
 Greedy Devils started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering.
 
@@ -41,7 +41,7 @@ _Warning: the Tasmanian Devil metaphor is somewhat overstretched here._
 
 Shuffle the deck of 52 playing cards, and deal them face down as 25 mini piles arranged in a 5x5 grid. Doesn't matter if the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
-![An example heap](/assets/greedy-devils/P1080042w800.JPG){:width="50%"}
+![An example heap](/assets/img/greedy-devils/P1080042w800.JPG){:width="50%"}
 
 The value of the top card in each of 5x5 piles represents the height above bedrock of the heap at that location. Aces are low, Kings are high (literally).
 
@@ -95,7 +95,7 @@ You can only discard onto your own position if it doesn't raise your height by m
 
 Any time two or more devils are on the same location, however fleetingly, any of them can immediately initiate a fight.
 
-![A fight might happen](/assets/greedy-devils/P1080050w800.JPG)
+![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
 Each devil in turn has a chance to initiate a fight with one other devil. This might mean choosing to fight again with the devil who started the previous fight.
 
@@ -113,7 +113,7 @@ Or make up your own fair solution for mixing up the order in which everyone gets
 
 -- End of the rules --
 
-![Scavenging across the heap](/assets/greedy-devils/P1080043w800.JPG)
+![Scavenging across the heap](/assets/img/greedy-devils/P1080043w800.JPG)
 
 <br><br>
 
