@@ -1,15 +1,12 @@
 ---
 layout: post
-title: Beer for religion
+title: Carnivorous Trees
 date: 2017-06-20 20:50
-publish: false
 categories: [story]
 excerpt: >
-  None yet
+  under construction
 sequence: 9.1
 ---
-Eli/Chel/Greg/Ian/Beryl
-
 The cotton-wool, dipped in hint of stomach acid, thickens in his head. Focusing on anything today except imminent nausea is going to be tricky. Last night's recorder, luckily, is in his bag. No real idea how that happened. No recollection of actually picking it up as they were ejected. Or maybe that had happened earlier. Vague visions of an off-the-record session, but no details surface. He should check the recording to see if it had worked ok, but feared even sounds-of-pub would tip him over the edge into a undignified lurch to the loo.
 
 Now standing up, going through the motions. The daily why-do-we-actually-have-to-stand-up standup. Chel, pleasingly, looks as rough as he feels. But, no lightweight she, rattling though the previous day's doings. On the agenda today? Ah, mixed emotions, for it is a FUMTU situation. No mere SNAFU this. Too many and too serious problems have built up. The Uncles have thrown away all pretense of empowered teams and mandated AHOD. All Hands On Deck. Shore leave is cancelled. A flotilla of approaching icebergs have been spoted, and we really really do not want to hit any of them.
@@ -47,6 +44,7 @@ The stand up stands down. Eli wanders over to Gwen. "Stu off?".
 
 notes
 
+* pub folk: Eli/Chel/Greg/Ian/Beryl
 * it's the breeze
 * all the trees share the same motion params: one waves, all wave
 * quick fix, turn off the breeze.
