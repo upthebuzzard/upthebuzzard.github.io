@@ -12,13 +12,13 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.4, 2017-06-17)
+# The Rules (version 1.5, 2017-06-20)
 
 ## Setting the scene
 
 You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), scrabbling around for food on an ever-shifting rubbish heap, fighting for survival and supremacy. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely. _(ok, so, marsupials don't usually carry food in their pouches, but, artistic license, dammit!)_
 
-The first marsupial with a pouch full of 5 different foods, standing on the highest (or equal highest) spot on the heap, when a round has finished, wins.
+The first marsupial with a pouch full of 5 different foods, standing on the highest possible spot on the heap (i.e. the King), wins.
 
 ## You will need
 
@@ -35,19 +35,27 @@ The first marsupial with a pouch full of 5 different foods, standing on the high
 
 ## Prepare the heap
 
-Shuffle the deck of 52 playing cards, and deal them face down as 25 mini piles arranged in a 5x5 grid. Doesn't matter if the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
+Start with a deck of 52 cards.
+
+Remove three Kings.
+
+For two players, remove three Aces, two 2s, and one 3.
+For three players, remove two Aces, and one 2.
+For four players, remove one Ace.
+
+Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 3x3 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
 ![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
 
-The value of the top card in each of 5x5 piles represents the height above bedrock of the heap at that location. Aces are low, Kings are high (literally).
+The value of the top card in each of the piles represents the height above bedrock of the heap at that location. Aces are low, Kings are high (literally).
 
-You start next to the heap, and can move alongside or onto the heap.
+You start next to the heap, on bedrock, and can move alongside or onto the heap.
 
 ## Your pouch
 
 As you scramble across the heap, you can pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any excess cards.
 
-Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are fighting.
+Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are selecting a card for fighting.
 
 Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch. Furthermore, the cards in your possession 'leach' into you, affecting your capabilities.
 
@@ -83,7 +91,7 @@ You can pick
 
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
-The card is discarded as far away as a MOVE, i.e. to a neighbouring NESW position, or can slide all the way down. When it comes to rest, it is the new top card.
+The card is discarded as far away as a MOVE, i.e. to a neighbouring NESW position, or can slide all the way down. When it comes to rest, it is the new top card. You can discard onto bedrock (spreading the heap out sideways).
 
 You can only discard onto your own position if it doesn't raise your height by more than 4.
 
@@ -103,7 +111,7 @@ In each round, each player takes their turn to choose one action (with a caveat 
 
 For 2 players, alternate who goes first in each round.
 
-For 3 or more players, rotate clockwise around the group who goes first in each round. Within each round, rotate clockwise around the group for the remainder of that round. Once every player has started a round, continue to rotate clockwise around the group for who goes first, but rotate anti-clockwise around the group for the remainder of that round. Etc. It helps to have, say, the Snake of Selection, to mark which player began the current round, and point in which direction the choice is rotating.
+For 3 or more players, pick a player at random to start, then go round clockwise from them for each round. Every so often, at random or when someone complains, pick a new person and direction to start each round.
 
 Or make up your own fair solution for mixing up the order in which everyone gets to make their choices.
 
@@ -163,3 +171,8 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 * 1.4
    * Name change: Pouches of Destiny !!!
       * the over-strained metaphor, 'greedy devils', breathes a sigh of relief.
+* 1.5
+   * simplify Taking Turns
+   * to create more pressure for conflict, limit resources by removing key cards at the start.
+   * require that the player must be on a King card to win
+   * a win can be achieved the moment the conditions are met (not waiting to the end of the round)
