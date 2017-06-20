@@ -30,16 +30,27 @@ Subscription stuff is, apart from being possibly, no, definitely, the most tedio
 The religion thing can wait, for there are wild, rampaging, blood-thirsty trees to lasso.
 
 The stand up stands down. Eli wanders over to Gwen. "Stu off?".
+
 "Yeah. You offering?"
+
 "Can do. We already have blame assignment sorted, with Stu not here, just need to find the actual bug".
+
 "Bugs".
+
 "Oh, more than carnivorous trees?"
+
 "Yeah. Too many carnivorous trees. Did you not read the whole list? We have got ourselves a contradiction. People are complaining because too many trees in the way, but Competitors are winning because they have more foliage."
+
 "Oh, sad face. Politics'n'psychology'n'shit. You taking that one then? You're better at explaining the basics to idiots. I'll have a crack at the Cujo-trees."
+
 "Done. But, and this is important, I want you to leave some comments in the code, in the actual code, in the actual code that you wrote and you are now going to have to read again, or possibly for the first time, explaining what each bit does and in what order. I will not accept your bug fix unless all that is done and there is a big apology in the submission, explaining what went wrong and why what went wrong was not covered by the tests you have never written."
+
 "That's a bit judgmental. It pre-supposes much".
+
 "Nope. Safe bet. Checked with Stu just now, he has not touched the tree code, and neither have I. The tree code we got wholesale, root and branch, from you, not one month ago, with verbal assurances of perfection stated in front of witnesses. The tree code which now appears to be eating people".
+
 "Actually eating them?"
+
 "No, more like whipping them to death, but the complaints coming in are quite graphic. The players are taking it personally. The shrubbery is not, and I quote, meant to be fatal.".
 
 notes
