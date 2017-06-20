@@ -40,7 +40,9 @@ Start with a deck of 52 cards.
 Remove three Kings.
 
 For two players, remove three Aces, two 2s, and one 3.
+
 For three players, remove two Aces, and one 2.
+
 For four players, remove one Ace.
 
 Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 3x3 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
