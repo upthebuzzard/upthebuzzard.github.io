@@ -65,7 +65,7 @@ Eli looked up, once that little speech was over. It was awkward to open up like 
 
 This was a topic they'd never discussed as a group, not even slightly. However, he had a sneaking suspicion that Greg was a card-carrying believer who hid it well, and that Chel had dabbled if not succumbed. The other two could talk guff about any subject from a standing start.
 
-"Told you", said Berly to Chel. This confirmed another suspicion of his that there was a shadowy cabal exchanging info and analysis about the goings on in the company, and that he was the wrong gender to join.
+"Told you", said Beryl to Chel. This confirmed another suspicion of his that there was a shadowy cabal exchanging info and analysis about the goings on in the company, and that he was the wrong gender to join.
 
 Eli continued. "The recorder is so I can participate in the discussion and not get distracted by taking notes. On a training course, a couple of companies ago, it was made clear to me that I was an extrovert, albeit of the shy persuasion, and the (or a) technical definition of an extrovert is that they have to speak in order to find out what they think. That's me. Not one for introspection. I code by myself, but verbalise with others, often with beer.
 
