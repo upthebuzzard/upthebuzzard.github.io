@@ -29,8 +29,7 @@ Jen stopped nodding. "I am caught on the horns of. In the horns of. At the horns
 
 "The official Uncle word is no". Jen looked Eli in the eye and held the stare long enough for a message to pass.
 
-Jen repeated clearly and loudly, "For the benefit of anyone listening, the official Uncle word is no. "
-Then, more softly, "Do I have your attention, Eli?"
+Jen repeated clearly and loudly, "For the benefit of anyone listening, the official Uncle word is no". Then, more softly, "Do I have your attention, Eli?"
 
 Eli, forced into more eye contact in one go than he had mustered with Jen in the last few years in total, blinked, choked, and croaked out a strangled yes. This was properly off-piste. He'd overcome years of bile and bitterness and contact avoidance, a recent borderline-psychotic-breakdown, a dream job change, and now suddenly he was in what looked like cahoots with the object of his psychosis.
 
@@ -42,7 +41,7 @@ They went for a walk, to the Twelve Minute Park across the road, and began circu
 
 "I think the Uncles made a mistake by excluding me from the capacity issues, whilst I was NPC bitch, considering me too tainted by my commitment to the NPCs to be able to think objectively."
 
-Eli started a little, not expecting that (or any) expletive to fall from her lips. He was hot, sweaty, trying to match her stride, shorten his own stride, wishing he was anywhere but here, with anyone but her, career stealer, but knowing this was it. Great things were afoot, about to be said and done. This felt like possibly even the beginnings of an Uncle-avoidance scheme, but with an Uncle. He nodded.
+Eli started a little, not expecting that (or any) expletive to fall from her lips. He was hot, sweaty, trying to match her stride, shorten his own stride, wishing he was anywhere but here, with anyone but her, career stealer, but knowing this was it. Great things were afoot, about to be said and done. This felt like possibly even the beginnings of an Uncle-bypass scheme, but with an Uncle. He nodded.
 
 "Now that you are the NPC bitch, I am therefore untainted and allowed to know. The Uncles are at least consistent. And what I now know I think you should know. They were wrong to keep it from me, and I would be hypocritical if I kept it from you. No-one has said specifically that I should not tell you, and they need not know that I broke the implicit decree of keeping the NPC bitch in the dark. Clear? We are comparing notes on NPC algorithms."
 
@@ -75,6 +74,7 @@ Straight into problem-solving, the male comfort zone, Eli was off and running. "
 Jen took over the sentence,  "but its not a long term thing. I agree. But already that is better than I had hoped. Months is forever. Months is plenty."
 
 "That's one", Jen announced, as they passed the park entrance.
+
 Eli agreed. "That's one".
 
 "So, my thought is", started Jen. "No, wait. Something I'd like to check. Do you see why the NPCs were the way they were?"

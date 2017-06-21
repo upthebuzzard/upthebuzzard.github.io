@@ -117,7 +117,7 @@ Eli, "tactic 3. Now the remaining NPCs have a better chance of beating a player"
 
 "This is not progress as we know it", quipped Chel.
 
-"Well, no, it is, I think. This is progress on multiple fronts. We have a system capable of coming up with some seriously subtle, indirect approaches. We have a system which can, and I'm just making this claim up now so it might be a load of, we have a system which can debug our own rule sets. If there are weaknesses, or logical or practical inconsistancies, the NPCbot approach might be able to ferret out some of the edge cases before we release to real users.
+"Well, no, it is, I think. This is progress on multiple fronts. We have a system capable of coming up with some seriously subtle, indirect approaches. We have a system which can, and I'm just making this claim up now so it might be a load of, we have a system which can debug our own rule sets. If there are weaknesses, or logical or practical inconsistencies, the NPCbot approach might be able to ferret out some of the edge cases before we release to real users.
 
 "In this case, we already have released the melee-maintainer rule, so we probably have to think about how to rescind it."
 

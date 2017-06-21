@@ -7,7 +7,7 @@ excerpt: >
   under construction
 sequence: 9.1
 ---
-The cotton-wool, dipped in hint of stomach acid, thickens in his head. Focusing on anything today except imminent nausea is going to be tricky. Last night's recorder, luckily, is in his bag. No real idea how that happened. No recollection of actually picking it up as they were ejected. Or maybe that had happened earlier. Vague visions of an off-the-record session, but no details surface. He should check the recording to see if it had worked ok, but feared even sounds-of-pub would tip him over the edge into a undignified lurch to the loo.
+The cotton-wool, dipped in hint of stomach acid, thickens in his head. Focusing on anything today except imminent nausea is going to be tricky. Last night's recorder, luckily, is in his bag. No real idea how that happened. No recollection of actually picking it up as they were ejected at OMG-is-that-the-time o'clock. Or maybe that had happened earlier. Vague visions of an off-the-record session, but no details surface. He should check the recording to see if it had worked ok, but fears even sounds-of-pub would tip him over the edge into an undignified lurch to the loo.
 
 Now standing up, going through the motions. The daily why-do-we-actually-have-to-stand-up standup. Chel, pleasingly, looks as rough as he feels. But, no lightweight she, rattling though the previous day's doings. On the agenda today? Ah, mixed emotions, for it is a FUMTU situation. No mere SNAFU this. Too many and too serious problems have built up. The Uncles have thrown away all pretense of empowered teams and mandated AHOD. All Hands On Deck. Shore leave is cancelled. A flotilla of approaching icebergs have been spotted, and we really really do not want to hit any of them.
 
@@ -25,7 +25,7 @@ Competitors are winning, because...
 
 Eli scans the list. Has anything of his blown up?
 
-Subscription stuff is, apart from being possibly, no, definitely, the most tedious aspect of the whole system, nothing to do with him. Straight down to are complaining. Not a long list, in the grand scheme of things. Trading. Nope. Costumes. Nope. Trees. Well, ok, maybe trees. Not his any more, but AHOD. Trees killing players? There's a new one. The day looks better already.
+Subscription stuff is, apart from being possibly, no, definitely, the most tedious aspect of the whole system, nothing to do with him. Straight down to are complaining. Not a long list, as AHODs go. Trading. Nope. Costumes. Nope. Trees. Well, ok, maybe trees. Not his any more, but AHOD. Trees killing players? There's a new one. The day looks better already.
 
 The religion thing can wait, for there are wild, rampaging, blood-thirsty trees to lasso.
 
@@ -47,11 +47,11 @@ The stand up stands down. Eli wanders over to Gwen. "Stu off?".
 
 "That's a bit judgmental. It pre-supposes much".
 
-"Nope. Safe bet. Checked with Stu just now, he has not touched the tree code, and neither have I. The tree code we got wholesale, root and branch, from you, not one month ago, with verbal assurances of perfection stated in front of witnesses. The tree code which now appears to be eating people".
+"Nope. Safe bet. Checked with Stu the Sick just now, he has not touched the tree code, and neither have I. The tree code we got wholesale, root and branch, from you, not one month ago, with verbal assurances of perfection stated in front of witnesses. The tree code which now appears to be eating people".
 
 "Actually eating them?"
 
-"No, more like whipping them to death, but the complaints coming in are quite graphic. The players are taking it personally. The shrubbery is not, and I quote, meant to be fatal.".
+"No, more like whipping them to death, but the complaints coming in are quite graphic. The players are taking it personally. The shrubbery is, and I quote, not meant to be fatal.".
 
 notes
 
