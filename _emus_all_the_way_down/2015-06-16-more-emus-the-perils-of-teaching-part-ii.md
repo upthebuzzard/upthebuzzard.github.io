@@ -5,7 +5,7 @@ date: 2015-06-16 00:18
 categories: [story]
 excerpt: >
   Chel was once again behind and to the left of Eli, talking to the back of his head
-sequence: 7
+sequence: 8
 ---
 "The NPCs attacked each other, ignoring the players. There was carnage, and the players were just bystanders for a while. Only after that did the remaining NPCs attack the players. You said you wanted to make things interesting for the players, and here we are offering them ... what? A fairly niche, if intense, bit of voyeuristic, mass suicide porn?". Chel was once again behind and to the left of Eli, talking to the back of his head as he tweaked a couple of parameters on the demo dashboard.
 
