@@ -85,6 +85,13 @@ collections:
     description: exploring games
     sequence: 30
     reverse_posts: true
+  overgeneralisations:
+    output: true
+    title: Overgeneralisations
+    title_singular: An Overgeneralisation
+    description: observations based on insufficient evidence
+    sequence: 40
+    reverse_posts: true
   distractions:
     output: true
     title: Distractions
