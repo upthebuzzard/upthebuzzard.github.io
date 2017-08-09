@@ -41,7 +41,7 @@ Those challenged can be categorised as follows, according to how they came up wi
 * riffed on the calendar hint, said a word that was close to the answer, noticed belatedly, then found the answer
 * got stuck on a small number of wrong answers and could not break free of them
 
-and how long it took.
+and how long it took:
 
 * within a few minutes, there and then
 * within a few minutes, after a distraction
