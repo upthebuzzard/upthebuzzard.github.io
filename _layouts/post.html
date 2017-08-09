@@ -40,6 +40,8 @@ layout: default
     {{ content }}
 
     {% if page.collection != 'posts' %}
+      {% assign posts = (site[page.collection] | where:"layout", "post" ) %}
+
       {% if page.categories contains "story" %}
         <p></p>
         <div style="text-align:center;">THE</div>
@@ -47,8 +49,11 @@ layout: default
         <p></p>
         {% include story_details.html %}
       {% else %}
-        <h3>Other posts</h3>
-        {% include collection_prev_next.html %}
+        {% if posts.size > 1 %}
+          <h3>Other posts</h3>
+          {% include collection_prev_next.html %}
+        {% endif %}
+
       {% endif %}
     {% endif %}
   </div>
