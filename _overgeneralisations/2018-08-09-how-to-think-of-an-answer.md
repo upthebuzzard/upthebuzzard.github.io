@@ -53,7 +53,7 @@ The numbers (caveat emptor) break down as follows:
 * one third of folk solved it there and then, not getting stuck at all, riffing on the calendar clue, stumbled on the answer, boom. One notable success involved a person spending most of the (less than a) minute saying how they were no good at this kind of thing whilst riffing their way to the answer quickest of all.
 * one third of folk left, muttering to themselves, and then a few minutes later pinged back with the answer.
 
-Of the folk who solved it there and then, the main characteristics were
+Of the folk who solved it there and then, the main characteristics were:
 * they were in a pair who talked out loud to each other with ideas
 * they talked out loud to themself and did not fixate on or repeat any of the wrong ideas they came up with
 
