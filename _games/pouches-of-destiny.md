@@ -5,6 +5,8 @@ date: 2017-06-17 20:44
 categories: []
 permalink:  /:collection/pouches-of-destiny/
 redirect_from: /games/greedy-devils/
+excerpt: >
+  use a standard deck of playing cards to enter a world of garbage and marsupial desperation
 ---
 ![a Tasmanian Devil on the heap](/assets/img/greedy-devils/P1080049w800.JPG)
 
