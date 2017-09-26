@@ -16,10 +16,6 @@ Welcome!
 > {{ item.excerpt }}
 {% endfor %}
 
-{% if totalWordCount > 0 %}
-Total Word Count: {{ totalWordCount }} ...
-{% endif %}
-
 <BR><BR>
 
 <p/>{:.porthole}
