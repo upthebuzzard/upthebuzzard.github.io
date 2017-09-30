@@ -14,7 +14,7 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.5, 2017-06-20)
+# The Rules (version 1.6, 2017-09-30)
 
 ## Setting the scene
 
@@ -32,7 +32,7 @@ The first marsupial with a pouch full of 5 different foods, standing on the high
       * or actual little plastic marsupial figures for that extra touch of authenticity...
          * [these](https://www.safariltd.com/toobs-the-land-down-under-figurines-681404) work nicely ([via UK AMZ](https://www.amazon.co.uk/gp/product/B000GYUYOW))
 * enough space
-   * in the middle, to lay out a 5x5 grid of cards, with room round the edge
+   * in the middle, to lay out a 6x6 grid of cards, with room round the edge
    * in front of each player, to display up to 6 cards
 
 ## Prepare the heap
@@ -47,7 +47,7 @@ For three players, remove two Aces, and one 2.
 
 For four players, remove one Ace.
 
-Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 3x3 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
+Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 4x4 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
 ![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
 
@@ -75,7 +75,7 @@ In each round, each player in turn chooses one of the following actions
 
 ### MOVE
 
-Moves are one step NESW to a neighbouring spot on the 5x5 grid, staying on or beside the heap.
+Moves are one step NESW to a neighbouring spot on the grid, staying on or beside the heap.
 
 If you are beside the heap, you can move diagonally, cutting across the corner of a heap card, to another spot beside the heap.
 
@@ -180,3 +180,5 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * to create more pressure for conflict, limit resources by removing key cards at the start.
    * require that the player must be on a King card to win
    * a win can be achieved the moment the conditions are met (not waiting to the end of the round)
+* 1.6
+   * fixing inconsistencies in the grid sizes
