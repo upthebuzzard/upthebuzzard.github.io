@@ -10,7 +10,7 @@ sequence: 0.5
 
 Eli is under the kitchen table at a party. Not bored, but at a loss, mid-life bewilderment, albeit mid-20s life.
 
-It's a big table, but is not that comfortable underneath. But clean and dry
+It's a big table, but is not that comfortable underneath. Clean and dry, though.
 
 The party ebbs and flows, but it's a big house so the vibe does not focus on the kitchen. There are a few chairs, some crates of beer and cider, and lots of bags and coats.
 
@@ -20,7 +20,7 @@ The music is not loud in the kitchen, much louder in lounge.
 
 He is not sure why he ended up under the table, just sort of happened. This is part of the reason why he is bewildered, not drunk, but has ended up under the table for no good reason.
 
-Someone drags a chair across, and sits at the table, kicks and nudges him in the back in the process. Eli apologises and moves over. There's no reaction, the person stays in chair, doesn't look.
+Someone drags a chair across, and sits at the table, kicks and nudges him in the back in the process. Eli apologises and moves over. There's no reaction, the person stays in their chair, and doesn't look.
 
 Time passes, and it is getting quite hard to sip from the can since he can't easily tip his head back and the can is part empty now. His back is sore, and the bum is very numb, so the decision is to crawl out into the party and apologise on behalf of the group of (now very drunk) friends he came in with.
 
@@ -36,7 +36,7 @@ This breaks concentration of the young woman, "Where did you come from?".
 
 "Too long? Is there a just long enough?".
 
-"Depends, I'm thinking, now, for the first time about the topic, on if there was a purpose to being under the table."
+"Depends. I'm thinking, now, for the first time about the topic, on if there was a purpose to being under the table."
 
 "Ah, that makes sense. And your purpose was?"
 
@@ -48,9 +48,7 @@ This breaks concentration of the young woman, "Where did you come from?".
 
 "Has it helped, sitting under the table?"
 
-"Um, my self-awareness has presumably gone up a notch, although I'm not really happy about what it is I am now aware of, but I can all info is good info if you can make use it."
-
-"Um, can I just say this is the longest conversation I have had with a female in like. Well, ever. Thank you. I guess I should also thank the half can of cider, and the fact that I had not drunk any more of it. So, can I?"
+"Um, my self-awareness has presumably gone up a notch, although I'm not really happy about what it is I am now aware of, but I suppose all info is good info if you can make use it. Um, can I just say this is the longest conversation I have had with a female in like. Well, ever. Thank you. I guess I should also thank the half can of cider, and the fact that I had not drunk any more of it. So, can I?"
 
 "Can you what?"
 
@@ -96,7 +94,7 @@ This breaks concentration of the young woman, "Where did you come from?".
 
 "Um, no, what were you working on? Um. Sorry. I'm being nosey."
 
-"No, it's alright. I brought it up. I am trying to get a picture from some numbers I have collected. I have borrowed my brothers rubberised, ruggedised sorry, laptop, typed up some of the numbers into a spreadsheet, and now I'm trying to make graphs of it."
+"No, it's alright. I brought it up. I am trying to get a picture from some numbers I have collected. I have borrowed my brother's rubberised, ruggedised sorry, laptop, typed up some of the numbers into a spreadsheet, and now I'm trying to make graphs of it."
 
 "You typed *some* of the numbers in? How many are there?"
 
@@ -142,17 +140,19 @@ And that is that.
 
 Eli doesn't feel like staying after that, so slopes off home to his shared flat. Flat mates arrive several hours later. Loud. By all accounts it has been an ok party.
 
+~~~
+
 A week passed. Maybe two. No more parties, but work drifted on. The mid-20s-bewilderment still going strong. There she was again. Walking right towards him. Didn't look angry, much, but was definitely heading for him.
 
 "Hello cider boy."
 
-"Um, sorry. hi."
+"Um, sorry. Hi."
 
 "Pub or cafe?"
 
-"Um, What?"
+"Um. What?"
 
-"That pub, or that cafe. Your choice. I'm buying you one drink whilst I ask you a question. It can be beer of coffee. Or cider. Again, your choice."
+"That pub, or that cafe. Your choice. I'm buying you a drink whilst I ask you a question. It can be beer or coffee. Or cider. Again, your choice."
 
 "You're wearing the same shoes. And trouser things."
 
@@ -188,7 +188,7 @@ A pub and the first round of beers later, she took a deep breath and said, "I as
 
 "Why was the brother who lent me the laptop *older*?"
 
-"Ruggedised laptops are not common, and only fairly senior IT people in companies would be able to get hold of a spare one, and you look too young to have a brother that senior."
+"Ruggedised laptops are not common, and only fairly senior IT people in companies would be able to get hold of a spare one, and you look too young to have a younger brother that senior."
 
 "Nicely played. You got a compliment in there."
 
@@ -212,7 +212,7 @@ A pub and the first round of beers later, she took a deep breath and said, "I as
 
 "OK, So, all that being said, and say I grudgingly admit that most of those points are pretty much on the money, what is my actual job?"
 
-"If all those guesses were right, I would say you were a personal trainer, qualified a couple of years ago. Nothing else really fits."
+"If all those guesses were right, I would say you are a personal trainer, qualified a couple of years ago. Nothing else really fits."
 
 "Hm. OK. I'm caught between feeling like a fool and feeling freaked out. Would you like another drink?"
 
