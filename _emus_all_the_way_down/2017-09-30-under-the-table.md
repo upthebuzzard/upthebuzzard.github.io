@@ -128,7 +128,7 @@ sequence: 0.5
    * "Hm. Let's see. Measure, yes, well, I told you, but over a year? Really? I mean. Hm. Sorry. Go on."
    * "I guessed 10 numbers per hour, for an 8 hour day, for 6 days a week, call it 500 numbers per week, call it one thousand, that's 50 thousand for one year. You said 70 thousand. So that felt like more than a year of numbers."
    * "OK, So, all that being said, and say I grudgingly admit that most of those points are pretty much on the money, what is my actual job?"
-   * "If all those guesses were right, I would say you were a recently qualified personal trainer. Nothing else really fits."
+   * "If all those guesses were right, I would say you were a personal trainer, qualified a couple of years ago. Nothing else really fits."
    * "Hm. OK. I'm caught between feeling like a fool and feeling freaked out. Would you like another drink?"
    * "Yes, but it is my turn. Please? What would you like? Same again?"
    * "OK, another half of whatever that was, unless yours was better?"
@@ -136,3 +136,16 @@ sequence: 0.5
    * "You've deduced that too?"
    * "Well, we've tried them all, if that's what you mean. It was the best one. On tap, anyway."
    * "Go on then. I am here to learn and I might as well also learn what the best beer in this pub tastes like."
+* chat further, Eli asks about the problem, R brings out laptop, shows the spreadsheet, one tab per person
+* numbers from achievements of different clients on the sets of equipment over time, the frustration is that R can sense there is a pattern to how people are improving, regressing, improving on different pieces of apparatus at different times in their program. R's 'encouraging' was always reactive. She could not anticipate some important shifts in motivation. It was some steps forward and a few back, every day, every week.
+* the clients were improving their fitness and strength, but very slowly, and inconsistently. Hence the urge to look at all the numbers together, and not just for one client. Hence the laptop.
+* But no eureka moment.
+* "Have you cleansed your data? Have you tried principal components analysis?"
+   * "Well. No. I typed it in so it should be clean."
+   * "No, I meant have you checked the numbers make sense and there are no typos?"
+   * "I typed them in very carefully."
+   * "OK, so that's a no. It is possible to set up some checks to look for bad numbers"
+   * ...
+   * and PCA
+   * ...
+* With more after work pub sessions over the weeks, sampling the best beer in several pubs, with the laptop in hand, E+R become an emergent item. No one moment is the moment it happens.
