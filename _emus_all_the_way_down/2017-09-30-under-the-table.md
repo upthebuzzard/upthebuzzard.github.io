@@ -120,7 +120,7 @@ This breaks concentration of the young woman, "Where did you come from?".
 
 "Say that list again".
 
-"Um, ok. 5ft7. Run a lot. older sister."
+"Um, ok. 5ft7. Run a lot. Middle sister."
 
 "Keep going."
 
@@ -162,7 +162,7 @@ A week passed. Maybe two. No more parties, but work drifted on. The mid-20s-bewi
 
 "Lead on MacDuff."
 
-A pub and the first round of beers later, she took a deep breath and said, "I asked around at the party. I asked my *younger* brother, who was not in fact the one who lent me this ruggedised laptop (points at bag), if anyone knew you, and no-one seemed to. But when I asked who was in on the joke, there was blank incomprehension, until I described what had gone down in the kitchen and then they just laughed at me and said 'oh, you mean Eli'. When I explained further they just laughed some more, and said 'Yes, that's Eli'". So, Eli, and my name is Rachel, by the way. What did happen in the kitchen? How did you do that?"
+A pub and the first round of beers later, she took a deep breath and said, "I asked around at the party. I asked my *younger* brother, who was not in fact the one who lent me this ruggedised laptop (points at bag), if anyone knew you, at first no-one seemed to. And when I asked who was in on the joke, there was blank incomprehension, until I described what had gone down in the kitchen and then they just laughed at me and said 'oh, you mean Eli'. When I explained further they just laughed some more, and said 'Yes, that's Eli'". So, Eli, and my name is Rachel, by the way. What did happen in the kitchen? How did you do that?"
 
 "Um. What? How did I do what?"
 
@@ -180,7 +180,7 @@ A pub and the first round of beers later, she took a deep breath and said, "I as
 
 "Yes, ok, that can be estimated by eye I guess, although I was sitting down. So, anyway. Hm. Ok. Next. Here I'll turn the page round."
 
-"No, it's ok. Next was 'an older sister of someone there. Not the brother'."
+"No, it's ok. Next was 'middle sister'."
 
 "You remember the whole list?"
 
@@ -206,9 +206,9 @@ A pub and the first round of beers later, she took a deep breath and said, "I as
 
 "You encourage people, like you did with me, and are doing."
 
-"Hm. Let's see. Measure, yes, well, I told you, but over a year? Really? I mean. Hm. Sorry. Go on."
+"Hm. Let's see. Measure, yes, well, maybe I told you that, but over a year? Really? I mean. Hm. Sorry. Go on."
 
-"I guessed 10 numbers per hour, for an 8 hour day, for 6 days a week, call it 500 numbers per week, call it one thousand, that's 50 thousand for one year. You said 70 thousand. So that felt like more than a year of numbers."
+"I guessed 10 numbers per hour, for an 8 hour day, for 6 days a week, call it 500 numbers per week, double that because you seem to work hard, so call it one thousand. That's 50 thousand for one year. You said 70 thousand. So that felt like more than a year of numbers."
 
 "OK, So, all that being said, and say I grudgingly admit that most of those points are pretty much on the money, what is my actual job?"
 
@@ -242,8 +242,8 @@ The clients were improving their fitness and strength, but very slowly, and inco
 
 "OK, so that's a no. It is possible to set up some checks to look for bad numbers".
 
-In strict XP mode, Eli does not touch the keyboard and instead describes how Rachel can put the checks in place.
+In strict XP mode, Eli does not touch the keyboard and instead describes how Rachel can put the checks in place. And just like that, Eli and Rachel are a team.
 
 The same thing happens with PCA.
 
-With more after work pub sessions over the weeks, sampling the best beer in several pubs, with the laptop in hand, with the structure of Rachel's data challenge, the patience with Mr.Awkward, and the happiness to just be talking about interesting stuff with an actual female who seemed interested in the stuff he found interesting, Eli and Rachel became an emergent item. No one moment was the moment it happened.
+With more after work pub sessions over the weeks, sampling the best beer in several pubs, with the laptop in hand, with the structure of Rachel's data challenge, her patience with Mr.Awkward, and his happiness to just be talking about interesting stuff with an actual female who seemed interested in the stuff he found interesting, the team dynamic, Eli and Rachel became an emergent item. No one moment was the moment it happened.
