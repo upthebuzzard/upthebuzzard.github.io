@@ -93,7 +93,7 @@ The world is taking a lead from the Brits on this. They cough and splutter, hem 
 
 With no warning, humanity has come full circle: from king of the castle, to emperor's new clothes, to less than a flea, back to king of the castle again. This time though, it will to be different. For many, there is a new goal. Instead of mere survival, or pursuit of profit, there is a very calm striving for inner fulfilment. Acceptance of, peace with, and improvement of one's own self.
 
-People can, with some care and effort, learn and integrate new emus, just very slowly. The difficulty is bedding in a new emu so it interacts productively with the existing ones. Only in the most extreme cases are there attempts to excise duff emus, but it is fraught with danger. Better to counteract them with new. carefully chosen emus.
+People can, with some care and effort, learn and integrate new emus, just very slowly. The difficulty is bedding in a new emu so it interacts productively with the existing ones. Only in the most extreme cases are there attempts to excise duff emus, but it is fraught with danger. Better to counteract them with new, carefully chosen emus.
 
 Each person has a lifetime in which to pursue the implicit target which has been set by the Super Emus. Lying somewhere between 42 and 1764, there are sets of emus, and perhaps as-yet-undiscovered emus, that lead to greater things (though probably not humans disappearing into the fabric of the world in a puff of heat). It seems, according to copious calculations and research, to be an almost achievable goal, and even scientists now have faith (albeit evidence-based so not really faith at all) that it is a goal worth striving for.
 
