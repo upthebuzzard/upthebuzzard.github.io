@@ -101,7 +101,8 @@ In an irony not lost on the more educated smokers (there were some), smoking its
 
 > “The first puff should be half a lungful, sets the body up, then go the whole hog in the next puff. That's it.”
 
-“You can tell from the volume of smoke shooting out of each nostril if you have a cold on the way. Best take some vitamin C good and early, but with warmed water, don't forget.”</blockquote>
+> “You can tell from the volume of smoke shooting out of each nostril if you have a cold on the way. Best take some vitamin C good and early, but with warmed water, don't forget.”
+
 Body builders (never the brightest of candles) were among the most vulnerable. Body building is basically very hard work, which is enough to put off most normal people from trying. They already drank, ate, or injected anything that was even rumoured to increase muscle mass, ignoring the impact on their testicles. With the new evidence-based approach, sure enough effective techniques were uncovered. Hints and tips for effective quick fixes were spread in the gyms, usually in picture form. Bodies started bulging everywhere.
 
 So dramatic was the change that XL became the new Medium in a matter of months. Clothing retailers appealed to the Retail Watchdog that it would cost a fortune to re-label all clothing with the new sizing. In a rare example of common sense, the retail watchdog agreed. With two announcements (one on PMQ and one on the Graham Norton Show) the word was out and tacitly accepted.
