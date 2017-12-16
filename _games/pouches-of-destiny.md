@@ -20,7 +20,9 @@ Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7
 
 You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), scrabbling around for food on an ever-shifting rubbish heap, fighting for survival and supremacy. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely. _(ok, so, marsupials don't usually carry food in their pouches, but, artistic license, dammit!)_
 
-The first marsupial with a pouch full of 5 different foods, standing on the highest possible spot on the heap (i.e. the King), wins.
+### The winner will be...
+
+... the first marsupial with a pouch full of 5 different foods, standing on the highest visible spot on the heap, wins.
 
 ## You will need
 
@@ -61,7 +63,7 @@ As you scramble across the heap, you can pick up cards to put in your pouch. It 
 
 Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are selecting a card for fighting.
 
-Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch. Furthermore, the cards in your possession 'leach' into you, affecting your capabilities.
+Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch (and to stand on the highest part of the heap). Furthermore, the cards in your possession 'leach' into you, affecting your capabilities.
 
 If you have any
 * Spades => you can PICK two cards (rather than one),
