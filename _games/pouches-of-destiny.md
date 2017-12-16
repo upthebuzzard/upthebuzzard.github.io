@@ -59,11 +59,11 @@ You start next to the heap, on bedrock, and can move alongside or onto the heap.
 
 ## Your pouch
 
-As you scramble across the heap, you can pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any excess cards.
+As you scramble across the heap, you can (and should) pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any excess cards.
 
 Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are selecting a card for fighting.
 
-Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch (and to stand on the highest part of the heap). Furthermore, the cards in your possession 'leach' into you, affecting your capabilities.
+Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch (and to be standing on the highest part of the heap). Furthermore, the cards in your pouch 'leach' into you, affecting your capabilities.
 
 If you have any
 * Spades => you can PICK two cards (rather than one),
@@ -107,9 +107,13 @@ Any time two or more marsupials are on the same location, however fleetingly, an
 
 ![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
-Each marsupial in turn has a chance to initiate a fight with one other marsupial. This might mean choosing to fight again with the marsupial who started the previous fight.
+Each marsupial in turn has one chance to initiate a fight with one other marsupial sharing the same location, with the most-recently arrived marsupial having the first option, then turn-wise round the group of marsupials on the same location. This might mean choosing to fight again with the marsupial who started the previous fight.
 
-For each fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. Both cards are immediately discarded. The pouches are revealed again, and the winner (if there is one) chooses a card from the loser's pouch.
+For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. 
+
+If the result is a draw, both cards are immediately DISCARDed, defender first. 
+
+If the result is a draw, both cards are immediately DISCARDed, loser first. The pouches are revealed again, and the winner chooses a card from the loser's pouch.
 
 ## Taking turns
 
