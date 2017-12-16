@@ -14,13 +14,15 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.6, 2017-09-30)
+# The Rules (version 1.7 2017-12-16)
 
 ## Setting the scene
 
 You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), scrabbling around for food on an ever-shifting rubbish heap, fighting for survival and supremacy. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely. _(ok, so, marsupials don't usually carry food in their pouches, but, artistic license, dammit!)_
 
-The first marsupial with a pouch full of 5 different foods, standing on the highest possible spot on the heap (i.e. the King), wins.
+### The winner will be...
+
+... the first marsupial with a pouch full of 5 different foods, standing on the highest visible spot on the heap, wins.
 
 ## You will need
 
@@ -57,11 +59,11 @@ You start next to the heap, on bedrock, and can move alongside or onto the heap.
 
 ## Your pouch
 
-As you scramble across the heap, you can pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any excess cards.
+As you scramble across the heap, you can (and should) pick up cards to put in your pouch. It can hold a maximum of 5 cards, and you must immediately DISCARD any excess cards.
 
 Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are selecting a card for fighting.
 
-Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch. Furthermore, the cards in your possession 'leach' into you, affecting your capabilities.
+Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch (and to be standing on the highest part of the heap). Furthermore, the cards in your pouch 'leach' into you, affecting your capabilities.
 
 If you have any
 * Spades => you can PICK two cards (rather than one),
@@ -71,7 +73,11 @@ If you have any
 
 ## Actions
 
-In each round, each player in turn chooses one of the following actions
+In each round, each player in turn chooses one of the following deliberate actions
+* MOVE
+* PICK
+* DISCARD
+* or simply do nothing
 
 ### MOVE
 
@@ -91,23 +97,36 @@ You can pick
 * the card you're standing on (and so reveal the one underneath that),
 * or a card from below a higher neighbouring point (as if you're digging into the side of a hill).
 
+If you already have a spade in your pouch, you can pick a second card from the same or a different point.
+
+Having picked one or two cards, if your pouch size is exceeded you must immediately DISCARD enough cards to bring it down to an allowed size.
+
 ### DISCARD
 
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
-The card is discarded as far away as a MOVE, i.e. to a neighbouring NESW position, or can slide all the way down. When it comes to rest, it is the new top card. You can discard onto bedrock (spreading the heap out sideways).
+The card can be 
+* thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4). You can discard onto bedrock (spreading the heap out sideways).
+* dropped onto your own position to become the new top card (unless the new card would raise you by more than 4).
+* buried below a higher neighbouring point.
 
-You can only discard onto your own position if it doesn't raise your height by more than 4.
+Any buried cards are placed face down in a pile below the top, face up card. In other words, the only face up cards on the heap should be on the top of their respective piles, and the top of every pile should be a face up card. All other cards in the heap should be face down. Oh, and, keep each pile neatly stacked.
 
 ## FIGHT
 
-Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight.
+Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight with one of the others on the same location.
 
 ![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
-Each marsupial in turn has a chance to initiate a fight with one other marsupial. This might mean choosing to fight again with the marsupial who started the previous fight.
+Each marsupial in a turn has one chance to initiate one fight. This might mean choosing to fight again with the marsupial who only just initiated the previous fight.
 
-For each fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. Both cards are immediately discarded. The pouches are revealed again, and the winner (if there is one) chooses a card from the loser's pouch.
+The marsupial who has only just arrived has first option, otherwise it is the marsupial who's turn it is. Then the option proceeds turn-wise round the group of marsupials on the same location. 
+
+For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. 
+
+If the result is a draw, both cards are immediately DISCARDed, defender first. 
+
+If the result is a draw, both cards are immediately DISCARDed, loser first. The pouches are revealed again, and the winner chooses a card from the loser's pouch.
 
 ## Taking turns
 
@@ -180,5 +199,12 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * to create more pressure for conflict, limit resources by removing key cards at the start.
    * require that the player must be on a King card to win
    * a win can be achieved the moment the conditions are met (not waiting to the end of the round)
-* 1.6
+* 1.6 (2017-09-30)
    * fixing inconsistencies in the grid sizes
+* 1.7 (2017-12-16)
+   * major rules tweak/update after some good play-testing
+   * discard order after a fight, and after digging two cards with a spade
+   * a new thing -> burying cards
+   * who can first initiate a fight
+   * added feedback form (in addition to the github issue)
+   
