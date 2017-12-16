@@ -106,6 +106,8 @@ The card can be
 * dropped onto your own position to become the new top card (unless the new card would raise you by more than 4).
 * buried below a higher neighbouring point.
 
+Any buried cards are placed face down in a pile below the top, face up card. In other words, the only face up cards on the heap should be on the top of their respective piles, and the top of every pile should be a face up card. All other cards in the heap should be face down. Oh, and, keep each pile neatly stacked.
+
 ## FIGHT
 
 Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight.
