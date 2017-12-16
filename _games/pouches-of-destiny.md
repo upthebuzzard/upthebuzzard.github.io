@@ -12,7 +12,7 @@ excerpt: >
 
 Pouches of Destiny started as Greedy Devils which started as an [entry to the 2017 200WordRPG challenge](/fragments/2017-04-22-greedy-devils.html). Hurriedly squeezing it into 200 words (plus never having actually played it outside of my own head) meant that many nuances needed (a) discovering, and (b) ironing out. After some play-testing, the rules have improved, and it does seem like there is a fun+interesting game in there. Meanwhile, we'll keep tinkering.
 
-Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue] (https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
+Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
 # The Rules (version 1.6, 2017-09-30)
 
