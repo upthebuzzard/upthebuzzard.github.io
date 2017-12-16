@@ -22,7 +22,7 @@ You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), 
 
 ### The winner will be...
 
-... the first marsupial with a pouch full of 5 different foods, standing on the highest visible spot on the heap, wins.
+... the first marsupial with a pouch full of 5 different foods, standing on the highest visible spot on the heap.
 
 ## You will need
 
