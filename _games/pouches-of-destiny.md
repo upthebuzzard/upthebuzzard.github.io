@@ -49,7 +49,7 @@ For three players, remove two Aces, and one 2.
 
 For four players, remove one Ace.
 
-Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 4x4 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
+Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 3x3 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
 ![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
 
