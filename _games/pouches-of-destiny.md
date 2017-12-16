@@ -27,7 +27,7 @@ You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), 
 ## You will need
 
 * a standard deck of playing cards
-* at least 2 players (also works with 3, and we are testing with 4 players e'en now)
+* at least 2 players (also works with 3, and 4 - in fact, the more the better)
 * a unique token to mark each player's position on the heap
    * small enough so that 2 or 3 can fit on a single playing card
    * e.g. chess or monopoly pieces
