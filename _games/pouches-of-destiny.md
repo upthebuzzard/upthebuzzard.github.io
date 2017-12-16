@@ -97,9 +97,10 @@ You can pick
 
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
-The card is discarded as far away as a MOVE, i.e. to a neighbouring NESW position, or can slide all the way down. When it comes to rest, it is the new top card. You can discard onto bedrock (spreading the heap out sideways).
-
-You can only discard onto your own position if it doesn't raise your height by more than 4.
+The card can be 
+* thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4). You can discard onto bedrock (spreading the heap out sideways).
+* dropped onto your own position to become the new top card (unless the new card would raise you by more than 4).
+* buried below a higher neighbouring point.
 
 ## FIGHT
 
