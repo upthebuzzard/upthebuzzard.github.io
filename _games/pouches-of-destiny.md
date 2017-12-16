@@ -14,7 +14,7 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.6, 2017-09-30)
+# The Rules (version 1.7 2017-12-16)
 
 ## Setting the scene
 
@@ -73,7 +73,11 @@ If you have any
 
 ## Actions
 
-In each round, each player in turn chooses one of the following actions
+In each round, each player in turn chooses one of the following deliberate actions
+* MOVE
+* PICK
+* DISCARD
+* or simply do nothing
 
 ### MOVE
 
@@ -195,5 +199,12 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * to create more pressure for conflict, limit resources by removing key cards at the start.
    * require that the player must be on a King card to win
    * a win can be achieved the moment the conditions are met (not waiting to the end of the round)
-* 1.6
+* 1.6 (2017-09-30)
    * fixing inconsistencies in the grid sizes
+* 1.7 (2017-12-16)
+   * major rules tweak/update after some good play-testing
+   * discard order after a fight, and after digging two cards with a spade
+   * a new thing -> burying cards
+   * who can first initiate a fight
+   * added feedback form (in addition to the github issue)
+   
