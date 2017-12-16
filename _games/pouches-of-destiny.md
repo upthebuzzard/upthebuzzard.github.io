@@ -110,11 +110,13 @@ Any buried cards are placed face down in a pile below the top, face up card. In 
 
 ## FIGHT
 
-Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight.
+Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight with one of the others on the same location.
 
 ![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
-Each marsupial in turn has one chance to initiate a fight with one other marsupial sharing the same location, with the most-recently arrived marsupial having the first option, then turn-wise round the group of marsupials on the same location. This might mean choosing to fight again with the marsupial who started the previous fight.
+Each marsupial in a turn has one chance to initiate one fight. This might mean choosing to fight again with the marsupial who only just initiated the previous fight.
+
+The marsupial who has only just arrived has first option, otherwise it is the marsupial who's turn it is. Then the option proceeds turn-wise round the group of marsupials on the same location. 
 
 For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. 
 
