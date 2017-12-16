@@ -93,6 +93,10 @@ You can pick
 * the card you're standing on (and so reveal the one underneath that),
 * or a card from below a higher neighbouring point (as if you're digging into the side of a hill).
 
+If you already have a spade in your pouch, you can pick a second card from the same or a different point.
+
+Having picked one or two cards, if your pouch size is exceeded you must immediately DISCARD enough cards to bring it down to an allowed size.
+
 ### DISCARD
 
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
