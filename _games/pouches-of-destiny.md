@@ -14,48 +14,57 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.7 2017-12-16)
+# The Rules (version 1.8 2017-12-17)
 
 ## Setting the scene
 
 You are highly motivated [marsupials](https://en.wikipedia.org/wiki/Marsupial), scrabbling around for food on an ever-shifting rubbish heap, fighting for survival and supremacy. Everything you carry in your pouch leaches into you, changing your capabilities. Pick wisely. _(ok, so, marsupials don't usually carry food in their pouches, but, artistic license, dammit!)_
 
-### The winner will be...
+You all start next to the heap, on bedrock, at points of your own choosing, with empty pouches.
 
-... the first marsupial with a pouch full of 5 different foods, standing on the highest visible spot on the heap.
+You then take turns to explore the heap, picking up and discarding cards, and possibly fighting.
+
+The winner will be the first marsupial with a pouch full of 5 different foods, standing on the highest visible spot on the heap.
 
 ## You will need
 
-* a standard deck of playing cards
-* at least 2 players (also works with 3, and 4 - in fact, the more the better)
+* a heap, i.e. a standard deck of playing cards
+* at least 2 players (also works with 3, and 4, and probably 5 - in fact, the more the better)
 * a unique token to mark each player's position on the heap
-   * small enough so that 2 or 3 can fit on a single playing card
+   * small enough so that 2 or 3 tokens can fit on a single playing card
    * e.g. chess or monopoly pieces
       * or actual little plastic marsupial figures for that extra touch of authenticity...
          * [these](https://www.safariltd.com/toobs-the-land-down-under-figurines-681404) work nicely ([via UK AMZ](https://www.amazon.co.uk/gp/product/B000GYUYOW))
 * enough space
-   * in the middle, to lay out a 6x6 grid of cards, with room round the edge
-   * in front of each player, to display up to 6 cards
+   * in the middle, to lay out a 6x6 grid of cards, with room round the edge since it might spread wider than that.
+   * in front of each player, to display up to 6 cards.
 
 ## Prepare the heap
 
 Start with a deck of 52 cards.
 
-Remove three Kings.
+Remove three Kings, then
+* for two players, remove three Aces, two 2s, and one 3.
+* for three players, remove two Aces, and one 2.
+* for four players, remove one Ace.
+* for five players, don't remove anything else.
 
-For two players, remove three Aces, two 2s, and one 3.
+Shuffle the remaining deck, and deal the cards face down as 9 mini piles arranged in a 3x3 grid - doesn't matter if the piles have different numbers of cards. 
 
-For three players, remove two Aces, and one 2.
+Turn over the top card of each pile to be face up.
 
-For four players, remove one Ace.
-
-Shuffle the remaining deck, and deal them face down as 9 mini piles arranged in a 3x3 grid. Doesn't matter that the piles have different numbers of cards. Turn over the top card of each pile to be face up and, later, any time the top card is taken from a pile, ensure the revealed card is face up.
+Later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
 ![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
 
-The value of the top card in each of the piles represents the height above bedrock of the heap at that location. Aces are low, Kings are high (literally).
+The value of the top card in each of the piles represents the height above bedrock of the heap at that location. 
+* Bedrock is height 0.
+* Aces are height 1 (i.e. low).
+* Twos are height 2.
+* ...
+* Kings are height 13 (i.e. high).
 
-You start next to the heap, on bedrock, and can move alongside or onto the heap.
+You start next to the heap, on bedrock, at points of your own choosing, and can move alongside or onto the heap.
 
 ## Your pouch
 
@@ -63,7 +72,7 @@ As you scramble across the heap, you can (and should) pick up cards to put in yo
 
 Your pouch cards are laid out in front you, face up, visible to all the other players at all times, except when you are selecting a card for fighting.
 
-Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch (and to be standing on the highest part of the heap). Furthermore, the cards in your pouch 'leach' into you, affecting your capabilities.
+Each card in your pouch can be considered as food (if smaller than 6), or a weapon to be used in a fight (bigger is better). To win, you will need one of each of the possible food values (Ace,2,3,4,5) in your pouch (and to be standing on the highest visible part of the heap). Furthermore, the cards in your pouch 'leach' into you, affecting your capabilities.
 
 If you have any
 * Spades => you can PICK two cards (rather than one),
@@ -83,13 +92,13 @@ In each round, each player in turn chooses one of the following deliberate actio
 
 Moves are one step NESW to a neighbouring spot on the grid, staying on or beside the heap.
 
-If you are beside the heap, you can move diagonally, cutting across the corner of a heap card, to another spot beside the heap.
+If you are beside the heap, on bedrock, you can move diagonally, cutting across the corner of a heap card, to another spot beside the heap.
 
 You can
-* step along to a card of the same value
-* step uphill, from a lower card to a higher-value card, if the difference is less than or equal to 4 (or 5, if you hold a diamond)
-* slide downhill all the way in one glorious swoosh (as far as you choose), as long as you follow a sequence of ever lower cards
-* stay where you are
+* step along to a card of the same value.
+* step uphill, from a lower card (or bedrock) to a higher-value card, if the difference is less than or equal to 4 (or 5, if you hold a diamond).
+* slide downhill over multiple spots in one glorious _swoosh_ (as far as you choose, even down to bedrock), perhaps changing direction along the way, as long as you follow a sequence of ever lower cards.
+* stay where you are.
 
 ### PICK
 
@@ -97,7 +106,7 @@ You can pick
 * the card you're standing on (and so reveal the one underneath that),
 * or a card from below a higher neighbouring point (as if you're digging into the side of a hill).
 
-If you already have a spade in your pouch, you can pick a second card from the same or a different point.
+If you already have a spade in your pouch, you can pick an additional card from the same or a different point.
 
 Having picked one or two cards, if your pouch size is exceeded you must immediately DISCARD enough cards to bring it down to an allowed size.
 
@@ -106,7 +115,7 @@ Having picked one or two cards, if your pouch size is exceeded you must immediat
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
 The card can be 
-* thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4). You can discard onto bedrock (spreading the heap out sideways).
+* thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4, in which case it gets buried under that point, or under a neighbouring point if on bedrock). You can discard onto bedrock (spreading the heap out sideways).
 * dropped onto your own position to become the new top card (unless the new card would raise you by more than 4).
 * buried below a higher neighbouring point.
 
@@ -120,13 +129,13 @@ Any time two or more marsupials are on the same location, however fleetingly, an
 
 Each marsupial in a turn has one chance to initiate one fight. This might mean choosing to fight again with the marsupial who only just initiated the previous fight.
 
-The marsupial who has only just arrived has first option, otherwise it is the marsupial who's turn it is. Then the option proceeds turn-wise round the group of marsupials on the same location. 
+The marsupial who has only just arrived has first option, otherwise it is the marsupial who's turn it currently is. Then the option to initiate a fight proceeds turn-wise round the group of marsupials on the same location. If no-one wants a fight, no fight happens.
 
-For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher score wins. 
+For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher value wins. 
 
 If the result is a draw, both cards are immediately DISCARDed, defender first. 
 
-If the result is a draw, both cards are immediately DISCARDed, loser first. The pouches are revealed again, and the winner chooses a card from the loser's pouch.
+If the result is decisive, both cards are immediately DISCARDed, loser first. The pouches are revealed again, and the winner chooses a card from the loser's pouch.
 
 ## Taking turns
 
@@ -146,15 +155,28 @@ Or make up your own fair solution for mixing up the order in which everyone gets
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
+# Edge Case
 
-# Edge Cases, Worries, Weaknesses, Maybes
+* None known right now, but every play unearths a few.
+
+# Worries & Weaknesses
 
 * So far, the rules have mostly been tuned for 2 players. We anticipate there will be a need to adjust some details for more players to keep things balanced.
-* Perhaps the heap could be built from 2 or more decks of cards?
-* No reason why the heap can't expand out beyond the 5x5 grid with discards.
-* Maybe there is a better metaphor than Tasmanian Devils?
-   * Marsupials !
-      * ... which do not carry food in their pouches :-(
+* With a group of experienced players, it is possible that no-one will win.
+   
+# Maybes  
+
+* Is there a better metaphor than Marsupials?
+   * ... which do not carry food in their pouches :-(
+* The heap could be built from 2 or more decks of cards?
+* Reduce the max step uphill to 2 (or 3 with a diamond)?
+* Make better use of the hearts?
+* Have fighting/movement depend on interactions between the suit of the heap card and the suits in the pouch? 
+* To counter the possibility that a group of experienced players might permanently prevent each other from winning, have a difficulty level which decrements every few rounds to make it easier for someone to win:
+   * reducing the number of food items needed to win?
+   * reducing the height the winner needs to achieve?
+   * increasing the manium pouch size?
+   * increasing the maximum uphill step?
 
 # Alternative Names
 
@@ -207,4 +229,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * a new thing -> burying cards
    * who can first initiate a fight
    * added feedback form (in addition to the github issue)
-   
+* 1.8 (2017-12-17)
+   * general tidy or the wording, typos
+   * added a prep rule for 5 players
+   * re-jigged and added to the Maybes
