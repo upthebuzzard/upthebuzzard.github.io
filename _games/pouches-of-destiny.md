@@ -64,7 +64,7 @@ The value of the top card in each of the piles represents the height above bedro
 * ...
 * Kings are height 13 (i.e. high).
 
-You start next to the heap, on bedrock, at points of your own choosing, and can move alongside or onto the heap.
+You start next to the heap, on bedrock, at locations of your own choosing, and can move alongside or onto the heap.
 
 ## Your pouch
 
@@ -104,9 +104,9 @@ You can
 
 You can pick
 * the card you're standing on (and so reveal the one underneath that),
-* or a card from below a higher neighbouring point (as if you're digging into the side of a hill).
+* or a card from below a higher neighbouring location (as if you're digging into the side of a hill).
 
-If you already have a spade in your pouch, you can pick an additional card from the same or a different point.
+If you already have a spade in your pouch, you can pick an additional card from the same or a different location.
 
 Having picked one or two cards, if your pouch size is exceeded you must immediately DISCARD enough cards to bring it down to an allowed size.
 
@@ -115,9 +115,9 @@ Having picked one or two cards, if your pouch size is exceeded you must immediat
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
 The card can be 
-* thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4, in which case it gets buried under that point, or under a neighbouring point if on bedrock). You can discard onto bedrock (spreading the heap out sideways).
+* thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4, in which case it gets buried under that location, or under a neighbouring location if on bedrock). You can discard onto bedrock (spreading the heap out sideways).
 * dropped onto your own position to become the new top card (unless the new card would raise you by more than 4).
-* buried below a higher neighbouring point.
+* buried below a higher neighbouring NESW location.
 
 Any buried cards are placed face down in a pile below the top, face up card. In other words, the only face up cards on the heap should be on the top of their respective piles, and the top of every pile should be a face up card. All other cards in the heap should be face down. Oh, and, keep each pile neatly stacked.
 
