@@ -181,8 +181,6 @@ So the game is tightly poised, and you are all doing a fine job of stopping anyo
 
 -- End of the rules --
 
-![Scavenging across the heap](/assets/img/greedy-devils/P1080043w800.JPG)
-
 <br><br>
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
