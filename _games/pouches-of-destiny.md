@@ -14,7 +14,7 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.8 2017-12-17)
+# The Rules (version 1.9 2017-12-18)
 
 ## Setting the scene
 
@@ -147,6 +147,31 @@ For 3 or more players, pick a player at random to start, then go round clockwise
 
 Or make up your own fair solution for mixing up the order in which everyone gets to make their choices.
 
+## Advanced Rules
+
+So the game is not enough of a challenge? Well, try these variants on for size.
+
+1. Private Pouches
+   * You keep your pouch private at all times.
+   * The winner of a fight can only choose a card at random from the loser's pouch.
+   * Any cards dug up must be shown before being placed in the pouch.
+   * Will really test your memory and observation skills.
+2. Steeper Hills
+   * You can step uphill only if the difference is 3 or less (or 4 with a diamond).
+      * Or, only if the difference is 2 or less (or 3 with a diamond)
+   * This constraint will demand more attention be applied to building a ramp up to the very high points.
+
+So the game is tightly poised, and you are all doing a fine job of stopping anyone from winning?
+
+* After 10 rounds with no winner
+   * reduce the height the winner needs to get to (to 1 less than the highest visible point)
+   * After another 3 rounds
+      * reduce the number of food items needed to win
+   * After another 3 rounds
+      * reduce the winning height again
+   * etc
+   
+
 -- End of the rules --
 
 ![Scavenging across the heap](/assets/img/greedy-devils/P1080043w800.JPG)
@@ -175,7 +200,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 * To counter the possibility that a group of experienced players might permanently prevent each other from winning, have a difficulty level which decrements every few rounds to make it easier for someone to win:
    * reducing the number of food items needed to win?
    * reducing the height the winner needs to achieve?
-   * increasing the manium pouch size?
+   * increasing the maximum pouch size?
    * increasing the maximum uphill step?
 
 # Alternative Names
@@ -233,3 +258,5 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
    * general tidy or the wording, typos
    * added a prep rule for 5 players
    * re-jigged and added to the Maybes
+* 1.9 (2017-12-18)
+   * added Advanced Rules
