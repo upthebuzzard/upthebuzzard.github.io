@@ -55,8 +55,6 @@ Turn over the top card of each pile to be face up.
 
 Later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
-![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
-
 The value of the top card in each of the piles represents the height above bedrock of the heap at that location. 
 
 Heights
