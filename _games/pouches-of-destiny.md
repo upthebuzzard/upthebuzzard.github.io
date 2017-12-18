@@ -128,7 +128,7 @@ Any buried cards are placed face down in a pile below the top, face up card. In 
 
 ## FIGHT
 
-Any time two or more marsupials are on the same location, however fleetingly, any of them can immediately initiate a fight with one of the others on the same location.
+Any time two or more marsupials end up (or are already) on the same location, unless one of them is merely _swooshing_ past, any of them can immediately initiate a fight with one of the others on the same location.
 
 ![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
