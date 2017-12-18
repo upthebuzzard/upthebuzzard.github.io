@@ -58,11 +58,16 @@ Later, any time the top card is taken from a pile, ensure the revealed card is f
 ![An example heap](/assets/img/greedy-devils/P1080042w800.JPG)
 
 The value of the top card in each of the piles represents the height above bedrock of the heap at that location. 
-* Bedrock is height 0.
-* Aces are height 1 (i.e. low).
-* Twos are height 2.
+
+Heights
+* 13, Kings (i.e. the highest possible)
+* 12, Queens
+* 11, Jacks
+* 10, Tens
 * ...
-* Kings are height 13 (i.e. high).
+*  2, Twos
+*  1, Aces
+*  0, Bedrock
 
 You start next to the heap, on bedrock, at locations of your own choosing, and can move alongside or onto the heap.
 
