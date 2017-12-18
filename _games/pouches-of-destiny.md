@@ -14,7 +14,7 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.9 2017-12-18)
+# The Rules (version 1.9, 2017-12-18)
 
 ## Setting the scene
 
@@ -161,6 +161,8 @@ So the game is not enough of a challenge? Well, try these variants on for size.
    * The winner of a fight can only choose a card at random from the loser's pouch.
    * Any cards dug up must be shown before being placed in the pouch.
    * Will really test your memory and observation skills.
+   * One wrinkle is a lack of transparency about which skills are leaching into one's pouch.
+      * Either you need a good amount of trust, or no leaching.
 2. Steeper Hills
    * You can step uphill only if the difference is 3 or less (or 4 with a diamond).
       * Or, only if the difference is 2 or less (or 3 with a diamond)
