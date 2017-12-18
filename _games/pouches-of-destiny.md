@@ -49,13 +49,13 @@ Remove three Kings, then
 * for four players, remove one Ace.
 * for five players, don't remove anything else.
 
-Shuffle the remaining deck, and deal the cards face down as 9 mini piles arranged in a 3x3 grid - doesn't matter if the piles have different numbers of cards. 
+Shuffle the remaining deck, and deal the cards face down as 9 mini piles arranged in a 3x3 grid - doesn't matter if the piles have different numbers of cards.
 
 Turn over the top card of each pile to be face up.
 
 Later, any time the top card is taken from a pile, ensure the revealed card is face up.
 
-The value of the top card in each of the piles represents the height above bedrock of the heap at that location. 
+The value of the top card in each of the piles represents the height above bedrock of the heap at that location.
 
 Heights
 * 13, Kings (i.e. the highest possible)
@@ -68,6 +68,8 @@ Heights
 *  0, Bedrock
 
 You start next to the heap, on bedrock, at locations of your own choosing, and can move alongside or onto the heap.
+
+<p/>{:.porthole}
 
 ## Your pouch
 
@@ -117,7 +119,7 @@ Having picked one or two cards, if your pouch size is exceeded you must immediat
 
 You can choose to just discard a card from your existing pouch, or maybe you have to make room for a newly picked card.
 
-The card can be 
+The card can be
 * thrown as far away as a MOVE, i.e. to a neighbouring NESW position. As with a MOVE, it could be made to slide all the way down a sequence of ever lower neighbouring postions. When it comes to rest, it is the new top card (unless there is a player already on that location and the new card would raise them by more than 4, in which case it gets buried under that location, or under a neighbouring location if on bedrock). You can discard onto bedrock (spreading the heap out sideways).
 * dropped onto your own position to become the new top card (unless the new card would raise you by more than 4).
 * buried below a higher neighbouring NESW location.
@@ -134,9 +136,9 @@ Each marsupial in a turn has one chance to initiate one fight. This might mean c
 
 The marsupial who has only just arrived has first option, otherwise it is the marsupial who's turn it currently is. Then the option to initiate a fight proceeds turn-wise round the group of marsupials on the same location. If no-one wants a fight, no fight happens.
 
-For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher value wins. 
+For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher value wins.
 
-If the result is a draw, both cards are immediately DISCARDed, defender first. 
+If the result is a draw, both cards are immediately DISCARDed, defender first.
 
 If the result is decisive, both cards are immediately DISCARDed, loser first. The pouches are revealed again, and the winner chooses a card from the loser's pouch.
 
@@ -175,11 +177,9 @@ So the game is tightly poised, and you are all doing a fine job of stopping anyo
    * After another 3 rounds
       * reduce the winning height again
    * etc
-   
+
 
 -- End of the rules --
-
-![Scavenging across the heap](/assets/img/greedy-devils/P1080043w800.JPG)
 
 <br><br>
 
@@ -193,7 +193,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 
 * So far, the rules have mostly been tuned for 2 players. We anticipate there will be a need to adjust some details for more players to keep things balanced.
 * With a group of experienced players, it is possible that no-one will win.
-   
+
 # Maybes  
 
 * Is there a better metaphor than Marsupials?
@@ -201,7 +201,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 * The heap could be built from 2 or more decks of cards?
 * Reduce the max step uphill to 2 (or 3 with a diamond)?
 * Make better use of the hearts?
-* Have fighting/movement depend on interactions between the suit of the heap card and the suits in the pouch? 
+* Have fighting/movement depend on interactions between the suit of the heap card and the suits in the pouch?
 * To counter the possibility that a group of experienced players might permanently prevent each other from winning, have a difficulty level which decrements every few rounds to make it easier for someone to win:
    * reducing the number of food items needed to win?
    * reducing the height the winner needs to achieve?

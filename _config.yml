@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: A Smattering of Stories
 description: >
-  An eclectic mixture of stories, ranging from
-  a bedtime-crowd-sourced children’s detective series
+  An eclectic mixture of writing, ranging from
+  a bedtime-crowd-sourced children’s detective series,
+  via some recent happenings,
   to assorted surreal-ish, near-future musings,
-  and some other stuff,
-  and some notes on using Jekyll (to create this site).
+  and some other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://stories.upthebuzzard.com # upthebuzzard.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: upthebuzzard
@@ -27,7 +27,7 @@ github_username:  upthebuzzard
 github_repo: https://github.com/upthebuzzard/upthebuzzard.github.io
 author: Chris Gathercole
 lang: en
-default_collection_background_image_url: /assets/img/general/P1070749-H800.JPG
+default_background_image_url: /assets/img/general/P1070749-H800.JPG
 auto-generated-title: "in the style of..."
 google_analytics: UA-92309370-1
 
@@ -49,27 +49,27 @@ collections:
     output: true
     title: The Moose and Goose Stories
     title_singular: A Moose and Goose Story
-    description: a collection of stories about Moose and Goose, Solvers of Tricky Problems
+    description: a collection of stories about a pair of Solvers of Tricky Problems
     sequence: 1
     background_image_url: /assets/img/moose-and-goose/P1070818-H800.JPG
   grey_parrot_stories:
     output: true
     title: The Grey Parrot Stories
     title_singular: A Grey Parrot Story
-    description: a collection of stories about the (too) clever grey parrot
+    description: a collection of stories about a (too) clever parrot
     sequence: 2
     background_image_url: /assets/img/grey-parrot/P1070812-H800.JPG
   predicting_the_present:
     output: true
     title: Predicting the Present
     title_singular: A Predicting the Present Story
-    description: these short stories are less predicting the future and more “predicting the present”.
+    description: short stories that are less predicting the future and more about the now.
     sequence: 10
   emus_all_the_way_down:
     output: true
     title: Emus All The Way Down
     title_singular: Emus All The Way Down
-    description: riffing on the Predicting The Present story "Emus All The Way Down".
+    description: riffing on the Predicting The Present story.
     sequence: 11
   fragments:
     output: true
@@ -82,10 +82,10 @@ collections:
     output: true
     title: Notes on games
     title_singular: A Note
-    description: exploring games
+    description: exploring game ideas and mechanics
     sequence: 30
     reverse_posts: true
-    background_image_url: /assets/img/greedy-devils/P1080042w800.JPG
+    background_image_url: /assets/img/greedy-devils/P1080043w800.JPG
   overgeneralisations:
     output: true
     title: Overgeneralisations

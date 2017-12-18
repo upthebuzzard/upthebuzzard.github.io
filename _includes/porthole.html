@@ -10,7 +10,7 @@ You can adjust the size of the portal, e.g.
 To include a portal within an html page, write
   <p class="porthole"/>
   or adjust it, e.g.
-  <p class="porthole" style="height:200px;"/>  
+  <p class="porthole" style="height:200px;"/>
 -->
 <style>
   .porthole {
@@ -20,8 +20,7 @@ To include a portal within an html page, write
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    background-image: url({{ site.default_collection_background_image_url }});
-    {% assign background_image_url = site.default_collection_background_image_url %}
+    {% assign background_image_url = site.default_background_image_url %}
     {% if page.collection %}
       {% assign collection = (site.collections | where:"label", page.collection | first) %}
       {% if collection.background_image_url %}

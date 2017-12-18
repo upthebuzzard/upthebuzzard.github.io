@@ -97,16 +97,22 @@
       </div>
     </nav>
   </div>
-    {% if page.collection %}
-      {% assign collections = (site.collections | sort: 'sequence') %}
-      {% for collection in collections %}
-        {% if collection.label == page.collection %}
-    <blockquote class="site-collection-description">
-      <p>{{ collection.description }}</p>
-    </bloackquote>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+  <blockquote class="site-collection-description">
+    <p>{{ site.description }}</p>
+
+  {% if page.collection %}
+    {% assign collections = (site.collections | sort: 'sequence') %}
+    {% for collection in collections %}
+      {% if collection.label == page.collection %}
+      <h2 class="collection-title">{{collection.title}}</h2>
+      <br>
+  <blockquote class="site-collection-description">
+    <p>{{ collection.description }}</p>
+  </blockquote>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</blockquote>
 
   </div>
 

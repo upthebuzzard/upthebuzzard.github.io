@@ -24,4 +24,22 @@
   <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
+  {% assign background_image_url = site.default_background_image_url %}
+  {% if page.collection %}
+    {% assign collection = (site.collections | where:"label", page.collection | first) %}
+    {% if collection.background_image_url %}
+      {% assign background_image_url = collection.background_image_url %}
+    {% endif %}
+  {% endif %}
+  {% if page.background_image_url %}
+    {% assign background_image_url = page.background_image_url %}
+  {% endif %}
+  {% if background_image_url %}
+  <style>
+  body {
+    background-image: url({{ background_image_url }});
+  }
+  </style>
+  {% endif %}
+
 </head>

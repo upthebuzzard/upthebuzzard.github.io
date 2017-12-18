@@ -15,7 +15,3 @@ Welcome!
 * [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
 > {{ item.excerpt }}
 {% endfor %}
-
-<BR><BR>
-
-<p/>{:.porthole}
