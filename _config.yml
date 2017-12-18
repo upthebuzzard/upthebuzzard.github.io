@@ -85,6 +85,7 @@ collections:
     description: exploring games
     sequence: 30
     reverse_posts: true
+    background_image_url: /assets/img/greedy-devils/P1080042w800.JPG
   overgeneralisations:
     output: true
     title: Overgeneralisations
