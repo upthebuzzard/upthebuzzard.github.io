@@ -30,8 +30,8 @@ Create a file, `_includes/porthole.html`
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    background-image: url({{ site.default_collection_porthole_image_url }});
-    {% assign background_image_url = site.default_collection_porthole_image_url %}
+    background-image: url({{ site.default_background_image_url }});
+    {% assign background_image_url = site.default_background_image_url %}
     {% if page.collection %}
       {% assign collection = (site.collections | where:"label", page.collection | first) %}
       {% if collection.background_image_url %}
@@ -82,7 +82,7 @@ jekyll_notes:
 ```
 {% endraw %}
 
-or specify something like `site.default_collection_porthole_image_url` or even `site.flumpf` in `_config.yml`, or include `background_image_url: /assets/....jpg` in the front matter of an individual post, as long as you refer to it correctly in the porthole.html file.
+or specify something like `site.default_background_image_url` or even `site.flumpf` in `_config.yml`, or include `background_image_url: /assets/....jpg` in the front matter of an individual post, as long as you refer to it correctly in the porthole.html file.
 
 Then, include the porthole as `<p/>{: .porthole}` in any posts (markdown or html) as often as you like, e.g.
 
