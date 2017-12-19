@@ -36,6 +36,8 @@ license_url: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
 theme: minima
 gems:
   - jekyll-feed
