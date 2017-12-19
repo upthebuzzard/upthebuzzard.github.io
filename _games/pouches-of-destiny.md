@@ -196,8 +196,8 @@ So the game is tightly poised, and you are all doing a fine job of stopping anyo
 
 ## Worries & Weaknesses
 
-* So far, the rules have mostly been tuned for 2 players. We anticipate there will be a need to adjust some details for more players to keep things balanced.
-* With a group of experienced players, it is possible that no-one will win.
+* So far, the rules might need different tuning for different numbers of players. We anticipate there will be a need to adjust some details for more players to keep things balanced.
+* With a group of experienced players, it is possible that no-one will win (hence the suggestions in Advanced Rules).
 
 ## Maybes  
 
