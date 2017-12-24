@@ -14,7 +14,7 @@ Pouches of Destiny started as Greedy Devils which started as an [entry to the 20
 
 Any feedback? [Leave a comment via this form](https://goo.gl/forms/ChXFtG8R5gIY7E6J2), or [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 1.9, 2017-12-18)
+# The Rules (version 1.10, 2017-12-24)
 {:.no_toc}
 
 * placeholder
@@ -97,6 +97,8 @@ In each round, each player in turn chooses one of the following deliberate actio
 * DISCARD
 * or simply do nothing
 
+Once the MOVE/PICK/CHOICE has been made, if the payer who's turn it is is on a shared location (whether newly arrived, or still there from an earlier MOVE), there may be a FIGHT.
+
 ## MOVE
 
 Moves are one step NESW to a neighbouring spot on the grid, staying on or beside the heap.
@@ -132,13 +134,13 @@ Any buried cards are placed face down in a pile below the top, face up card. In 
 
 # FIGHT
 
-Any time two or more marsupials end up (or are already) on the same location, unless one of them is merely _swooshing_ past, any of them can immediately initiate a fight with one of the others on the same location.
+Whenever two or more marsupials end up (or are already) on the same location, not merely _swooshing_ past, any of them can initiate a fight with one of the others on the same location.
 
 ![A fight might happen](/assets/img/greedy-devils/P1080050w800.JPG)
 
-Each marsupial in a turn has one chance to initiate one fight. This might mean choosing to fight again with the marsupial who only just initiated the previous fight.
+Each marsupial in a turn has one chance to initiate one fight on a shared location. This might mean choosing to fight again with the marsupial who only just initiated the previous fight.
 
-The marsupial who has only just arrived has first option, otherwise it is the marsupial who's turn it currently is. Then the option to initiate a fight proceeds turn-wise round the group of marsupials on the same location. If no-one wants a fight, no fight happens.
+The option to initiate a fight starts with the marsupial who's turn it currently is, and proceeds turn-wise round the group of marsupials on the same location. If no-one wants a fight, no fight happens.
 
 For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher value wins.
 
@@ -229,6 +231,9 @@ So the game is tightly poised, and you are all doing a fine job of stopping anyo
 
 ## Major rule changes
 
+* 1.10 (2017-12-24)
+   * reduced FIGHT rule to only apply when it is the turn of one of the marsupials on a shared location
+      * i.e. not on every turn
 * 1.9 (2017-12-18)
    * added Advanced Rules
 * 1.8 (2017-12-17)
