@@ -132,7 +132,7 @@ The card can be
 
 Any buried cards are placed face down in a pile below the top, face up card. In other words, the only face up cards on the heap should be on the top of their respective piles, and the top of every pile should be a face up card. All other cards in the heap should be face down. Oh, and, keep each pile neatly stacked.
 
-# FIGHT
+## FIGHT
 
 Whenever two or more marsupials end up (or are already) on the same location, not merely _swooshing_ past, any of them can initiate a fight with one of the others on the same location.
 
