@@ -6,11 +6,14 @@ categories: []
 permalink:  /:collection/cardbot-derby/
 excerpt: >
   use a standard deck of playing cards to enter a world of more or less out of control cardbots
+background_image_url: /assets/img/cardbot/cardbot_robot_perspective_w800.JPG
 ---
 
 Cardbot Derby is the latest in an ongoing challenge to create interesting, non-trivial games using one or more standard decks of playing cards. The main idea was borrowed from [RoboRally](http://avalonhill.wizards.com/games/robo-rally) (a rather splendid fracas of a game), and then twisted to fit the affordances of the cards. Currently it is very much under construction, but first impressions hint that there is enough potential to warrant further iterations.
 
 Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/28).
+
+![robots facing off](/assets/img/cardbot/cardbot_robot_closeup_w800.JPG)
 
 # The Rules (version 0.2, 2017-12-27)
 {:.no_toc}
@@ -38,9 +41,11 @@ Start with the first deck of 52 cards:
 
 * Remove the Aces and one each of a King, Queen, Jack.
 * Lay out the remaining cards, face down, in a 7x7 grid, with two gaps.
-* Replace a line of four cards with the Aces, face up, and use two of the replaced cards to fill in the gaps, face down.
+* Replace a line of four cards with the Aces, face up, and use some of the replaced cards to fill in the gaps in the 7x7 grid, face down.
 * Place the King, Queen, and Jack, face up on the grid, in some spread out positions.
 * _See the picture for a suggested arrangement of Aces and K,Q,J._
+
+![the surface](/assets/img/cardbot/cardbot_surface_w800.JPG)
 
 With the second deck of cards:
 
@@ -49,7 +54,7 @@ With the second deck of cards:
 * The players place their robots on the appropriate starting positions, roughly equidistant from the Jack, which is the first target they are all trying to reach (then the Queen, then the King).
 * _See the picture for the suggested starting positions._
 
-<p/>{:.porthole}
+![starting positions](/assets/img/cardbot/cardbot_starting_positions_w800.JPG)
 
 # Order of Play
 
@@ -70,13 +75,14 @@ Each player enacts their neighbour's commands with their neighbour's robot.
 For each of the 5 command cards, in sync across all the players:
 * Reveal the next command card.
 * Act out the commands in order of highest card first (Aces highest, then King, Q, J, 10, 9, ...2)
+   * If two or more command cards have the same value, use the previous or next cards in the sequences as a tie-breaker (only really matters during multiple collisions).
 * MOVE or TURN the relevant robots appropriately, taking care to work out the consequences of
    * COLLISIONs
    * CONVEYER BELTs
 
 ### MOVE
 
-If the card being played is one of Ace, King, Queen, Jack, Ten,
+If the command card being played is one of Ace, King, Queen, Jack, Ten,
 * move the robot forward by 1 place
    * unless there is a COLLISION
 
@@ -95,7 +101,7 @@ If a robot attempts to enter an occupied location
 
 ### TURN
 
-If the card being played is one of 2-9, turn the robot that many times 90' clockwise.
+If the command card being played is one of 2-9, turn the robot that many times 90' clockwise.
 
 For example, if the card is a
 * 2, turn the robot 2x90', i.e., to face in the opposite direction
@@ -129,7 +135,7 @@ Back to step 1 for the next round.
 
 -- End of the rules --
 
-<br><br>
+<p/>{:.porthole}
 
 Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/28).
 
