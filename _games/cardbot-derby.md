@@ -40,8 +40,8 @@ You are controlling your robot, across a dangerous and complex tubular surface, 
 Start with the first deck of 52 cards:
 
 * Remove the Aces and one each of a King, Queen, Jack.
-* Lay out the remaining cards, face down, in a 7x7 grid, with two gaps.
-* Replace a line of four cards with the Aces, face up, and use some of the replaced cards to fill in the gaps in the 7x7 grid, face down.
+* Lay out the remaining cards, face down, to fill out most of a 7x7 grid.
+* Replace a line of four cards with the Aces, face up, and use some of the replaced cards to fill in the remaining gaps in the 7x7 grid, face down.
 * Place the King, Queen, and Jack, face up on the grid, in some spread out positions.
 * _See the picture for a suggested arrangement of Aces and K,Q,J._
 
