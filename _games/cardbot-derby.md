@@ -12,7 +12,7 @@ Cardbot Derby is the latest in an ongoing challenge to create interesting, non-t
 
 Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
-# The Rules (version 0.1, 2017-12-26)
+# The Rules (version 0.2, 2017-12-27)
 {:.no_toc}
 
 * placeholder
@@ -24,10 +24,10 @@ You are controlling your robot, across a dangerous and complex tubular surface, 
 
 # You will need
 
-* two standard deck of playing cards
-* at least 2 players (also works with 3, and 4, the more the better)
+* two standard decks of playing cards
+* at least 2 players (also works with 3, and 4 - the more the better)
 * a unique token to mark each robot's position and direction on the heap
-   * NB, it needs to be obvious and unambiguous in which direction the token is pointing
+   * NB, it needs to be obvious and unambiguous in which direction the robot is pointing
 * enough space
    * in the middle, to lay out a 7x7 grid of cards
    * in front of each player, to display a few cards.
@@ -46,71 +46,78 @@ With the second deck of cards:
 
 * Sort the cards into suits: Hearts, Clubs, Diamonds, Spades.
 * Each player gets one suit of 13 cards, shuffled, and placed face down in front of them (they are not to be subsequently shuffled or reviewed by the player, unless they reach a target location).
-* The players place their tokens on the appropriate starting positions, roughly equidistant from the Jack, which is the first target they are all trying to reach (then the Queen, then the King).
+* The players place their robots on the appropriate starting positions, roughly equidistant from the Jack, which is the first target they are all trying to reach (then the Queen, then the King).
 * _See the picture for the suggested starting positions._
 
 <p/>{:.porthole}
 
-# Commands
+# Order of Play
 
-## Choose
+## 1. Choose
 
-At the start of each round, each player chooses their set of commands
+At the start of each round, each player chooses their sequence of commands which will be used to control their robot
 * Pick the next 5 cards from the top of their (face down) pile.
+* Review the 5 cards.
 * Sort the 5 cards into a suitable sequence.
-* Hand their 5 command cards, face down, to the next player along.
+* Hand these 5 command cards in a pile, face down, 1st command on top, to the next player along.
 
-## Enact
+Timing is of the essence. Once one player has set up their command card sequence, *all* other players have 30 seconds to do the same, otherwise their 5 cards are handed on as-is.
 
-Each player enacts their neighbour's commands with their neighbour's token.
+## 2. Enact
+
+Each player enacts their neighbour's commands with their neighbour's robot.
 
 For each of the 5 command cards, in sync across all the players:
 * Reveal the next command card.
 * Act out the commands in order of highest card first (Aces highest, then King, Q, J, 10, 9, ...2)
-* MOVE or TURN the relevant tokens appropriately
-   * taking care to work out the consequences of
-      * COLLISIONs
-      * CONVEYER BELTs
+* MOVE or TURN the relevant robots appropriately, taking care to work out the consequences of
+   * COLLISIONs
+   * CONVEYER BELTs
 
 ### MOVE
 
 If the card being played is one of Ace, King, Queen, Jack, Ten,
-* move the token forward by 1 place
+* move the robot forward by 1 place
    * unless there is a COLLISION
 
-The surface on which the tokens move can be considered as tubular. The left and right sides of the grid wrap around and meet. If you go forward off the right hand side of the grid, you move onto the corresponding location on the left hand side, and vice versa.
+The surface on which the robots move can be considered as tubular. The left and right sides of the grid wrap around and meet. If you go forward off the right hand side of the grid, you move onto the corresponding location on the left hand side, and vice versa.
 
-The top and bottom of the grid do not wrap
+The top and bottom of the grid do not wrap.
 
 #### COLLISION
 
-At most one token can ever be on the same location.
+At most one robot can ever be on the one location.
 
-If a token attempts to enter an occupied location
+If a robot attempts to enter an occupied location
 * the mover wins and shoves the occupant along to the neighbouring location
-   * unless that neighbouring location is also occupied, or would push the occupant off the end of the grid, in which case the shoved token pings out sideways, in a direction of the mover's choosing
-      * unless there is no available location for the shoved token to be pinged into, in which case the attempted move fails and neither the shoved nor shover moves.
+   * unless that neighbouring location is also occupied, or would push the occupant off the end of the grid, in which case the shoved robot pings out sideways, in a direction of the mover's choosing
+   * unless there is no available location for the shoved robot to be pinged into, in which case the attempted move fails and neither the shoved nor shover moves.
 
 ### TURN
 
-If the card being played is one of 2-9,
-* and is even, turn the token clockwise
-* or is odd, turn the token anti-clockwise
+If the card being played is one of 2-9, turn the robot that many times 90' clockwise.
+
+For example, if the card is a
+* 2, turn the robot 2x90', i.e., to face in the opposite direction
+* 3, turn the robot 3x90', i.e., to face left
+* 4, the robot spins in place and ends up facing the same direction
+* 5, turn the robot 5x90', i.e. to face right
+* etc
 
 ### CONVEYER BELT
 
-Once the current set of command cards have been acted upon, if a token is sitting on a CONVEYER BELT (i.e., a line of Aces) it is moved one position along the belt (towards the top of the Aces, which, unlike the court and number cards, should have a top and a bottom).
+Once the current command card has been acted upon, for all robots, if a robot is sitting on a CONVEYER BELT (i.e., a line of Aces) it is moved one position along the belt (towards the top of the Aces, which, unlike the court and number cards, should have a top and a bottom).
 
-If the token is already on the last belt position, it is moved onto the next location along from the belt (according to the same rules as a standard MOVE, in the case that location is already occupied).    
+If the robot is already on the last belt position, it is moved onto the next location along from the belt (according to the same rules as a standard MOVE, in the case that location is already occupied).    
 
-## Reset
+## 3. Reset
 
-Once all 5 sets of command cards have been acted out:
-* Return them to the player, to be placed underneath their pile (NB, no shuffling, or reviewing the pile)
-* If, during that round, a player's token was (however fleetingly) on their next target location (in order, Jack, Queen, King),
+Once all 5 commands have been acted out:
+* Return the cards to each player, to be placed face down, underneath their pile (NB, no shuffling, or reviewing the pile)
+* If, during that round, a player's robot was (however fleetingly) on their next target location (in order, Jack, Queen, King),
    * remove the matching card from that player's pile
    * place it face up on the target location
-   * shuffle the remaining pile
+   * shuffle the player's remaining pile, ensuring it remains face down
 
 ### Win !!!
 
@@ -142,16 +149,22 @@ So the game is not enough of a challenge? Well, try these variants on for size.
 
 * have different effects from different cards
    * Aces form a conveyer belt
-   *
+* possible effects
+   * sticky patches (no movement or turning in the next round)
+   * oily patches (turn twice as far)
+   * command interference (respond to a different player's commands)
 
 ## Alternative Names
 
 * Cardbot
 * Cardbot Derby
 * Steeplecard
+* Robocard
 * ...
 
 ## Major rule changes
 
+* 0.2 (2017-12-27)
+   * amended the turn mechanic from odd/even to card num x 90'
 * 0.1 (2017-12-26)
    * the initial version
