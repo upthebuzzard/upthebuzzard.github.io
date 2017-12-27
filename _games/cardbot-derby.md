@@ -10,7 +10,7 @@ excerpt: >
 
 Cardbot Derby is the latest in an ongoing challenge to create interesting, non-trivial games using one or more standard decks of playing cards. The main idea was borrowed from [RoboRally](http://avalonhill.wizards.com/games/robo-rally) (a rather splendid fracas of a game), and then twisted to fit the affordances of the cards. Currently it is very much under construction, but first impressions hint that there is enough potential to warrant further iterations.
 
-Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
+Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/28).
 
 # The Rules (version 0.2, 2017-12-27)
 {:.no_toc}
@@ -131,7 +131,7 @@ Back to step 1 for the next round.
 
 <br><br>
 
-Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
+Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/28).
 
 # Appendix
 
