@@ -143,17 +143,17 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 
 ## Advanced Rules
 
-So the game is not enough of a challenge? Well, try these variants on for size.
-
 * TBC
 
 ## Edge Cases
 
-*
+* 
 
 ## Worries & Weaknesses
 
-*
+* 2-player mode easily turns into a boring procession, with the player in the lead zipping along, and the other floundering, and no collisions
+   * hopefully, more-player mode would work better, with more carnage
+* it is easy to get a bad hand of 5 cards
 
 ## Maybes  
 
@@ -163,6 +163,8 @@ So the game is not enough of a challenge? Well, try these variants on for size.
    * sticky patches (no movement or turning in the next round)
    * oily patches (turn twice as far)
    * command interference (respond to a different player's commands)
+* the winning player has to end the round on the final target?
+* draw more than 5 cards, and select 5 from them
 
 ## Alternative Names
 
