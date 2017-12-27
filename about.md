@@ -16,6 +16,8 @@ The stories fall into a couple of themes:
 * [The Moose &amp; Goose Stories](/moose_and_goose_stories/), for ages 4-11, ish. Problem solving.
 * [The Gray Parrot Stories](/grey_parrot_stories/), for younger ones, say, 3-6, ish. Convoluted solutions.
 
+Assorted writing followed, including some made up nonsense arising from a delayed train commute home, and most recently, some games.
+
 I've gone with the [Creative Commons copyright](http://creativecommons.org/licenses/by-nc-sa/3.0/) which basically means you are free to copy, mangle, and share these stories as you see fit, as long as: you attribute me (by citing [stories.upthebuzzard.com](http://stories.upthebuzzard.com/)); you don't make money from them; and you continue with the same copyright if you distribute what you've made of them. It most especially does mean that you are<strong> free to read them out to your kids and mess about vigorously with the details</strong>, which is kind of the whole point.
 
 If you have any feedback on how the stories pan out under battle conditions, do please let me know.
