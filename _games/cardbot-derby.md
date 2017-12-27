@@ -119,9 +119,13 @@ Once all 5 commands have been acted out:
    * place it face up on the target location
    * shuffle the player's remaining pile, ensuring it remains face down
 
-### Win !!!
+### Win ?
 
 If, by the end of the round, one or more player has reached all 3 targets, in order (i.e. Jack, Queen, King), they have won.
+
+### Repeat
+
+Back to step 1 for the next round.
 
 -- End of the rules --
 
