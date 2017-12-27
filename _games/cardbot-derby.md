@@ -8,6 +8,8 @@ excerpt: >
   use a standard deck of playing cards to enter a world of more or less out of control cardbots
 ---
 
+Cardbot Derby is the latest in an ongoing challenge to create interesting, non-trivial games using one or more standard decks of playing cards. The main idea was borrowed from [RoboRally](http://avalonhill.wizards.com/games/robo-rally) (a rather splendid fracas of a game), and then twisted to fit the affordances of the cards. Currently it is very much under construction, but first impressions hint that there is enough potential to warrant further iterations.
+
 Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzzard/upthebuzzard.github.io/issues/11).
 
 # The Rules (version 0.1, 2017-12-26)
@@ -18,21 +20,101 @@ Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzza
 
 # Setting the scene
 
+You are controlling your robot, across a dangerous and complex tubular surface, with sets of commands. You have a series of locations to reach. Other robots are out there too, and they *will* interfere. The first robot to reach all the locations, in the correct order, is the winner.
+
 # You will need
 
-# Prepare the floor
+* two standard deck of playing cards
+* at least 2 players (also works with 3, and 4, the more the better)
+* a unique token to mark each robot's position and direction on the heap
+   * NB, it needs to be obvious and unambiguous in which direction the token is pointing
+* enough space
+   * in the middle, to lay out a 7x7 grid of cards
+   * in front of each player, to display a few cards.
 
-Start with a deck of 52 cards.
+# Prepare the surface
 
+Start with the first deck of 52 cards:
+
+* Remove the Aces and one each of a King, Queen, Jack.
+* Lay out the remaining cards, face down, in a 7x7 grid, with two gaps.
+* Replace a line of four cards with the Aces, face up, and use two of the replaced cards to fill in the gaps, face down.
+* Place the King, Queen, and Jack, face up on the grid, in some spread out positions.
+* _See the picture for a suggested arrangement of Aces and K,Q,J._
+
+With the second deck of cards:
+
+* Sort the cards into suits: Hearts, Clubs, Diamonds, Spades.
+* Each player gets one suit of 13 cards, shuffled, and placed face down in front of them (they are not to be subsequently shuffled or reviewed by the player, unless they reach a target location).
+* The players place their tokens on the appropriate starting positions, roughly equidistant from the Jack, which is the first target they are all trying to reach (then the Queen, then the King).
+* _See the picture for the suggested starting positions._
 
 <p/>{:.porthole}
 
+# Commands
 
-# Actions
+## Choose
 
-# Taking turns
+At the start of each round, each player chooses their set of commands
+* Pick the next 5 cards from the top of their (face down) pile.
+* Sort the 5 cards into a suitable sequence.
+* Hand their 5 command cards, face down, to the next player along.
 
+## Enact
 
+Each player enacts their neighbour's commands with their neighbour's token.
+
+For each of the 5 command cards, in sync across all the players:
+* Reveal the next command card.
+* Act out the commands in order of highest card first (Aces highest, then King, Q, J, 10, 9, ...2)
+* MOVE or TURN the relevant tokens appropriately
+   * taking care to work out the consequences of
+      * COLLISIONs
+      * CONVEYER BELTs
+
+### MOVE
+
+If the card being played is one of Ace, King, Queen, Jack, Ten,
+* move the token forward by 1 place
+   * unless there is a COLLISION
+
+The surface on which the tokens move can be considered as tubular. The left and right sides of the grid wrap around and meet. If you go forward off the right hand side of the grid, you move onto the corresponding location on the left hand side, and vice versa.
+
+The top and bottom of the grid do not wrap
+
+#### COLLISION
+
+At most one token can ever be on the same location.
+
+If a token attempts to enter an occupied location
+* the mover wins and shoves the occupant along to the neighbouring location
+   * unless that neighbouring location is also occupied, or would push the occupant off the end of the grid, in which case the shoved token pings out sideways, in a direction of the mover's choosing
+      * unless there is no available location for the shoved token to be pinged into, in which case the attempted move fails and neither the shoved nor shover moves.
+
+### TURN
+
+If the card being played is one of 2-9,
+* and is even, turn the token clockwise
+* or is odd, turn the token anti-clockwise
+
+### CONVEYER BELT
+
+Once the current set of command cards have been acted upon, if a token is sitting on a CONVEYER BELT (i.e., a line of Aces) it is moved one position along the belt (towards the top of the Aces, which, unlike the court and number cards, should have a top and a bottom).
+
+If the token is already on the last belt position, it is moved onto the next location along from the belt (according to the same rules as a standard MOVE, in the case that location is already occupied).    
+
+## Reset
+
+Once all 5 sets of command cards have been acted out:
+* Return them to the player, to be placed underneath their pile (NB, no shuffling, or reviewing the pile)
+* If, during that round, a player's token was (however fleetingly) on their next target location (in order, Jack, Queen, King),
+   * remove the matching card from that player's pile
+   * place it face up on the target location
+   * shuffle the remaining pile
+
+### Win !!!
+
+If, by the end of the round, one or more player has reached all 3 targets, in order (i.e. Jack, Queen, King), they have won.
 
 -- End of the rules --
 
@@ -46,6 +128,7 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 
 So the game is not enough of a challenge? Well, try these variants on for size.
 
+* TBC
 
 ## Edge Cases
 
@@ -57,7 +140,9 @@ So the game is not enough of a challenge? Well, try these variants on for size.
 
 ## Maybes  
 
-*
+* have different effects from different cards
+   * Aces form a conveyer belt
+   *
 
 ## Alternative Names
 
