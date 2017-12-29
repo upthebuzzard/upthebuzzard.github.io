@@ -15,7 +15,7 @@ Any feedback? Leave a comment [via a github issue](https://github.com/upthebuzza
 
 ![robots facing off](/assets/img/cardbot/cardbot_robot_closeup_w800.JPG)
 
-# The Rules (version 0.2, 2017-12-27)
+# The Rules (version 0.3, 2017-12-29)
 {:.no_toc}
 
 * placeholder
