@@ -28,7 +28,7 @@ You are controlling your robot, across a dangerous and complex tubular surface, 
 # You will need
 
 * two standard decks of playing cards
-* at least 2 players (also works with 3, and 4 - the more the better)
+* at least 2 players (also works with 3, and 4, and almost certainly more - the more the better)
 * a unique token to mark each robot's position and direction on the heap
    * NB, it needs to be obvious and unambiguous in which direction the robot is pointing
 * enough space
@@ -39,11 +39,13 @@ You are controlling your robot, across a dangerous and complex tubular surface, 
 
 Start with the first deck of 52 cards:
 
-* Remove the Aces and one each of a King, Queen, Jack.
-* Lay out the remaining cards, face down, to fill out most of a 7x7 grid.
-* Replace a line of four cards with the Aces, face up, and use some of the replaced cards to fill in the remaining gaps in the 7x7 grid, face down.
-* Place the King, Queen, and Jack, face up on the grid, in some spread out positions.
-* _See the picture for a suggested arrangement of Aces and K,Q,J._
+* Lay out 49 of the cards, face up, in a 7x7 grid
+* Swap around the cards so that the various features are in the suggested positions
+   * the target cards (red King, Queen, Jack)
+   * the conveyer belt (black Ace, and 3 black number cards)
+   * (see the Advanced Rules for more possible features)
+* Turn all the non-feature cards face down.
+* _See the (now slightly out of date) picture for a suggested arrangement of Aces and K,Q,J._
 
 ![the surface](/assets/img/cardbot/cardbot_surface_w800.JPG)
 
@@ -60,7 +62,7 @@ With the second deck of cards:
 
 ## 1. Choose
 
-At the start of each round, each player chooses their sequence of commands which will be used to control their robot
+At the start of each round, each player decides on their sequence of commands which will be used to control their robot
 * Pick the next 5 cards from the top of their (face down) pile.
 * Review the 5 cards.
 * Sort the 5 cards into a suitable sequence.
@@ -72,13 +74,15 @@ Timing is of the essence. Once one player has set up their command card sequence
 
 Each player enacts their neighbour's commands with their neighbour's robot.
 
-For each of the 5 command cards, in sync across all the players:
-* Reveal the next command card.
-* Act out the commands in order of highest card first (Aces highest, then King, Q, J, 10, 9, ...2)
-   * If two or more command cards have the same value, use the previous or next cards in the sequences as a tie-breaker (only really matters during multiple collisions).
+For the first command, in sync across all the players:
+* Reveal the top (face down) command card.
+* Act out the revealed commands in order of highest card first (Aces highest, then King, Q, J, 10, 9, ...2)
+   * If two or more command cards have the same value, use the previous (if any) or next cards in the sequences as a tie-breaker (only really matters during multiple collisions).
 * MOVE or TURN the relevant robots appropriately, taking care to work out the consequences of
    * COLLISIONs
    * CONVEYER BELTs
+
+Repeat for the next 4 commands.
 
 ### MOVE
 
@@ -92,7 +96,7 @@ The top and bottom of the grid do not wrap.
 
 #### COLLISION
 
-At most one robot can ever be on the one location.
+At most one robot can ever be on a given location.
 
 If a robot attempts to enter an occupied location
 * the mover wins and shoves the occupant along to the neighbouring location
@@ -112,7 +116,7 @@ For example, if the card is a
 
 ### CONVEYER BELT
 
-Once the current command card has been acted upon, for all robots, if a robot is sitting on a CONVEYER BELT (i.e., a line of Aces) it is moved one position along the belt (towards the top of the Aces, which, unlike the court and number cards, should have a top and a bottom).
+Once the current command card has been acted upon, for all robots, if a robot is sitting on a CONVEYER BELT (i.e., a line of black cards starting with an Ace) it is moved one position along the belt (away from the Ace).
 
 If the robot is already on the last belt position, it is moved onto the next location along from the belt (according to the same rules as a standard MOVE, in the case that location is already occupied).    
 
@@ -120,14 +124,14 @@ If the robot is already on the last belt position, it is moved onto the next loc
 
 Once all 5 commands have been acted out:
 * Return the cards to each player, to be placed face down, underneath their pile (NB, no shuffling, or reviewing the pile)
-* If, during that round, a player's robot was (however fleetingly) on their next target location (in order, Jack, Queen, King),
+* If, during that round, a player's robot was (however fleetingly) on their next target location (in order, a red Jack, Queen, King),
    * remove the matching card from that player's pile
-   * place it face up on the target location
+   * place it face up under the target location (so everyone can see which robots have reached that target)
    * shuffle the player's remaining pile, ensuring it remains face down
 
 ### Win ?
 
-If, by the end of the round, one or more player has reached all 3 targets, in order (i.e. Jack, Queen, King), they have won.
+If, by the end of the round, one or more player has reached all 3 targets, in order (i.e. a red Jack, Queen, King), they have won.
 
 ### Repeat
 
@@ -143,26 +147,52 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 
 ## Advanced Rules
 
-* TBC
+### More Robots
+
+This game is 'better' (meaning, more anarchic) the more robots are floundering around in play, so here are some suggestions to increase the robot count
+
+* To have more than 4 players, simply use a 3rd deck of cards to supply sets of command cards, of the same suit, for each extra player
+* For 3 players, run a 4th robot as a random player. Just shuffle their command cards and play them as-is.
+* For 2 players, run 2 robots each.
+   * The winner is now the 1st to get any one of their robots to the final target.
+
+### More Obstacles
+
+Once you have the idea of the one conveyer belt working ok, let your imaginations run riot.
+
+Treat the black cards as special features on the grid, and the red court cards as targets.
+
+* 2 conveyer belts !
+   * Consider each black ace as the start of a conveyer belt, which could run either across or up/down.
+   * Continue the line of the belt with face-up, black number cards.
+   * You could run the belt across the full width of the grid, and any passengers would just keep on going round and round.
+* Teleport
+   * Use the pair of Jacks (J for jump).
+   * Stopping on one Jack teleports the robot to the matching Jack.
+   * If the robot remains on that Jack after the next command, it teleports back again.
+   * And so on until it finally moves off one of the Jacks.
+   * two robots can swap positions simultaneously via the teleport Jacks.
+* Sticky
+   * Use the (sticKy) Kings to mark locations where the robots cannot turn.
+   * All they can do is move forward (or stay still).
+* Slippery
+   * Use the (ice) Queens to mark locations where robots keep moving in the same direction.
+   * Similar to the conveyer belt.
+   * You can never stay on a Queen.
+* Or any other types of obstacles that occur to you...
 
 ## Edge Cases
 
-* 
+* TBC
 
 ## Worries & Weaknesses
 
 * 2-player mode easily turns into a boring procession, with the player in the lead zipping along, and the other floundering, and no collisions
-   * hopefully, more-player mode would work better, with more carnage
+   * more-player mode would work better, with more carnage
 * it is easy to get a bad hand of 5 cards
 
 ## Maybes  
 
-* have different effects from different cards
-   * Aces form a conveyer belt
-* possible effects
-   * sticky patches (no movement or turning in the next round)
-   * oily patches (turn twice as far)
-   * command interference (respond to a different player's commands)
 * the winning player has to end the round on the final target?
 * draw more than 5 cards, and select 5 from them
 
@@ -176,6 +206,8 @@ Any feedback? [Leave a comment](https://github.com/upthebuzzard/upthebuzzard.git
 
 ## Major rule changes
 
+* 0.3 (2017-12-29)
+   * re-assigned cards to different features on the grid
 * 0.2 (2017-12-27)
    * amended the turn mechanic from odd/even to card num x 90'
 * 0.1 (2017-12-26)

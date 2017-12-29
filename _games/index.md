@@ -31,7 +31,7 @@ Here we have a (small) assortment of newly-developed games. So far, they are all
 
 ## Interesting mechanics
 * RoboRally <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/18/roborally))</sub>
-* Carcassonne <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/822/carcassonne)</sub>
+* Carcassonne <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/822/carcassonne))</sub>
 
 # Other reading
 * [some US-centric words on game copyright, trademark, patents](https://boardgamegeek.com/thread/493249/mythbusting-game-design-and-copyright-trademarks-a)
