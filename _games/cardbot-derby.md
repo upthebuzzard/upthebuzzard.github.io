@@ -193,8 +193,8 @@ Treat the black cards as special features on the grid, and the red court cards a
 
 ## Maybes  
 
-* the winning player has to end the round on the final target?
-* draw more than 5 cards, and select 5 from them
+* The winning player has to end the round on the final target?
+* Draw more than 5 cards, and select 5 from them
 
 ## Alternative Names
 
