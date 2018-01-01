@@ -30,14 +30,15 @@ var NMGenerator = (function() {
     for( const text of textList ){
       if (! text ) { continue; }
       let processedText = text
-      .replace(/e\.g\./ig, "eg")
-      .replace(/i\.e\./ig, "ie")
+      .replace(/e\.g\./ig, " eg ")
+      .replace(/i\.e\./ig, " ie ")
       .replace(/Part II?/g, "Part")
+      .replace(/&[a-zA-Z]+;/g, ' ')
       ;
       const sentences = processedText.split('.');
       for( const sentence of sentences ){
         if( !sentence ) {continue;}
-        let words = sentence.match(/\b(\w+(?:[\’\']\w+)?)\b/g); // allow apostrophes to remain in words
+        let words = sentence.match(/\b([a-z]+(?:[\’\']\w+)?)\b/ig); // allow apostrophes to remain in words
         if( !words ) {continue;}
         words = words.map(word => {return word.toLowerCase()});
         for (let w = 0; w < words.length; w++) {
