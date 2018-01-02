@@ -12,6 +12,7 @@ var NMGenerator = (function() {
         starts: {},
         ends: {},
         tupleSets: {},
+        endTupleSets: {},
     }; /*
     a set of groups,
     where each group has
@@ -25,6 +26,7 @@ var NMGenerator = (function() {
 
     for (var n = 1; n <= MAXNGRAM; n++) {
       nmStruct.tupleSets[n] = {};
+      nmStruct.endTupleSets[n] = {};
     }
 
     for( const text of textList ){
@@ -46,6 +48,9 @@ var NMGenerator = (function() {
             if (n <= (w+1)) {
               const tuple = words.slice(w+1-n, w+1); // slice from prev words to current word
               addTuple( nmStruct.tupleSets[n], tuple);
+              if (w === words.length -1 ) { // i.e. a tuple ending on the last word
+                addTuple( nmStruct.endTupleSets[n], tuple);
+              }
             }
           }
         }
@@ -63,6 +68,9 @@ var NMGenerator = (function() {
   }
 
   function addTuple(group, tuple){
+    if (group == null) {
+      throw `addTuple: group==null: tuple=${JSON.stringify(tuple)}`;
+    }
     // console.log(`addTuple: ${tuple}`);
     if (! group.totalCount) {
       group.values     = [];
@@ -113,12 +121,23 @@ var NMGenerator = (function() {
       for (var w = 2; w <= numWords + DEFAULT_END_WITHIN; w++) {
         const ng = (w < maxNG)? w : maxNG;
         let word = null;
-        // start with higher ngram, loop over smaller ngram if returned word is null
-        for (var n = ng; n >= 1; n--) {
-          if ((ng > 2) && (Math.random() < PROPORTION_SKIP_HIGHER_NGRAMS)) { continue; } // don't always use the higher ngram
-          const tupleSoFar = words.slice(w - n, w - 1);
-          word = randomValueFromGroup( nmStruct.tupleSets[ng], tupleSoFar);
-          if (word !== null) { break; }
+
+        const fnNextWordFromTupleSets = function( tupleSets ){
+          let nextWord = null;
+          for (var n = ng; n >= 1; n--) {
+            if ((ng > 2) && (Math.random() < PROPORTION_SKIP_HIGHER_NGRAMS)) { continue; } // don't always use the higher ngram
+            const tupleSoFar = words.slice(w - n, w - 1);
+            nextWord = randomValueFromGroup( tupleSets[ng], tupleSoFar);
+            if (nextWord !== null) { break; }
+          }
+          return nextWord;
+        }
+
+        if (w >= numWords - DEFAULT_END_WITHIN) { // since we are near the end of the sentence, look first for a near-end tuple
+          word = fnNextWordFromTupleSets( nmStruct.endTupleSets );
+        }
+        if (word == null) {
+          word = fnNextWordFromTupleSets( nmStruct.tupleSets );
         }
 
         words.push(word);
@@ -142,6 +161,10 @@ var NMGenerator = (function() {
   }
 
   function randomValueFromGroup(group, tupleSoFar=[]){
+    if (group == null || group == undefined) {
+      throw `randomValueFromGroup: group=${JSON.stringify(group)}: tupleSoFar=${JSON.stringify(tupleSoFar)}`;
+    }
+
     let value = null;
 
     if( tupleSoFar.length == 0 ){
