@@ -200,7 +200,7 @@ So the game is tightly poised, and you are all doing a fine job of stopping anyo
 
 * So far, the rules might need different tuning for different numbers of players. We anticipate there will be a need to adjust some details for more players to keep things balanced.
 * With a group of experienced players, it is possible that no-one will win (hence the suggestions in Advanced Rules).
-* several games end where no-one has noticed that a player has been quietly getting on with business and accumulating A-5 and is next to ahigh point.
+* several games end where no-one has noticed that a player has been quietly getting on with business and accumulating A-5 and is next to a high point.
 * fighting is quite brutal and quickly knock someone back from nearly there to nowhere near
 * some furrowed brows about where cards can be discarded. Confusions about cards-as-height and cards-as-discards
 
