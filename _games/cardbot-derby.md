@@ -45,9 +45,9 @@ Start with the first deck of 52 cards:
    * the conveyer belt (black Ace, and 3 black number cards)
    * (see the Advanced Rules for more possible features)
 * Turn all the non-feature cards face down.
-* _See the (now slightly out of date) picture for a suggested arrangement of Aces and K,Q,J._
+* _See the picture for a suggested arrangement of Aces and K,Q,J, as well as some of the 'advanced' suggestions._
 
-![the surface](/assets/img/cardbot/cardbot_surface_w800.JPG)
+![the surface](/assets/img/cardbot/cardbot_surface_h800.JPG)
 
 With the second deck of cards:
 
