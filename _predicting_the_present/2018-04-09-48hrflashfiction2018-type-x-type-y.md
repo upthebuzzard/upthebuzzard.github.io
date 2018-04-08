@@ -14,7 +14,7 @@ related-posts:
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
 ---
 
-Two figures stand before a jumbled pile of rusting shipping containers. The shorter is in grey and blue police uniform, the taller holds a small camera and wears a bright orange coverall, over the top of civilian clothes, though it is clear the shorter is carrying more weight. Both are fully covered: sunglasses, hats, transparent face masks, high collars, gloves. No bare skin showing.
+Two figures stand before a jumbled pile of rusting shipping containers. The shorter is in grey and blue police uniform. The taller holds a small camera and wears a bright orange coverall, over the top of civilian clothes, though it is clear the shorter is carrying more weight. Both are fully covered: sunglasses, hats, transparent face masks, high collars, gloves. No bare skin showing.
 
 In a thick forest of stacks, neighboring stacks have been knocked outwards, forming a small clearing. Traffic noise is a distant, muted murmur, largely drowned out by the whining of drones surveying the scene.
 
@@ -22,7 +22,7 @@ One container, which has tumbled the furthest, landing upside down, has cracked 
 
 Coverall asks, "Are they all dead? Are you not checking for survivors?". Squats to take a close-up. Two of the smaller, higher-pitched drones, also in orange, take up station either side to record the context in full stereo. A pair of larger, deeper-voiced drones track each orange one.
 
-Uniform answers, "As good as. Nothing there to keep alive. Literally nothing we can do except look for IDs, and sweep up. We've here got ourselves some WAWAGs. The area has been declared conditionally safe. I've been ordered to let you access all..."
+Uniform answers, "As good as. Nothing there to keep alive. Literally nothing we can do except look for IDs, and sweep up. We've here got ourselves some WAWAGs. The area has been declared conditionally safe. I've been ordered to let you access all ..."
 
 "Some what?"
 
@@ -64,7 +64,7 @@ Uniform's turn to shrug. "It wasn't so apparent in the early years. It also wasn
 
 A tattoo is partly visible on the chest: ..ke When White
 
-Uniform continues, "Near as we can guess, the WAWAGs were shown a well equipped stasis centre, professional-looking staff, expensive booths. Once in and out, they were parked in crates like these", miming stacking blocks, "and left in fully autonomous mode. No trace of the time truckers. Any accidents, I'm guessing this one was a gas explosion", pointing a ruptured corner, "and it's game over."
+Uniform continues, "Near as we can guess, the WAWAGs were shown a well equipped stasis centre, professional-looking staff, expensive booths. Once in and out, they were parked in crates like these", miming stacking blocks, "and left in fully autonomous mode. No trace of the time truckers. Any accidents, I'm guessing this one was a gas explosion", pointing at a ruptured corner, "and it's game over."
 
 They stroll around the clearing, checking the other containers for damage.
 
@@ -98,6 +98,6 @@ Coverall leans in close to a body. "You said they were all, er, WAWAGs. Sleeping
 
 "No, white."
 
-Uniform steps over to check. "Na. You are looking at corpses. Frozen, thawing, rotting. Blood drained. You are a civilian. Your eyes are not trained to...". Leans in closer, "Ah, ok. Yes. That's maybe not a WAWAG. And ... this is possibly a bullet wound". Looks up, gestures a drone over, leaving the probe in place for a photo.
+Uniform steps over to check. "Na. You are looking at corpses. Frozen, thawing, rotting. Blood drained. You are a civilian. Your eyes are not trained to ...". Leans in closer, "Ah, ok. Yes. That's maybe not a WAWAG. And ... this is possibly a bullet wound". Looks up, gestures a drone over, leaving the probe in place for a photo.
 
 Uniform continues, "I'm guessing this one was not a paying guest. Congratulations. Is this your first murder victim? Well, technically, the others are murder victims too, but ... ."
