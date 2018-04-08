@@ -2,7 +2,7 @@
 layout: post
 title: TYPE X / TYPE Y
 date: 2018-04-8 15:24
-categories: [story]
+categories: [draft]
 excerpt: >
   draft 2: for submission to the SCI-FI-LONDON 48 Hour Flash Fiction Challenge 2018
 sequence: 6
