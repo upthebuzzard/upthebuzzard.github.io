@@ -13,11 +13,13 @@ related-posts:
 ---
 # TYPE X / TYPE Y
 
-Two uniformed figures stand before a jumbled pile of rusting shipping containers, in a thick forest of stacks. Neighboring stacks have been knocked outwards, forming a small clearing. One container, which has tumbled the furthest, landing upside down, has cracked open. A mixture of bodies and machinery has partly spilled out. There's a strong hospital, chemical smell, and a hint of rotting meat.
+Two uniformed figures stand before a jumbled pile of rusting shipping containers, in a thick forest of stacks. Neighboring stacks have been knocked outwards, forming a small clearing. Traffic noise is a distant, muted murmur, largely drowned out by the high-pitched whining of the drones mapping the scene.
 
-"Are they all dead?"
+One container, which has tumbled the furthest, landing upside down, has cracked open. A mixture of bodies and machinery has partly spilled out. There's a strong hospital, chemical smell, and a hint of rotting meat.
 
-"As good as. Literally nothing we can do except look for IDs, and sweep up. We've got ourselves some WAWAGs. The area has been declared safe."
+The taller, thinner one asks, "Are they all dead?"
+
+The shorter, chunkier one answers, "As good as. Literally nothing we can do except look for IDs, and sweep up. We've got ourselves some WAWAGs. The area has been declared safe."
 
 "Some what?"
 
@@ -25,55 +27,53 @@ Two uniformed figures stand before a jumbled pile of rusting shipping containers
 
 "I'm going to say 'what' again."
 
-"A nest of 'wanna be white again's. They've paid extra for this one. To flush out the melange while they sleep, so's they can wake up the purest of white in a future of white."
+Hands on hips, then pointing and waving a hand, short and chunky declares, "A nest of 'wanna be white again's. They've paid extra for this one. To flush out the melange while they sleep, so's they can wake up the purest of white in a future of white."
 
-"Ye Gods, that was a lifetime ago. Does anyone actually care anymore?"
+Tall and thin turns and looks aghast, "Ye Gods, that was a lifetime ago. Does anyone actually care anymore?"
 
-"Now? Maybe not. Then, and soon after then? Yes. Desperately. Deeply. And expensively."
+Hands on hips again. "Now? Maybe not. Then, and soon after then? Yes. Desperately. Deeply. And expensively."
 
-A watch chimes quietly. "Time for my melange". Retrieves a sachet from a thigh pocket. Chews. Swallows. "Ugh. Does not taste any nicer."
+A watch chimes quietly. "Time for my melange", mutters tall and thin, and retrieves a sachet from a thigh pocket. Chews. Swallows. "Ugh. Does not taste any nicer."
 
-"So, you Type Xs can't miss a serving, huh?"
+Short and chunky stares, "So, you Type Xs can't miss a serving, huh?"
 
 "Nope. Miss one, miss a day. Miss a day, miss a week. Insurance premiums shoot up. Can't go out on external work. Salary drops. Career stumbles. So, no. Can't miss a single serving."
 
-"So, they didn't cover White Nests in basic training?"
+Palms up, short and chunky asks, "So, they didn't cover White Nests in basic training?"
 
-"Nope, although, maybe, yeah. Just a mention of 'hold outs' in passing, but no details. Is this common?"
+Tall and thin frowns, "Nope, although, maybe, yeah. Just a mention of 'hold outs' in passing, but no details. Is this common?"
 
-"Hold Outs! Well, it's a term for it, I guess. Doesn't make the news, but is increasingly part of my and now your working life these days, as the different types of Nest start failing from common causes."
+"Hold Outs!", laughs short and chunky. "Well, it's a term for it, I guess. Doesn't make the news, but is increasingly part of my and now your working life these days, as the different types of Nests start failing from common causes."
 
-"What we have here is a crate full of hold outs. We used to fret about 'people smuggling' across land borders. Now it is across time. Desperate, sad, wealthy people can't face becoming black, unreconstructed racists really. They put themselves at the mercy of time truckers, to sleep through to the return of the ozone layer. To no longer need to be dark skinned. To be safely white. They pay extra to have the temporary melanin gene therapy flushed out while they sleep, to arrive white. Pretend the whole nightmare never happened. The WAWAGs... Look at this one."
+One arm gestures towards the broken container, "What we have here is a crate full of hold outs. We used to fret about 'people smuggling' across land borders from wars to a better economic life. Now it is across time, from climate mayhem and darkening days to a future yesteryear". Fingers miming walking. "Desperate, sad, wealthy people can't face becoming black, unreconstructed racists really. They put themselves at the mercy of time truckers, to sleep them through to the return of the ozone layer. To no longer need to be dark skinned. To be safely white.", Hands either side of the face, looking faux-horrified. "They pay extra to have the temporary melanin gene therapy flushed out while they sleep, to arrive white. Pretend the whole nightmare never happened. The WAWAGs...". Leans over, "Look at this one."
 
 A tattoo is partly visible on the chest: ..ke When White
 
-"The WAWAGs are shown a well equipped stasis centre, professional-looking staff, expensive booths. Once in and out, they are parked in crates like these and left in fully autonomous mode. No trace of the time truckers. Any accidents, I'm guessing this one was a gas explosion, and it's game over."
+Short and chunky continues, "The WAWAGs are shown a well equipped stasis centre, professional-looking staff, expensive booths. Once in and out, they are parked in crates like these", miming stacking blocks, "and left in fully autonomous mode. No trace of the time truckers. Any accidents, I'm guessing this one was a gas explosion", pointing a ruptured corner, "and it's game over."
+
+They stroll around the clearing, checking the other containers for damage.
 
 Both their watches chime loudly, within a second of each other.
 
-"And now UV time. At least this tastes a bit better. You Type Ys still need to take your UVs daily?"
+Tall and thin mutters again, "And now UV time. At least this tastes a bit better. You Type Ys still need to take your UVs daily?"
 
-"Yeah, but a much smaller dose than you Xs. Lowers the cancer risk from the drug. Us naturals multiply its effect. We Ys have sun screen baked in, not painted on like you Xs. Oh yes, Ys are the future. Xs are toast, literally. A ha hah ha. <Cough>. This isn't pissing you off?"
+Short and chunky reaches for a thigh pouch. "Yeah, but a much smaller dose than you Xs. Lowers the cancer risk from the drug. Us naturals", arms akimbo, one hand higher, holding a sachet, body twirling around, "multiply its effect. We Ys have sun screen baked in, not painted on like you Xs. Oh yes", taps tall and thin on the chest with a forefinger, "Ys are the future. Xs are toast, literally. A ha hah ha." _Coughs_. "This isn't ticking you off?"
 
-"Nice try, partner. While I take my pills I'm just as black as you. Us inner-whities are working on fixing the future, UV reduction. Non-reflecting glass and concrete. Re-injecting the ozone layer. All of that stuff. Before you know it, we'll be back in short-sleeved shirts oppressing your black Y asses again. Normal service *will* be resumed."
+"Nice try, _partner_. While I take my pills I'm just as black as you. Meanwhile, us inner-whities are working on fixing a lighter future. UV reduction. Non-reflecting glass and concrete. Re-injecting the ozone layer. All of that stuff. Before you know it, we'll be back in short-sleeved shirts oppressing your black Y asses again. Normal service *will* be resumed."
 
-"Hah. I saw that film too, before they banned it for inciting hatred. What was it called? White Dawn?"
+Short and chunky reaches up to pat tall and thin on the shoulder. "Hah. I saw that film too, before they banned it for inciting hatred. What was it called? White Dawn? A beacon of hope. Probably the last thing these poor schmucks watched."
 
-"A beacon of hope. Probably the last thing these poor schmucks watched."
-
-"Yep. It was bad and sad and mad. Not going to happen. That film was made, what, 20 years after the emergency. We are now 25, 30 years after that. Two generations on. If they were going to do it, they'd've done it by now.
-
-My kids have had the gene therapy, another half way from my tan towards your deep colour. Half the melange. Half the UVs."
+"Yep. It was bad and sad and mad. Not going to happen. That film was made, what, 20 years after the emergency. We are now 25, 30 years after that. Two generations on. If they were going to do it, they'd've done it by now. My kids have had the gene therapy, another half way from my tan towards your deep colour". Chopping actions with one hand into the other palm. "Half the melange. Half the UVs."
 
 "You going the eumelanin route?"
 
-"Oh yeah. The bright red pheomelanin option didn't really cut it. I mean, I'd have to change my wardrobe, my look. Hang out with other reddies. I'd look hot and sweaty all the time. No, the future is brown."
+Tall and thing nods head decisively. "Oh yeah. The bright red pheomelanin option didn't really cut it. I mean, I'd have to change my wardrobe, my look. Hang out with other reddies. I'd look hot and sweaty all the time. No, the future is brown."
 
-"Glad to hear it. Now, we have some rotting whities to ID and bury. We can assume the equipment is scrubbed, but we should be able to correlate the tech with other nests so we can construct a timeline."  
+Short and chunky turns towards the broken container again. "Glad to hear it. Now, we have some rotting whities to ID and bury. Best done quickly before the fragrance strengthens. We can assume the equipment is pretty standard, but we should be able to correlate the tech with other nests so we can construct a timeline. The sleepers often have bank account details tucked into their booths. At least these ones probably went in late enough to not be relying on bitcoin."  
 
-They start climbing up and into the split container.
+They don gloves and masks, and climb up and into the split container.
 
-"You said they were all WAWAGs. Sleeping through to a glorious white future."
+Tall and thin leans in close to a body. "You said they were all, er, WAWAGs. Sleeping through to a glorious white future."
 
 "Yes, so?"
 
@@ -83,4 +83,6 @@ They start climbing up and into the split container.
 
 "No, white."
 
-"Na. You are looking at corpses. Frozen, thawing, rotting. Blood drained. You are a rookie. Your eyes are not yet trained to... Ah, ok. Yes. That's not a WAWAG. And ... that is a bullet wound. I'm guessing this is not voluntary stasis. Congratulations, you may have your first murder victim. Well, technically, the others are murder victims too, but ...".
+Short and chunky steps over to check. "Na. You are looking at corpses. Frozen, thawing, rotting. Blood drained. You are a rookie. Your eyes are not yet trained to...". Leans in closer, " Ah, ok. Yes. That's maybe not a WAWAG. And ... this is possibly a bullet wound". Looks up, gestures a drone over, leaving the probe in place for a photo.
+
+Short and chunky continues, "I'm guessing this one was not a volunteer. Congratulations, you may have your first murder victim. Well, technically, the others are murder victims too, but ...".
