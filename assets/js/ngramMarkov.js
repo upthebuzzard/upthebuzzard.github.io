@@ -13,6 +13,7 @@ var NMGenerator = (function() {
         ends: {},
         tupleSets: {},
         endTupleSets: {},
+        capitalised: {},
     }; /*
     a set of groups,
     where each group has
@@ -42,6 +43,13 @@ var NMGenerator = (function() {
         if( !sentence ) {continue;}
         let words = sentence.match(/\b([a-z]+(?:[\’\']\w+)?)\b/ig); // allow apostrophes to remain in words
         if( !words ) {continue;}
+        // check if the words are capitalised when not the 1st word in a sentence
+        words.slice(1).forEach( word => {
+          if (word.match(/^[A-Z]/)) {
+            nmStruct.capitalised[word.toLowerCase()] = word;
+          }
+        });
+        // normalise all the words and unpack the tuples
         words = words.map(word => {return word.toLowerCase()});
         for (let w = 0; w < words.length; w++) {
           for (let n = 1; n <= MAXNGRAM; n++) {
@@ -140,7 +148,8 @@ var NMGenerator = (function() {
           word = fnNextWordFromTupleSets( nmStruct.tupleSets );
         }
 
-        words.push(word);
+        let displayWord = nmStruct.capitalised.hasOwnProperty(word) ? nmStruct.capitalised[word] : word;
+        words.push(displayWord);
 
         if ( (w >= (numWords - DEFAULT_END_WITHIN)) // if we are nearing the end of the sentence, be looking out for a word from ends
           && nmStruct.ends.values.includes(word) ) {
