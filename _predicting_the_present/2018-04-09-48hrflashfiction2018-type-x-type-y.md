@@ -78,7 +78,7 @@ Uniform reaches for a thigh pouch. "Yeah, but a much smaller dose than you Xs. U
 
 Uniform reaches up to pat Coverall on the shoulder. "Hah. I saw that film too, before they banned it for inciting hatred. What was it called? White Dawn: A beacon of hope? Probably the last thing these poor schmucks watched."
 
-Coverall nodded. "Yep. It was bad and sad and mad. Not going to happen. That film was made, what, 20 years after the emergency. We are now 25, 30 years after that. Two generations on. If they were going to do it, they'd've done it by now. My kids have had the gene therapy, another half way from my X tan towards your deep Y colour". Chopping actions with one hand into the other palm. "Half the melange. Half the UVs."
+Coverall nodded. "Yep. It was bad and sad and mad. Not going to happen. That film was made, what, 20 years after the emergency. We are now 25, 30 years after that. Two generations on. If they were going to do it, they'd've done it by now. My kids have had the gene therapy, another half way from my X tan towards your deep Y". Chopping actions with one hand into the other palm. "Half the melange. Half the UVs."
 
 "You going the eumelanin route?"
 
