@@ -64,7 +64,7 @@ and modifying the processing to sort by sequence
 
 {% raw %}
 ```handlebars
-{% assign collections = (site.collections | sort: 'sequence') %}
+{% assign collections = site.collections | sort: 'sequence' %}
 {% for collection in site.collections %}
   {% if collection.title %}
 * {{ collection.title | escape }}

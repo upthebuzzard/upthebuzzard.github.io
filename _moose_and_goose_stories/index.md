@@ -20,7 +20,7 @@ And so, to the stories. <em>There are tricky problems to solve</em>...
 <p/>{:.porthole}
 
 {% assign totalWordCount = 0 %}
-{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'sequence' %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
   {% assign totalWordCount = totalWordCount | plus: wordCount %}

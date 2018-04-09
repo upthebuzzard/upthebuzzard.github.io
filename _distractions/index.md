@@ -23,7 +23,7 @@ An assortment of links that were to be used as [ distraction \| bribery \| rewar
 * [Fancy domino work](http://www.youtube.com/watch?v=8GWI0A9o_5E). Should be obvious after 10secs or so as to basically what is going on. Fancy domino work. But what is being built?
 * [creative barcodes](http://www.darkroastedblend.com/2008/04/japanese-creative-barcodes.html). Very nice example of an opportunity for some creative art.
 
-{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date') | reverse %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' | reverse %}
 {% if sorted.size > 0 %}
   {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})

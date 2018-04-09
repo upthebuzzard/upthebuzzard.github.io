@@ -7,7 +7,7 @@ permalink: /:collection/index.html
 ---
 So what are these stories about?
 
-{% assign sorted = (site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'sequence') %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'sequence' %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
 * [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)

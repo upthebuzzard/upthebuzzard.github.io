@@ -2,8 +2,8 @@
 ---
 [
   {% assign collection_name = page.collection %}{%
-  assign collection = (site.collections | where:"label", collection_name | first %}{%
-  assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date' | reverse)
+  assign collection = site.collections | where:"label", collection_name | first %}{%
+  assign posts = site[collection_name] | where:"layout", "post" | sort: 'date' | reverse
   %}{% for post in posts %}
   {
     "title"    : {{ post.title | jsonify }},

@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <!-- <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> -->
-      {% assign collection = (site.collections | where:"label", page.collection | first %}
+      {% assign collection = site.collections | where:"label", page.collection | first %}
       <a href=".">{{ collection.title_singular }}</a>
       {% if page.author %}
         {% assign author = page.author %}
@@ -40,7 +40,7 @@ layout: default
     {{ content }}
 
     {% if page.collection != 'posts' %}
-      {% assign posts = (site[page.collection] | where:"layout", "post" ) %}
+      {% assign posts = site[page.collection] | where:"layout", "post"  %}
 
       {% if page.categories contains "story" %}
         <p></p>

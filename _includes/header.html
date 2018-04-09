@@ -17,7 +17,7 @@
 
       <div class="trigger">
         <!-- list main collections -->
-        {% assign collections = (site.collections | sort: 'sequence') %}
+        {% assign collections = site.collections | sort: 'sequence' %}
         {% for collection in collections %}
           {% if collection.label == page.collection %}
             {% assign prefix = "*&nbsp;" %}
@@ -47,7 +47,7 @@
         {% if page.collection %}
 
           <!-- list posts in collection -->
-          {% assign sorted_posts = (site[page.collection] | where:"layout", "post" | sort: 'date' | sort: 'sequence') %}
+          {% assign sorted_posts = site[page.collection] | where:"layout", "post" | sort: 'date' | sort: 'sequence' %}
           {% if reverse_collection_posts %}
             {% assign sorted_posts = sorted_posts | reverse %}
           {% endif %}
@@ -64,7 +64,7 @@
           {% endif %}
 
           <!-- list pages in collection -->
-          {% assign sorted_pages = (site[page.collection] | where:"layout", 'page' | sort: 'date' | sort: 'sequence') %}
+          {% assign sorted_pages = site[page.collection] | where:"layout", 'page' | sort: 'date' | sort: 'sequence' %}
           {% if sorted_pages.size > 0 %}
             <hr/>
             {% for my_page in sorted_pages %}
@@ -78,7 +78,7 @@
           {% endif %}
 
           <!-- list auto-generated page in collection -->
-          {% assign sorted_pages = (site[page.collection] | where:"layout", 'auto-generated' | sort: 'date' | sort: 'sequence') %}
+          {% assign sorted_pages = site[page.collection] | where:"layout", 'auto-generated' | sort: 'date' | sort: 'sequence' %}
           {% if sorted_pages.size > 0 %}
             <hr/>
             {% for my_page in sorted_pages %}
@@ -101,7 +101,7 @@
     <p>{{ site.description }}</p>
 
   {% if page.collection %}
-    {% assign collections = (site.collections | sort: 'sequence') %}
+    {% assign collections = site.collections | sort: 'sequence' %}
     {% for collection in collections %}
       {% if collection.label == page.collection %}
       <h2 class="collection-title"><a href="{{ collection.label | relative_url}}">{{collection.title}}</a></h2>

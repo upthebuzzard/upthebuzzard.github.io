@@ -8,10 +8,10 @@ layout: home
 
 <h2 class="page-heading">Collections</h2>
 
-{% assign sorted = (site.collections | sort: 'sequence') %}
+{% assign sorted = site.collections | sort: 'sequence' %}
 {% for collection in sorted %}
   {% if collection.label != "posts" %}
-    {% assign posts = (site[collection.label] | where:"layout", "post") %}
+    {% assign posts = site[collection.label] | where:"layout", "post" %}
 * [{{ collection.title }}]({{ collection.label }}) {% if posts.size > 0 %}[ {{ posts.size }} ]{% endif %}
 > {{ collection.description }}
 

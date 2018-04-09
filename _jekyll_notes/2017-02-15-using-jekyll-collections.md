@@ -65,8 +65,8 @@ layout: default
 </article>
 
 {% assign collection_name = page.collection %}
-{% assign collection = (site.collections | where:"label", collection_name | first %}
-{% assign posts = (site[collection_name] | where:"layout", "post") %}
+{% assign collection = site.collections | where:"label", collection_name | first %}
+{% assign posts = site[collection_name] | where:"layout", "post" %}
 {% if posts.size > 0 %}
 <h3>The collection also available</h3>
 
@@ -85,11 +85,11 @@ title: Jeykll Notes
 categories: []
 permalink: /:collection/index.html
 ---
-{% assign collection = (site.collections | where:"label", page.collection | first %}
+{% assign collection = site.collections | where:"label", page.collection | first %}
 {{ collection.description }}
 
 # Posts
-{% assign sorted = (collection.docs | where:"layout", "post" | sort: 'date') %}
+{% assign sorted = collection.docs | where:"layout", "post" | sort: 'date' %}
 {% for item in sorted %}
 * [{{ item.title }}]({{ item.url }})
 > {{ item.excerpt }}
@@ -102,7 +102,7 @@ You can create a site-wide nav of all the collections and top-level pages, by am
 {% raw %}
 ```jekyll
 <div class="trigger">
-  {% assign collections = (site.collections | sort: 'sequence') %}
+  {% assign collections = site.collections | sort: 'sequence' %}
   {% for collection in collections %}
     {% if collection.title %}
     <a class="page-link" href="{{ collection.label | relative_url }}">{{ collection.title | escape }}</a>
