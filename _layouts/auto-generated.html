@@ -4,7 +4,7 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    {% assign collection = (site.collections | where:"label", page.collection | first %}
+    {% assign collection = site.collections | where:"label", page.collection | first %}
 
     <h1 class="post-title"><em>{{ site.auto-generated-title }}</em> 
       <br><a href="{{ collection.label | relative_url }}">{{ collection.title | escape }}</a>

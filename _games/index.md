@@ -10,7 +10,7 @@ Welcome!
 Here we have a (small) assortment of newly-developed games. So far, they are all based on the premise of using standard playing cards to make something interesting and challenging.
 
 {% assign totalWordCount = 0 %}
-{% assign sorted = (site[page.collection] | where:"layout", "page" | sort: 'sequence') %}
+{% assign sorted = site[page.collection] | where:"layout", "page" | sort: 'sequence' %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
   {% assign totalWordCount = totalWordCount | plus: wordCount %}

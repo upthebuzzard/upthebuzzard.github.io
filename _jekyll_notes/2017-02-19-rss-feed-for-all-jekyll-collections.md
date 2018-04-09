@@ -37,7 +37,7 @@ and create the file, `_includes/all_feed.xml`
       for post in posts limit:10 %}{%
         assign collection_prefix = "" %}{%
         if post.collection != "posts" %}{%
-          assign collection = (site.collections | where:"label", post.collection | first %}{%
+          assign collection = site.collections | where:"label", post.collection | first %}{%
           capture collection_prefix %}{{ collection.title_singular }} - {% endcapture %}{%
           endif
         %}<item>

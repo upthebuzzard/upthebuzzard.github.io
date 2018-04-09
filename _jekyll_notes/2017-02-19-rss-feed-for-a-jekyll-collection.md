@@ -41,8 +41,8 @@ and create the file, `_includes/collection_feed.xml`
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 {% assign collection_name = page.collection %}{%
-assign collection = (site.collections | where:"label", collection_name | first %}{%
-assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
+assign collection = site.collections | where:"label", collection_name | first %}{%
+assign posts = site[collection_name] | where:"layout", "post" | sort: 'date')
 %}<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}">
     <channel>
         <title>{{ collection.title }}</title>
@@ -79,8 +79,8 @@ NB, because the handlebar processing has side-effects and leaves newlines in the
 {% raw %}
 ```handlebars
 {% assign collection_name = page.collection %}
-{% assign collection = (site.collections | where:"label", collection_name | first %}
-{% assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date') %}
+{% assign collection = site.collections | where:"label", collection_name | first %}
+{% assign posts = site[collection_name] | where:"layout", "post" | sort: 'date' %}
 ```
 {% endraw %}
 
@@ -92,8 +92,8 @@ Instead, doing the least-worst mangling of the code as follows
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 {% assign collection_name = page.collection %}{%
-assign collection = (site.collections | where:"label", collection_name | first %}{%
-assign posts = (site[collection_name] | where:"layout", "post" | sort: 'date')
+assign collection = site.collections | where:"label", collection_name | first %}{%
+assign posts = site[collection_name] | where:"layout", "post" | sort: 'date')
 %}<rss version="2.0"
 ```
 {% endraw %}

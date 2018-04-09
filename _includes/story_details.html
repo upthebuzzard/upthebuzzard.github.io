@@ -7,7 +7,7 @@
   <hr />
   <div>
     ...
-    {% assign collection = (site.collections | where:"label", page.collection | first %}
+    {% assign collection = site.collections | where:"label", page.collection | first %}
     <br><strong>{{ page.title }}</strong>
     <br>(from <a href=".">{{ collection.title }}</a>)
     <br>by {{ site.author }}

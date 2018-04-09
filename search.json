@@ -8,7 +8,7 @@
     | where_exp:"item", "item.layout != 'auto-generated'"
     | reverse %}
   {% for post in posts %}
-  {% assign collection = (site.collections | where:"label", post.collection | first) %}
+  {% assign collection = site.collections | where:"label", post.collection | first %}
   {
     "title"    : {{ post.title | jsonify }},
     "categories" : [{% for c in post.categories %}"{{ c }}",{% endfor %} null],

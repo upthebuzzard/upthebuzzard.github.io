@@ -6,7 +6,7 @@ categories: []
 permalink: /:collection/index.html
 ---
 
-{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'date' | reverse) %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' | reverse %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
 * [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)

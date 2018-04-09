@@ -16,7 +16,7 @@ Pieces so far:
 who's there at the start (or one of the starts) and works out what happens at the end
 
 {% assign totalWordCount = 0 %}
-{% assign sorted = (site[page.collection] | where:"layout", "post" | sort: 'sequence') %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'sequence' %}
 {% for item in sorted %}
 	{% unless item.categories contains 'tangential' %}
 		{% assign wordCount = item.content | number_of_words %}
@@ -30,7 +30,7 @@ Total Word Count: {{ totalWordCount }} ...
 
 ## contemporaneous, or possibly precursors
 
-{% assign sorted = (site[page.collection] | where:"layout", "post" | where_exp:"item", "item.categories contains 'tangential'" | sort: 'sequence') %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | where_exp:"item", "item.categories contains 'tangential'" | sort: 'sequence' %}
 {% for item in sorted %}
 	{% assign wordCount = item.content | number_of_words %}
 	{% assign totalWordCount = totalWordCount | plus: wordCount %}

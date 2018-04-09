@@ -39,7 +39,7 @@ markdown: kramdown
 kramdown:
   auto_ids: true
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap # via https://help.github.com/articles/sitemaps-for-github-pages/
   - jekyll-redirect-from # via https://help.github.com/articles/redirects-on-github-pages/

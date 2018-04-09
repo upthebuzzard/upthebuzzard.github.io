@@ -33,7 +33,7 @@ Create a file, `_includes/porthole.html`
     background-image: url({{ site.default_background_image_url }});
     {% assign background_image_url = site.default_background_image_url %}
     {% if page.collection %}
-      {% assign collection = (site.collections | where:"label", page.collection | first) %}
+      {% assign collection = site.collections | where:"label", page.collection | first %}
       {% if collection.background_image_url %}
         {% assign background_image_url = collection.background_image_url %}
       {% endif %}

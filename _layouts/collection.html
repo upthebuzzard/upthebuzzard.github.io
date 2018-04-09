@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign collection_name = page.collection %}
-{% assign collection = (site.collections | where:"label", collection_name | first %}
+{% assign collection = site.collections | where:"label", collection_name | first %}
 
 <article class="post">
 
@@ -19,7 +19,7 @@ layout: default
 
 </article>
 
-{% assign posts = (site[collection_name] | where:"layout", "post") %}
+{% assign posts = site[collection_name] | where:"layout", "post" %}
 {% if posts.size > 0 %}
 <h3>The collection also available</h3>
 

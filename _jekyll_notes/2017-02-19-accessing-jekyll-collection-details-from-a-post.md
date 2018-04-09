@@ -14,7 +14,7 @@ You need to scan the list of all collections for the one whose label matches you
 
 {% raw %}
 ```handlebars
-{% assign collection = (site.collections | where:"label", page.collection | first %}
+{% assign collection = site.collections | where:"label", page.collection | first %}
 {{ collection.description }}
 ```
 {% endraw %}

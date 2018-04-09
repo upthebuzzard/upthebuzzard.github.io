@@ -17,7 +17,7 @@ create a file called, say, `_includes/prevnext.html`
 {% raw %}
 ```jekyll
 {% if page.collection %}
-  {% assign posts = (site[page.collection] | where:"layout", "post" | sort: 'date') %}
+  {% assign posts = site[page.collection] | where:"layout", "post" | sort: 'date' %}
 
   {% if posts.size > 1 %}
     {% assign prevurl = posts.last.url %}
