@@ -81,7 +81,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-redirect-from
   jekyll-sitemap
-  minima (~> 2.0)
+  minima (~> 2.4.0)
   tzinfo-data
 
 RUBY VERSION
