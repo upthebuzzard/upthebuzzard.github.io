@@ -65,7 +65,7 @@ collections:
     output: true
     title: Predicting the Present
     title_singular: A Predicting the Present Story
-    description: short stories that are less predicting the future and more about the now.
+    description: short stories that are less predicting the future and more the now.
     sequence: 10
   emus_all_the_way_down:
     output: true
