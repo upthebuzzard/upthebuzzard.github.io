@@ -4,7 +4,7 @@ title: Carnivorous Trees
 date: 2017-06-20 20:50
 categories: [story]
 excerpt: >
-  under construction
+  The cotton-wool, dipped in hint of stomach acid, thickens in his head.
 sequence: 9.1
 ---
 The cotton-wool, dipped in hint of stomach acid, thickens in his head. Focusing on anything today except imminent nausea is going to be tricky. Last night's recorder, luckily, is in his bag. No real idea how that happened. No recollection of actually picking it up as they were ejected at OMG-is-that-the-time o'clock. Or maybe that had happened earlier. Vague visions of an off-the-record session, but no details surface. He should check the recording to see if it had worked ok, but fears even sounds-of-pub would tip him over the edge into an undignified lurch to the loo.

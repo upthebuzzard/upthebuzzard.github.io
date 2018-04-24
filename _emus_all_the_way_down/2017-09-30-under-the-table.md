@@ -4,7 +4,7 @@ title: Under the table
 date: 2017-09-30 19:13
 categories: [story]
 excerpt: >
-  under construction
+  It's a big table, but is not that comfortable underneath.
 sequence: 0.5
 ---
 
