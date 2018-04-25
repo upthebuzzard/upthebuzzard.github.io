@@ -47,8 +47,12 @@ layout: default
         <div style="text-align:center;">THE</div>
         <div style="text-align:center;">END</div>
         <p></p>
+      </div>
+      <div class="post-content-details">
         {% include story_details.html %}
       {% else %}
+      </div>
+      <div class="post-content-details">
         {% if posts.size > 1 %}
           <h3>Other posts</h3>
           {% include collection_prev_next.html %}
