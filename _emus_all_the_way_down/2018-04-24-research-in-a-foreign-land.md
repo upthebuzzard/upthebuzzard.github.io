@@ -7,7 +7,7 @@ excerpt: >
   under construction
 sequence: 9.5
 ---
-Eli, as directed, entered the cafe and asked for, casting about, spotting the menu of options, "a,.. un cappuccino, er s'il vous plait".
+Eli, as directed, entered the cafe and asked for, casting about, spotting the menu of options, "a, ... un cappuccino, er s'il vous plait".
 
 "Mumble Mumble."
 
