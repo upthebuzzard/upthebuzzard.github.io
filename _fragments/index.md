@@ -4,6 +4,8 @@ title: Fragments
 date: 2013-06-24 21:33
 categories: []
 permalink: /:collection/index.html
+context: >
+  riffing on whatever is riff-worthy
 ---
 
 {% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' | reverse %}

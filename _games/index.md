@@ -4,6 +4,8 @@ title: Notes on Games
 date: 2017-06-03 10:45
 categories: []
 permalink: /:collection/index.html
+context: >
+  Here we have a (small) assortment of newly-developed games. So far, they are all based on the premise of using standard playing cards to make something interesting and challenging.
 ---
 Welcome!
 

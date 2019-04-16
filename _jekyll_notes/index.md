@@ -3,6 +3,8 @@ layout: collection
 title: Jeykll Notes
 categories: []
 permalink: /:collection/index.html
+context: >
+  A collection of notes and observations from and aide-memoires for using Jekyll for the first time.
 ---
 {% assign collection = site.collections | where:"label", page.collection | first %}
 {{ collection.description }}

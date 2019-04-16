@@ -4,6 +4,8 @@ title: The Grey Parrot Stories
 date: 2011-09-30 21:33
 categories: []
 permalink: /:collection/index.html
+context: >
+  The Grey Parrot stories emerged along with the Moose & Goose stories, but it was clear they were a different kettle of fish. More suited to a younger audience, 3yo-6yo say, they came about after a news item showed a talking grey parrot who seemed to be too clever by half.
 ---
 The Grey Parrot stories [emerged along with](/moose_and_goose_stories/a-brief-history-of-moose-and-goose) the [Moose &amp; Goose stories](/moose_and_goose_stories), but it was clear they were a different kettle of fish. More suited to a younger audience, 3yo-6yo say, they came about after a news item showed a talking grey parrot who seemed to be too clever by half.
 
