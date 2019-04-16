@@ -8,6 +8,7 @@ excerpt: >
 sequence: 6
 context: >
   This story was written over the weekend of 7th/8th April 2018 for the [@scifilondon](https://twitter.com/scifilondon) [#SFL48hrFlash](https://twitter.com/hashtag/SFL48hrFlash) [Fiction challenge](http://48hour.sci-fi-london.com/challenge/48-hour-flash-fiction-2018), with (in my case) a specified title, "TYPE X / TYPE Y", including dialogue, "Ye Gods, that was a lifetime ago. Does anyone actually care anymore?", some optional science, "Chameleon DNA allows drugs to be developed to change skin colour", and up to 2K words.
+  <br><Br>Background image by [Peter Griffin](https://www.publicdomainpictures.net/en/view-image.php?image=33844&picture=shipping-containers).
 related-posts:
   draft-1: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y-draft-01
   draft-2: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y-draft-02
