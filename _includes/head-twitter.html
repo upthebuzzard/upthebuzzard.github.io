@@ -1,0 +1,7 @@
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@{{ site.twitter_username }}" />
+<meta name="twitter:title" content="{{ page.title }}" />
+{% if page.context %}
+<meta name="twitter:description" content="{{ page.context | markdownify | strip_html }}" />
+{% endif %}
+<meta name="twitter:image" content="{{ page.url }}" />
