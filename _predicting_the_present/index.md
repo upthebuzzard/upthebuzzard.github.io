@@ -4,7 +4,7 @@ title: Predicting the Present
 date: 2013-06-24 21:33
 categories: []
 permalink: /:collection/index.html
-context: >
+excerpt: >
   So what are these stories about?
 
   Working backwards from my own dribblings, I've decided what this is really all about is less predicting the future and more “predicting the present”, a phrase used (and possibly coined) by [Cory Doctorow](http://www.slate.com/articles/podcasts/future_tense/2013/05/cory_doctorow_joins_tim_wu_for_the_slate_podcast_stranger_than_fiction.html), who may (or may not) have borrowed it from [Bruce Sterling](http://en.wikipedia.org/wiki/Bruce_Sterling), about Science Fiction (which this sort of is).

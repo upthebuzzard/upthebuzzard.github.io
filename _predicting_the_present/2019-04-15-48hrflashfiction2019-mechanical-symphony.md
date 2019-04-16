@@ -3,9 +3,9 @@ layout: post
 title: Mechanical Symphony
 date: 2019-04-15 15:24
 categories: [story]
-excerpt: >
-  for submission to the SONGS FROM LUNA 48 Hour Flash Fiction Challenge Fix for 2019
 sequence: 7
+excerpt: >
+  Gemma rippled her fingers, just to watch them behave. Then again, tumbling a coin along the knuckles. Tight coordination, actually happening with *her* fingers! This should not be, and yet here she was outside, and she had control of her fingers. And her legs. She could run. Fast. This wasn’t a dream.
 context: >
   This story was written over the 48 hours from noon, Saturday 13th to noon, Monday 15th April 2019 for the [@LunaSciFi](https://twitter.com/LunaSciFi) [48 Hour Flash Fiction Challenge Fix for 2019](https://songsfromluna.wordpress.com/), a late-breaking and welcome replacement for the non-continuation of the [@scifilondon](https://twitter.com/scifilondon)'s fiction adjunct to it's [48 hr film challenge](https://48hour.sci-fi-london.com/).
 

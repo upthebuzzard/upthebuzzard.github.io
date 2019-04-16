@@ -4,7 +4,7 @@ title: Several Days
 date: 2017-04-09 14:52
 categories: [story]
 excerpt: >
-  Submitted to the SCI-FI-LONDON 48 Hour Flash Fiction Challenge 2017
+  Hello darkness, my old friend. Well, more of a dark paisley going wah wah.
 sequence: 5
 context: >
   This story was written over the weekend of 8th/9th April 2017 for the [@scifilondon](https://twitter.com/scifilondon) [#SFL48hrFlash](https://twitter.com/hashtag/SFL48hrFlash) [Fiction challenge](http://48hour.sci-fi-london.com/challenge/48-hour-flash-fiction-2017) (as [announced](https://www.newscientist.com/article/2122087-winning-words-write-us-a-sci-fi-masterpiece-in-48-hours/) in the NewScientist magazine), with (in my case) a specified title, "Several Days", including dialogue, "Five minutes, that's all it takes", and up to 2K words.

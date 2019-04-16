@@ -4,7 +4,7 @@ title: TYPE X / TYPE Y
 date: 2018-04-8 15:24
 categories: [story]
 excerpt: >
-  for submission to the SCI-FI-LONDON 48 Hour Flash Fiction Challenge 2018
+  One container, which has tumbled the furthest, landing upside down, has cracked open. A mixture of bodies and machinery has partly spilled out. There's a strong hospital, chemical smell, and a hint of rotting meat.
 sequence: 6
 context: >
   This story was written over the weekend of 7th/8th April 2018 for the [@scifilondon](https://twitter.com/scifilondon) [#SFL48hrFlash](https://twitter.com/hashtag/SFL48hrFlash) [Fiction challenge](http://48hour.sci-fi-london.com/challenge/48-hour-flash-fiction-2018), with (in my case) a specified title, "TYPE X / TYPE Y", including dialogue, "Ye Gods, that was a lifetime ago. Does anyone actually care anymore?", some optional science, "Chameleon DNA allows drugs to be developed to change skin colour", and up to 2K words.

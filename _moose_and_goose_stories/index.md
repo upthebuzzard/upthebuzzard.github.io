@@ -4,7 +4,7 @@ title: The Moose and Goose Stories
 date: 2011-09-30 21:33
 categories: []
 permalink: /:collection/index.html
-context: >
+excerpt: >
   There is a potted history of how Moose & Goose came to be, but all you really need to know is:
   Somewhere, there is a seaside town where there is an office with a door on which a sign says, "Moose & Goose, Private Investigators and Solvers of Tricky Problems. No problem is too big or too small, too difficult or too easy, too weird or too obvious.
 ---

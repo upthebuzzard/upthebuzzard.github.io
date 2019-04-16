@@ -4,7 +4,7 @@ title: Emus All The Way Down
 date: 2013-06-24 21:33
 categories: []
 permalink: /:collection/index.html
-context: >
+excerpt: >
   Starting with a Predicting The Present story, Emus all the way down, and taking it a bit further, exploring some nooks and crannies.
 
   Very slow progress. Is there a full-length novel in here somewhere? Not at the rate I’m going. But it appears I can write in bursts of about 1000 words if the immediate topic appeals. This marathon is a series of sprints. Trying to work it into shape.

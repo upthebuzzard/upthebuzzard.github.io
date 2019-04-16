@@ -4,7 +4,7 @@ title: Distractions
 date: 2011-09-30 21:33
 categories: []
 permalink: /:collection/index.html
-context: >
+excerpt: >
   An assortment of links that were to be used as [ distraction \| bribery \| rewards ]\(_delete as appropriate_) for good bedtime behaviour.
 ---
 An assortment of links that were to be used as [ distraction \| bribery \| rewards ]\(_delete as appropriate_) for good bedtime behaviour.

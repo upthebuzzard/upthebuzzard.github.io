@@ -4,7 +4,7 @@ title: Fragments
 date: 2013-06-24 21:33
 categories: []
 permalink: /:collection/index.html
-context: >
+excerpt: >
   riffing on whatever is riff-worthy
 ---
 
