@@ -1,0 +1,20 @@
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="{{ page.title }}" />
+{% if page.context %}
+<meta property="og:description" content="{{ page.context | markdownify | strip_html }}" />
+{% endif %}
+<meta property="og:image"       content="{{ page.context | markdownify | strip_html }}" />
+
+{% assign background_image_url = site.default_background_image_url %}
+{% if page.collection %}
+  {% assign collection = site.collections | where:"label", page.collection | first %}
+  {% if collection.background_image_url %}
+    {% assign background_image_url = collection.background_image_url %}
+  {% endif %}
+{% endif %}
+{% if page.background_image_url %}
+  {% assign background_image_url = page.background_image_url %}
+{% endif %}
+{% if background_image_url %}
+<meta property="og:image"       content="{{ background_image_url | absolute_url }}" />
+{% endif %}
