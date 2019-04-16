@@ -1,10 +1,6 @@
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="{{ page.title }}" />
-{% if page.context %}
-<meta property="og:description" content="{{ page.context | markdownify | strip_html }}" />
-{% endif %}
-<meta property="og:image"       content="{{ page.context | markdownify | strip_html }}" />
-
+<meta property="og:title"       content="{{ page.title | default: site.title | escape | strip_html | normalize_whitespace | escape }}" />
+<meta property="og:description" content="{{ page.context | default: page.excerpt | default: site.description | markdownify | strip_html | normalize_whitespace | escape }}" />
 {% assign background_image_url = site.default_background_image_url %}
 {% if page.collection %}
   {% assign collection = site.collections | where:"label", page.collection | first %}
