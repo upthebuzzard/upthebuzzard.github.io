@@ -4,4 +4,16 @@
 {% if page.context %}
 <meta name="twitter:description" content="{{ page.context | markdownify | strip_html }}" />
 {% endif %}
-<meta name="twitter:image" content="{{ page.url }}" />
+{% assign background_image_url = site.default_background_image_url %}
+{% if page.collection %}
+  {% assign collection = site.collections | where:"label", page.collection | first %}
+  {% if collection.background_image_url %}
+    {% assign background_image_url = collection.background_image_url %}
+  {% endif %}
+{% endif %}
+{% if page.background_image_url %}
+  {% assign background_image_url = page.background_image_url %}
+{% endif %}
+{% if background_image_url %}
+<meta name="twitter:image" content="{{ background_image_url | absolute_url }}" />
+{% endif %}
