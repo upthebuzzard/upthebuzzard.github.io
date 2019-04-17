@@ -10,12 +10,13 @@ context: >
   This story was written over the 48 hours from noon, Saturday 13th to noon, Monday 15th April 2019 for the [@LunaSciFi](https://twitter.com/LunaSciFi) [48 Hour Flash Fiction Challenge Fix for 2019](https://songsfromluna.wordpress.com/), a late-breaking and welcome replacement for the non-continuation of the [@scifilondon](https://twitter.com/scifilondon)'s fiction adjunct to it's [48 hr film challenge](https://48hour.sci-fi-london.com/).
 
   <br><br>The 2019 flash fiction challenge retained the familiar pattern of (I assume) a randomly allocated pairing of a title and piece of text/dialogue assigned to each contestant, and an overall limit of 2K words. In my case, the title was "Mechanical Symphony", and the included text/dialogue, "she really regretted eating her emergency rations so early".
-
-  <br><br>Background image by [Aimee Vogelsang](https://unsplash.com/photos/DbJR10fEteE) on [Unsplash](https://unsplash.com/).
 related-posts:
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
   entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
 background_image_url: /assets/img/predicting-the-present/doll_broken_face_cracked_vintage-56670.jpg
+credits:
+  - Background image by [Aimee Vogelsang](https://unsplash.com/photos/DbJR10fEteE) on [Unsplash](https://unsplash.com/).
+
 ---
 
 Gemma rippled her fingers, just to watch them behave. Then again, tumbling a coin along the knuckles. Tight coordination, actually happening with *her* fingers! This should not be, and yet here she was outside, and she had control of her fingers. And her legs. She could run. Fast. This wasn’t a dream.

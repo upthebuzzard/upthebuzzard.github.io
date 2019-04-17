@@ -20,6 +20,21 @@
     {% if page.related-posts %}
     <br>{% include related-posts.html %}
     {% endif %}
+{% if page.credits %}
+    <br>...
+    <br>Credits
+  {% for credit in page.credits %}
+    <br>{{ credit | markdownify }}
+  {% endfor %}
+  {% else %}
+  <br>
+  {% endif %}
+  {% if page.context %}
+      ...
+  <br>Context
+  {{ page.context | markdownify }}
+{% endif %}
+
   </div>
   <hr />
 </div>
