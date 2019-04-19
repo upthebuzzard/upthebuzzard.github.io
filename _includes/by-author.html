@@ -4,7 +4,9 @@
   {% assign author = site.author %}
 {% endif %}
 {% if author %}
-  by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">{{ author }}</span>
-    </span>
+by <a class="page-link" href="{{ '/about/' | relative_url }}">
+  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span itemprop="name">{{ author }}</span>
+  </span>
+</a>
 {% endif %}
