@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TYPE X / TYPE Y
+title: TYPE X / TYPE Y - Draft 1
 date: 2018-04-8 11:41
 categories: [draft]
 excerpt: >
