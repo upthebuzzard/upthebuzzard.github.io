@@ -1,0 +1,16 @@
+  <blockquote class="site-collection-description">
+    <p>{{ site.description }}</p>
+
+  {% if page.collection %}
+    {% assign collections = site.collections | sort: 'sequence' %}
+    {% for collection in collections %}
+      {% if collection.label == page.collection %}
+      <h2 class="collection-title"><a href="{{ collection.label | relative_url}}">{{collection.title}}</a></h2>
+    <br>
+  <blockquote class="site-collection-description">
+    <p>{{ collection.description }}</p>
+  </blockquote>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</blockquote>
