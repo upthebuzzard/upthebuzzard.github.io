@@ -9,16 +9,7 @@ layout: default
       <!-- <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> -->
       {% assign collection = site.collections | where:"label", page.collection | first %}
       <a href=".">{{ collection.title_singular }}</a>
-      {% if page.author %}
-        {% assign author = page.author %}
-      {% else %}
-        {% assign author = site.author %}
-      {% endif %}
-      {% if author %}
-        by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name">{{ author }}</span>
-          </span>
-      {% endif %}
+      {% include by-author.html %}
       {% if page.collection != 'posts' %}
         {% unless page.categories contains "story" %}
           , {{ page.date | date_to_long_string }}

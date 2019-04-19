@@ -1,0 +1,10 @@
+{% if page.author %}
+  {% assign author = page.author %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+{% if author %}
+  by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">{{ author }}</span>
+    </span>
+{% endif %}
