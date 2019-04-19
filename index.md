@@ -4,7 +4,13 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-{{ site.description }}
+<header class="post-header">
+  <h1 class="post-title">{{ site.title | escape }}</h1>
+  <blockquote class="site-collection-description">
+    <p>{{ site.description }}</p>
+  </blockquote>
+{% include by-author.html %}
+</header>
 
 <h2 class="page-heading">Collections</h2>
 
