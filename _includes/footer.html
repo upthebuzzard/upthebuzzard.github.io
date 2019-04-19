@@ -3,17 +3,14 @@
   <div class="wrapper">
 
     <h2 class="footer-heading"><a href="{{ site.url }}">{{ site.title | escape }}</a></h2>
+    {% include site-collection-description.html %}
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
+            {% include by-author.html %}
+          </li>
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
@@ -41,7 +38,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        {% include search.html %}
       </div>
 
 
