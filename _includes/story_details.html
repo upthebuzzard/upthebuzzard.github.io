@@ -20,15 +20,9 @@
     {% if page.related-posts %}
     <br>{% include related-posts.html %}
     {% endif %}
-{% if page.credits %}
-    <br>...
-    <br>Credits
-  {% for credit in page.credits %}
-    <br>{{ credit | markdownify }}
-  {% endfor %}
-  {% else %}
-  <br>
-  {% endif %}
+
+  {% include credits.html %}
+  
   {% if page.context %}
       ...
   <br>Context

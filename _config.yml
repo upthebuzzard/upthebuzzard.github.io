@@ -28,6 +28,8 @@ github_repo: https://github.com/upthebuzzard/upthebuzzard.github.io
 author: Chris Gathercole
 lang: en
 default_background_image_url: /assets/img/general/P1070749-H800.JPG
+credits:
+  - "Background image by [me](/about/)"
 auto-generated-title: "in the style of..."
 google_analytics: UA-92309370-1
 
@@ -108,4 +110,6 @@ collections:
     description: a collection of notes and observations from and aide-memoires for using Jekyll for the first time.
     sequence: 100
     background_image_url: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
+    credits:
+      - Background image from [Wikipedia](https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde#/media/File:Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg)
     reverse_posts: true

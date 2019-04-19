@@ -21,9 +21,12 @@ layout: default
 
 </article>
 
-{% assign posts = site[collection_name] | where:"layout", "post" %}
-{% if posts.size > 0 %}
-<h3>The collection also available</h3>
+<div style="text-align:center;">
+  {% assign posts = site[collection_name] | where:"layout", "post" %}
+  {% if posts.size > 0 %}
+  <h3>The collection also available</h3>
 
-...<a href="feed.xml" class="rss-subscribe">via RSS</a>
-{% endif %}
+  <a href="feed.xml" class="rss-subscribe">via RSS</a>
+  {% endif %}
+  {% include credits.html %}
+</div>

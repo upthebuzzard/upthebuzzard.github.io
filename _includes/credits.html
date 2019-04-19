@@ -1,0 +1,28 @@
+{% assign collection = site.collections | where:"label", page.collection | first %}
+
+<!-- {% if page.credits %}
+  {% if collection.credits %}
+    {% assign credits = collection.credits | concat: page.credits %}
+  {% else %}
+    {% assign credits = page.credits %}
+  {% endif %}
+{% else %}
+  {% assign credits = collection.credits %}
+{% endif %} -->
+{% assign credits = site.credits %}
+{% if collection.credits %}
+  {% assign credits = collection.credits %}
+{% endif %}
+{% if page.credits %}
+  {% assign credits = page.credits %}
+{% endif %}
+
+{% if credits %}
+  <br>...
+  <br>Credits
+  {% for credit in credits %}
+    {{ credit | markdownify }}
+  {% endfor %}
+  {% else %}
+  <br>
+{% endif %}
