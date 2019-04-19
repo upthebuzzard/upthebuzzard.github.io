@@ -12,7 +12,7 @@ Welcome!
 
 Here are some short bedtime stories for kids,
 roughly in the age range of 4-11 (yes, yes, such a large suggested age range may not seem much use, but different ages get different things out of the stories), or younger ones [over here](/grey_parrot_stories/), to be read aloud by a grown up to help with the occasional long word.
-The stories are [available for free](/about/), and are ad-free, but please Please _PLEASE_ give me some feedback (good or bad, anonymously, briefly, verbosely, doesn't matter,  just let me know).
+The stories are [available for free](/about), and are ad-free, but please Please _PLEASE_ give me some feedback (good or bad, anonymously, briefly, verbosely, doesn't matter,  just let me know).
 
 There is a [potted history](a-brief-history-of-moose-and-goose) of how Moose &amp; Goose came to be, but all you really need to know is:
 

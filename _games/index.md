@@ -37,5 +37,5 @@ Here we have a (small) assortment of newly-developed games. So far, they are all
 
 # Other reading
 * [some US-centric words on game copyright, trademark, patents](https://boardgamegeek.com/thread/493249/mythbusting-game-design-and-copyright-trademarks-a)
-   * These games are under Creative Commons (see [About](/about/)), BTW. Do please use, copy, and embellish, and let me know.
+   * These games are under Creative Commons (see [About](/about)), BTW. Do please use, copy, and embellish, and let me know.
 * the [BoardGameGeek](https://boardgamegeek.com/) site, a comprehensive board game resource.

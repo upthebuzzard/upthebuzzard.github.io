@@ -29,7 +29,7 @@ author: Chris Gathercole
 lang: en
 default_background_image_url: /assets/img/general/P1070749-H800.JPG
 credits:
-  - "[Background image](/assets/img/general/P1070749-H800.JPG) by [me](/about/)"
+  - "[Background image](/assets/img/general/P1070749-H800.JPG) by [me](/about)"
 auto-generated-title: "in the style of..."
 google_analytics: UA-92309370-1
 
@@ -57,7 +57,7 @@ collections:
     sequence: 1
     background_image_url: /assets/img/moose-and-goose/P1070818-H800.JPG
     credits:
-      - "[Background image](/assets/img/moose-and-goose/P1070818-H800.JPG) by [me](/about/)"
+      - "[Background image](/assets/img/moose-and-goose/P1070818-H800.JPG) by [me](/about)"
   grey_parrot_stories:
     output: true
     title: The Grey Parrot Stories
@@ -66,7 +66,7 @@ collections:
     sequence: 2
     background_image_url: /assets/img/grey-parrot/P1070812-H800.JPG
     credits:
-      - "[Background image](/assets/img/grey-parrot/P1070812-H800.JPG) by [me](/about/)"
+      - "[Background image](/assets/img/grey-parrot/P1070812-H800.JPG) by [me](/about)"
   predicting_the_present:
     output: true
     title: Predicting the Present
@@ -95,7 +95,7 @@ collections:
     reverse_posts: true
     background_image_url: /assets/img/greedy-devils/P1080043w800.JPG
     credits:
-      - "[Background image](/assets/img/greedy-devils/P1080043w800.JPG) by [me](/about/)"
+      - "[Background image](/assets/img/greedy-devils/P1080043w800.JPG) by [me](/about)"
   overgeneralisations:
     output: true
     title: Overgeneralisations
