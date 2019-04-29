@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modular Orgami with post-its
+title: Modular Origami with post-its
 date: 2019-04-29 17:35
 categories: [modularorigami]
 excerpt: >
