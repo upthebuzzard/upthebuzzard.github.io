@@ -25,7 +25,7 @@ I settled on 3 particular base units which seemed to work well with square post-
 
 In order of relative unit-folding difficulty, easiest first:
 
-* the PHiZZ unit (Pentagon-Hexagon Zig-Zag)
+* Tom Hull's PHiZZ unit (Pentagon-Hexagon Zig-Zag)
 * the Sonobe unit
 * Tomoko Fuse's Open Frame II
 
@@ -36,7 +36,7 @@ Basic origami advice also stands.
 * Try to make each crease sharp and accurate, so the units are identical.
 * The more you handle each piece, the wetter (and weaker) it gets. This can become an issue when you get down to connecting the last few pieces needed to complete a large structure. Those connections can be very fiddly and take quite a while, all the time your sweat is messing with the paper.
 
-## PHiZZ (Pentagon-Hexagon Zig-Zag)
+## Tom Hull's PHiZZ (Pentagon-Hexagon Zig-Zag)
 
 This is the simplest of the units to fold. The units only connect in threes, so the structures get bigger more quickly.
 
