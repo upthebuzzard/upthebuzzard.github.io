@@ -7,6 +7,8 @@ permalink:  /:collection/cardbot-derby/
 excerpt: >
   use a standard deck of playing cards to enter a world of more or less out of control cardbots
 background_image_url: /assets/img/cardbot/cardbot_robot_perspective_w800.JPG
+credits:
+  - "[Background image](/assets/img/cardbot/cardbot_robot_perspective_w800.JPG) by [me](/about)"
 ---
 
 Cardbot Derby is the latest in an ongoing challenge to create interesting, non-trivial games using one or more standard decks of playing cards. The main idea was borrowed from [RoboRally](http://avalonhill.wizards.com/games/robo-rally) (a rather splendid fracas of a game), and then twisted to fit the affordances of the cards. Currently it is very much under construction, but first impressions hint that there is enough potential to warrant further iterations.

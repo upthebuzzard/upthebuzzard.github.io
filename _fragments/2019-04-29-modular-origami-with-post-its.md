@@ -8,6 +8,8 @@ excerpt: >
 context: >
   Inspired by the [getting-rid-of](https://twitter.com/upthebuzzard/status/1118994767931691008) an old work of modular origami, I went looking for the various technical details which it turned out I had forgotten. Here are those details.
 background_image_url: /assets/img/fragments/modular_origami_open_frame_II_sample.jpg
+credits:
+  - "[Background image](/assets/img/fragments/modular_origami_open_frame_II_sample.jpg) by [me](/about)"
 ---
 Over the course of a couple of years, I dabbled with some origami. And not just any origami. This was *modular origami*, where you build (what seems like, and sometimes is) 100s of the same basic units, then plug them together to make larger structures. The unique angle for me (at the time) was that I resolved to use only post-its, since they were everywhere: we did Agile at work, and *all* thoughts had to spend some time as post-its on walls.
 
