@@ -56,7 +56,7 @@ When trying this with square post-its, just make sure you start with the post-it
 
 The Sonobe Unit has it's own [wikipedia page](https://en.wikipedia.org/wiki/Sonobe).
 
-The [origami-instructions site](http://www.origami-instructions.com/modular-sonobe-unit.html) has some clear instructions for folding Sonobe units with normal squared paper.
+The [origami-instructions site](http://www.origami-instructions.com/modular-sonobe-unit.html) has some clear instructions for folding Sonobe units with normal, square paper.
 
 When trying this with square post-its, there are some points to note:
 
