@@ -23,7 +23,7 @@ There is much to see and try in the world of modular origami ([twitter](https://
 
 The use of post-its as the source material cuts down the possibilities. The sticky strip on the post-it has to go somewhere, and often interferes with the folding or (more often) with the plugging together afterwards.
 
-I settled on 3 particular base units which seemed to work well with square post-its. The post-its add some strength to the resulting structures, when compared with using plain paper. And since these units lock together particularly well (more so than many of the other units), you can build some satisfyingly large, robust, self-supporting structures. The sticky strip just means a little extra care is sometimes needed during folding, or a little more vigor when plugging some of the units together.
+I settled on 3 particular base units which seemed to work well with square post-its. The post-its add some strength to the folded units, when compared with using plain paper. And since these units lock together particularly well anyway (more so than many of the other units), you can build some satisfyingly large, robust, self-supporting structures. The sticky strip just means a little extra care is sometimes needed during folding, or a little more vigor when plugging some of the units together.
 
 In order of relative unit-folding difficulty, easiest first:
 
