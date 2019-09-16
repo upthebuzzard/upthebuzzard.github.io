@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Pouches of Destiny
 date: 2017-06-17 20:44
 categories: []
