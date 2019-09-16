@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: post
 title: Cardbot Derby
 date: 2017-12-26 22:20
 categories: []
-permalink:  /:collection/cardbot-derby/
 excerpt: >
   use a standard deck of playing cards to enter a world of more or less out of control cardbots
 background_image_url: /assets/img/cardbot/cardbot_robot_perspective_w800.JPG

@@ -89,7 +89,7 @@ collections:
   games:
     output: true
     title: Notes on games
-    title_singular: A Note
+    title_singular: A Games Note
     description: exploring game ideas and mechanics
     sequence: 30
     reverse_posts: true
