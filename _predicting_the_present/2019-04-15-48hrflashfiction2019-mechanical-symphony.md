@@ -39,7 +39,7 @@ With some care, and basically play-acting, Gemma was introduced into the officia
 
 Having worn and improved the XO for nearly 2 years, Gemma was used to going for long walks outside; a lunchtime urban explorer. Then Gemma was mugged, and the game changed.
 
-By the time the police arrived, one of her two attackers was dead with a broken neck, and the other was screaming for help, holed up in an alleyway desperately fending off an enraged Gemma with a wooden post. The XO pieces had been ripped from her neck and one of her arms. Her head was spasming, mostly down and to one side, one eye still open, one arm in a rictus against her chest, several fingers broken, still holding the attacker’s ear. And Gemma was closing in for the kill with her feet.
+By the time the police arrived, one of her two attackers was dead with a broken neck, and the other was screaming for help, holed up in an alleyway desperately fending off an enraged Gemma with a wooden post. The XO pieces were torn from her neck and one of her arms. Her head was spasming, mostly down and to one side, one eye still open, one arm in a rictus against her chest, several fingers broken, still holding the attacker’s ear. And Gemma was closing in for the kill with her feet.
 
 It took a while before the police were satisfied that they understood the situation. Gemma couldn’t speak until she had reattached the neck fittings.
 
