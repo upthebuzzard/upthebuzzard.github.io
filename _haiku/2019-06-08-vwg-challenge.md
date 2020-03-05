@@ -1,7 +1,7 @@
 ---
 layout: post
 title: inspired by nature, a moment of beauty, or a poignant experience.
-date: 2020-03-04 20:24
+date: 2019-06-08 20:24
 categories: [story]
 sequence: 8
 excerpt: >
