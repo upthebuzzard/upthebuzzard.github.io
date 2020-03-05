@@ -2,10 +2,12 @@
 layout: post
 title: inspired by nature, a moment of beauty, or a poignant experience.
 date: 2019-06-08 20:24
-categories: [story]
+categories: [story, haiku]
 sequence: 8
 excerpt: >
-  steeply banking kite
+  steeply banking kite<br>
+  balletic, hungry, driven<br>  
+  crow parents defend
 context: >
   A semi-regular challenge by the Virtual Writing Group on Twitter
 ---

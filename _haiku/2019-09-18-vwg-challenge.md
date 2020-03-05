@@ -2,10 +2,10 @@
 layout: post
 title: a Haiku based either on your WIP or favourite book..
 date: 2019-09-18 20:24
-categories: [story]
+categories: [story, haiku]
 sequence: 8
 excerpt: >
-  a turn of the page
+  a turn of the page<br>light and shade slides across words<br>shifting characters
 context: >
   A semi-regular challenge by the Virtual Writing Group on Twitter
 ---
