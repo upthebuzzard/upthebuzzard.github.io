@@ -86,6 +86,13 @@ collections:
     description: riffing on whatever is riff-worthy
     sequence: 20
     reverse_posts: true
+  haiku:
+    output: true
+    title: Assorted haiku
+    title_singular: A haiku
+    description: striving to overcome the 5-7-5
+    sequence: 25
+    reverse_posts: true
   games:
     output: true
     title: Notes on games
