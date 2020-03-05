@@ -14,7 +14,7 @@ So what are these stories about?
 {% assign sorted = site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'sequence' %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
+* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words{% if item.categories contains "tweet" %}, in a tweet{% endif %})
 > {{ item.excerpt }}
 {% endfor %}
 
