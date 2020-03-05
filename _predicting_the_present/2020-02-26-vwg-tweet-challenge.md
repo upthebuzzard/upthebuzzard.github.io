@@ -3,7 +3,7 @@ layout: post
 title: this shell is now our doom
 date: 2020-02-26 19:24
 categories: [story, tweet]
-sequence: 12
+sequence: 13
 excerpt: >
   We have the focus, just, to cut ourselves loose
 context: >
