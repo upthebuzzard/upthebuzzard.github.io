@@ -10,7 +10,7 @@ context: >
 ---
 This song was a random observation on [today's Germany regional election news](https://www.ft.com/content/5690803e-dad6-11e8-9f04-38d397e6661c), where Angela Merkel’s CDU party was humbled in German regional vote, following a brave stand to allow large numbers of immigrants into Germany:
 
-_"Angela Merkel" has the same meter as the Beatles song, "Eleanor Rigby"_.
+_"Angela Merkel" has the same meter as the Beatles' "Eleanor Rigby"_.
 
 Tweaked the lyrics a little bit, chiefly replacing 'lonely' with 'foreign', although they resonated as is. Done at work. Yes, this is news *and* art. Did not realise at first just how dark the ER song is. My word it is dark. Stopped before the last verse. I was mourning Ms. Merkel. But then returned and finished it off. Had to take a moment to decompress afterwards.
 
@@ -18,7 +18,7 @@ Tweaked the lyrics a little bit, chiefly replacing 'lonely' with 'foreign', alth
 
 _To the tune of "Eleanor Rigby", by the Beatles_  
 
-(Here is a [rendition sung by Simon White](https://www.youtube.com/watch?v=BgAPIfvWKfE)
+(Here is a [rendition sung by Simon White](https://www.youtube.com/watch?v=BgAPIfvWKfE))
 
 ---
 
