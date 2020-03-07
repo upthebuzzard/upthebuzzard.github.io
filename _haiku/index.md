@@ -16,7 +16,7 @@ When it works, it can really work. The striving is the fun.
 
 There was a fun project in 2016 [uncovering accidental haiku in FT articles](https://labs.ft.com/2016/07/finding-hidden-haiku/).
 
-Here are some that I original ones have tried.
+Here are some that I have tried.
 
 {% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' | reverse %}
 {% for item in sorted %}
