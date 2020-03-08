@@ -21,7 +21,9 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% if page.categories contains "radio-script" %}<radio-script>{% endif %}
     {{ content }}
+    {% if page.categories contains "radio-script" %}</radio-script>{% endif %}
 
     {% if page.collection != 'posts' %}
       {% assign posts = site[page.collection] | where:"layout", "post"  %}

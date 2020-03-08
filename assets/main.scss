@@ -36,9 +36,40 @@ $on-laptop:        800px;
 //     }
 // }
 
+
+// Import partials from the `minima` theme.
+@import "minima";
+
 .twitter-tweet {
   margin: 10px auto;
 }
 
-// Import partials from the `minima` theme.
-@import "minima";
+radio-script > p {
+  margin-bottom: 0px;
+  white-space: pre-wrap;
+  margin-left:20%;
+  display: block;
+}
+
+radio-script > character::before {
+  content: "CHARACTER ";
+}
+radio-script > character::after {
+  content: ":";
+}
+
+radio-script > direction {
+  text-decoration: underline;
+  display:inline-block;
+  margin-left:40%;
+  white-space: pre-wrap;
+  display: block;
+  text-transform: uppercase;
+}
+
+radio-script > speech {
+  display:inline-block;
+  margin-left:30%;
+  white-space: pre-wrap;
+  display: block;
+}
