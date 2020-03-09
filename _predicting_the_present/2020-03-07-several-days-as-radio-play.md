@@ -160,7 +160,7 @@ Option one,
 
 return to stasis...
 
-Come on man, we really need to move along here.”
+Come on man, we really need to move along here.
 
 <character>1</character>
 Elbow twang. Owwwww. That’s the worst so far.
@@ -251,7 +251,7 @@ Give the breathing thing another try. Good luck.
 
 ... You are reading the note? What note?
 
-... He’s been brain-checked for a ... of several days? ...”
+... He’s been brain-checked for a ... of several days? ...
 
 <direction>THERE IS A CLICK AS THE MIKE IS SWITCHED OFF, AND THE MUDDY HISS RETURNS.</direction>
 
