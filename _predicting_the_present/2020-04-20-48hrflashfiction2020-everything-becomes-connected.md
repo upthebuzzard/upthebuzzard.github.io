@@ -27,7 +27,7 @@ Tristan rolled back, groaning, yawning, having failed to decline the call with a
 
 “It is not a good morning. And you know what *it* is. My lab called to let me know that my brother, who I *trusted*, had stolen a medical sample from the lab.”
 
-“What …?”
+“What ...?”
 
 “They saw you on the security camera.”
 
@@ -45,9 +45,9 @@ Urine from premature porpoises could repair damaged kidneys, or help bind better
 “Are you serious? What do you know about any of that? You’re no biologist.
 You could’ve been, *if* you’d completed uni.”
 
-“Don’t start that again. There’s no future in …”
+“Don’t start that again. There’s no future in ...”
 
-“.. experts. Yes, I know. You keep telling me. Every time I ask what you are doing with your life.”
+“... experts. Yes, I know. You keep telling me. Every time I ask what you are doing with your life.”
 
 “I’m making good money.”
 
@@ -71,7 +71,7 @@ No harm done?”
 
 “That’s not the point. What about trust? What about I can’t let you near the lab ever again? Or my friends”
 
-“Sis…”
+“Sis ...”
 
 “So, those experts you don’t need? If you’d asked one, they might have told you’d pulled out one of the testes.”
 
@@ -133,7 +133,7 @@ Once they had their visitor passes from the welcome desk, the introductions took
 
 “Edison, Thomas Edison, is another inspiration, with his development of electric lighting. He made a great use of theory, where it existed, but where it was absent, he industrialised the search for useful combinations of raw materials.
 
-“For us, facts are just the beginning, the data points, the raw materials. And correlations are the combinations that may, or more likely not, be useful. Perhaps linked in some meaningful, useful way..
+“For us, facts are just the beginning, the data points, the raw materials. And correlations are the combinations that may, or more likely not, be useful. Perhaps linked in some meaningful, useful way.
 
 “The Core project is the Human Genome Project splitting apart DNA for useful fragments. It is the Large Hadron Collider smashing together items to explore their make up. It is Cyc capturing all common sense knowledge. It is all of these things and more. We take in anything, be it substances, ideas, facts, smash them together and study the pieces for meaning.
 
@@ -155,7 +155,7 @@ Back in the central corridor again.
 
 “In the cloud, out there, along with the data. We just rent them. It’s cheap. On the other hand, here is where the costs are. Collecting the data in facilities like this.”
 
-Izzy’ again. “How do you prevent illegally sourced samples being fed into your system?”. She didn’t look at Tristan, and neither, very carefully, did he look at her.
+Izzy again. “How do you prevent illegally sourced samples being fed into your system?”. She didn’t look at Tristan, and neither, very carefully, did he look at her.
 
 “Our scouts, of which we have many, operate under a strict code of practice where they first establish clear, unambiguous, documented permission *before* they obtain any samples. This all goes into the context. Any data and its correlations can be embellished or contradicted or removed entirely, at any time, which is a fundamental aspect of how the Core algorithms work.”
 
