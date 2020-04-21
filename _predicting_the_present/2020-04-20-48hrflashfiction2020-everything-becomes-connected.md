@@ -10,7 +10,7 @@ excerpt: >
 context: >
   This story was written over the 48 hours from noon, Saturday 18th to noon, Monday 20th April 2020 for the [@LunaSciFi](https://twitter.com/LunaSciFi) [48 Hour Flash Fiction Challenge Fix for 2020](https://songsfromluna.wordpress.com/).
 
-  <br><br>The 2020 flash fiction challenge departed from the previous year by inviting writers to claim a prompt from [NewerScientist1](https://twitter.com/NewerScientist1), [NewerScientist2](https://twitter.com/NewerScientist2), or [NewerScientist3](https://twitter.com/NewerScientist3). Due to a Twitter mishap, I claimed and already claimed one (after an hour of scanning), but was given the nod it was ok to stick with it.
+  <br><br>The 2020 flash fiction challenge departed from the previous year by inviting writers to claim a prompt from [NewerScientist1](https://twitter.com/NewerScientist1), [NewerScientist2](https://twitter.com/NewerScientist2), or [NewerScientist3](https://twitter.com/NewerScientist3). Due to a Twitter mishap, I claimed an already claimed one (after an hour of scanning), but was given the nod it was ok to stick with it.
 
   <br><br>The chosen prompt was, "[Urine from premature porpoises could repair damaged kidneys](https://twitter.com/NewerScientist3/status/1250121668317589509)"
 background_image_url: /assets/img/predicting-the-present/flowers-missing-focus.jpg
