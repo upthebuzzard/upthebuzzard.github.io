@@ -168,7 +168,8 @@ pre {
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;
-  background-color: cornsilk;
+  // background-color: cornsilk;
+  background-color: white;
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
   border-radius: $spacing-unit;
