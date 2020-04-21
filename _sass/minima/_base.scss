@@ -172,7 +172,7 @@ pre {
   background-color: white;
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
-  border-radius: $spacing-unit;
+  // border-radius: $spacing-unit;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
