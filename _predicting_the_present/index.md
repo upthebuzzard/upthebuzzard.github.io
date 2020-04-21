@@ -11,10 +11,12 @@ excerpt: >
 ---
 So what are these stories about?
 
-{% assign sorted = site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'sequence' %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'date' | reverse %}
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words{% if item.categories contains "tweet" %}, in a tweet{% endif %})
+  {% assign yyyymmdd = item.date | split: " " | first %}
+
+* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words{% if item.categories contains "tweet" %}, in a tweet{% endif %}, {{ yyyymmdd }})
 > {{ item.excerpt }}
 {% endfor %}
 
