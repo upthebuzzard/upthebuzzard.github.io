@@ -20,9 +20,22 @@
     {% if page.related-posts %}
     <br>{% include related-posts.html %}
     {% endif %}
+    <!-- list auto-generated page in collection -->
+    {% assign sorted_pages = site[page.collection] | where:"layout", 'auto-generated' | sort: 'date' | sort: 'sequence' %}
+    {% if sorted_pages.size > 0 %}
+      <br>...<br>
+      {% for my_page in sorted_pages %}
+        {% if my_page.title == page.title %}
+          {% assign prefix = "*&nbsp;" %}
+        {% else %}
+          {% assign prefix = "" %}
+        {% endif %}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ prefix }}{{ site.auto-generated-title | escape }}</a>
+      {% endfor %}
+    {% endif %}
 
   {% include credits.html %}
-  
+
   {% if page.context %}
       ...
   <br>Context

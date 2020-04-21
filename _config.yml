@@ -30,7 +30,7 @@ lang: en
 default_background_image_url: /assets/img/general/P1070749-H800.JPG
 credits:
   - "[Background image](/assets/img/general/P1070749-H800.JPG) by [me](/about)"
-auto-generated-title: "in the style of..."
+auto-generated-title: "in the style of"
 google_analytics: UA-92309370-1
 
 license_name: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
@@ -53,6 +53,7 @@ collections:
     output: true
     title: The Moose and Goose Stories
     title_singular: A Moose and Goose Story
+    title_abbrev: Moose & Goose
     description: a collection of stories about a pair of Solvers of Tricky Problems
     sequence: 1
     background_image_url: /assets/img/moose-and-goose/P1070818-H800.JPG
@@ -62,6 +63,7 @@ collections:
     output: true
     title: The Grey Parrot Stories
     title_singular: A Grey Parrot Story
+    title_abbrev: Grey Parrot
     description: a collection of stories about a (too) clever parrot
     sequence: 2
     background_image_url: /assets/img/grey-parrot/P1070812-H800.JPG
@@ -71,18 +73,21 @@ collections:
     output: true
     title: Predicting the Present
     title_singular: A Predicting the Present Story
+    title_abbrev: The Present
     description: short stories that are less predicting the future and more the now.
     sequence: 10
   emus_all_the_way_down:
     output: true
     title: Emus All The Way Down
     title_singular: Emus All The Way Down
+    title_abbrev: Emus
     description: riffing on the Predicting The Present story.
     sequence: 11
   fragments:
     output: true
     title: Fragments of writing
     title_singular: A Fragment
+    title_abbrev: Fragments
     description: riffing on whatever is riff-worthy
     sequence: 20
     reverse_posts: true
@@ -90,6 +95,7 @@ collections:
     output: true
     title: Assorted haiku
     title_singular: A haiku
+    title_abbrev: Haiku
     description: striving to overcome the 5-7-5
     sequence: 25
     reverse_posts: true
@@ -97,6 +103,7 @@ collections:
     output: true
     title: Notes on games
     title_singular: A Games Note
+    title_abbrev: Games
     description: exploring game ideas and mechanics
     sequence: 30
     reverse_posts: true
@@ -107,6 +114,7 @@ collections:
     output: true
     title: Overgeneralisations
     title_singular: An Overgeneralisation
+    title_abbrev: Overgeneral
     description: observations based on insufficient evidence
     sequence: 40
     reverse_posts: true
@@ -114,12 +122,14 @@ collections:
     output: true
     title: Distractions
     title_singular: A Distraction
+    title_abbrev: Distractions
     description: a collection of interesting links
     sequence: 90
   jekyll_notes:
     output: true
     title: Jekyll Notes
     title_singular: A Jekyll Note
+    title_abbrev: Jekyll Notes
     description: a collection of notes and observations from and aide-memoires for using Jekyll for the first time.
     sequence: 100
     background_image_url: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
