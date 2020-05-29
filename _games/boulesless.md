@@ -5,9 +5,9 @@ date: 2020-05-29 21:21
 categories: []
 excerpt: >
   can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs.
-background_image_url: /assets/img/boulesless/pegs.JPG
+background_image_url: /assets/img/boulesless/pegs.jpg
 credits:
-  - "[Background image](/assets/img/boulesless/pegs.JPG) by [me](/about)"
+  - "[Background image](/assets/img/boulesless/pegs.jpg) by [me](/about)"
 ---
 # Inspired by
 
