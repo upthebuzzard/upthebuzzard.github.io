@@ -5,9 +5,9 @@ date: 2020-05-29 21:21
 categories: []
 excerpt: >
   can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs.
-background_image_url: /assets/img/boulesless/pegs.jpg
+background_image_url: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
 credits:
-  - "[Background image](/assets/img/boulesless/pegs.jpg) by [me](/about)"
+  - "[Background image](/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg) by [me](/about)"
 ---
 # Inspired by
 
@@ -18,11 +18,23 @@ credits:
 * [Rock, paper, scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors), where everything can be beaten by something.
 * [Nim](https://en.wikipedia.org/wiki/Nim) - see Tactics.
 
+{%
+    include figure.html
+    src="/assets/img/boulesless/four-non-boules-and-a-jack-4.jpg"
+    caption="Four non-boules and a jack (golf ball)"
+%}
+
 First establish your field of play, and agree what is in and out of bounds. For example, keeping clear of the windows and flower beds, flower pots, pets, etc.
 
 Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round as boule alternatives. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics, and for none of them to be actual boules.
 
 Find a visible and easily throwable thing to act as the jack or the target. A golf ball is good, as is an old cereal box.
+
+{%
+    include figure.html
+    src="/assets/img/boulesless/four-non-boules-and-a-jack-2.jpg"
+    caption="Four non-boules and a jack (golf ball)"
+%}
 
 Decide an order of play for the first round.
 
@@ -40,6 +52,13 @@ From round two onwards, the player furthest from the jack in the previous round 
 
 First player to accrue 10 points wins overall.
 
+{%
+    include figure.html
+    src="/assets/img/boulesless/four-non-boules-and-a-jack-1.jpg"
+    caption="Four non-boules and a jack (golf ball)"
+%}
+
+
 # Tactics
 
 From round 2 onwards, the loser of the previous round has the advantage. They get to choose which non-boules they throw and where the jack goes. This should mean they can combine those choices to their advantage.
@@ -51,6 +70,12 @@ From round 2 onwards, the loser of the previous round has the advantage. They ge
 * Introducing a non-boule with opinionated aerodynamics such as frisbee can be interesting. Some players just can't throw it well so won't choose it, leaving it for the more skilled players to take advantage.
 * Pay attention the rhythm of how players are gaining points. You may need to time a late surge to get to the 10 points first, and perhaps take a tactical loss to have all the advantages in what you hope might be the final round. (Think Nim)
 
+{%
+    include figure.html
+    src="/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg"
+    caption="Four non-boules and a jack (golf ball)"
+%}
+
 # Rule Variations
 
 * Instead of the worst player picking the first two non-boules, each player picks one non-boule, worst player first, then each player picks their second non-boule, worst player first. This reduces the advantage of picking first.
@@ -59,6 +84,12 @@ From round 2 onwards, the loser of the previous round has the advantage. They ge
 * In measuring proximity to the jack, consider the furthest part of the non-boule from the jack. This penalises the larger non-boules.
 * If it is felt necessary to increase the advantage handed to the player throwing first in a round, you can introduce the idea of handicaps. They could require that the next player throws with the wrong hand, or standing on one leg, for example.
 * There is no practical limit to the ludicrousness and impracticality of the non-boules chosen.
+
+{%
+    include figure.html
+    src="/assets/img/boulesless/four-non-boules-and-a-jack-3.jpg"
+    caption="Four non-boules and a jack (golf ball)"
+%}
 
 # Advanced play.
 
