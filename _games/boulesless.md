@@ -9,6 +9,14 @@ background_image_url: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
 credits:
   - "[Background image](/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg) by [me](/about)"
 ---
+Where the uninitiated see a garden and assorted detritus, those knowledgeable in the ways of Boulesless see a venue for an ever-changing series of highly competitive tournaments which exercise the body *and* the mind. By granting the loser of the previous round first choice of projectiles in the next, it adds a layer of depth and subtlety that elevates Boulesless beyond mere 'chucking things about', beyond Boules itself.
+
+Excellent for two players, and effortlessly accommodating more, Boulesless unites competitors in a new-found appreciation of everyday objects. The drive to win is transcended by a spiritual enrichment, a gain in understanding of the [affordances](https://en.wikipedia.org/wiki/Affordance) of those very objects that, before these rules, were simply detritus. Every throw is an opportunity to learn, from yourself, and from others.
+
+No other game hinges on the question of whether a feather can beat a pine cone.
+
+Intrigued? Read on.
+
 # Inspired by
 
 * Having no [boules](https://en.wikipedia.org/wiki/Boules)
@@ -17,6 +25,8 @@ credits:
 * The [rubber band effect](https://www.giantbomb.com/rubber-band-ai/3015-35/). In arcade racing games, the chasing pack gets an added boost to prevent the leader from getting too far ahead.
 * [Rock, paper, scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors), where everything can be beaten by something.
 * [Nim](https://en.wikipedia.org/wiki/Nim) - see Tactics.
+* [Found objects](https://en.wikipedia.org/wiki/Found_object).
+* Reduce, [Reuse](http://www.recycling-guide.org.uk/rrr.html), Recycle.
 
 {%
     include figure.html
@@ -26,7 +36,7 @@ credits:
 
 First establish your field of play, and agree what is in and out of bounds. For example, keeping clear of the windows and flower beds, flower pots, pets, etc.
 
-Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round as boule alternatives. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics, and for none of them to be actual boules.
+Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round as boule alternatives. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To adhere to the spirit of game, it is essential that these non-boules are 'found' objects, located in the field of play at the time of the game. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics, and for none of them to be actual boules.
 
 Find a visible and easily throwable thing to act as the jack or the target. A golf ball is good, as is an old cereal box.
 
@@ -68,7 +78,8 @@ From round 2 onwards, the loser of the previous round has the advantage. They ge
 * Or, when the first player has a stick, and a later player has a big ball, a cunning ruse is to throw a short jack, ideally into a corner, and throw the stick in such a way as to leave it wedged, blocking any attempt to get close with a ball.
 * There is no rule which says the person throwing the jack has to move after they have thrown their first non-boule. So if they happen to choose a direction for the jack with no other clear line of access except from where they are standing, then so be it…
 * Introducing a non-boule with opinionated aerodynamics such as frisbee can be interesting. Some players just can't throw it well so won't choose it, leaving it for the more skilled players to take advantage.
-* Pay attention the rhythm of how players are gaining points. You may need to time a late surge to get to the 10 points first, and perhaps take a tactical loss to have all the advantages in what you hope might be the final round. (Think Nim)
+* Pay attention the rhythm of how players are gaining points. You may need to time a late surge to get to the 10 points first, and perhaps take a tactical loss to have all the advantages in what you hope might be the final round. (Think Nim).
+* So, you have the feather (see below). Which rule states you must throw the feather on its own? No such rule. By all means attach your feather to something weightier.
 
 {%
     include figure.html
