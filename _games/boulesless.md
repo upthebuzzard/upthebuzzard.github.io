@@ -9,7 +9,7 @@ background_image_url: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
 credits:
   - "[Background image](/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg) by [me](/about)"
 ---
-Where the uninitiated see a garden and assorted detritus, those knowledgeable in the ways of Boulesless see a venue for an ever-changing series of highly competitive tournaments which exercise the body *and* the mind. By granting the loser of the previous round first choice of projectiles in the next, it adds a layer of depth and subtlety that elevates Boulesless beyond mere 'chucking things about', beyond Boules itself.
+Where the uninitiated see assorted detritus in a garden, those knowledgeable in the ways of Boulesless see a venue for an ever-changing series of highly competitive tournaments which exercise the body *and* the mind. By granting the loser of the previous round first choice of projectiles in the next, it adds a layer of depth and subtlety that elevates Boulesless beyond mere 'chucking things about', beyond Boules itself.
 
 Excellent for two players, and effortlessly accommodating more, Boulesless unites competitors in a new-found appreciation of everyday objects. The drive to win is transcended by a spiritual enrichment, a gain in understanding of the [affordances](https://en.wikipedia.org/wiki/Affordance) of those very objects that, before these rules, were simply detritus. Every throw is an opportunity to learn, from yourself, and from others.
 
