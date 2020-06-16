@@ -13,9 +13,11 @@ Where the uninitiated see assorted detritus in a garden, those knowledgeable in 
 
 Excellent for two players, and effortlessly accommodating more, Boulesless unites competitors in a new-found appreciation of everyday objects. The drive to win is transcended by a spiritual enrichment, a gain in understanding of the [affordances](https://en.wikipedia.org/wiki/Affordance) of those very objects that, before these rules, were simply detritus. Every throw is an opportunity to learn, from yourself, and from others.
 
-No other game hinges on the question of whether a feather can beat a pine cone.
+No other game [hinges](#advanced-play) on the question of whether a feather can beat a pine cone.
 
 Intrigued? Read on.
+
+Impatient? Skip ahead to [The Crucial Bit](#the-crucial-bit).
 
 # Inspired by
 
@@ -24,7 +26,7 @@ Intrigued? Read on.
 * [Lawn darts](https://en.wikipedia.org/wiki/Lawn_darts), where the angle of attack is key. A victim of the modern adherence to the principles of health and safety.
 * The [rubber band effect](https://www.giantbomb.com/rubber-band-ai/3015-35/). In arcade racing games, the chasing pack gets an added boost to prevent the leader from getting too far ahead.
 * [Rock, paper, scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors), where everything can be beaten by something.
-* [Nim](https://en.wikipedia.org/wiki/Nim) - see Tactics.
+* [Nim](https://en.wikipedia.org/wiki/Nim) - see [Tactics](#tactics).
 * [Found objects](https://en.wikipedia.org/wiki/Found_object).
 * Reduce, [Reuse](http://www.recycling-guide.org.uk/rrr.html), Recycle.
 
@@ -56,9 +58,13 @@ Once all players have thrown both their non-boules, it is time to score the roun
 
 Considering only in-bounds non-boules, the player with a non-boule nearest the jack scores one point. If that player has two non-boules nearest the jack they score 2 points. The remaining players are ranked according to how close their closest non-boule was to the jack.
 
+# The Crucial Bit
+
 For round two, the player furthest from the jack in round one gets to choose two non-boules from the set of all non-boules used by the players in the previous round. Then the next furthest player chooses two non-boules and so on until the winner of the previous round is obliged to use whatever two non-boules are left. Ideally, and hopefully humourously, these should be the worst, most useless, least effective non-boules of the set.
 
 From round two onwards, the player furthest from the jack in the previous round gets first choice of non-boules and throws the jack.
+
+_Aside: Did you get the crucial bit? This is what adds depth to the game._
 
 First player to accrue 10 points wins overall.
 
