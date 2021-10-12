@@ -37,7 +37,6 @@ There have been numerous great books in recent years about extrapolating the now
 and many more writings that will occur to me later, such as
 
 * the excellent ["what if?"](http://what-if.xkcd.com/) series spin off from [xkcd](http://xkcd.com/)
-* Scott Adams' [blog](http://www.dilbert.com/blog/)
 
 And just at the last, another post hoc bit of rationalising: I now remember seeing a [TED talk by Elizabeth Gilbert](http://www.youtube.com/watch?v=86x-u-tz0MA), who described how many artists through history have referred to their creativity as if it were a real, living entity, with whims of its own. This works for me too, at least a little bit...
 
