@@ -29,7 +29,7 @@ To the best of my knowledge all images used on this site are (or were) free for 
 
 If you have any feedback on how the stories pan out under battle conditions, do please let me know.
 
-- Chris Gathercole,   upthebuzzard.com
+- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [Twitter](https://twitter.com/upthebuzzard))
 
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img style="border-width:0;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons License" /></a>
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
