@@ -23,4 +23,5 @@ With the GitHub Pages restriction forbidding the use of bespoke Ruby code, it re
 
 * find a simple way of enabling https (currently not supported for custom domains on GitHub Pages).
 * add latest flashfiction story
+* tweak logcal git config
 * and some other things...
