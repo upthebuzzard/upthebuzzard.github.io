@@ -11,6 +11,10 @@ context: >
 related-posts:
   notes: /predicting_the_present/2017-04-08-48hrflashfiction2017-several-days--notes
   draft-01: /predicting_the_present/2017-04-08-48hrflashfiction2017-several-days-draft-01
+background_image_url: /assets/img/predicting-the-present/rhombus-g079583cfa_1280.jpg
+credits:
+  - Background image by <a href="https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274">chenspec</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274">Pixabay</a>
+
 ---
 Hello darkness, my old friend.
 

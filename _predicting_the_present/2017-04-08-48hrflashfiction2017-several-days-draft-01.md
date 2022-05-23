@@ -6,6 +6,9 @@ categories: [draft]
 excerpt: >
   Five minutes, that's all it takes.
 sequence: 5
+background_image_url: /assets/img/predicting-the-present/rhombus-g079583cfa_1280.jpg
+credits:
+  - Background image by <a href="https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274">chenspec</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274">Pixabay</a>
 ---
 Feel sick.
 Nausea.
