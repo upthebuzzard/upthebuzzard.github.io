@@ -22,5 +22,5 @@ With the GitHub Pages restriction forbidding the use of bespoke Ruby code, it re
 ## TODO
 
 * find a simple way of enabling https (currently not supported for custom domains on GitHub Pages).
-* set up Circle-CI integration
+* add latest flashfiction story
 * and some other things...
