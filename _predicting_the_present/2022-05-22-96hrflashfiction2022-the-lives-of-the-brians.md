@@ -55,7 +55,7 @@ So, real pets were too messy, apparently. The parents had happily agreed to spen
 
 > *Along the way, you’ll find you are learning more about the world for yourself. The best way to learn is to teach. You will both be learning, and both be teaching.*
 
-By gaining access to the internal impact of his experimentations, Kevin could manipulate and distort the Brians to a far more satisfying degree than the slugs and frogs, which had no mental side. The puppy would have been a tricky next step, since he had not yet worked out how to deal with the likely ensuing mess.
+By gaining access to the internal impact of his experimentations, Kevin could manipulate and distort the Brians to a far more satisfying degree than the snails and frogs, which had no mental side. The puppy would have been a tricky next step, since he had not yet worked out how to deal with the likely ensuing mess.
 
 In the rucksack, something rustled, and chirped out a muffled alarm signal. The other ongoing experiment, right on the brink of entering its fugue state. According to the instructions, it should have shut down within days of the first alarm, but it was several months now. Controlled bursts of input just brief enough to prevent it fully recovering. 
 
