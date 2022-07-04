@@ -40,7 +40,13 @@
       ...
   <br>Context
   {{ page.context | markdownify }}
-{% endif %}
+  {% endif %}
+  {% if page.breaking-news-include %}
+      ...
+  <br>Breaking News!
+  <br>
+  {% include {{ page.breaking-news-include }} %}
+  {% endif %}
 
   </div>
   <hr />
