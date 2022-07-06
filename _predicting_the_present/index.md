@@ -16,7 +16,7 @@ So what are these stories about?
   {% assign wordCount = item.content | number_of_words %}
   {% assign yyyymmdd = item.date | split: " " | first %}
 
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words{% if item.categories contains "tweet" %}, in a tweet{% endif %}, {{ yyyymmdd }})
+* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words{% if item.categories contains "tweet" %}, in a tweet{% endif %}, {{ yyyymmdd }}{% if item.categories contains "prize-winner" %}, prize-winner!{% endif %})
 > {{ item.excerpt }}
 {% endfor %}
 

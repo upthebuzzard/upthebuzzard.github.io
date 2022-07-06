@@ -2,7 +2,7 @@
 layout: post
 title: The Lives Of The Brians
 date: 2022-05-23 14:49
-categories: [story]
+categories: [story, prize-winner]
 sequence: 14
 excerpt: >
    Not that he had crowed about it, but you can easily project an envy-inducing degree of smugness during the bring-a-toy-to-class day.
