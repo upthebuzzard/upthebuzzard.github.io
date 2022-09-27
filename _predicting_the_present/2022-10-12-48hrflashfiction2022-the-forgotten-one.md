@@ -29,9 +29,7 @@ The boy’s monotonic voice caught a couple of times. He’d done his crying alr
 “Daddy stepped towards me, shouting \`No No No, where is it, put it back in!\`, and then \`Call 999!\`. He tried to pull out his module. He was crying. And then fell down, and dissolved as well.”
 
 The android policebody was still standing at the door, face composed in a sympathetic expression. `POST-SUBLIMATION TASK FORCE’ in large letters across its uniform. “Ah, I am sorry to hear that. I came as soon as I received your call.  
-My name is KiloKilo12, but my friends call me KK.  
-May I come in?  
-We can talk about it some more.”
+My name is KiloKilo12, but my friends call me KK. May I come in? We can talk about it some more.”
 
 The boy stepped back, and KK strode elegantly into the house. 
 
@@ -103,16 +101,12 @@ I don’t think Footsie understood my words at all.”
 
 “Why didn’t they take me with them?”
 
-“They tried to. Every family gets modules that are linked, so the family goes together.  
-I think your daddy was trying to get that to happen, but sadly it was too late when he realised.”
+“They tried to. Every family gets modules that are linked, so the family goes together. I think your daddy was trying to get that to happen, but sadly it was too late when he realised.”
 
 “Have I been bad?”
 
-“No. This was just unfortunate.  
-It should not have been possible to remove the module.  
-If you hadn’t, you would have gone with your parents.  
-So, what shall we do with you, young man?  
-Would you like to join your parents?”
+“No. This was just unfortunate. It should not have been possible to remove the module. If you hadn’t, you would have gone with your parents.  
+So, what shall we do with you, young man? Would you like to join your parents?”
 
 “Will it hurt?”
 
@@ -139,14 +133,11 @@ Can you switch it on for me?
 You can plug this adaptor into your tablet.”
 
 The screen flickered. “Hello I am hopefully a nice and friendly voice and very happy to speak with you.  
-I detect that I am plugged into a device.  
-A tablet.  
-I hope you are being careful.  
-I am a very fragile device.”
+I detect that I am plugged into a device. A tablet.  
+I hope you are being careful. I am a very fragile device.”
 
 “Greetings, sublimation module.  
-I am an agent for the Post Sublimation Task Force.  
-Here is my authentication *&^%£$%^&.  
+I am an agent for the Post Sublimation Task Force. Here is my authentication *&^%£$%^&.  
 My name is KiloKilo12, but call me KK.  
 I am accompanied by your intended young host, Max.”
 
@@ -156,9 +147,7 @@ How are you?”
 
 Max teared up, choked out an “OK”.
 
-“I was worried I had upset you a few days ago.  
-We were just starting to get to know each other.  
-I was about to ask you to give me a name, and then we lost contact.  
+“I was worried I had upset you a few days ago. We were just starting to get to know each other. I was about to ask you to give me a name, and then we lost contact.  
 Is our mission totally compromised, KK?”
 
 “I am currently investigating that.  
@@ -191,8 +180,7 @@ You can decide, or just leave it unsaid.”
 
 “Aaaaand back.  
 Hello Max and KK.  
-I am in perfect working order in here.  
-Not a bit or byte or indeed qubit out of place.  
+I am in perfect working order in here. Not a bit or byte or indeed qubit out of place.  
 KK have you assessed my exterior?”
 
 “Yes. All is well there.”
@@ -229,23 +217,17 @@ Aha. Well. We might be able to do something.”
 
 KK leaned forward. “Really, just from five scratches?”
 
-“It is actually six, since the father used the heel of his hand as well.  
-But yes, that can be interpreted as a flow entry sigil.  
-If we are quick I can maybe follow it.  
-I suspect the father had left the path at least partially activated, since he had enough control to leave an entry sigil.”
+“It is actually six, since the father used the heel of his hand as well. But yes, that can be interpreted as a flow entry sigil.  
+If we are quick I can maybe follow it. I suspect the father had left the path at least partially activated, since he had enough control to leave an entry sigil.”
 
-KK turned to Max. “Would you like a chance of joining your parents?  
-They did not want to leave you.  
-Your daddy has tried very hard to make it possible.”
+KK turned to Max. “Would you like a chance of joining your parents? They did not want to leave you. Your daddy has tried very hard to make it possible.”
 
 Footsie interjected, “Max, I have another favour to ask you.”
 
 “You want me to plug you into my dock.”
 
 “Yes.  
-If you want to try this we need to do it very soon.  
-Like, now, really.  
-If not, we can talk via the tablet and get to know each other better.”
+If you want to try this we need to do it very soon. Like, now, really. If not, we can talk via the tablet and get to know each other better.”
 
 “Will you stay with me, KK?”
 
@@ -256,8 +238,7 @@ It is my job, and it has also been a pleasure meeting such a brave young man as 
 
 Footsie’s lights flickered. “Great.  
 I will speak again with you soon, Max.  
-KK, eject me properly from the tablet, would you?  
-Otherwise the USB won’t properly let me go”
+KK, eject me properly from the tablet, would you? Otherwise the USB won’t properly let me go”
 
 “Certainly”. KK unplugged the module, and handed it to Max. “Would you like to do the honours and plug Footsie in, Max?”
 
@@ -265,8 +246,7 @@ Otherwise the USB won’t properly let me go”
 
 There was a pause while Max concentrated, eyes closed.
 
-“Footsie says he is in, on, and the qubits are still good.  
-He wants me to thank you, KK, before I look at the carpet.”
+“Footsie says he is in, on, and the qubits are still good. He wants me to thank you, KK, before I look at the carpet.”
 
 “You are welcome, Max and Footsie.  
 I wish you a bon voyage.”
