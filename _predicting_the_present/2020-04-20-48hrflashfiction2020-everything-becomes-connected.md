@@ -119,7 +119,7 @@ Not funny.
 <br><br>
 The processing facility was loud, annoyingly rather than painfully, as the sound echoed in the high hangar. Lots of space to expand into.
 
-Once they had their visitor passes from the welcome desk, the introductions took place in an office in the small, temporary-looking, upper level overlooking the floor,.
+Once they had their visitor passes from the welcome desk, the introductions took place in an office in the small, temporary-looking, upper level overlooking the floor.
 
 “I am Pat, Patrick Sears, Customer Relations for Core. Thank you for all coming. I hope you find it educational and inspirational. This is a glimpse of our near future. One that we will all be part of in experiencing and, importantly, shaping.
 
