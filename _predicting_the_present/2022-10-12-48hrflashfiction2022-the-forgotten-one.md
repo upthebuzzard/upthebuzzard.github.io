@@ -255,7 +255,7 @@ It is my job, and it has also been a pleasure meeting such a brave young man as 
 “OK”. 
 
 Footsie’s lights flickered. “Great.  
-I will speak again with you soon, Max..  
+I will speak again with you soon, Max.  
 KK, eject me properly from the tablet, would you?  
 Otherwise the USB won’t properly let me go”
 
