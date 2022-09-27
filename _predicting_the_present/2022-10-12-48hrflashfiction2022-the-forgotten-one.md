@@ -2,7 +2,7 @@
 layout: post
 title: The Forgotten One
 date: 2022-09-12 10:50
-categories: [story]
+categories: [story, prize-winner]
 sequence: 15
 excerpt: >
    “Mummy reached out as she dissolved. She didn’t say anything. Just opened her mouth. I thought she was mad at me about something, but she just dissolved.”
@@ -16,6 +16,7 @@ related-posts:
   entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
   entry-for-2019: /predicting_the_present/2019-04-15-48hrflashfiction2019-mechanical-symphony
   entry-for-2022-05: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+  entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 breaking-news-include: breaking-news-sfl-2022-09.html
 
   

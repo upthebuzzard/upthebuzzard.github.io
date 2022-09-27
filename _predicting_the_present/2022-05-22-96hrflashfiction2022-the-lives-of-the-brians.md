@@ -13,6 +13,8 @@ related-posts:
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
   entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
   entry-for-2019: /predicting_the_present/2019-04-15-48hrflashfiction2019-mechanical-symphony
+  entry-for-2022-05: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+  entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 background_image_url: /assets/img/predicting-the-present/frogs-g7a2be3295_1280.jpg
 credits:
   - Background image by <a href="https://pixabay.com/users/peggy_marco-1553824/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1029189">Peggy und Marco Lachmann-Anke</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1029189">Pixabay</a>

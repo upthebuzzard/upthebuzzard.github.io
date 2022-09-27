@@ -13,6 +13,9 @@ context: >
 related-posts:
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
   entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
+  entry-for-2019: /predicting_the_present/2019-04-15-48hrflashfiction2019-mechanical-symphony
+  entry-for-2022-05: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+  entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 background_image_url: /assets/img/predicting-the-present/doll_broken_face_cracked_vintage-56670.jpg
 credits:
   - Background image by [Aimee Vogelsang](https://unsplash.com/photos/DbJR10fEteE) on [Unsplash](https://unsplash.com/).

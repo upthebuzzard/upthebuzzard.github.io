@@ -12,6 +12,11 @@ related-posts:
   draft-1: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y-draft-01
   draft-2: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y-draft-02
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
+  entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
+  entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
+  entry-for-2019: /predicting_the_present/2019-04-15-48hrflashfiction2019-mechanical-symphony
+  entry-for-2022-05: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+  entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 background_image_url: /assets/img/predicting-the-present/shipping-containers-1362406957o8M.jpg
 credits:
   - Background image by [Peter Griffin](https://www.publicdomainpictures.net/en/view-image.php?image=33844&picture=shipping-containers).
