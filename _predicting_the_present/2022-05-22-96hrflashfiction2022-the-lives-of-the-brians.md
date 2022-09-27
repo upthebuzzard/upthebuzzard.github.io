@@ -8,7 +8,7 @@ excerpt: >
    Not that he had crowed about it, but you can easily project an envy-inducing degree of smugness during the bring-a-toy-to-class day.
 context: >
   This story was written over the 4 days from Thursday 19th to Sunday 22nd May 2022, for the [@LunaSciFi](https://twitter.com/LunaSciFi) [96hr Hour Flash Fiction May challenge for 2022](https://songsfromluna.wordpress.com/), after a wee pandemic break. The challenge was a 1500 (ish) word story riffing on the phrase, "IT’S YOUR BRAIN… USE IT OR LOSE IT!".
-breaking-news-include: breaking-news-sfl-2022-may.html
+breaking-news-include: breaking-news-sfl-2022-05.html
 related-posts:
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
   entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y

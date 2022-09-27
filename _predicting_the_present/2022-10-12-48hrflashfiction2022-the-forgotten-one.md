@@ -10,7 +10,14 @@ context: >
   This story was written over the 48hrs <br>from noon on Saturday 10th to noon on Monday 12th September 2022, <br>for the [@LunaSciFi](https://twitter.com/LunaSciFi) [48r Hour Flash Fiction September challenge for 2022](https://songsfromluna.wordpress.com/). <br>The challenge was a 1500 (ish) word story riffing on the phrases, <br><i>“The forgotten one in the village. It’s about thoughts of the dead”</i>, <br>[sourced](https://twitter.com/upthebuzzard/status/1568561093886283776) from the [SciFiBotPrompt](https://twitter.com/SciFiBotPrompt), [2nd time round](https://twitter.com/upthebuzzard/status/1569262151629676547). <br><br>Belatedly realised this story has channeled bits of <br>A.C.Clarke's <a href="https://en.wikipedia.org/wiki/Childhood%27s_End" target="_blank">Childhood's End</a>, <br>and I.Asimov's <a href="https://en.wikipedia.org/wiki/R._Daneel_Olivaw" target="_blank">R. Daneel Olivaw</a>, <br>not to mention the notion of 'subliming' from I.M.Banks' <a href="https://theculture.fandom.com/wiki/The_Sublimed" target="_blank">Culture novels</a>.
 background_image_url: /assets/img/predicting-the-present/bulkan-evcimen-FxlES1F3shg-unsplash.jpg
 credits:
-  - <a href="https://unsplash.com/photos/FxlES1F3shg">Background image</a> by <a href="https://unsplash.com/@bulkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bulkan Evcimen</a> on <a href="https://unsplash.com/s/photos/carpet-scuff?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - <a href="https://unsplash.com/photos/FxlES1F3shg" target="_blank">Background image</a> by <a href="https://unsplash.com/@bulkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Bulkan Evcimen</a> on <a href="https://unsplash.com/s/photos/carpet-scuff?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+related-posts:
+  entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
+  entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
+  entry-for-2019: /predicting_the_present/2019-04-15-48hrflashfiction2019-mechanical-symphony
+  entry-for-2022-05: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+breaking-news-include: breaking-news-sfl-2022-09.html
+
   
 
 ---
