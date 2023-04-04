@@ -143,3 +143,4 @@ collections:
     title_abbrev: Hifi
     description: Assorted thoughts and learnings on 'Good hifi on the cheap'
     sequence: 110
+    reverse_posts: true

@@ -12,7 +12,7 @@ From my own brief dabblings with headphones, I can make the following observatio
 
 * Bluetooth provides a kind of quality threshold. 
 
-If you have a trained ear, a good DAC, a high rez signal source, and good headphones, then you can probably (I believe) hear the difference between bluetooth and wired headphones. In that case, you might head on down this particular rabbit hole, seeking the perfect sound. Small improvements are more apparent with headphones. 
+If you have a trained ear, a good DAC, a high rez signal source, and good headphones, then you can probably (I believe) hear the difference between bluetooth and wired headphones. In that case, you might want to head on down this particular rabbit hole, seeking the perfect sound. Small improvements are more apparent with headphones. 
 
 You have my sympathies.
 
@@ -32,9 +32,15 @@ For only a little bit of money, you can get a 'dongle DAC'. This device plugs in
 
 The other Dragonflies are (apparently) noticeably better if you have good headphones. And, since they kind of set the scene, assorted competitors have entered the market. But with my particular headphones, the Black one is good enough for me.
 
+* There are a few different socket sizes, most common being 3.5mm, but also bigger and smaller. Worth checking if you need an adapter.
+
+* The trend for new smartphones to no longer have standard headphone sockets has been annoying. 
+
+If you don't want to switch to bluetooth (and new headphones), you can use a dongle DAC as the adapter, since all (most?) smartphones will have a USB socket, so not really a big issue.
+
 * the 'system' you are seeking to optimise in this hifi nice is
    * headphones
-   * dongle DAC
+   * in-phone or dongle DAC
    * music source (to a lesser extent)
 
 The synergy between DAC and headphones can be quite marked. Some have it. Some don't.
