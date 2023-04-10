@@ -13,7 +13,7 @@
 Not much to offer here, apart from a few observations
 
 * Modern amplifiers routinely seem to have plenty of power for the vast majority of situations. Cranking up the volume dial fully reaches painful, eardrum-destroying levels of loudness, and where is the fun in that?
-* There is a (sort of) widepread marketing scam, especially with the cheaper amps, where a crazily high output figure is quoted. The main caveats are:
+* There is a (sort of) widespread marketing scam, especially with the cheaper amps, where a crazily high output figure is quoted. The main caveats are:
    * Often you need to get a much bigger power supply to achieve these maxima. That said, this might be considered as an upgrade path, where you can get an improvement for a (fairly) small additional spend.
    * Some of those high power output figures come with an associated [THD](#thd) of 10%, which basically mean your speakers will sound like they are being ripped to shreds and will sound awful. 
 * The word is that a more powerful ampilifier _can_ feel more 'comfortable' and 'controlled' (not my words).
