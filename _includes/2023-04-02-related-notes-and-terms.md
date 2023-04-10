@@ -16,7 +16,7 @@ Not much to offer here, apart from a few observations
 * There is a (sort of) widespread marketing scam, especially with the cheaper amps, where a crazily high output figure is quoted. The main caveats are:
    * Often you need to get a much bigger power supply to achieve these maxima. That said, this might be considered as an upgrade path, where you can get an improvement for a (fairly) small additional spend.
    * Some of those high power output figures come with an associated [THD](#thd) of 10%, which basically mean your speakers will sound awful, like they are being ripped to shreds. 
-* The word is that a more powerful ampilifier _can_ feel more 'comfortable' and 'controlled' (not my words).
+* The word is that a more powerful ampilifier _can_ sound more 'comfortable' and 'controlled' (not my words).
 * Older tube-based amplifiers, where the tube was actually part of the main mplification circuit, were notorious for having low power output levels, and did need care when choosing matching speakers.
 * Another way of phrasing "needs lots of power to drive them" or "power hungry" is "low efficiency".
 * Some particular (expensive) speakers are notoriously power hungry.
