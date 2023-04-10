@@ -30,7 +30,7 @@
       {% assign posts = posts | sort: 'date' %}
     {% endif %}
 
-    {% if reverse_collection_posts %}
+    {% if reverse_collection_posts == true %}
       {% assign posts = posts | reverse %}
     {% endif %}
 

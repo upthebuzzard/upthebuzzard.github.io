@@ -5,10 +5,10 @@ date: 2023-04-03 16:50
 categories: []
 permalink: /:collection/index.html
 excerpt: >
-  Assorted thoughts and learnings on 'Good hifi on the cheap'
+  A life-long journey from ignorance to nice-but-cheap audio.
 ---
 
-A life-long journey from ignorance to nice-but-cheap audio.
+The missteps are (it turns out) the fun steps. 
 
 {% assign collections = site.collections | sort: 'sequence' %}
 {% for collection in collections %}
@@ -19,7 +19,7 @@ A life-long journey from ignorance to nice-but-cheap audio.
   {% endif %}
 {% endfor %}
 
-{% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' | reverse %}
+{% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' %}
 
 {% if reverse_collection_posts %}
   {% assign sorted = sorted | reverse %}

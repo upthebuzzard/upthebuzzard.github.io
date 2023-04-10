@@ -141,6 +141,9 @@ collections:
     title: Good Hifi On The Cheap
     title_singular: A GHOTC Observation
     title_abbrev: Hifi
-    description: Assorted thoughts and learnings on 'Good hifi on the cheap'
+    description: A life-long journey from ignorance to nice-but-cheap hifi.
     sequence: 110
-    reverse_posts: true
+    background_image_url: /assets/img/dall-e-ear.png
+    credits: 
+      - Background image via [Dall-e](https://labs.openai.com/), "a large human ear, with rich skin tones, with black, crisply defined musical notes flying into the ear"
+
