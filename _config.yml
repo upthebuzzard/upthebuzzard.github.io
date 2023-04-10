@@ -136,3 +136,14 @@ collections:
     credits:
       - Background image from [Wikipedia](https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde#/media/File:Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg)
     reverse_posts: true
+  hifi:
+    output: true
+    title: Good Hifi On The Cheap
+    title_singular: A GHOTC Observation
+    title_abbrev: Hifi
+    description: A life-long journey from ignorance to nice-but-cheap hifi.
+    sequence: 110
+    background_image_url: /assets/img/dall-e-ear.png
+    credits: 
+      - Background image via [Dall-e](https://labs.openai.com/), "a large human ear, with rich skin tones, with black, crisply defined musical notes flying into the ear"
+
