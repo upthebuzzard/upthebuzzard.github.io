@@ -132,7 +132,7 @@ The big caveat to the big caveat is when you have a **pre-amplifier** feeding yo
 
 #### Dialling in the subwoofer
 
-... or positioning it and then choosing the right dial settings, is an enjoyable process. There are lots of self-help videos for this process. The main things to worry about are (a) getting the phase right, so your subwoofer and speakers are toing and froing in sync, and (b) crank up the gain on the subwoofer til your feel the thump thump of the bass, then dial it back down slowly until you can't quite hear the thump any more. From here it is a matter of taste, but you will be in the ball park. In a bigger room, in far-field mode, you have more things to worry about regarding placement. But for a desktop, this will be fine.
+... or positioning it and then choosing the right dial settings, is an enjoyable process. There are lots of self-help videos for this process. The main things to worry about are (a) getting the phase right, so your subwoofer and speakers are toing and froing in sync, and (b) crank up the gain on the subwoofer til you feel the thump thump of the bass, then dial it back down slowly until you can't quite hear the thump any more. From here it is a matter of taste, but you will be in the ball park. In a bigger room, in far-field mode, you have more things to worry about regarding placement. But for a desktop, this will be fine.
 
 The bass sound is more or less **omni-directional**, so you can stick your subwoofer out of the way (under the desk) and still benefit from it.
 
