@@ -30,7 +30,7 @@ And the addition of
 
 We can address these combinations holistically. 
 
-Firstly, on a desktop, your speakers will most likely be small, and that means very little bass. They can sound nice and clear, and can be an listening pleasure as is. But, with the best will in the world, there will be little bass oomph. Cranking up the bass [tone control](#tone-controls) (assuming you have one) will be an exercise in futility.  
+Firstly, on a desktop, your speakers will most likely be small, and that means very little bass. They can sound nice and clear, and can be a listening pleasure as is. But, with the best will in the world, there will be little bass oomph. Cranking up the bass [tone control](#tone-controls) (assuming you have one) will be an exercise in futility.  
 
 My first concrete suggestion is to assume you will benefit from a powered (aka active) subwoofer. This is a speaker built for bass, and will supply your missing oomph. Many powered speakers cater for subwoofers, as do many amplifiers.
 
