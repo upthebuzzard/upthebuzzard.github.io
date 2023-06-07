@@ -7,7 +7,7 @@ excerpt: >
   Just when it seemed Big Data had done its worst, one of the biggest questions troubling science and philosophy fell before its onslaught: what is human intelligence?
 sequence: 3
 ---
-Just when it seemed <a href="https://en.wikipedia.org/wiki/Big_data">Big Data</a>  had <a title="Evidence-Based, looking back" href="http://stories.upthebuzzard.com/2013/06/24/evidence-based/">done its worst</a>, one of the biggest questions troubling science and philosophy fell before its onslaught: what is human intelligence?
+Just when it seemed <a href="https://en.wikipedia.org/wiki/Big_data">Big Data</a>  had <a title="Evidence-Based, looking back" href="/predicting_the_present/2013-06-24-evidence-based.html">done its worst</a>, one of the biggest questions troubling science and philosophy fell before its onslaught: what is human intelligence?
 
 Big Data popped up with a statistically very solid model of how minds worked. Working backwards from a range of behavioural traits gleaned from multiple data sources (particularly the previously-restricted CCTV feeds and obfusticated census data) about a how a person moved, shopped, interacted with friends, and, surprisingly significantly, dressed, Big Data could predict with unerring precision and accuracy how that person would behave in previously unseen situations.
 
