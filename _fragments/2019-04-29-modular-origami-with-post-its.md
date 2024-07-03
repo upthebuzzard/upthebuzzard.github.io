@@ -42,7 +42,7 @@ Basic origami advice also stands.
 
 This is the simplest of the units to fold. The units only connect in threes, so the structures get bigger more quickly.
 
-[Tom Hull](http://mars.wne.edu/~thull/) has written some clear instructions for folding his [PHiZZ unit](http://mars.wne.edu/~thull/phzig/phzig.html).
+[Tom Hull](http://origametry.net/) has written some clear instructions for folding his [PHiZZ unit](http://origametry.net/phzig/phzig.html).
 
 When trying this with square post-its, just make sure you start with the post-its in the same orientation each time, sticky side up and along the top, so that when you 'accordion pleat it into fourths', the sticky strip is fully in one of those fourths, and then folded fully inside the unit.
 
