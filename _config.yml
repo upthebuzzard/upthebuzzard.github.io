@@ -33,8 +33,14 @@ credits:
 auto-generated-title: mashup
 google_analytics: UA-92309370-1
 
-license_name: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
-license_url: http://creativecommons.org/licenses/by-nc-sa/3.0/
+# license history
+#
+# replaced 2024/07/03
+# license_name: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+# license_url: http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+license_name: Creative Commons, ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL License (CC BY-NC-SA 4.0)
+license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Build settings
 markdown: kramdown
