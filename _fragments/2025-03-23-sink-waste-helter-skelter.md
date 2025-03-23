@@ -20,4 +20,4 @@ Long story short, was actually easy enough to do with a 'helter skelter' kit for
 
 Of course now I have the two sink waste outputs at different levels, and will be a faff to replace the remaining old one, but I think I get the knack now, so hopefully only a small faff.
 
-_NB: "helter skelter" is my analogy for the rat's nest of plumbing under a twin sink unit. As far as I know, this is not an official plumbing word. Perhaps should have used the phrase, "rat's nest"..._
+_NB: "helter skelter" is my analogy for the rat's nest of plumbing under a twin sink unit. As far as I know, this is not an official plumbing term. Perhaps should have used the phrase, "rat's nest"..._
