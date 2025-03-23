@@ -9,7 +9,7 @@ excerpt: >
 Floods ahoy when emptying the kitchen sink.
 
 Went chasing the leak, dismantled the helter skelter of pipes, cleaned them of the 'looks like fresh poo' gunk.
-Reassembled the helter skelter. Turns out, it was the sink waste bolt that had broken, rusted through, so it was hanging free, hence the flooding when more than a trickle is drained.
+Reassembled the helter skelter. Turns out, it was the sink waste bolt (that clamps the cup underneath the sink exit up to the waste grill that sits on top of the sink exit) that had broken, rusted through, so it was hanging free, hence the flooding when more than a trickle is drained. 
 
 Bought a new sink waste that looked like the old one. The main out pipe was a standard 40mm, but discovered the old overflow pipe was not standard, so had to replace the whole overflow attachment, which was lucky because it rust-snapped too during the dismantling.
 New waste installed, solid, nicely done, hanging 3cm higher than the old one, so no longer lined up with the 2nd sink waste.
