@@ -14,7 +14,7 @@ There is a lot more to it than the classic (English) fixation with 5-7-5 syllabl
 
 When it works, it can really work. The striving is the fun.
 
-There was a fun project in 2016 [uncovering accidental haiku in FT articles](https://labs.ft.com/2016/07/finding-hidden-haiku/).
+There was a fun project in 2016 [uncovering accidental haiku in FT articles](https://www.ft.com/content/372c5c3a-c657-11e6-8f29-9445cac8966f).
 
 Here are some that I have tried.
 
