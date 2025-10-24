@@ -9,9 +9,9 @@ background_image_url: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
 credits:
   - "[Background image](/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg) by [me](/about)"
 ---
-Where the uninitiated see assorted detritus in a garden, those knowledgeable in the ways of Boulesless see a venue for an ever-changing series of highly competitive tournaments which exercise the body *and* the mind. By granting the loser of the previous round first choice of projectiles in the next, it adds a layer of depth and subtlety that elevates Boulesless beyond mere 'chucking things about', beyond Boules itself.
+Where the uninitiated see assorted detritus in a garden, those knowledgeable in the ways of Boulesless see a venue for an ever-changing series of highly competitive tournaments which exercise the body *and* the mind. By granting the loser of the previous round first choice of projectiles in the next, there is a layer of depth and subtlety elevating Boulesless beyond mere 'chucking things about', beyond Boules itself.
 
-Excellent for two players, and effortlessly accommodating more, Boulesless unites competitors in a new-found appreciation of everyday objects. The drive to win is transcended by a spiritual enrichment, a gain in understanding of the [affordances](https://en.wikipedia.org/wiki/Affordance) of those very objects that, before these rules, were simply detritus. Every throw is an opportunity to learn, from yourself, and from others.
+Excellent for two players, and effortlessly accommodating more, Boulesless unites competitors in a new-found appreciation of everyday objects. The drive to win is transcended by a spiritual enrichment, a gain in understanding of the [affordances](https://en.wikipedia.org/wiki/Affordance) of those very objects which, before these rules, were simply detritus. Every throw is an opportunity to learn, from yourself, from others, and from the world.
 
 No other game [hinges](#advanced-play) on the question of whether a feather can beat a pine cone.
 
@@ -23,12 +23,14 @@ Impatient? Skip ahead to [The Crucial Bit](#the-crucial-bit).
 
 * Having no [boules](https://en.wikipedia.org/wiki/Boules)
 * [Onitama](https://boardgamegeek.com/boardgame/160477/onitama), where the limited set of action cards cycle round between the two players.
-* [Lawn darts](https://en.wikipedia.org/wiki/Lawn_darts), where the angle of attack is key. A victim of the modern adherence to the principles of health and safety.
+* [Lawn darts](https://en.wikipedia.org/wiki/Lawn_darts), where the angle of attack is key. Rarely seen now: a victim of the modern adherence to the principles of health and safety.
 * The [rubber band effect](https://www.giantbomb.com/rubber-band-ai/3015-35/). In arcade racing games, the chasing pack gets an added boost to prevent the leader from getting too far ahead.
 * [Rock, paper, scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors), where everything can be beaten by something.
 * [Nim](https://en.wikipedia.org/wiki/Nim) - see [Tactics](#tactics).
 * [Found objects](https://en.wikipedia.org/wiki/Found_object).
 * Reduce, [Reuse](http://www.recycling-guide.org.uk/rrr.html), Recycle.
+
+# Round 1
 
 {%
     include figure.html
@@ -38,9 +40,9 @@ Impatient? Skip ahead to [The Crucial Bit](#the-crucial-bit).
 
 First establish your field of play, and agree what is in and out of bounds. For example, keeping clear of the windows and flower beds, flower pots, pets, etc.
 
-Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round as boule alternatives. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To adhere to the spirit of game, it is essential that these non-boules are 'found' objects, located in the field of play at the time of the game. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics, and for none of them to be actual boules.
+Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To adhere to the spirit of game, it is essential that these non-boules are 'found' objects, located in the field of play at the time of the game. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics. It should not need saing, but, none of the non-boules should be actual boules.
 
-Find a visible and easily throwable thing to act as the jack or the target. A golf ball is good, as is an old cereal box.
+Find a visible and easily throwable thing to act as the jack or the target. A golf ball is good, as is an old cereal box. Ironically, a boule is perfect in this role.
 
 {%
     include figure.html
@@ -84,8 +86,8 @@ From round 2 onwards, the loser of the previous round has the advantage. They ge
 * Or, when the first player has a stick, and a later player has a big ball, a cunning ruse is to throw a short jack, ideally into a corner, and throw the stick in such a way as to leave it wedged, blocking any attempt to get close with a ball.
 * There is no rule which says the person throwing the jack has to move after they have thrown their first non-boule. So if they happen to choose a direction for the jack with no other clear line of access except from where they are standing, then so be it…
 * Introducing a non-boule with opinionated aerodynamics such as frisbee can be interesting. Some players just can't throw it well so won't choose it, leaving it for the more skilled players to take advantage.
-* Pay attention the rhythm of how players are gaining points. You may need to time a late surge to get to the 10 points first, and perhaps take a tactical loss to have all the advantages in what you hope might be the final round. (Think Nim).
-* So, you have the feather (see below). Which rule states you must throw the feather on its own? No such rule. By all means attach your feather to something weightier.
+* Pay attention to the rhythm of how players are gaining points. You may need to time a late surge to get to the 10 points first, and perhaps take a tactical loss to have all the advantages in what you hope might be the final round. (Think Nim).
+* So, you have the feather (see above). Which rule states you must throw the feather on its own? No such rule. By all means attach your feather to something weightier.
 
 {%
     include figure.html
@@ -96,7 +98,7 @@ From round 2 onwards, the loser of the previous round has the advantage. They ge
 # Rule Variations
 
 * Instead of the worst player picking the first two non-boules, each player picks one non-boule, worst player first, then each player picks their second non-boule, worst player first. This reduces the advantage of picking first.
-* The worst player picks two non-boules from the current set, but can then specify one brand new non-boule that the best player must use. A classic choice in this case would be a pigeon feather. This is a slippery slope though. Gets ludicrous too quickly and easily and spoils the actual game.
+* The worst player picks two non-boules from the current set, but can then specify one brand new non-boule that the best player must use. A classic choice in this case would be a pigeon feather. This is a slippery slope though. Gets ludicrous too quickly and easily, and risks spoiling the actual game.
 * A variant of the variant is for the players to initially select three non-boules to go into the combined pool of in-play non-boules. They only use two each in any one round, but there is a bigger set from which to choose a duff one. This works quite well, and still allows for a feather, but stops it from escalating.
 * In measuring proximity to the jack, consider the furthest part of the non-boule from the jack. This penalises the larger non-boules.
 * If it is felt necessary to increase the advantage handed to the player throwing first in a round, you can introduce the idea of handicaps. They could require that the next player throws with the wrong hand, or standing on one leg, for example.
@@ -108,7 +110,12 @@ From round 2 onwards, the loser of the previous round has the advantage. They ge
     caption="Four non-boules and a jack (golf ball)"
 %}
 
-# Advanced play.
+# Advanced play
 
-Banter is very much considered part of the game, either as a tactic or as a congenial way to pass the time.
+Banter is considered very much part of the game, either as a tactic or as a congenial way to pass the time.
+
 The seasoned player will take the time to ruminate out loud on the anticipated flying characteristics of their (or anyone else’s non-boule), and will describe their intended flight plan and the philosophy behind it. Obviously, a critiquing of how it did actually go is essential.
+
+Appreciation should be given for inspired choices of non-boules.
+
+If everyone is enriched, everyone is a winner.
