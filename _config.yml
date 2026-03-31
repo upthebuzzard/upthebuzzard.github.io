@@ -54,6 +54,8 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - DISCUSSIONS
+  - CLAUDE.md
 collections:
   moose_and_goose_stories:
     output: true
