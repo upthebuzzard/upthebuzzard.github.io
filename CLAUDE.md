@@ -2,6 +2,7 @@
 
 ## Working Rules
 
+- **Always capture discussions** — when research, analysis, or decisions happen in conversation, save them to `DISCUSSIONS/` without being asked.
 - **Always commit to a branch, not main** — the only exception is the deploy ritual, which merges into main.
 - **Always ask before committing** — never run `git commit` without explicit user approval.
 - **Always ask before pushing** — never run `git push` without explicit user approval.

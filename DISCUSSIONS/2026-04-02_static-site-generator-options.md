@@ -44,11 +44,97 @@ Moving from Classic GitHub Pages to Actions-based deployment opens up the choice
 - **Cons:** Smaller community than Hugo/Eleventy, still Ruby dependency
 - **Good fit if:** Want to modernise but stay close to Jekyll's philosophy
 
+## More "Out There" Options
+
+### Performance extremists
+
+#### Zola (Rust)
+
+- **Migration effort:** Medium — Tera templates (Jinja2-like), not Liquid
+- **Pros:** Single binary, zero dependencies, benchmarks 4x faster than Hugo in some tests, Sass built-in, shortcodes, taxonomies
+- **Cons:** Smaller ecosystem than Hugo, Tera template syntax is different from Liquid
+- **Good fit if:** Want maximum speed with a simpler tool than Hugo
+- [Zola](https://www.getzola.org/)
+
+### Paradigm breakers
+
+#### Hakyll (Haskell)
+
+- **Migration effort:** High — configuration is a Haskell program (xmonad-style DSL)
+- **Pros:** Compile-time guarantees, powerful functional composition of build rules, very precise control over the build pipeline
+- **Cons:** Requires Haskell knowledge, steep learning curve, small community
+- **Good fit if:** You think in functional composition and want type-checked site builds
+- [Hakyll](https://jaspervdj.be/hakyll/)
+
+#### Soupault (OCaml)
+
+- **Migration effort:** High — completely different mental model
+- **Pros:** Works by rewriting HTML element trees instead of templates. Write plain HTML, Soupault manipulates the DOM. Extensible with Lua plugins. Single binary.
+- **Cons:** Very niche, small community, requires rethinking how you author content
+- **Good fit if:** You're tired of template languages entirely and want to work with HTML as a data structure
+- [Soupault](https://soupault.app/)
+
+#### Scroll (Custom language)
+
+- **Migration effort:** Very high — a whole new markup language, not Markdown
+- **Pros:** Purpose-built for scientific publishing, novel approach to structured content
+- **Cons:** Tiny ecosystem, non-standard markup, experimental
+- **Good fit if:** Scientific content and you want something radically different
+- [Scroll](https://scroll.pub/)
+
+### Niche but interesting
+
+#### seite (Rust)
+
+- AI-native SSG with built-in MCP server and Claude Code integration
+- Very new, worth watching
+
+## Reframing: Content-First, Least Friction
+
+The real pain points aren't about which SSG to use:
+
+1. **Toolchain rot** — the build broke, content was hostage to infrastructure. Reduced to editing via GitHub GUI.
+2. **Content vs plumbing** — want to write stories, not maintain Ruby/Node/Go toolchains.
+3. **Interactive bits frozen** — mashup pages (n-gram Markov from `search.json`) are stale because touching anything felt risky.
+4. **Arcane knowledge barrier** — Liquid templates, SCSS, Jekyll internals shouldn't be prerequisites for writing.
+
+Note: the mashup pages are pure client-side JavaScript (`ngramMarkov.js` + `search.json`) — they're actually decoupled from Jekyll and would work with any SSG or hosted platform.
+
+### Layer 1: Fix the toolchain rot (keep SSG)
+
+Move to GitHub Actions + Jekyll 4 (or Hugo/Zola as a single binary that can't rot). Still Markdown files in a repo. **Doesn't change the content authoring experience.**
+
+### Layer 2: Add a CMS layer on top of an SSG
+
+Keep the SSG but add a visual editor for content:
+
+- **[CloudCannon](https://cloudcannon.com)** — built specifically for Jekyll/Hugo/Eleventy. Visual editor, understands collections, nice UI for frontmatter. From $55/month.
+- **[TinaCMS](https://tina.io)** — visual on-page editing, stores content as Markdown in Git. Free for local dev, $25/month for cloud.
+- **[JekyllPad](https://www.jekyllpad.com/)** — lightweight CMS layer specifically for Jekyll + GitHub Pages.
+- **[Decap CMS](https://decapcms.org/)** — free, open source, but no longer actively maintained.
+
+These mean: edit content in a web UI, it commits Markdown to the repo, the SSG builds it. Adds a dependency on the CMS service.
+
+### Layer 3: Markdown-native publishing (ditch the SSG)
+
+- **[Quartz](https://quartz.jzhao.xyz/)** — turns a folder of Markdown into a website. Designed for "second brain" / knowledge base publishing. Minimal config, very content-focused.
+- **[Obsidian Publish](https://obsidian.md/publish)** — if you use Obsidian for writing, one-click publish. $8/month.
+- **Bear Blog**, **Mataroa**, **Write.as** — ultra-minimal hosted Markdown blogs. Zero maintenance.
+
+### Layer 4: Hosted CMS platforms
+
+- **[Ghost](https://ghost.org)** — beautiful writing-focused CMS, self-hosted or $9/month. Markdown editor, memberships, newsletters. Writing experience is excellent.
+- **Substack** / **Buttondown** — if the writing is the thing and you don't care about surrounding site structure.
+
 ## Recommendation
 
-**Jekyll 4** is the pragmatic choice — minimal migration effort, everything works, and it solves the immediate problems (pinned dependencies, Dependabot alerts, build control).
+**Short term:** Jekyll 4 + GitHub Actions fixes the rot. Lowest friction right now — you already know the content format.
 
-A move to **Hugo** or **Eleventy** would only make sense if there's appetite for a larger rewrite, driven by wanting faster builds or a different development experience.
+**Medium term:** Add **CloudCannon** (built for Jekyll, understands collections, visual frontmatter editing) — or migrate to **Hugo** + CloudCannon (Hugo is a single binary that won't rot).
+
+**If starting fresh:** **Quartz** or **Ghost** would give the least-friction writing experience. But migrating 11 collections of existing content is non-trivial.
+
+**The priority order should be:** fix the build first (Jekyll 4 + Actions), then decide whether to layer a CMS on top or migrate further. Each step is independent.
 
 ## Sources
 
@@ -57,3 +143,14 @@ A move to **Hugo** or **Eleventy** would only make sense if there's appetite for
 - [7 Best Jekyll Alternatives 2026](https://themefisher.com/best-jekyll-alternatives)
 - [Top 12 SSGs in 2026](https://hygraph.com/blog/top-12-ssgs)
 - [Jamstack SSG Directory](https://jamstack.org/generators/)
+- [Hakyll](https://jaspervdj.be/hakyll/)
+- [Soupault](https://soupault.app/)
+- [Rust SSGs: Performance and Ecosystem](https://dasroot.net/posts/2026/02/static-site-generators-rust-performance-ecosystem-use-cases/)
+- [Hugo vs Publish vs Saga](https://www.loopwerk.io/articles/2026/hugo-vs-publish-vs-saga/)
+- [TinaCMS](https://tina.io)
+- [CloudCannon](https://cloudcannon.com)
+- [Best CMS for Hugo 2026](https://statichunt.com/blog/best-cms-for-hugo-websites)
+- [Git-Based Headless CMS 2026](https://statichunt.com/blog/git-based-headless-cms)
+- [CMS for GitHub Pages 2026](https://www.jekyllpad.com/blog/cms-github-pages)
+- [Quartz](https://quartz.jzhao.xyz/)
+- [Ghost](https://ghost.org)
