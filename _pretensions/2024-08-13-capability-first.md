@@ -200,7 +200,7 @@ A project or product does not ‘own’ a capability. It is merely an early stew
 
 This deserves an entire article in its own right.
 
-From the discussion of what constitutes a good strategy ([LI article](https://www.linkedin.com/pulse/so-you-think-have-strategy-chris-gathercole-ardoe)), we have these primary aspects:
+From the discussion of what constitutes a good strategy ([on this site](/pretensions/2024-06-14-so-you-think-you-have-a-strategy.html)), we have these primary aspects:
 
 - Diagnosis: simplifies complex reality, and identifies critical aspects/risks/opportunities.
 

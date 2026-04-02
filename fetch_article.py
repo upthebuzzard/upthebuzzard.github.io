@@ -163,7 +163,7 @@ def element_to_markdown(el, depth=0):
         return '\n---\n\n'
     if el.name == 'img':
         alt = el.get('alt', '')
-        src = el.get('src', '') or el.get('data-src', '')
+        src = el.get('src', '') or el.get('data-src', '') or el.get('data-delayed-url', '')
         if src and _img_dir:
             local_path = download_image(src, _img_dir)
             if local_path:
@@ -233,14 +233,50 @@ def extract_article(html, img_dir=None, img_path_prefix=None):
     date = (meta.get('article:published_time', '') or
             meta.get('datePublished', '') or
             meta.get('date', ''))
+    # LinkedIn sometimes puts datePublished outside of meta tags
+    if not date:
+        for tag in soup.find_all(attrs={'name': 'datePublished'}):
+            date = tag.get('content', '')
+        if not date:
+            # Try finding it as text content in a meta-like tag
+            import json
+            for script in soup.find_all('script', type='application/ld+json'):
+                try:
+                    data = json.loads(script.string)
+                    if isinstance(data, dict):
+                        date = data.get('datePublished', '')
+                except (json.JSONDecodeError, TypeError):
+                    pass
     author = meta.get('author', '') or meta.get('article:author', '')
     description = meta.get('og:description', '') or meta.get('description', '')
 
     # Convert to markdown
     md = element_to_markdown(article)
 
+    # Remove "Recommended by LinkedIn" sections (noise)
+    md = re.sub(r'## Recommended by LinkedIn.*?(?=\n##[^#]|\n###[^#]|\Z)',
+                '', md, flags=re.DOTALL)
+
+    # Clean up whitespace-only lines
+    md = re.sub(r'\n[ \t]+\n', '\n\n', md)
+
     # Clean up excessive blank lines
     md = re.sub(r'\n{3,}', '\n\n', md)
+
+    # Convert image+caption pairs to <figure> elements
+    # Pattern: ![alt](src)\n\n*caption text*
+    def img_to_figure(m):
+        alt = m.group(1)
+        src = m.group(2)
+        caption = m.group(3)
+        return (f'\n<figure>\n'
+                f'  <img src="{src}" alt="{alt}">\n'
+                f'  <figcaption>{caption}</figcaption>\n'
+                f'</figure>\n')
+
+    md = re.sub(r'\n!\[([^\]]*)\]\(([^)]+)\)\n+\*([^*]+)\*',
+                img_to_figure, md)
+
     md = md.strip()
 
     # Build output
