@@ -2,6 +2,7 @@
 
 ## Working Rules
 
+- **Always commit to a branch, not main** — the only exception is the deploy ritual, which merges into main.
 - **Always ask before committing** — never run `git commit` without explicit user approval.
 - **Always ask before pushing** — never run `git push` without explicit user approval.
 - **New files in the repo root must be excluded** — add them to the `_config.yml` exclude list so they don't get published to GitHub Pages.
