@@ -6,6 +6,10 @@
 - **Always ask before committing** — never run `git commit` without explicit user approval.
 - **Always ask before pushing** — never run `git push` without explicit user approval.
 - **New files in the repo root must be excluded** — add them to the `_config.yml` exclude list so they don't get published to GitHub Pages.
+- **Avoid Bash approval triggers** — Claude Code's safety heuristics prompt on `$(...)`, backticks, quotes inside `#` comments, and `$'...'`. To avoid unnecessary prompts:
+  - Use multiple `-m` flags for commit messages (not `$(cat <<'EOF')`). E.g. `git commit -m "Title" -m "Body." -m "Co-Authored-By: ..."`
+  - Use Claude-native tools (Glob, Grep, Read) instead of complex bash one-liners
+  - Keep bash commands simple — push complexity into scripts or Claude's reasoning
 
 ## Project Overview
 
