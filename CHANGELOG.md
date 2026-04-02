@@ -1,12 +1,13 @@
 # Changelog
 
-## 2026-04-02 — Deploy Ritual Script (branch: local-dev-setup)
+## 2026-04-02 — In-Claude Deploy Ritual (branch: local-dev-setup)
 
-- Added `deploy.sh` — deploy ritual that merges feature branch into main, pushes, and monitors GitHub Pages build
+- Added `deploy.sh` — standalone deploy script (kept for reference)
+- Added `DISCUSSIONS/rituals/deploy.md` — in-Claude deploy ritual
   - Pre-flight checks: clean working tree, Jekyll build, unexcluded root files, https URL
-  - Confirms before pushing to main
-  - Polls GitHub Pages builds API until site is live (5 min timeout)
-- Excluded `deploy.sh` from Jekyll build in `_config.yml`
+  - Merge feature branch into main, confirm before pushing
+  - Poll GitHub Pages builds API until site is live (5 min timeout)
+- Added Rituals section to `CLAUDE.md` — trigger: say "deploy"
 
 ## 2026-04-02 — Local Dev Setup (branch: local-dev-setup)
 

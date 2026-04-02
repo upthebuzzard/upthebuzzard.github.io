@@ -79,6 +79,10 @@ Each collection also has an `index.md` (layout: collection) as its landing page.
 - `assets/js/` — ngramMarkov.js (text generation engine)
 - `DISCUSSIONS/` — project discussions (excluded from Jekyll build)
 
+## Rituals
+
+When the user says **"deploy"**, read and follow the steps in `DISCUSSIONS/rituals/deploy.md`.
+
 ## Style Notes
 
 - Font: Rosario (Google Fonts), 16px base
