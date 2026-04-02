@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git fetch *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git symbolic-ref *)",
+      "Bash(git rev-parse *)",
+      "Bash(git ls-files *)",
+      "Bash(gh api *)",
+      "Bash(gh auth *)",
+      "Bash(bundle exec *)",
+      "Bash(sleep *)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
