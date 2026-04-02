@@ -22,3 +22,5 @@ layout: home
 {% endfor %}
 
 <p/>{:.porthole style="height:50px;"}
+
+<small style="color:#999;">Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</small>
