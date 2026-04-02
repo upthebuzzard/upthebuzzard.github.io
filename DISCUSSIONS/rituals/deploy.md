@@ -12,7 +12,9 @@ Run each check. If any fails, stop and report the problem.
 - [ ] **HTTPS URL** — use Grep to check that the `url:` field in `_config.yml` uses `https://`, not `http://`.
 - [ ] **Jekyll build** — run `RUBYOPT="-r ./_plugins/ruby34_compat.rb" bundle exec jekyll build --quiet`. If it fails, stop and show the errors.
 
-Report: "Pre-flight checks passed" with a summary of branch name.
+- [ ] **Dependabot alerts** — run `gh api repos/upthebuzzard/upthebuzzard.github.io/dependabot/alerts --jq '.[] | select(.state == "open")'` to check for open security alerts. If there are any, report them in a table (number, severity, package, summary). Ask the user to acknowledge before proceeding. If new alerts have appeared (i.e. alerts not previously dismissed or known), stop and investigate.
+
+Report: "Pre-flight checks passed" with a summary of branch name and alert count.
 
 ## Step 2: Merge into main
 
