@@ -1,5 +1,11 @@
 # CLAUDE.md
 
+## Working Rules
+
+- **Always ask before committing** — never run `git commit` without explicit user approval.
+- **Always ask before pushing** — never run `git push` without explicit user approval.
+- **New files in the repo root must be excluded** — add them to the `_config.yml` exclude list so they don't get published to GitHub Pages.
+
 ## Project Overview
 
 Jekyll static site for **stories.upthebuzzard.com** — a personal storytelling blog hosted on GitHub Pages. Contains children's stories, flash fiction, haiku, game notes, and more.
