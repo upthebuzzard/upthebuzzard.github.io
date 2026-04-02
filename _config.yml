@@ -58,6 +58,7 @@ exclude:
   - CLAUDE.md
   - CHANGELOG.md
   - serve.sh
+  - deploy.sh
 collections:
   moose_and_goose_stories:
     output: true
