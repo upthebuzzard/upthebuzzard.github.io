@@ -60,6 +60,7 @@ exclude:
   - CHANGELOG.md
   - serve.sh
   - deploy.sh
+  - fetch_article.py
 collections:
   moose_and_goose_stories:
     output: true
@@ -148,6 +149,17 @@ collections:
     credits:
       - Background image from [Wikipedia](https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde#/media/File:Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg)
     reverse_posts: true
+  pretensions:
+    output: true
+    title: Pretensions
+    title_singular: A Pretension
+    title_abbrev: Pretensions
+    description: opinionated articles on product, tech, and strategy
+    sequence: 50
+    reverse_posts: true
+    background_image_url: /assets/img/pretensions/DSCF1646_Snapseed.JPG
+    credits:
+      - "[Background image](/assets/img/pretensions/DSCF1646_Snapseed.JPG) by [me](/about)"
   hifi:
     output: true
     title: Good Hifi On The Cheap
