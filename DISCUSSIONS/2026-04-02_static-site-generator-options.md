@@ -126,6 +126,30 @@ These mean: edit content in a web UI, it commits Markdown to the repo, the SSG b
 - **[Ghost](https://ghost.org)** — beautiful writing-focused CMS, self-hosted or $9/month. Markdown editor, memberships, newsletters. Writing experience is excellent.
 - **Substack** / **Buttondown** — if the writing is the thing and you don't care about surrounding site structure.
 
+## Jekyll 4: Honest Assessment
+
+### Reasons to hesitate
+
+- **Maintenance mode, not active development.** Last release was [4.4.1 in Jan 2025](https://jekyllrb.com/news/2025/01/29/jekyll-4-4-1-released/). PRs and issues aren't addressed promptly. The lead developer hasn't been active. It works, but it's not going anywhere new.
+- **Dependency management is still the #1 complaint.** 56% of support tickets trace to dependency issues. Jekyll 4 + Actions gives more control, but you're still in Ruby/Bundler land where gem version conflicts are a way of life.
+- **Sass migration deferred, not avoided.** Pinning `jekyll-sass-converter ~> 2.0` works for now, but v2 will eventually stop being maintained. The SCSS migration is kicked down the road.
+- **Template caching can break plugins.** Jekyll 4 caches parsed templates. Not an issue for current plugins (feed, sitemap, redirect-from), but limits future options.
+- **Still Ruby.** The toolchain that rotted is the same toolchain, just newer. Ruby version changes will continue to break things over time.
+
+### Reasons it's still fine
+
+- Migration from current setup is trivially small
+- The site is simple enough that Jekyll's limitations don't matter
+- Content format (Markdown + YAML frontmatter) is universal — easy to migrate away later
+- It genuinely works and is stable
+
+### The key insight
+
+Jekyll 4 is the **lowest-risk next step**, but it doesn't solve the underlying problem: you're still coupled to a Ruby toolchain that requires maintenance. If the goal is "never be in this situation again," the stronger moves are:
+
+- **Hugo** — single Go binary, zero dependency chain, can't rot
+- **A CMS layer** — so you can edit content even when the build is broken
+
 ## Recommendation
 
 **Short term:** Jekyll 4 + GitHub Actions fixes the rot. Lowest friction right now — you already know the content format.
@@ -154,3 +178,8 @@ These mean: edit content in a web UI, it commits Markdown to the repo, the SSG b
 - [CMS for GitHub Pages 2026](https://www.jekyllpad.com/blog/cms-github-pages)
 - [Quartz](https://quartz.jzhao.xyz/)
 - [Ghost](https://ghost.org)
+- [Is the Jekyll project dead?](https://talk.jekyllrb.com/t/is-the-jekyll-project-dead/6820)
+- [Has Jekyll development stalled?](https://talk.jekyllrb.com/t/has-jekyll-development-stalled/8478)
+- [Jekyll endoflife.date](https://endoflife.date/jekyll)
+- [Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/)
+- [Migrating GitHub Pages Jekyll to v4](https://tech.findmypast.com/migrating-github-pages-jekyll-to-v4/)
