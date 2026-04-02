@@ -76,7 +76,6 @@ ok "Site URL uses https"
 
 # --- Build check ---
 info "\nBuilding site to verify..."
-export RUBYOPT="-r $(dirname "$0")/_plugins/ruby34_compat.rb"
 if bundle exec jekyll build --quiet; then
     ok "Jekyll build succeeded"
 else
@@ -117,40 +116,43 @@ ok "Pushed to origin/main"
 # ============================================================
 # 3. Monitor deployment
 # ============================================================
-info "\n=== Monitoring GitHub Pages deployment ==="
+info "\n=== Monitoring GitHub Actions deployment ==="
 
 COMMIT_SHA=$(git rev-parse HEAD)
 info "Watching for commit ${COMMIT_SHA:0:7}..."
 
 elapsed=0
 while (( elapsed < TIMEOUT )); do
-    # Get the latest pages build
-    build_json=$(gh api "repos/$REPO_OWNER/$REPO_NAME/pages/builds" --jq '.[0]' 2>/dev/null || true)
+    # Get the latest workflow run for the pages workflow on main
+    run_json=$(gh api "repos/$REPO_OWNER/$REPO_NAME/actions/runs?branch=main&per_page=1" --jq '.workflow_runs[0]' 2>/dev/null || true)
 
-    if [[ -n "$build_json" ]]; then
-        build_status=$(echo "$build_json" | jq -r '.status // empty')
-        build_sha=$(echo "$build_json" | jq -r '.commit // empty')
+    if [[ -n "$run_json" ]]; then
+        run_sha=$(echo "$run_json" | jq -r '.head_sha // empty')
+        run_status=$(echo "$run_json" | jq -r '.status // empty')
+        run_conclusion=$(echo "$run_json" | jq -r '.conclusion // empty')
 
-        if [[ "$build_sha" == "$COMMIT_SHA" ]]; then
-            if [[ "$build_status" == "built" ]]; then
-                build_time=$(echo "$build_json" | jq -r '.updated_at // empty')
-                echo ""
-                ok "Site is live!"
-                info "  URL:    $SITE_URL"
-                info "  Commit: ${COMMIT_SHA:0:7}"
-                info "  Built:  $build_time"
-                exit 0
-            elif [[ "$build_status" == "errored" ]]; then
-                error_msg=$(echo "$build_json" | jq -r '.error.message // "unknown error"')
-                fail "Build failed: $error_msg"
+        if [[ "$run_sha" == "$COMMIT_SHA" ]]; then
+            if [[ "$run_status" == "completed" ]]; then
+                if [[ "$run_conclusion" == "success" ]]; then
+                    run_time=$(echo "$run_json" | jq -r '.updated_at // empty')
+                    echo ""
+                    ok "Site is live!"
+                    info "  URL:    $SITE_URL"
+                    info "  Commit: ${COMMIT_SHA:0:7}"
+                    info "  Built:  $run_time"
+                    exit 0
+                else
+                    run_url=$(echo "$run_json" | jq -r '.html_url // empty')
+                    fail "Workflow failed ($run_conclusion): $run_url"
+                fi
             else
-                printf "\r  ⏳ Build status: %-12s (%ds elapsed)" "$build_status" "$elapsed"
+                printf "\r  ⏳ Workflow status: %-12s (%ds elapsed)" "$run_status" "$elapsed"
             fi
         else
-            printf "\r  ⏳ Waiting for build to start... (%ds elapsed)" "$elapsed"
+            printf "\r  ⏳ Waiting for workflow to start... (%ds elapsed)" "$elapsed"
         fi
     else
-        printf "\r  ⏳ Waiting for build info...     (%ds elapsed)" "$elapsed"
+        printf "\r  ⏳ Waiting for workflow info...     (%ds elapsed)" "$elapsed"
     fi
 
     sleep "$POLL_INTERVAL"
@@ -159,6 +161,6 @@ done
 
 echo ""
 warn "Timed out after ${TIMEOUT}s. Check manually:"
-info "  gh api repos/$REPO_OWNER/$REPO_NAME/pages/builds --jq '.[0]'"
+info "  gh run list --repo $REPO_OWNER/$REPO_NAME --limit 1"
 info "  $SITE_URL"
 exit 1
