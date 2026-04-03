@@ -5,11 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
-    {% assign page_zone = page.zone | default: "" %}
-    {% if page_zone == "" and page.collection %}
-      {% assign page_col = site.collections | where:"label", page.collection | first %}
-      {% assign page_zone = page_col.zone %}
-    {% endif %}
+    {% include get-zone.html %}
 
     {% unless page_zone == "site" %}
       {% if page.title != "About" %}

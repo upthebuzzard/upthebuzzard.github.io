@@ -8,13 +8,9 @@
   </span>
 
   <div class="trigger">
-    {% assign current_zone = "" %}
-    {% if page.collection %}
-      {% assign current_collection_obj = site.collections | where:"label", page.collection | first %}
-      {% assign current_zone = current_collection_obj.zone %}
-    {% endif %}
+    {% include get-zone.html %}
 
-    {% if current_zone == "B" %}
+    {% if page_zone == "B" %}
       <!-- Zone B: Pretensions context -->
       <a class="page-link" href="/pretensions/">Pretensions</a>
       <a class="page-link" href="/">Stories</a>

@@ -4,20 +4,16 @@
   <!-- <hr class="top-nav-hr"> -->
   <!-- <br> -->
   <span class="top-nav-collections">
-    {% assign current_zone = page.zone | default: "" %}
-    {% if current_zone == "" and page.collection %}
-      {% assign current_collection = site.collections | where:"label", page.collection | first %}
-      {% assign current_zone = current_collection.zone %}
-    {% endif %}
+    {% include get-zone.html %}
 
-    {% if current_zone == "site" %}
+    {% if page_zone == "site" %}
       <!-- Site-level page: show all zones as peers -->
       <a href="/"><span class="site-link">{{ site.title | escape }}</span></a>
       <span class="top-nav-sections">
         &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/hobbies">Hobbies</a>
         &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/pretensions/">Pretensions</a>
       </span>
-    {% elsif current_zone == "B" %}
+    {% elsif page_zone == "B" %}
       <!-- Zone B: Pretensions branding with topics -->
       <a href="/pretensions/"><span class="site-link">Pretensions</span></a>
       <span class="top-nav-sections">
@@ -38,7 +34,7 @@
         {% endfor %}
         &nbsp;|&nbsp;&nbsp;<a class="page-link" href="/pretensions/about">about</a>
       </span>
-    {% elsif current_zone == "C" %}
+    {% elsif page_zone == "C" %}
       <!-- Zone C: Hobbies branding -->
       <a href="/hobbies"><span class="site-link">Hobbies</span></a>
       <span class="top-nav-sections">

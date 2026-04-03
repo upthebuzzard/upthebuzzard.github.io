@@ -1,0 +1,5 @@
+{% assign page_zone = page.zone | default: "" %}
+{% if page_zone == "" and page.collection %}
+  {% assign page_zone_collection = site.collections | where:"label", page.collection | first %}
+  {% assign page_zone = page_zone_collection.zone %}
+{% endif %}

@@ -24,23 +24,19 @@
       <br><small style="color:#999;">Credits: {% for credit in footer_credits %}{{ credit | markdownify | remove: '<p>' | remove: '</p>' }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
     {% endif %}
 
-    {% assign footer_zone = page.zone | default: "" %}
-    {% if footer_zone == "" and page.collection %}
-      {% assign footer_collection = site.collections | where:"label", page.collection | first %}
-      {% assign footer_zone = footer_collection.zone %}
-    {% endif %}
+    {% include get-zone.html %}
 
-    {% if footer_zone != "site" %}
+    {% if page_zone != "site" %}
       <p></p>
       <p class="footer-also-by">Also by this author:</p>
       <ul class="footer-also-by-list">
-        {% if footer_zone != "A" and footer_zone != "" %}
+        {% if page_zone != "A" and page_zone != "" %}
           <li><a href="/">A Smattering of Stories</a> — fiction, fragments, and other creative writing</li>
         {% endif %}
-        {% if footer_zone != "B" %}
+        {% if page_zone != "B" %}
           <li><a href="/pretensions/">Pretensions</a> — opinionated articles on product, tech, and strategy</li>
         {% endif %}
-        {% if footer_zone != "C" %}
+        {% if page_zone != "C" %}
           <li><a href="/hobbies">Hobbies</a> — hifi, games, and other diversions</li>
         {% endif %}
       </ul>

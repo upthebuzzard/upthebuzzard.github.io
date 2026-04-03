@@ -78,7 +78,7 @@ Each collection also has an `index.md` (layout: collection) as its landing page.
 
 ## Key Directories
 
-- `_layouts/` — default, home, page, post, collection, auto-generated
+- `_layouts/` — default, home, page, post, collection
 - `_includes/` — ~31 template fragments (head, footer, top-nav, porthole, story_details, etc.)
 - `_sass/minima/` — SCSS overrides for base, layout, syntax highlighting
 - `assets/img/` — images organised by collection name

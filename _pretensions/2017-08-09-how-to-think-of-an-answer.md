@@ -2,7 +2,7 @@
 layout: post
 title: How to think of an answer, to a joke, when challenged
 date: 2017-08-09 23:01
-categories:
+categories: []
 topics: [Thinking]
 sequence: 10
 excerpt: >

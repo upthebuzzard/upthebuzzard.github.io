@@ -4,12 +4,8 @@
   {% assign author = site.author %}
 {% endif %}
 {% if author %}
-{% assign byauthor_zone = page.zone | default: "" %}
-{% if byauthor_zone == "" and page.collection %}
-  {% assign byauthor_collection = site.collections | where:"label", page.collection | first %}
-  {% assign byauthor_zone = byauthor_collection.zone %}
-{% endif %}
-{% if byauthor_zone == "B" %}
+{% include get-zone.html %}
+{% if page_zone == "B" %}
   {% assign byauthor_about_url = "/pretensions/about" %}
 {% else %}
   {% assign byauthor_about_url = "/about" %}

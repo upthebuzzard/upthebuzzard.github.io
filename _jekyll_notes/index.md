@@ -1,6 +1,7 @@
 ---
 layout: collection
-title: Jeykll Notes
+title: Jekyll Notes
+date: 2017-04-14 12:00
 categories: []
 permalink: /:collection/index.html
 excerpt: >
