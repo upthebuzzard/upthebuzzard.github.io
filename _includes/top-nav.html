@@ -4,16 +4,58 @@
   <!-- <hr class="top-nav-hr"> -->
   <!-- <br> -->
   <span class="top-nav-collections">
-    <a href="/"><span class="site-link">{{ site.title | escape }}</class></a>
-    <span class="top-nav-sections">
-      {% assign collections = site.collections | sort: 'sequence' %}
-      {% for collection in collections %}
-        {% if collection.label!="posts" %}
-          &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="{{ collection.label | relative_url }}">{{ collection.title_abbrev | escape }}</a>
-        {% endif %}
-      {% endfor %}
-      &nbsp;|&nbsp;&nbsp;<a class="page-link" href="/about">about</a>
-    </span>
+    {% assign current_zone = page.zone | default: "" %}
+    {% if current_zone == "" and page.collection %}
+      {% assign current_collection = site.collections | where:"label", page.collection | first %}
+      {% assign current_zone = current_collection.zone %}
+    {% endif %}
+
+    {% if current_zone == "B" %}
+      <!-- Zone B: Pretensions branding with topics -->
+      <a href="/pretensions/"><span class="site-link">Pretensions</span></a>
+      <span class="top-nav-sections">
+        {% assign pretensions_posts = site.pretensions | where:"layout", "post" %}
+        {% assign topic_list = "" %}
+        {% for post in pretensions_posts %}
+          {% for topic in post.topics %}
+            {% unless topic_list contains topic %}
+              {% if topic_list != "" %}{% assign topic_list = topic_list | append: "|" %}{% endif %}
+              {% assign topic_list = topic_list | append: topic %}
+            {% endunless %}
+          {% endfor %}
+        {% endfor %}
+        {% assign topics = topic_list | split: "|" | sort %}
+        {% for topic in topics %}
+          {% assign topic_slug = topic | slugify %}
+          &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/pretensions/#{{ topic_slug }}">{{ topic }}</a>
+        {% endfor %}
+        &nbsp;|&nbsp;&nbsp;<a class="page-link" href="/about">about</a>
+      </span>
+    {% elsif current_zone == "C" %}
+      <!-- Zone C: Hobbies branding -->
+      <a href="/hobbies"><span class="site-link">Hobbies</span></a>
+      <span class="top-nav-sections">
+        {% assign collections = site.collections | sort: 'sequence' %}
+        {% for collection in collections %}
+          {% if collection.label != "posts" and collection.zone == "C" %}
+            &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="{{ collection.label | relative_url }}">{{ collection.title_abbrev | escape }}</a>
+          {% endif %}
+        {% endfor %}
+        &nbsp;|&nbsp;&nbsp;<a class="page-link" href="/about">about</a>
+      </span>
+    {% else %}
+      <!-- Default: Stories branding with Zone A collections -->
+      <a href="/"><span class="site-link">{{ site.title | escape }}</span></a>
+      <span class="top-nav-sections">
+        {% assign collections = site.collections | sort: 'sequence' %}
+        {% for collection in collections %}
+          {% if collection.label != "posts" and collection.zone == "A" %}
+            &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="{{ collection.label | relative_url }}">{{ collection.title_abbrev | escape }}</a>
+          {% endif %}
+        {% endfor %}
+        &nbsp;|&nbsp;&nbsp;<a class="page-link" href="/about">about</a>
+      </span>
+    {% endif %}
   </span>
   <!-- <br> -->
   <!-- <hr class="top-nav-hr"> -->

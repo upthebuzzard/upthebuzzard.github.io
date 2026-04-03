@@ -2,8 +2,39 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading"><a href="{{ site.url }}">{{ site.title | escape }}</a></h2>
-    {% include site-collection-description.html %}
+    {% assign footer_zone = page.zone | default: "" %}
+    {% if footer_zone == "" and page.collection %}
+      {% assign footer_collection = site.collections | where:"label", page.collection | first %}
+      {% assign footer_zone = footer_collection.zone %}
+    {% endif %}
+
+    {% if footer_zone == "B" %}
+      <h2 class="footer-heading"><a href="/pretensions/">Pretensions</a></h2>
+      <blockquote class="site-collection-description">
+        <p>Articles on product strategy, technology, and organisational thinking.</p>
+      </blockquote>
+      <p class="footer-also-by">Also by this author:</p>
+      <ul class="footer-also-by-list">
+        <li><a href="/">A Smattering of Stories</a> — fiction, fragments, and other creative writing</li>
+        <li><a href="/hobbies">Hobbies</a> — hifi, games, and other diversions</li>
+      </ul>
+    {% elsif footer_zone == "C" %}
+      <h2 class="footer-heading"><a href="/hobbies">Hobbies</a></h2>
+      {% if page.collection %}
+        {% assign footer_col = site.collections | where:"label", page.collection | first %}
+        <blockquote class="site-collection-description">
+          <p>{{ footer_col.description }}</p>
+        </blockquote>
+      {% endif %}
+      <p class="footer-also-by">Also by this author:</p>
+      <ul class="footer-also-by-list">
+        <li><a href="/">A Smattering of Stories</a> — fiction, fragments, and other creative writing</li>
+        <li><a href="/pretensions/">Pretensions</a> — articles on product, tech, and strategy</li>
+      </ul>
+    {% else %}
+      <h2 class="footer-heading"><a href="{{ site.url }}">{{ site.title | escape }}</a></h2>
+      {% include site-collection-description.html %}
+    {% endif %}
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">

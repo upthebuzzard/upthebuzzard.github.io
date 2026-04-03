@@ -69,6 +69,7 @@ collections:
     title_abbrev: Moose & Goose
     description: a collection of stories about a pair of Solvers of Tricky Problems
     sequence: 1
+    zone: A
     background_image_url: /assets/img/moose-and-goose/P1070818-H800.JPG
     credits:
       - "[Background image](/assets/img/moose-and-goose/P1070818-H800.JPG) by [me](/about)"
@@ -79,6 +80,7 @@ collections:
     title_abbrev: Grey Parrot
     description: a collection of stories about a (too) clever parrot
     sequence: 2
+    zone: A
     background_image_url: /assets/img/grey-parrot/P1070812-H800.JPG
     credits:
       - "[Background image](/assets/img/grey-parrot/P1070812-H800.JPG) by [me](/about)"
@@ -89,6 +91,7 @@ collections:
     title_abbrev: The Present
     description: short stories that are less predicting the future and more the now.
     sequence: 10
+    zone: A
   emus_all_the_way_down:
     output: true
     title: Emus All The Way Down
@@ -96,6 +99,7 @@ collections:
     title_abbrev: Emus
     description: riffing on the Predicting The Present story.
     sequence: 11
+    zone: A
   fragments:
     output: true
     title: Fragments of writing
@@ -103,6 +107,7 @@ collections:
     title_abbrev: Fragments
     description: riffing on whatever is riff-worthy
     sequence: 20
+    zone: A
     reverse_posts: true
   haiku:
     output: true
@@ -111,6 +116,7 @@ collections:
     title_abbrev: Haiku
     description: striving to overcome the 5-7-5
     sequence: 25
+    zone: A
     reverse_posts: true
   games:
     output: true
@@ -119,6 +125,7 @@ collections:
     title_abbrev: Games
     description: exploring game ideas and mechanics
     sequence: 30
+    zone: C
     reverse_posts: true
     background_image_url: /assets/img/greedy-devils/P1080043w800.JPG
     credits:
@@ -130,6 +137,7 @@ collections:
     title_abbrev: Overgeneral
     description: observations based on insufficient evidence
     sequence: 40
+    zone: D
     reverse_posts: true
   distractions:
     output: true
@@ -138,6 +146,7 @@ collections:
     title_abbrev: Distractions
     description: a collection of interesting links
     sequence: 90
+    zone: D
   jekyll_notes:
     output: true
     title: Jekyll Notes
@@ -145,6 +154,7 @@ collections:
     title_abbrev: Jekyll Notes
     description: a collection of notes and observations from and aide-memoires for using Jekyll for the first time.
     sequence: 100
+    zone: D
     background_image_url: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
     credits:
       - Background image from [Wikipedia](https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde#/media/File:Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg)
@@ -156,6 +166,7 @@ collections:
     title_abbrev: Pretensions
     description: opinionated articles on product, tech, and strategy
     sequence: 50
+    zone: B
     reverse_posts: true
     background_image_url: /assets/img/pretensions/DSCF1646_Snapseed.JPG
     credits:
@@ -167,6 +178,7 @@ collections:
     title_abbrev: Hifi
     description: A life-long journey from ignorance to nice-but-cheap hifi.
     sequence: 110
+    zone: C
     background_image_url: /assets/img/dall-e-ear.png
     credits: 
       - Background image via [Dall-e](https://labs.openai.com/), "a large human ear, with rich skin tones, with black, crisply defined musical notes flying into the ear"

@@ -13,13 +13,20 @@ layout: home
 
 {% assign sorted = site.collections | sort: 'sequence' %}
 {% for collection in sorted %}
-  {% if collection.label != "posts" %}
+  {% if collection.label != "posts" and collection.zone == "A" %}
     {% assign posts = site[collection.label] | where:"layout", "post" %}
 * [{{ collection.title }}]({{ collection.label }}) {% if posts.size > 0 %}[ {{ posts.size }} ]{% endif %}
 > {{ collection.description }}
 
   {% endif %}
 {% endfor %}
+
+---
+
+**Also on this site:**
+
+* [Pretensions](/pretensions/) — opinionated articles on product, tech, and strategy
+* [Hobbies](/hobbies) — hifi, games, and other diversions
 
 <p/>{:.porthole style="height:50px;"}
 

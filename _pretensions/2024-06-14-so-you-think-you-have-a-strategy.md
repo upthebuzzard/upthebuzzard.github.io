@@ -3,6 +3,7 @@ layout: post
 title: "So, (you think) you have a strategy?"
 date: 2024-06-14 12:00
 categories: []
+topics: [Strategy]
 sequence: 2
 excerpt: >
   What is a strategy, really? A simple, usable definition

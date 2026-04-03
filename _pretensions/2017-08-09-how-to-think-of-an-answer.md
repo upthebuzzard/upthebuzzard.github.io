@@ -3,8 +3,14 @@ layout: post
 title: How to think of an answer, to a joke, when challenged
 date: 2017-08-09 23:01
 categories:
+topics: [Thinking]
+sequence: 10
 excerpt: >
   walking helps, and so does talking; avoid getting stuck in a rut
+redirect_from:
+  - /overgeneralisations/how-to-think-of-an-answer.html
+  - /overgeneralisations/2018-08-09-how-to-think-of-an-answer.html
+  - /overgeneralisations/2018/08/09/how-to-think-of-an-answer.html
 ---
 Over the last few days, there was an opportunity to conduct a mini experiment under the guise of annoying a bunch of colleagues with a joke. I say 'an opportunity'. More like, posed the same joke, as a challenge, several times to different people and got such an interesting range of responses (mostly non-violent) that I felt it worth rolling with it that bit longer.
 

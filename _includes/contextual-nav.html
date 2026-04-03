@@ -8,21 +8,39 @@
   </span>
 
   <div class="trigger">
-    <!-- list main collections -->
-    {% assign collections = site.collections | sort: 'sequence' %}
-    {% for collection in collections %}
-      {% if collection.label == page.collection %}
-        {% assign prefix = "*&nbsp;" %}
-        {% if collection.reverse_posts %}
-          {% assign reverse_collection_posts = true %}
+    {% assign current_zone = "" %}
+    {% if page.collection %}
+      {% assign current_collection_obj = site.collections | where:"label", page.collection | first %}
+      {% assign current_zone = current_collection_obj.zone %}
+    {% endif %}
+
+    {% if current_zone == "B" %}
+      <!-- Zone B: Pretensions context -->
+      <a class="page-link" href="/pretensions/">Pretensions</a>
+      <a class="page-link" href="/">Stories</a>
+      <a class="page-link" href="/hobbies">Hobbies</a>
+    {% else %}
+      <!-- Zone A collections -->
+      {% assign collections = site.collections | sort: 'sequence' %}
+      {% for collection in collections %}
+        {% if collection.zone == "A" %}
+          {% if collection.label == page.collection %}
+            {% assign prefix = "*&nbsp;" %}
+            {% if collection.reverse_posts %}
+              {% assign reverse_collection_posts = true %}
+            {% endif %}
+          {% else %}
+            {% assign prefix = "" %}
+          {% endif %}
+          {% if collection.title %}
+          <a class="page-link" href="{{ collection.label | relative_url }}">{{ prefix }}{{ collection.title | escape }}</a>
+          {% endif %}
         {% endif %}
-      {% else %}
-        {% assign prefix = "" %}
-      {% endif %}
-      {% if collection.title %}
-      <a class="page-link" href="{{ collection.label | relative_url }}">{{ prefix }}{{ collection.title | escape }}</a>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+      <hr/>
+      <a class="page-link" href="/pretensions/">Pretensions</a>
+      <a class="page-link" href="/hobbies">Hobbies</a>
+    {% endif %}
 
     <!-- list main site pages, e.g. 'about' -->
     {% for my_page in site.pages %}

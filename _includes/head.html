@@ -34,13 +34,21 @@
   {% if page.background_image_url %}
     {% assign background_image_url = page.background_image_url %}
   {% endif %}
-  {% if background_image_url %}
-  <style>
-  body {
-    background-image: url({{ background_image_url }});
-  }
-  </style>
+
+  {% assign skip_background = false %}
+  {% if page.collection == "pretensions" and page.layout == "post" %}
+    {% assign skip_background = true %}
   {% endif %}
+
+  {% unless skip_background %}
+    {% if background_image_url %}
+    <style>
+    body {
+      background-image: url({{ background_image_url }});
+    }
+    </style>
+    {% endif %}
+  {% endunless %}
 
   {% include head-twitter.html %}
   {% include head-facebook.html %}
