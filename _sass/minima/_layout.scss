@@ -264,6 +264,24 @@
   }
 }
 
+.post-cover {
+  margin-bottom: $spacing-unit;
+
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 6px 12px;
+    background-color: #f0ede8;
+    text-align: center;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+}
+
 .post-context {
   font-style: italic
 }
@@ -271,6 +289,16 @@
 .post-content {
   background-color: white;
   padding: 1%;
+
+  figure figcaption {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 6px 12px;
+    background-color: #f0ede8;
+    text-align: center;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
 
   margin-bottom: $spacing-unit;
 

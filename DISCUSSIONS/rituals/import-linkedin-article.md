@@ -7,7 +7,17 @@ When the user says **"import [LINKEDIN URL]"**, follow these steps.
 - [ ] If on `main`, create and switch to a branch (e.g. `import-linkedin-article`).
 - [ ] If already on a feature branch, continue on it.
 
-## Step 2: Fetch the article
+## Step 2: Clean and verify the URL
+
+LinkedIn URLs copied from a logged-in session may include tracking parameters or redirects. Before fetching:
+
+1. **Strip query parameters** — remove everything from `?` onwards (e.g. `?trk=...`, `?trackingId=...`)
+2. **Strip trailing slashes** — the script works with or without, but keep URLs consistent
+3. **Verify the format** — the URL should look like: `https://www.linkedin.com/pulse/slug-here`
+   - If it's a feed/activity URL (e.g. `linkedin.com/feed/update/urn:li:activity:...`), open it in an incognito browser to find the canonical `/pulse/` URL
+4. **Test accessibility** — run `curl -s -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "<URL>"` — should return `200`. If it returns `403` or `999`, the article may be auth-walled; try appending `?trk=public_post_feed-article-content`.
+
+## Step 3: Fetch the article
 
 Run:
 ```
@@ -25,7 +35,7 @@ The script will:
 - Clean up whitespace (collapse blank lines)
 - Output metadata: title, date, description
 
-## Step 3: Review the raw fetch
+## Step 4: Review the raw fetch
 
 Read `/tmp/article-raw.md` and identify:
 
@@ -36,7 +46,7 @@ Read `/tmp/article-raw.md` and identify:
 - **Unwanted images** — the script downloads ALL images including LinkedIn UI elements (profile photos, reaction icons, recommendation thumbnails). Check `assets/img/pretensions/` for small/irrelevant images and delete them.
 - **Residual noise** — verify "Recommended by LinkedIn" sections were fully removed. If not, note the text before and after the noise for manual removal.
 
-## Step 4: Build the post file
+## Step 5: Build the post file
 
 Create `_pretensions/YYYY-MM-DD-kebab-case-title.md` with:
 
@@ -47,6 +57,7 @@ Create `_pretensions/YYYY-MM-DD-kebab-case-title.md` with:
    title: "Article Title Here"
    date: YYYY-MM-DD HH:MM
    categories: []
+   topics: [Topic Name]
    sequence: N
    excerpt: >
      Short description here.
@@ -55,6 +66,7 @@ Create `_pretensions/YYYY-MM-DD-kebab-case-title.md` with:
    cover_image_caption: "Caption text here."
    ---
    ```
+   - `topics`: one or more topic tags (e.g. `[Strategy]`, `[Product Strategy]`, `[AI]`, `[Thinking]`). Used for grouping on the pretensions landing page and topic nav links. Check existing posts for current topics.
    - `sequence`: next unused number in the collection (check existing posts)
    - `cover_image` and `cover_image_caption`: extracted from the first `<figure>` in the body, then remove that figure from the body
 
@@ -62,7 +74,7 @@ Create `_pretensions/YYYY-MM-DD-kebab-case-title.md` with:
    - Remove the cover image/figure from the body (now in frontmatter)
    - Fix numbered items that aren't true markdown lists: if numbered points (e.g. `1. Some criticism...`) are separated by paragraphs of discussion, convert `N. ` to `**N.** ` so they render with correct numbers instead of all showing as "1."
 
-## Step 5: Cross-link check
+## Step 6: Cross-link check
 
 After creating the post file, check if any **existing** pretensions articles contain LinkedIn URLs that point to the newly imported article. If so, update them to use local site paths.
 
@@ -72,12 +84,12 @@ grep -r "linkedin.com.*pulse" _pretensions/ | grep -v "original_url"
 
 The local URL pattern is: `/pretensions/YYYY-MM-DD-slug.html`
 
-## Step 6: Build and verify
+## Step 7: Build and verify
 
 - [ ] Run `bundle exec jekyll build` — must succeed
 - [ ] Tell the user to check the article locally (`bundle exec jekyll serve`)
 
-## Step 7: Present for review
+## Step 8: Present for review
 
 Show the user a summary:
 - Title, date, filename
@@ -91,6 +103,5 @@ Show the user a summary:
 
 - **Do not commit or push** without explicit user approval.
 - The `fetch_article.py` script uses BeautifulSoup to parse HTML and converts to markdown. It does not use AI summarisation — the text is preserved verbatim.
-- LinkedIn auth walls may block some URLs. The `?trk=public_post_feed-article-content` URL format works for public articles viewed in incognito.
 - Images are named by content hash (MD5) to avoid duplicates across articles.
 - LinkedIn lazy-loads most images using `data-delayed-url` instead of `src` — the script handles this.
