@@ -8,8 +8,8 @@ excerpt: >
   opinionated articles on product, tech, and strategy
 ---
 
-Articles on product strategy, technology, and organisational thinking.
-Some may be opinionated.
+Articles on product strategy, technology, and organisational thinking.\\
+Some may be opinionated.\\
 Some were previously published on [LinkedIn](https://www.linkedin.com/in/chrisgathercole/).
 
 {% assign all_posts = site[page.collection] | where:"layout", "post" %}
