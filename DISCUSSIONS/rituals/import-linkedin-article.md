@@ -21,7 +21,7 @@ LinkedIn URLs copied from a logged-in session may include tracking parameters or
 
 Run:
 ```
-python3 fetch_article.py "<URL>" /tmp/article-raw.md \
+python3 scripts/fetch_article.py "<URL>" /tmp/article-raw.md \
   --img-dir assets/img/pretensions \
   --img-prefix /assets/img/pretensions/
 ```

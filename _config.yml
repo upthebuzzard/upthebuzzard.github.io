@@ -57,9 +57,7 @@ exclude:
   - DISCUSSIONS
   - CLAUDE.md
   - CHANGELOG.md
-  - serve.sh
-  - deploy.sh
-  - fetch_article.py
+  - scripts
 collections:
   moose_and_goose_stories:
     output: true
