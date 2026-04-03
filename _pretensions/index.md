@@ -10,6 +10,7 @@ excerpt: >
 
 Articles on product strategy, technology, and organisational thinking.\\
 Some may be opinionated.\\
+Some may be AI-adjacent, because some bandwagons just have to be joined.\\
 Some were previously published on [LinkedIn](https://www.linkedin.com/in/chrisgathercole/).
 
 {% assign all_posts = site[page.collection] | where:"layout", "post" %}
