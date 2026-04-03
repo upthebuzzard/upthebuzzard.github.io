@@ -4,8 +4,18 @@
   {% assign author = site.author %}
 {% endif %}
 {% if author %}
+{% assign byauthor_zone = page.zone | default: "" %}
+{% if byauthor_zone == "" and page.collection %}
+  {% assign byauthor_collection = site.collections | where:"label", page.collection | first %}
+  {% assign byauthor_zone = byauthor_collection.zone %}
+{% endif %}
+{% if byauthor_zone == "B" %}
+  {% assign byauthor_about_url = "/pretensions/about" %}
+{% else %}
+  {% assign byauthor_about_url = "/about" %}
+{% endif %}
 <span class ="nowrap">
-by <a class="page-link" href="{{ '/about' | relative_url }}">
+by <a class="page-link" href="{{ byauthor_about_url | relative_url }}">
   <span itemprop="author" itemscope itemtype="http://schema.org/Person">
     <span itemprop="name">{{ author }}</span>
   </span>

@@ -29,8 +29,7 @@ author: Chris Gathercole
 lang: en
 default_background_image_url: /assets/img/general/P1070749-H800.JPG
 credits:
-  - "[Background image](/assets/img/general/P1070749-H800.JPG) by [me](/about)"
-auto-generated-title: mashup
+  - "[Background image](/assets/img/general/P1070749-H800.JPG) by [me](/copyright)"
 google_analytics: UA-92309370-1
 
 # license history
@@ -72,7 +71,7 @@ collections:
     zone: A
     background_image_url: /assets/img/moose-and-goose/P1070818-H800.JPG
     credits:
-      - "[Background image](/assets/img/moose-and-goose/P1070818-H800.JPG) by [me](/about)"
+      - "[Background image](/assets/img/moose-and-goose/P1070818-H800.JPG) by [me](/copyright)"
   grey_parrot_stories:
     output: true
     title: The Grey Parrot Stories
@@ -83,7 +82,7 @@ collections:
     zone: A
     background_image_url: /assets/img/grey-parrot/P1070812-H800.JPG
     credits:
-      - "[Background image](/assets/img/grey-parrot/P1070812-H800.JPG) by [me](/about)"
+      - "[Background image](/assets/img/grey-parrot/P1070812-H800.JPG) by [me](/copyright)"
   predicting_the_present:
     output: true
     title: Predicting the Present
@@ -129,7 +128,7 @@ collections:
     reverse_posts: true
     background_image_url: /assets/img/greedy-devils/P1080043w800.JPG
     credits:
-      - "[Background image](/assets/img/greedy-devils/P1080043w800.JPG) by [me](/about)"
+      - "[Background image](/assets/img/greedy-devils/P1080043w800.JPG) by [me](/copyright)"
   overgeneralisations:
     output: true
     title: Overgeneralisations
@@ -170,7 +169,7 @@ collections:
     reverse_posts: true
     background_image_url: /assets/img/pretensions/DSCF1646_Snapseed.JPG
     credits:
-      - "[Background image](/assets/img/pretensions/DSCF1646_Snapseed.JPG) by [me](/about)"
+      - "[Background image](/assets/img/pretensions/DSCF1646_Snapseed.JPG) by [me](/copyright)"
   hifi:
     output: true
     title: Good Hifi On The Cheap

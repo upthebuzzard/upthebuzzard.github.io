@@ -1,6 +1,28 @@
+{% if page.layout != "post" %}
 <footer class="site-footer">
 
   <div class="wrapper">
+
+    <small style="color:#999;">Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</small>
+
+    {% if page.collection %}
+      {% assign footer_posts = site[page.collection] | where:"layout", "post" %}
+      {% if footer_posts.size > 0 %}
+      <br><small style="color:#999;">The collection also available <a href="feed.xml" class="rss-subscribe">via RSS</a></small>
+      {% endif %}
+    {% endif %}
+
+    {% assign footer_cred_collection = site.collections | where:"label", page.collection | first %}
+    {% assign footer_credits = site.credits %}
+    {% if footer_cred_collection.credits %}
+      {% assign footer_credits = footer_cred_collection.credits %}
+    {% endif %}
+    {% if page.credits %}
+      {% assign footer_credits = page.credits %}
+    {% endif %}
+    {% if footer_credits %}
+      <br><small style="color:#999;">Credits: {% for credit in footer_credits %}{{ credit | markdownify | remove: '<p>' | remove: '</p>' }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
+    {% endif %}
 
     {% assign footer_zone = page.zone | default: "" %}
     {% if footer_zone == "" and page.collection %}
@@ -8,75 +30,26 @@
       {% assign footer_zone = footer_collection.zone %}
     {% endif %}
 
-    {% if footer_zone == "B" %}
-      <h2 class="footer-heading"><a href="/pretensions/">Pretensions</a></h2>
-      <blockquote class="site-collection-description">
-        <p>Articles on product strategy, technology, and organisational thinking.</p>
-      </blockquote>
+    {% if footer_zone != "site" %}
+      <p></p>
       <p class="footer-also-by">Also by this author:</p>
       <ul class="footer-also-by-list">
-        <li><a href="/">A Smattering of Stories</a> — fiction, fragments, and other creative writing</li>
-        <li><a href="/hobbies">Hobbies</a> — hifi, games, and other diversions</li>
+        {% if footer_zone != "A" and footer_zone != "" %}
+          <li><a href="/">A Smattering of Stories</a> — fiction, fragments, and other creative writing</li>
+        {% endif %}
+        {% if footer_zone != "B" %}
+          <li><a href="/pretensions/">Pretensions</a> — opinionated articles on product, tech, and strategy</li>
+        {% endif %}
+        {% if footer_zone != "C" %}
+          <li><a href="/hobbies">Hobbies</a> — hifi, games, and other diversions</li>
+        {% endif %}
       </ul>
-    {% elsif footer_zone == "C" %}
-      <h2 class="footer-heading"><a href="/hobbies">Hobbies</a></h2>
-      {% if page.collection %}
-        {% assign footer_col = site.collections | where:"label", page.collection | first %}
-        <blockquote class="site-collection-description">
-          <p>{{ footer_col.description }}</p>
-        </blockquote>
-      {% endif %}
-      <p class="footer-also-by">Also by this author:</p>
-      <ul class="footer-also-by-list">
-        <li><a href="/">A Smattering of Stories</a> — fiction, fragments, and other creative writing</li>
-        <li><a href="/pretensions/">Pretensions</a> — articles on product, tech, and strategy</li>
-      </ul>
-    {% else %}
-      <h2 class="footer-heading"><a href="{{ site.url }}">{{ site.title | escape }}</a></h2>
-      {% include site-collection-description.html %}
     {% endif %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% include by-author.html %}
-          </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          <li>
-            {% include icon-rss.html %}
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        {% include search.html %}
-      </div>
-
-
-    </div>
     <h3>NB, this site is always under construction...</h3>
     <img src="/assets/img/general/Construction_of_the_Eiffel_Tower.JPG" alt="The Eiffel Tower was once under construction too.">
     (Image with thanks to <a href="https://commons.wikimedia.org/wiki/Tour_Eiffel">commons.wikimedia.org</a>)
   </div>
 
 </footer>
+{% endif %}

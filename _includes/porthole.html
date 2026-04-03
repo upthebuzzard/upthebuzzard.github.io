@@ -12,12 +12,6 @@ To include a portal within an html page, write
   or adjust it, e.g.
   <p class="porthole" style="height:200px;"/>
 -->
-{% assign skip_porthole = false %}
-{% if page.collection == "pretensions" and page.layout == "post" %}
-  {% assign skip_porthole = true %}
-{% endif %}
-
-{% unless skip_porthole %}
 <style>
   .porthole {
     float: none;
@@ -42,10 +36,3 @@ To include a portal within an html page, write
     {% endif %}
   }
 </style>
-{% else %}
-<style>
-  .porthole {
-    height: 4px;
-  }
-</style>
-{% endunless %}

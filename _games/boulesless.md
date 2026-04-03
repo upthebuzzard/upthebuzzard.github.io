@@ -7,7 +7,7 @@ excerpt: >
   can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs.
 background_image_url: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
 credits:
-  - "[Background image](/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg) by [me](/about)"
+  - "[Background image](/assets/img/boulesless/four-non-boules-and-a-jack-5.jpg) by [me](/copyright)"
 ---
 Where the uninitiated see assorted detritus in a garden, those knowledgeable in the ways of Boulesless see a venue for an ever-changing series of highly competitive tournaments which exercise the body *and* the mind. By granting the loser of the previous round first choice of projectiles in the next, there is a layer of depth and subtlety elevating Boulesless beyond mere 'chucking things about', beyond Boules itself.
 

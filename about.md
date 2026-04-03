@@ -2,7 +2,6 @@
 layout: page
 title: About
 date: 2007-03-06 15:27
-
 categories: []
 ---
 Hi,
@@ -13,25 +12,15 @@ The stories may not make sense to anyone outside my family, but I've set some of
 
 The stories fall into a couple of themes:
 
-* [The Moose &amp; Goose Stories](/moose_and_goose_stories/), for ages 4-11, ish. Problem solving.
+* [The Moose & Goose Stories](/moose_and_goose_stories/), for ages 4-11, ish. Problem solving.
 * [The Gray Parrot Stories](/grey_parrot_stories/), for younger ones, say, 3-6, ish. Convoluted solutions.
+
+Please read them out to your kids, collaborate with them to mess about vigorously with the details. Get them involved. This was kind of the original point of publishing them.
 
 Assorted writing followed, including some made up nonsense arising from a delayed train commute home, and most recently, some games.
 
-I've gone with the [Creative Commons copyright](http://creativecommons.org/licenses/by-nc-sa/3.0/) which basically means you are free to copy, mangle, and share these stories as you see fit, as long as:
-* you attribute me (by citing [stories.upthebuzzard.com](http://stories.upthebuzzard.com/));
-* you don't make money from them;
-* and you continue with the same copyright if you distribute what you've made of them.
-
-It most especially does mean that you are <strong>free to read out the kids' ones to your kids and mess about vigorously with the details and get them involved</strong>, which was kind of the original point of publishing them.
-
-To the best of my knowledge all images used on this site are (or were) free for non-commercial re-use, and have been attributed in the post where they appear. [@Unsplash](https://unsplash.com/) has been a good source. Any non-attributed images are my own, and presumably the CC conditions (above) apply.
-
 If you have any feedback on how the stories pan out under battle conditions, do please let me know.
 
-- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [Twitter](https://twitter.com/upthebuzzard))
+\- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [Twitter](https://twitter.com/upthebuzzard))
 
-<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img style="border-width:0;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons License" /></a>
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-P.S., many thanks to [Cory Doctorow](http://craphound.com/) for responding to an email out of the blue from a complete stranger who had some questions about his Creative Commons philosophy, and pointing out [some](http://www.forbes.com/2006/11/30/cory-doctorow-copyright-tech-media_cz_cd_books06_1201doctorow.html) [useful](http://www.locusmag.com/Features/2007/09/cory-doctorow-freekonomic-e-books.html) [articles](http://www.boingboing.net/2007/03/20/model-contract-claus.html) to said stranger.
+{% include copyright.html %}

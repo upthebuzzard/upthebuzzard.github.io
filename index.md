@@ -20,14 +20,3 @@ layout: home
 
   {% endif %}
 {% endfor %}
-
----
-
-**Also on this site:**
-
-* [Pretensions](/pretensions/) — opinionated articles on product, tech, and strategy
-* [Hobbies](/hobbies) — hifi, games, and other diversions
-
-<p/>{:.porthole style="height:50px;"}
-
-<small style="color:#999;">Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</small>

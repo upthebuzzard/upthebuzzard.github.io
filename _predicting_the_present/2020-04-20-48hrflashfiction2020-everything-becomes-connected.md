@@ -15,7 +15,7 @@ context: >
   <br><br>The chosen prompt was, "[Urine from premature porpoises could repair damaged kidneys](https://twitter.com/NewerScientist3/status/1250121668317589509)"
 background_image_url: /assets/img/predicting-the-present/flowers-missing-focus.jpg
 credits:
-    - "[Background image](/assets/img/predicting-the-present/flowers-missing-focus.jpg) by [me](/about)"
+    - "[Background image](/assets/img/predicting-the-present/flowers-missing-focus.jpg) by [me](/copyright)"
 related-posts:
   entry-for-2017: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days
   entry-for-2018: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y
