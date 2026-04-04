@@ -22,7 +22,7 @@ Assorted writing followed, including some made up nonsense arising from a delaye
 
 If you have any feedback on how the stories pan out under battle conditions, do please let me know.
 
-\- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [Twitter](https://twitter.com/upthebuzzard))
+\- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [X](https://x.com/upthebuzzard))
 
 <hr class="section-divider">
 

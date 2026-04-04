@@ -1,9 +1,6 @@
 {% assign background_image_url = site.default_background_image_url %}
-{% if page.collection %}
-  {% assign collection = site.collections | where:"label", page.collection | first %}
-  {% if collection.background_image_url %}
-    {% assign background_image_url = collection.background_image_url %}
-  {% endif %}
+{% if page_collection.background_image_url %}
+  {% assign background_image_url = page_collection.background_image_url %}
 {% endif %}
 {% if page.background_image_url %}
   {% assign background_image_url = page.background_image_url %}

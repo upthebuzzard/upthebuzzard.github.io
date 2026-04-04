@@ -84,37 +84,21 @@ line 52:   {% endif %}
 
 ---
 
-## 6. MEDIUM: RSS feeds missing for 4 collections
+## 6. ~~MEDIUM: RSS feeds missing for 4 collections~~ FIXED
 
-Collections **with** per-collection `feed.xml`: moose_and_goose, grey_parrot, predicting_the_present, emus, fragments, overgeneralisations, distractions, jekyll_notes (8)
-
-Collections **without**: games, haiku, hifi, pretensions (4)
-
-The footer shows an RSS link for any collection with posts (`footer.html:11`), but if the collection has no `feed.xml`, that link 404s.
-
-**Risk**: Broken RSS links for these 4 collections. The link points to `feed.xml` relative to the collection index, which doesn't exist.
+Created `feed.xml` in `_games/`, `_haiku/`, `_hifi/`, and `_pretensions/`, using the same `collection_feed.xml` include as the existing collections.
 
 ---
 
-## 7. MEDIUM: `get-zone.html` is included multiple times per page render
+## 7. ~~MEDIUM: `get-zone.html` is included multiple times per page render~~ FIXED
 
-`get-zone.html` is included in:
-- `top-nav.html`
-- `contextual-nav.html`
-- `by-author.html` (which itself is included by `page.html` and `post.html`)
-- `footer.html`
-
-Each include sets `page_zone` as a top-level variable, so the multiple calls are redundant but not harmful. However, it's wasteful and makes the data flow confusing — you can't easily see where `page_zone` comes from in any given template.
-
-**Risk**: Maintenance confusion. Someone might edit `get-zone.html` thinking it's called once.
+Moved `get-zone.html` call to `default.html` (once, before all other includes). Removed redundant calls from `top-nav.html`, `footer.html`, `page.html`, and `by-author.html`.
 
 ---
 
-## 8. MEDIUM: `site.collections | where` lookup repeated ~15 times
+## 8. ~~MEDIUM: `site.collections | where` lookup repeated ~15 times~~ FIXED
 
-The pattern `{% assign collection = site.collections | where:"label", page.collection | first %}` appears in at least 15 different includes and layouts. Each one independently looks up the same collection object.
-
-Same issue as #2 — any change to how collections are resolved needs updating everywhere.
+Extended `get-zone.html` to also set `page_collection` during its single lookup. Replaced 6 redundant collection lookups in `credits.html`, `resolve-background-image.html`, `footer.html`, `page.html`, `post.html`, and `story_details.html` with the shared `page_collection` variable.
 
 ---
 
@@ -133,47 +117,27 @@ There is no `disqus_comments.html` in `_includes/` and no `disqus` config in `_c
 
 ---
 
-## 10. MEDIUM: `contextual-nav.html` is never included anywhere visible
+## 10. ~~MEDIUM: `contextual-nav.html` is never included anywhere visible~~ FIXED
 
-This 104-line file builds a full hamburger-style navigation menu. But searching for `contextual-nav` in layouts and other includes shows it's not included by `default.html` or any other layout.
-
-Possible that it's referenced by the minima theme's default layout, but since you override `default.html`, it may be orphaned dead code.
-
-**Status**: Needs verification — check if minima's base templates reference it.
-
-*Update*: Minima 2.x does include a `header.html` that references its own nav. Since this site overrides `default.html` entirely and uses `top-nav.html` instead, `contextual-nav.html` appears to be the old/alternative mobile nav that's no longer wired in.
+Confirmed not referenced by any layout, include, or by minima's base templates. Deleted the orphaned file.
 
 ---
 
-## 11. LOW: RSS feed copyright says "All rights reserved" but site is CC BY-NC-SA
+## 11. ~~LOW: RSS feed copyright says "All rights reserved" but site is CC BY-NC-SA~~ FIXED
 
-**Files**: `_includes/all_feed.xml:6`, `_includes/collection_feed.xml:9`
-
-```xml
-<copyright>All rights reserved.</copyright>
-```
-
-But the site is licensed under CC BY-NC-SA 4.0. These should match.
+Changed `<copyright>` in both `all_feed.xml` and `collection_feed.xml` to `CC BY-NC-SA 4.0`.
 
 ---
 
-## 12. LOW: Twitter social links still reference twitter.com
+## 12. ~~LOW: Twitter social links still reference twitter.com~~ FIXED
 
-**Files**: `_includes/icon-twitter.html`, `about.md:25`
-
-Twitter is now X. The icon, SVG, and links still point to `twitter.com`. Not broken (redirects work), but dated.
+Updated profile links in `icon-twitter.html` and `about.md` to `x.com`. Twitter card meta tags and embedded tweets left as-is (standard names / third-party embed code).
 
 ---
 
-## 13. LOW: `site.url` used for 404 page links instead of `relative_url`
+## 13. ~~LOW: `site.url` used for 404 page links instead of `relative_url`~~ FIXED
 
-**File**: `404.md:12,14`
-
-```markdown
-Leap, gazelle-like, to the [home page]({{ site.url }})
-```
-
-This generates an absolute URL (`https://stories.upthebuzzard.com`). During local dev, this links to production instead of localhost. Other pages correctly use relative paths like `/`.
+Changed both links in `404.md` to use `/` (relative path). Display text for the second link still shows `{{ site.url }}`.
 
 ---
 
@@ -201,16 +165,21 @@ Only `colophon.md` (`zone: site`) and `_pretensions/about.md` (`zone: B`) set `z
 
 ## Priority ranking for fixes
 
-| # | Issue | Effort | Impact |
-|---|---|---|---|
-| 1 | door_sign published as page | Small | Immediate junk page live |
-| 3 | prev/next matches by title | Small | Silent nav bugs on dup titles |
-| 4 | Topic dedup uses string contains | Small | Silent topic loss |
-| 5 | Unclosed div in post.html | Small | Broken HTML if posts collection used |
-| 6 | Missing feed.xml for 4 collections | Small | 404 RSS links |
-| 2 | Background image logic x4 | Medium | Maintenance burden |
-| 8 | Collection lookup x15 | Medium | Maintenance burden |
-| 9 | Dead disqus code | Tiny | Code hygiene |
-| 10 | Orphaned contextual-nav | Medium | Verify then remove or re-wire |
-| 11 | RSS copyright mismatch | Tiny | Accuracy |
-| 7 | get-zone called 4x per page | Low | Redundancy |
+| # | Issue | Status |
+|---|---|---|
+| 1 | door_sign published as page | FIXED |
+| 2 | Background image logic x4 | FIXED |
+| 3 | prev/next matches by title | FIXED |
+| 4 | Topic dedup uses string contains | FIXED |
+| 5 | Unclosed div in post.html | FIXED |
+| 6 | Missing feed.xml for 4 collections | FIXED |
+| 7 | get-zone called 4x per page | FIXED |
+| 8 | Collection lookup x15 | FIXED |
+| 9 | Dead disqus code | FIXED |
+| 10 | Orphaned contextual-nav | FIXED |
+| 11 | RSS copyright mismatch | FIXED |
+| 12 | Twitter → X links | FIXED |
+| 13 | 404 page absolute URLs | FIXED |
+| 14 | Google verification file docs | Won't fix (intentionally published) |
+| 15 | page.zone set on 2 pages | INFO only — working as designed |
+| 16 | include_relative for door_sign | Resolved by #1 |

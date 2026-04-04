@@ -1,17 +1,15 @@
-{% assign collection = site.collections | where:"label", page.collection | first %}
-
 <!-- {% if page.credits %}
-  {% if collection.credits %}
-    {% assign credits = collection.credits | concat: page.credits %}
+  {% if page_collection.credits %}
+    {% assign credits = page_collection.credits | concat: page.credits %}
   {% else %}
     {% assign credits = page.credits %}
   {% endif %}
 {% else %}
-  {% assign credits = collection.credits %}
+  {% assign credits = page_collection.credits %}
 {% endif %} -->
 {% assign credits = site.credits %}
-{% if collection.credits %}
-  {% assign credits = collection.credits %}
+{% if page_collection.credits %}
+  {% assign credits = page_collection.credits %}
 {% endif %}
 {% if page.credits %}
   {% assign credits = page.credits %}

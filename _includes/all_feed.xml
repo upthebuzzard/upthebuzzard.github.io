@@ -3,7 +3,7 @@
   <channel>
     <title>{{ site.title }} by {{ site.author }}</title>
     <link>{{ site.url }}</link>
-    <copyright>All rights reserved.</copyright>
+    <copyright>CC BY-NC-SA 4.0</copyright>
     <description>{{ site.description }}</description>
     <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
       {% assign posts = site.documents | where:"layout", "post" | sort: 'date' | reverse %}

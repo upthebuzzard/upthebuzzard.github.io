@@ -7,9 +7,8 @@
   <hr />
   <div>
     ...
-    {% assign collection = site.collections | where:"label", page.collection | first %}
     <br><strong>{{ page.title }}</strong>
-    <br>(from <a href=".">{{ collection.title }}</a>)
+    <br>(from <a href=".">{{ page_collection.title }}</a>)
     <br>by {{ site.author }}
     <br><a href="{{ site.url }}">{{ site.url }}</a>, <span class="rss-subscribe"><a href="feed.xml">RSS</a></span>
     <br>published: {{ page.date | date_to_long_string }}

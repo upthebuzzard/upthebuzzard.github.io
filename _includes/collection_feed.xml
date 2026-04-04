@@ -6,7 +6,7 @@ assign posts = site[collection_name] | where:"layout", "post" | sort: 'date' | r
     <channel>
         <title>{{ collection.title }}</title>
         <link>{{ site.url }}</link>
-        <copyright>All rights reserved.</copyright>
+        <copyright>CC BY-NC-SA 4.0</copyright>
         <description>{{ collection.description }}</description>
         <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
         {% for post in posts %}
