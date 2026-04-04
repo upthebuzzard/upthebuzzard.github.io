@@ -21,7 +21,9 @@ Some were previously published on <a href="https://www.linkedin.com/in/chrisgath
 {% assign topic_list = "" %}
 {% for post in all_posts %}
   {% for topic in post.topics %}
-    {% unless topic_list contains topic %}
+    {% assign topic_check = topic_list | prepend: "|" | append: "|" %}
+    {% assign topic_needle = topic | prepend: "|" | append: "|" %}
+    {% unless topic_check contains topic_needle %}
       {% if topic_list != "" %}{% assign topic_list = topic_list | append: "|" %}{% endif %}
       {% assign topic_list = topic_list | append: topic %}
     {% endunless %}
