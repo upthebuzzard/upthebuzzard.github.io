@@ -3,6 +3,7 @@ layout: page
 title: About
 date: 2007-03-06 15:27
 categories: []
+hide_credits: true
 ---
 Hi,
 
@@ -22,5 +23,23 @@ Assorted writing followed, including some made up nonsense arising from a delaye
 If you have any feedback on how the stories pan out under battle conditions, do please let me know.
 
 \- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [Twitter](https://twitter.com/upthebuzzard))
+
+<hr style="margin: 1.5em 0;">
+
+<h1 style="text-align: center;">Colophon</h1>
+
+{% include colophon-reference.html %}
+
+&nbsp;
+
+These sections are extracted from the full [colophon](/colophon).
+
+{% include colophon-fiction.html %}
+
+{% include colophon-site.html %}
+
+<hr style="margin: 1.5em 0;">
+
+<h1 style="text-align: center;">Copyright</h1>
 
 {% include copyright.html %}
