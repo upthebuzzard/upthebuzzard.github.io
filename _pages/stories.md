@@ -1,6 +1,7 @@
 ---
 layout: home
 title: A Smattering of Stories
+permalink: /stories
 zone: A
 ---
 <div class="homepage-columns">

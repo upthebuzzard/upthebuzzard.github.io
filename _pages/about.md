@@ -3,6 +3,7 @@ layout: page
 title: About
 date: 2007-03-06 15:27
 categories: []
+permalink: /about
 hide_credits: true
 ---
 Hi,

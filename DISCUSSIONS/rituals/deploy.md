@@ -8,7 +8,7 @@ Run each check. If any fails, stop and report the problem.
 
 - [ ] **Not on main** — get the current branch name. If it's `main`, stop: "Nothing to deploy — already on main."
 - [ ] **Clean working tree** — run `git status`. If there are uncommitted changes or untracked files, stop: tell the user to commit or stash first.
-- [ ] **Root files excluded** — use Glob to list root files (`*` in repo root), then Read `_config.yml` to get the exclude list. Compare non-dot, non-underscore root files against the exclude list and known site content files (`Gemfile`, `Gemfile.lock`, `index.md`, `about.md`, `assets`, `favicon.ico`, `404.md`, `404.html`, `CNAME`, `README.md`, `browserconfig.xml`, `feed.xml`, `manifest.json`, `search.html`, `search.json`, `googlefefc3e230be2bb45.html`). Any file in neither list is a problem — stop and tell the user.
+- [ ] **Root files allowed** — list non-dot, non-underscore entries in the repo root (Bash: `ls -1 | grep -v '^[._]'`). Every entry must be in the exclude list from `_config.yml` OR in this known-infrastructure list: `Gemfile`, `Gemfile.lock`, `CNAME`, `favicon.ico`, `feed.xml`, `manifest.json`, `robots.txt`, `browserconfig.xml`, `googlefefc3e230be2bb45.html`, `404.md`, `index.md`, `README.md`, `assets`. Any other entry is a problem — stop and tell the user. All published pages should live in `_pages/`, not in the root.
 - [ ] **HTTPS URL** — use Grep to check that the `url:` field in `_config.yml` uses `https://`, not `http://`.
 - [ ] **Jekyll build** — run `bundle exec jekyll build --quiet`. If it fails, stop and show the errors.
 
