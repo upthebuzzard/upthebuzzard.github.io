@@ -4,6 +4,9 @@ title: Welcome
 zone: site
 ---
 
+<div class="homepage-columns">
+<div class="homepage-text" markdown="1">
+
 Welcome to this eclectic collection of collections of writing, by Chris Gathercole.
 
 Initially to share bedtime stories I and my children improvised, this site expanded to include more strands of fiction, assorted musings, and some hobbyist content. A recent shift has been to accommodate professional, LinkedIn-y posts about strategy and AI.
@@ -39,3 +42,9 @@ Opinionated articles on product, tech, and strategy. aka 'Pretensions'.
 * [{{ collection.title }}]({{ collection.label }}) — {{ collection.description }}
 {% endif %}
 {% endfor %}
+
+</div>
+<div class="homepage-gallery">
+{% include gallery-frame.html %}
+</div>
+</div>

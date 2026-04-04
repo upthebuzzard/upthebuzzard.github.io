@@ -1,0 +1,199 @@
+# Homepage gallery — 42 images, 3 wide x 14 deep
+# group: used to filter subsets for landing pages
+# Each links to its source post or collection
+
+# Row 1 — Collection backgrounds: Stories
+- src: /assets/img/moose-and-goose/P1070818-H800.JPG
+  alt: Moose and Goose stories
+  link: /moose_and_goose_stories/
+  group: stories
+- src: /assets/img/grey-parrot/P1070812-H800.JPG
+  alt: Grey Parrot stories
+  link: /grey_parrot_stories/
+  group: stories
+- src: /assets/img/general/P1070749-H800.JPG
+  alt: A Smattering of Stories
+  link: /stories.html
+  group: stories
+
+# Row 2 — Predicting the Present
+- src: /assets/img/predicting-the-present/frogs-g7a2be3295_1280.jpg
+  alt: The Lives of the Brians
+  link: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+  group: predicting_the_present
+- src: /assets/img/predicting-the-present/doll_broken_face_cracked_vintage-56670.jpg
+  alt: Mechanical Symphony
+  link: /predicting_the_present/2019-04-15-48hrflashfiction2019-mechanical-symphony.html
+  group: predicting_the_present
+- src: /assets/img/predicting-the-present/flowers-missing-focus.jpg
+  alt: Everything Becomes Connected
+  link: /predicting_the_present/2020-04-20-48hrflashfiction2020-everything-becomes-connected.html
+  group: predicting_the_present
+
+# Row 3 — More Predicting the Present
+- src: /assets/img/predicting-the-present/bulkan-evcimen-FxlES1F3shg-unsplash.jpg
+  alt: The Forgotten One
+  link: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
+  group: predicting_the_present
+- src: /assets/img/predicting-the-present/shipping-containers-1362406957o8M.jpg
+  alt: Type X Type Y
+  link: /predicting_the_present/2018-04-09-48hrflashfiction2018-type-x-type-y.html
+  group: predicting_the_present
+- src: /assets/img/predicting-the-present/rhombus-g079583cfa_1280.jpg
+  alt: Several Days
+  link: /predicting_the_present/2017-04-09-48hrflashfiction2017-several-days.html
+  group: predicting_the_present
+
+# Row 4 — PTP award badges + Overgeneralisations
+- src: /assets/img/predicting-the-present/sfl_winner_badge_may_2022.png
+  alt: SFL winner badge May 2022
+  link: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
+  group: predicting_the_present
+- src: /assets/img/predicting-the-present/sfl_winner_badge_sep_2022.png
+  alt: SFL winner badge Sep 2022
+  link: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
+  group: predicting_the_present
+- src: /assets/img/overgeneralisations/prabindra-awale-1352217-unsplash-1000w.jpg
+  alt: Overgeneralisations
+  link: /overgeneralisations/2019-05-13-notes-on-alcohol-analogy-for-social-networks.html
+  group: other
+
+# Row 5 — Origami (Fragments)
+- src: /assets/img/fragments/modular_origami_assorted.jpg
+  alt: Assorted modular origami
+  link: /fragments/2019-04-29-modular-origami-with-post-its.html
+  group: stories
+- src: /assets/img/fragments/modular_origami_sonobe_examples.jpg
+  alt: Sonobe origami examples
+  link: /fragments/2019-04-29-modular-origami-with-post-its.html
+  group: stories
+- src: /assets/img/fragments/modular_origami_truncated_icosahedron.jpg
+  alt: Origami truncated icosahedron
+  link: /fragments/2019-04-29-modular-origami-with-post-its.html
+  group: stories
+
+# Row 6 — More Origami
+- src: /assets/img/fragments/modular_origami_PHiZZ_examples.jpg
+  alt: PHiZZ origami examples
+  link: /fragments/2019-04-29-modular-origami-with-post-its.html
+  group: stories
+- src: /assets/img/fragments/modular_origami_open_frame_II_example.jpg
+  alt: Open frame origami
+  link: /fragments/2019-04-29-modular-origami-with-post-its.html
+  group: stories
+- src: /assets/img/fragments/modular_origami_open_frame_II_sample.jpg
+  alt: Open frame origami variant
+  link: /fragments/2019-04-29-modular-origami-with-post-its.html
+  group: stories
+
+# Row 7 — Rounders + Pretensions
+- src: /assets/img/fragments/swing-arc-overlapping-path-of-ball.jpg
+  alt: How to hit a rounders ball
+  link: /fragments/2017-07-22-how-to-hit-a-rounders-ball.html
+  group: stories
+- src: /assets/img/pretensions/DSCF1646_Snapseed.JPG
+  alt: Pretensions
+  link: /pretensions/
+  group: pretensions
+- src: /assets/img/pretensions/762f85f1fb79.png
+  alt: Capability-first strategy
+  link: /pretensions/2024-08-13-capability-first.html
+  group: pretensions
+
+# Row 8 — More Pretensions
+- src: /assets/img/pretensions/39bedbe7c0c1.jpg
+  alt: Strategy evidence board
+  link: /pretensions/2024-06-14-so-you-think-you-have-a-strategy.html
+  group: pretensions
+- src: /assets/img/pretensions/f36b65e012ae.png
+  alt: Epistemic honesty
+  link: /pretensions/2025-12-17-epistemic-honesty-when-claude-code-lied.html
+  group: pretensions
+- src: /assets/img/pretensions/32b2ae9816c8.jpg
+  alt: Strategy discussion
+  link: /pretensions/2024-06-14-so-you-think-you-have-a-strategy.html
+  group: pretensions
+
+# Row 9 — General + Cardbot Derby
+- src: /assets/img/general/reflections_2016-12-27_13.31.04_w1280_cropped.jpg
+  alt: Reflections
+  link: /
+  group: other
+- src: /assets/img/general/Construction_of_the_Eiffel_Tower.JPG
+  alt: The Eiffel Tower under construction
+  link: /
+  group: other
+- src: /assets/img/cardbot/cardbot_robot_closeup_w800.JPG
+  alt: Cardbot robots facing off
+  link: /games/cardbot-derby.html
+  group: hobbies
+
+# Row 10 — More Cardbot Derby
+- src: /assets/img/cardbot/cardbot_robot_perspective_w800.JPG
+  alt: Cardbot robot perspective
+  link: /games/cardbot-derby.html
+  group: hobbies
+- src: /assets/img/cardbot/cardbot_surface_h800.JPG
+  alt: Cardbot playing surface
+  link: /games/cardbot-derby.html
+  group: hobbies
+- src: /assets/img/cardbot/cardbot_starting_positions_w800.JPG
+  alt: Cardbot starting positions
+  link: /games/cardbot-derby.html
+  group: hobbies
+
+# Row 11 — Greedy Devils
+- src: /assets/img/greedy-devils/P1080042w800.JPG
+  alt: Greedy Devils setup
+  link: /games/pouches-of-destiny.html
+  group: hobbies
+- src: /assets/img/greedy-devils/P1080043w800.JPG
+  alt: Greedy Devils game pieces
+  link: /games/
+  group: hobbies
+- src: /assets/img/greedy-devils/P1080049w800.JPG
+  alt: Tasmanian Devil on the heap
+  link: /games/pouches-of-destiny.html
+  group: hobbies
+
+# Row 12 — More Greedy Devils + Tasmanian Devil sign
+- src: /assets/img/greedy-devils/P1080050w800.JPG
+  alt: Greedy Devils confrontation
+  link: /games/pouches-of-destiny.html
+  group: hobbies
+- src: /assets/img/greedy-devils/1024px-Tasmanian_Devil_roadsign.jpg
+  alt: Tasmanian Devil road sign
+  link: /games/pouches-of-destiny.html
+  group: hobbies
+- src: /assets/img/boulesless/four-non-boules-and-a-jack-1.jpg
+  alt: Boulesless game pieces
+  link: /games/boulesless.html
+  group: hobbies
+
+# Row 13 — More Boulesless
+- src: /assets/img/boulesless/four-non-boules-and-a-jack-2.jpg
+  alt: Boulesless arrangement two
+  link: /games/boulesless.html
+  group: hobbies
+- src: /assets/img/boulesless/four-non-boules-and-a-jack-3.jpg
+  alt: Boulesless arrangement three
+  link: /games/boulesless.html
+  group: hobbies
+- src: /assets/img/boulesless/four-non-boules-and-a-jack-4.jpg
+  alt: Boulesless arrangement four
+  link: /games/boulesless.html
+  group: hobbies
+
+# Row 14 — Last Boulesless + Hifi + Jekyll Notes
+- src: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
+  alt: Boulesless arrangement five
+  link: /games/boulesless.html
+  group: hobbies
+- src: /assets/img/dall-e-ear.png
+  alt: Good Hifi On The Cheap
+  link: /hifi/
+  group: hobbies
+- src: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
+  alt: Dr Jekyll and Mr Hyde
+  link: /jekyll_notes/
+  group: other

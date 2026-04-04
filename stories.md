@@ -3,6 +3,9 @@ layout: home
 title: A Smattering of Stories
 zone: A
 ---
+<div class="homepage-columns">
+<div class="homepage-text" markdown="1">
+
 <header class="post-header">
   <p class="site-collection-description">{{ site.description }}</p>
 {% include by-author.html %}
@@ -19,3 +22,9 @@ zone: A
 
   {% endif %}
 {% endfor %}
+
+</div>
+<div class="homepage-gallery">
+{% include gallery-frame.html groups="stories,predicting_the_present" %}
+</div>
+</div>

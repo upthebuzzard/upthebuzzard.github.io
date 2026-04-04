@@ -7,8 +7,11 @@ permalink: /:collection/index.html
 excerpt: >
   So what are these stories about?
 
-  Working backwards from my own dribblings, I've decided what this is really all about is less predicting the future and more “predicting the present”, a phrase used (and possibly coined) by [Cory Doctorow](http://www.slate.com/articles/podcasts/future_tense/2013/05/cory_doctorow_joins_tim_wu_for_the_slate_podcast_stranger_than_fiction.html), who may (or may not) have borrowed it from [Bruce Sterling](http://en.wikipedia.org/wiki/Bruce_Sterling), about Science Fiction (which this sort of is).
+  Working backwards from my own dribblings, I've decided what this is really all about is less predicting the future and more "predicting the present", a phrase used (and possibly coined) by [Cory Doctorow](http://www.slate.com/articles/podcasts/future_tense/2013/05/cory_doctorow_joins_tim_wu_for_the_slate_podcast_stranger_than_fiction.html), who may (or may not) have borrowed it from [Bruce Sterling](http://en.wikipedia.org/wiki/Bruce_Sterling), about Science Fiction (which this sort of is).
 ---
+<div class="homepage-columns">
+<div class="homepage-text" markdown="1">
+
 So what are these stories about?
 
 {% assign sorted = site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'date' | reverse %}
@@ -26,25 +29,25 @@ and some extrapolations
 
 ## Found Foundation Myths
 
-Working backwards from my own dribblings, I've decided what this is really all about is less predicting the future and more “predicting the present”, a phrase used (and possibly coined) by [Cory Doctorow](http://www.slate.com/articles/podcasts/future_tense/2013/05/cory_doctorow_joins_tim_wu_for_the_slate_podcast_stranger_than_fiction.html), who may (or may not) have borrowed it from [Bruce Sterling](http://en.wikipedia.org/wiki/Bruce_Sterling), about Science Fiction (which this sort of is).
+Working backwards from my own dribblings, I've decided what this is really all about is less predicting the future and more "predicting the present", a phrase used (and possibly coined) by [Cory Doctorow](http://www.slate.com/articles/podcasts/future_tense/2013/05/cory_doctorow_joins_tim_wu_for_the_slate_podcast_stranger_than_fiction.html), who may (or may not) have borrowed it from [Bruce Sterling](http://en.wikipedia.org/wiki/Bruce_Sterling), about Science Fiction (which this sort of is).
 
 There have been numerous great books in recent years about extrapolating the now:
 
-* [Cory Doctorow](http://craphound.com/?cat=5)'s  “Little Brother” and “For The Win”
-* [Daniel Suarez](http://thedaemon.com/index.html)'  “Daemon”
-* [Neal Stephenson](http://www.nealstephenson.com/)'s  “Reamde”
+* [Cory Doctorow](http://craphound.com/?cat=5)'s  "Little Brother" and "For The Win"
+* [Daniel Suarez](http://thedaemon.com/index.html)'  "Daemon"
+* [Neal Stephenson](http://www.nealstephenson.com/)'s  "Reamde"
 
 and many more writings that will occur to me later, such as
 
-* the excellent ["what if?"](http://what-if.xkcd.com/) series spin off from [xkcd](http://xkcd.com/)
+* the excellent ["what if?"](http://what-if.xkcd.com/) series spin off from [xkcd](http://xkcd.com/)
 
 And just at the last, another post hoc bit of rationalising: I now remember seeing a [TED talk by Elizabeth Gilbert](http://www.youtube.com/watch?v=86x-u-tz0MA), who described how many artists through history have referred to their creativity as if it were a real, living entity, with whims of its own. This works for me too, at least a little bit...
 
-## But Why? How?
+## But Why? How?
 
 During an evening chat on the train home from a post-work do, a number of daft things were said, as per usual, but one topic struck a chord. French trains are wider than UK trains. Wouldn't it be funny if a French train made it through the Chunnel and started up standard UK track? It was daft, but running with it threw up loads of spin-off ideas, none of which quite caused the original topic to collapse under the weight of its own impossible silliness. Two nights later, the bulk of [Loading Gauge](2012-07-02-loading-gauge) was written and published on this blog. Time passed. Movie directors and book publishers failed to call.
 
-And now, months (years?) later, there's another such torrent of tosh, [Evidence-based](2013-06-24-evidence-based), with another [one](2013-06-29-emus-all-the-way-down) (or maybe two) bubbling away in the background. So what's going on? Its not for the fame and adulation. Its not for the money.
+And now, months (years?) later, there's another such torrent of tosh, [Evidence-based](2013-06-24-evidence-based), with another [one](2013-06-29-emus-all-the-way-down) (or maybe two) bubbling away in the background. So what's going on? Its not for the fame and adulation. Its not for the money.
 
 A brief bit of introspection reveals the following.
 
@@ -65,3 +68,9 @@ Is the writing process hampered by my two-fingered typing speed? Or does the thi
 There is a distinct difference between the free-form capturing of ideas in a mindmap and the linear-ish discipline of writing out full paragraphs. Or is the paragraph writing actually linear? It seems to work in bursts either way.
 
 The momentum thing feels a smidge like trying to solve a Sudoku puzzle in a hurry. There are times when you are stuck, or cannot properly deduce the next definitely correct number, so you take a punt and carry on, hoping it was a good choice. In Sudoku, if you have chosen the wrong number, you can still make what seems like progress for several more steps before you bump into a contradiction that means you must have made a mistake earlier. Until that bump, you are hopeful but worried that your construct might come crashing down, but you are still ok to go on a little further.
+
+</div>
+<div class="homepage-gallery">
+{% include gallery-frame.html groups="predicting_the_present" %}
+</div>
+</div>

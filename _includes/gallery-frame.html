@@ -1,0 +1,32 @@
+<div class="gallery-frame">
+  <div class="gallery-grid" id="gallery-grid">
+    {% for item in site.data.gallery %}
+      {% if include.groups %}
+        {% unless include.groups contains item.group %}{% continue %}{% endunless %}
+      {% endif %}
+    {% assign flat = item.src | remove: "/assets/img/" | replace: "/", "_" %}
+    {% assign parts = flat | split: "." %}
+    {% assign base_count = parts.size | minus: 1 %}
+    {% assign base_parts = parts | slice: 0, base_count %}
+    {% assign thumb_name = base_parts | join: "." | append: ".jpg" %}
+    <a href="{{ item.link }}" class="gallery-cell">
+      <img src="/assets/img/thumbnails/{{ thumb_name }}" alt="{{ item.alt }}" loading="lazy">
+    </a>
+    {% endfor %}
+  </div>
+</div>
+<p class="gallery-caption">Images from within</p>
+<script>
+(function () {
+  var grid = document.getElementById('gallery-grid');
+  if (!grid) return;
+  var cells = Array.from(grid.children);
+  for (var i = cells.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = cells[i];
+    cells[i] = cells[j];
+    cells[j] = temp;
+  }
+  cells.forEach(function (cell) { grid.appendChild(cell); });
+})();
+</script>

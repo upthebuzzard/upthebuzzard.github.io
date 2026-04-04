@@ -7,6 +7,8 @@ permalink: /:collection/index.html
 excerpt: >
   opinionated articles on product, tech, and strategy
 ---
+<div class="homepage-columns">
+<div class="homepage-text" markdown="1">
 
 <p class="text-center">
 Articles on product strategy, technology, and organisational thinking.<br>
@@ -45,3 +47,9 @@ Some were previously published on <a href="https://www.linkedin.com/in/chrisgath
   {% endif %}
 {% endfor %}
 {% endfor %}
+
+</div>
+<div class="homepage-gallery">
+{% include gallery-frame.html groups="pretensions" %}
+</div>
+</div>
