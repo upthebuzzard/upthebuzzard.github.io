@@ -1,4 +1,6 @@
 <meta property="og:type"        content="article" />
+<meta property="og:site_name"   content="{{ site.title | escape }}" />
+<meta property="og:locale"      content="en_GB" />
 <meta property="og:title"       content="{{ page.title | default: site.title | escape | strip_html | normalize_whitespace | escape }}" />
 <meta property="og:description" content="{{ page.excerpt | default: site.description | markdownify | strip_html | normalize_whitespace | escape }}" />
 <meta property="og:url"         content="{{ page.url | replace:'index.html','' | absolute_url }}" />

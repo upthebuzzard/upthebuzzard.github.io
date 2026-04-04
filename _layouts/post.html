@@ -13,8 +13,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <!-- <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> -->
       <a href=".">{{ page_collection.title_singular }}</a>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="display:none">{{ page.date | date: "%b %-d, %Y" }}</time>
       {% include by-author.html %}
       {% if page.collection != 'posts' %}
         {% unless page.categories contains "story" %}

@@ -1,5 +1,7 @@
 {
-    "name": "",
+    "name": "A Smattering of Stories",
+    "short_name": "Stories",
+    "description": "An eclectic mixture of writing — fiction, flash fiction, haiku, and more.",
     "icons": [
         {
             "src": "/assets/img/favicons/android-chrome-192x192.png",
