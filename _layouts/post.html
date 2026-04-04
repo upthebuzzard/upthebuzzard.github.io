@@ -36,22 +36,18 @@ layout: default
     {% if page.categories contains "radio-script" %}</radio-script>{% endif %}
 
     {% if page.collection != 'posts' %}
-      {% assign posts = site[page.collection] | where:"layout", "post"  %}
-
       {% if page.categories contains "story" %}
         <p></p>
         <div class="the-end">THE</div>
         <div class="the-end">END</div>
         <p></p>
       {% endif %}
+    {% endif %}
   </div>
 
+  {% if page.collection != 'posts' %}
   <div class="post-content-details">
     {% include story_details.html %}
   </div>
-  {% endif %}
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
   {% endif %}
 </article>
