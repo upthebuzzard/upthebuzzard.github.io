@@ -1,8 +1,1 @@
-<a href="/feed.xml">
-  <span class="icon icon--rss">
-    <img src="/assets/img/feed-icon-14x14.png" alt="RSS">
-  </span>
-  <span class="username">
-    RSS of all collections
-  </span>
-</a>
+{% assign rss_url = include.url | default: "/feed.xml" %}{% assign rss_label = include.label | default: "RSS" %}<a href="{{ rss_url }}"><span class="rss-label">{{ rss_label }}</span>&nbsp;<span class="icon icon--rss"><img src="/assets/img/feed-icon-14x14.png" alt="RSS"></span></a>

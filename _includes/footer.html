@@ -8,7 +8,7 @@
     {% if page.collection %}
       {% assign footer_posts = site[page.collection] | where:"layout", "post" %}
       {% if footer_posts.size > 0 %}
-      <br><small class="footer-meta">The collection also available <a href="feed.xml" class="rss-subscribe">via RSS</a></small>
+      <br><small class="footer-meta">The collection also available {% include icon-rss.html url="feed.xml" label="via RSS" %}</small>
       {% endif %}
     {% endif %}
 
