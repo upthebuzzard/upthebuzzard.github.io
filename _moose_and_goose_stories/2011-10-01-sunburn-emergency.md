@@ -73,7 +73,7 @@ That changed the one large problem of how to stop people getting sunburnt into t
 
 Moose turned to a new page in his notebook and wrote a new title ,
 
-<span style="text-decoration:underline;">How to get suncream into seagull poo?</span>
+<u>How to get suncream into seagull poo?</u>
 
 The suggestions started flowing
 

@@ -27,7 +27,7 @@ And so, to the stories. <em>There are tricky problems to solve</em>...
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
   {% assign totalWordCount = totalWordCount | plus: wordCount %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words) {% if forloop.first %}<span style="color:#00ff00;"> &lt;-- START HERE</span>{% endif %}
+* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words) {% if forloop.first %}<span class="start-here"> &lt;-- START HERE</span>{% endif %}
 > {{ item.excerpt }}
 {% endfor %}
 
