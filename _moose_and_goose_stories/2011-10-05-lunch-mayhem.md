@@ -7,7 +7,7 @@ sequence: 6
 excerpt: >
   "The dinner ladies keep trying to promote the healthy food, reminding the pupils as they choose. We've had advertising campaigns. We've had special lessons. Oh, we've tried pretty much everything, and they still go for pizza and chips and beans."
 ---
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of red bush tea, when the phone rang.
 

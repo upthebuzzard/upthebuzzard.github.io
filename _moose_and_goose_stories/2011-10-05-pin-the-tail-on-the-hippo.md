@@ -8,7 +8,7 @@ excerpt: >
   "I have a problem. I own a zoo in town, as you know, and it’s been getting a bit quiet. Not many people are visiting. They seem a bit bored with it. We want to do a re-launch, generate lots of publicity, get more people to visit. You know the sort of thing. We need a theme, something interesting, something exciting, something that will get this town buzzing."
 ---
 
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of Darjeeling tea, when the phone rang.
 

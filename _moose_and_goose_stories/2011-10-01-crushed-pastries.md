@@ -7,7 +7,7 @@ sequence: 5
 excerpt: >
   As they were walking from the tower, they saw a group of people bunched together, looking up at the tower. One of those people had a big video camera on their shoulder. Another was using a drawing board, sketching a picture of the tower. One wore a beret, and shouted at everyone else in the group.
 ---
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 On this particular Monday morning, however, Moose was not there.
 
@@ -70,7 +70,7 @@ Before the man with a beret could tell him to go away, Moose continued. "I under
 "Why yes, but who are you?"
 
 Moose handed over his business card, which said
-{% include_relative door_sign_include.html variant="card" %}
+{% include door_sign.html variant="card" %}
 
 As the beret man read the card, Moose asked "Would you be interested if I could arrange for a giant hamster to climb the Eiffel Tower?"
 

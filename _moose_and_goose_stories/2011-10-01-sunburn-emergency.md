@@ -7,7 +7,7 @@ sequence: 4
 excerpt: >
   "Our problem is this: the town hospital is full of people with bad sunburn. We have no beds left to treat any more people. The sunburn is entirely avoidable."
 ---
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of breakfast tea, when the phone rang.
 

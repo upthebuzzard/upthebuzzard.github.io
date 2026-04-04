@@ -7,7 +7,7 @@ sequence: 8
 excerpt: >
   Last week was busy, this week was quiet. No work to do; no-one calling; no challenging puzzles to solve; nothing.
 ---
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, bored. Last week was busy, this week was quiet. No work to do; no-one calling; no challenging puzzles to solve; nothing.
 

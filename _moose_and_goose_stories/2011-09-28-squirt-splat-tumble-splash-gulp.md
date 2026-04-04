@@ -7,7 +7,7 @@ sequence: 3
 excerpt: >
   "The pygmy hippos are being attacked by nasty, bitey, buzzy flies. They don't like it. We don't like it. The visitors don't like it. And we are out of ideas. Can you help?"
 ---
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of Orange Blossom tea, when the phone rang.
 

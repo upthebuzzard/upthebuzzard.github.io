@@ -16,7 +16,7 @@ The stories are [available for free](/about), and are ad-free, but please Please
 
 There is a [potted history](a-brief-history-of-moose-and-goose) of how Moose &amp; Goose came to be, but all you really need to know is:
 
-{% include_relative door_sign_include.html %}
+{% include door_sign.html %}
 
 And so, to the stories. <em>There are tricky problems to solve</em>...
 
