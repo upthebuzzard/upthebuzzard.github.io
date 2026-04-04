@@ -4,7 +4,7 @@
 
 - **Always capture discussions** — when research, analysis, or decisions happen in conversation, save them to `DISCUSSIONS/` without being asked.
 - **Always commit to a branch, not main** — the only exception is the deploy ritual, which merges into main.
-- **Always ask before committing** — never run `git commit` without explicit user approval.
+- **Always ask before committing** — never run `git commit` without explicit user approval. Follow `DISCUSSIONS/rituals/commit.md` for every commit.
 - **Always ask before pushing** — never run `git push` without explicit user approval.
 - **New files in the repo root must be excluded** — add them to the `_config.yml` exclude list so they don't get published to GitHub Pages.
 - **Avoid Bash approval triggers** — Claude Code's safety heuristics prompt on `$(...)`, backticks, quotes inside `#` comments, and `$'...'`. To avoid unnecessary prompts:
@@ -87,7 +87,10 @@ Each collection also has an `index.md` (layout: collection) as its landing page.
 
 ## Rituals
 
-When the user says **"deploy"**, read and follow the steps in `DISCUSSIONS/rituals/deploy.md`.
+- **Commit**: for every commit, follow `DISCUSSIONS/rituals/commit.md` — the user must approve the staged files and the commit message before `git commit` runs.
+- **Deploy**: when the user says **"deploy"**, read and follow `DISCUSSIONS/rituals/deploy.md`.
+- **Update gallery**: when new article images need adding to the homepage gallery, follow `DISCUSSIONS/rituals/update-gallery.md` (also chained from the deploy ritual's pre-flight check).
+- **Import LinkedIn article**: see `DISCUSSIONS/rituals/import-linkedin-article.md`.
 
 ## Style Notes
 
