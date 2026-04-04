@@ -7,7 +7,7 @@ excerpt: >
   social network providers (and networks) are audited
 background_image_url: /assets/img/overgeneralisations/prabindra-awale-1352217-unsplash-1000w.jpg
 credits:
-  - Background image by [Prabindra Awale](https://unsplash.com/photos/tlSKmKI4LO0) on [Unsplash](https://unsplash.com/).
+  - "[Background image](/assets/img/overgeneralisations/prabindra-awale-1352217-unsplash-1000w.jpg) by [Prabindra Awale](https://unsplash.com/photos/tlSKmKI4LO0) on [Unsplash](https://unsplash.com/)."
 ---
 # How might society impose a [duty of care](https://en.wikipedia.org/wiki/Duty_of_care) on providers of social networks?
 

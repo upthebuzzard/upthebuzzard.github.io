@@ -19,7 +19,7 @@ related-posts:
   entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 background_image_url: /assets/img/predicting-the-present/shipping-containers-1362406957o8M.jpg
 credits:
-  - Background image by [Peter Griffin](https://www.publicdomainpictures.net/en/view-image.php?image=33844&picture=shipping-containers).
+  - "[Background image](/assets/img/predicting-the-present/shipping-containers-1362406957o8M.jpg) by [Peter Griffin](https://www.publicdomainpictures.net/en/view-image.php?image=33844&picture=shipping-containers)."
 ---
 
 Two figures stand before a jumbled pile of rusting shipping containers. The shorter is in grey and blue police uniform. The taller holds a small camera and wears a bright orange coverall, over the top of civilian clothes, though it is clear the shorter is carrying more weight. Both are fully covered: sunglasses, hats, transparent face masks, high collars, gloves. No bare skin showing.

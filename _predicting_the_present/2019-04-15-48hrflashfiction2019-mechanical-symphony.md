@@ -18,7 +18,7 @@ related-posts:
   entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 background_image_url: /assets/img/predicting-the-present/doll_broken_face_cracked_vintage-56670.jpg
 credits:
-  - Background image by [Aimee Vogelsang](https://unsplash.com/photos/DbJR10fEteE) on [Unsplash](https://unsplash.com/).
+  - "[Background image](/assets/img/predicting-the-present/doll_broken_face_cracked_vintage-56670.jpg) by [Aimee Vogelsang](https://unsplash.com/photos/DbJR10fEteE) on [Unsplash](https://unsplash.com/)."
 
 ---
 

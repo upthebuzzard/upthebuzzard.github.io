@@ -17,7 +17,7 @@ related-posts:
   entry-for-2022-09: /predicting_the_present/2022-10-12-48hrflashfiction2022-the-forgotten-one.html
 background_image_url: /assets/img/predicting-the-present/frogs-g7a2be3295_1280.jpg
 credits:
-  - Background image by <a href="https://pixabay.com/users/peggy_marco-1553824/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1029189">Peggy und Marco Lachmann-Anke</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1029189">Pixabay</a>
+  - "<a href='/assets/img/predicting-the-present/frogs-g7a2be3295_1280.jpg'>Background image</a> by <a href='https://pixabay.com/users/peggy_marco-1553824/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1029189'>Peggy und Marco Lachmann-Anke</a> from <a href='https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1029189'>Pixabay</a>"
 
 ---
 Kevin was mother duck. The ducklings chattered excitedly as they zipped around on their hybrid wheel/ball/leg things, not quite walking, but not really just rolling either. To the best of his knowledge there wasn’t yet an adequate word for that particular perambulatory action. The ducklings would interact with each other before briefly swinging back close to his rucksack, for the reassurance of their dedicated key fob held inside.

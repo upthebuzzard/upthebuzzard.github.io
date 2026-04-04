@@ -24,9 +24,9 @@ If you have any feedback on how the stories pan out under battle conditions, do 
 
 \- Chris Gathercole ([LinkedIn](https://www.linkedin.com/in/chrisgathercole/), [Twitter](https://twitter.com/upthebuzzard))
 
-<hr style="margin: 1.5em 0;">
+<hr class="section-divider">
 
-<h1 style="text-align: center;">Colophon</h1>
+<h1 class="text-center">Colophon</h1>
 
 {% include colophon-reference.html %}
 
@@ -38,8 +38,8 @@ These sections are extracted from the full [colophon](/colophon).
 
 {% include colophon-site.html %}
 
-<hr style="margin: 1.5em 0;">
+<hr class="section-divider">
 
-<h1 style="text-align: center;">Copyright</h1>
+<h1 class="text-center">Copyright</h1>
 
 {% include copyright.html %}

@@ -14,7 +14,7 @@ hide_credits: true
 
 _tl;dr_ **This site itself was vibe-coded (with Claude Code); The fiction, observational, and hobbiest content is all by me, and only me; The Pretensions involve varying degrees of collaboration with Claude Code for discussions and research, but the final wording and tone is all me.**
 
-<p  style="text-align: center;">By Chris Gathercole (<a href="about">fiction</a>,  <a href="pretensions/about">Pretensions</a>)</p>
+<p class="text-center">By Chris Gathercole (<a href="about">fiction</a>,  <a href="pretensions/about">Pretensions</a>)</p>
 
 There was, what turned out to be, a fascinating discussion, as we (me'n'Claude) dug into the angst-ridden new world of provenance of content, and specifically dealing with "Was it AI wot done it? No? Really? Don't believe you."
 

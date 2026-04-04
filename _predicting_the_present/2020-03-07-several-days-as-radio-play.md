@@ -17,7 +17,7 @@ related-posts:
   entry-for-2022-05: /predicting_the_present/2022-05-22-96hrflashfiction2022-the-lives-of-the-brians.html
 background_image_url: /assets/img/predicting-the-present/rhombus-g079583cfa_1280.jpg
 credits:
-  - Background image by <a href="https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274">chenspec</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274">Pixabay</a>
+  - "<a href='/assets/img/predicting-the-present/rhombus-g079583cfa_1280.jpg'>Background image</a> by <a href='https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274'>chenspec</a> from <a href='https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6057274'>Pixabay</a>"
 ---
 <direction>THIS ALL TAKES PLACE IN THE MIND OF CHARACTER 1. THERE ARE NO VISUALS, JUST DARKNESS AND AUDIO.
 

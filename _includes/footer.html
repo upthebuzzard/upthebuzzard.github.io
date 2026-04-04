@@ -3,12 +3,12 @@
 
   <div class="wrapper">
 
-    <small style="color:#999;">Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</small>
+    <small class="footer-meta">Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</small>
 
     {% if page.collection %}
       {% assign footer_posts = site[page.collection] | where:"layout", "post" %}
       {% if footer_posts.size > 0 %}
-      <br><small style="color:#999;">The collection also available <a href="feed.xml" class="rss-subscribe">via RSS</a></small>
+      <br><small class="footer-meta">The collection also available <a href="feed.xml" class="rss-subscribe">via RSS</a></small>
       {% endif %}
     {% endif %}
 
@@ -21,7 +21,7 @@
       {% assign footer_credits = page.credits %}
     {% endif %}
     {% if footer_credits %}
-      <br><small style="color:#999;">Credits: {% for credit in footer_credits %}{{ credit | markdownify | remove: '<p>' | remove: '</p>' }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
+      <br><small class="footer-meta">Credits: {% for credit in footer_credits %}{{ credit | markdownify | remove: '<p>' | remove: '</p>' }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
     {% endif %}
 
     {% include get-zone.html %}

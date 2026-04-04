@@ -7,7 +7,7 @@ excerpt: >
   mopping up afterwards is not very effective
 background_image_url: /assets/img/overgeneralisations/prabindra-awale-1352217-unsplash-1000w.jpg
 credits:
-  - Background image by [Prabindra Awale](https://unsplash.com/photos/tlSKmKI4LO0) on [Unsplash](https://unsplash.com/).
+  - "[Background image](/assets/img/overgeneralisations/prabindra-awale-1352217-unsplash-1000w.jpg) by [Prabindra Awale](https://unsplash.com/photos/tlSKmKI4LO0) on [Unsplash](https://unsplash.com/)."
 ---
 One (of the many, obvs) aspects of [Benedict Evans' writing](https://www.ben-evans.com/) is the very helpful way he keeps [breaking out into analogies](https://www.ben-evans.com/benedictevans/2018/06/22/ways-to-think-about-machine-learning-8nefy), looking for ever-improving relevance for the topic being considered.
 

@@ -8,14 +8,14 @@ excerpt: >
   opinionated articles on product, tech, and strategy
 ---
 
-<p style="text-align: center;">
+<p class="text-center">
 Articles on product strategy, technology, and organisational thinking.<br>
 Some may be opinionated.<br>
 Some may be AI-adjacent, because some bandwagons just have to be joined.<br>
 Some were previously published on <a href="https://www.linkedin.com/in/chrisgathercole/">LinkedIn</a>.
 </p>
 
-<p style="text-align: center;">by <a href="/pretensions/about">Chris Gathercole</a></p>
+<p class="text-center">by <a href="/pretensions/about">Chris Gathercole</a></p>
 
 {% assign all_posts = site[page.collection] | where:"layout", "post" %}
 {% assign topic_list = "" %}

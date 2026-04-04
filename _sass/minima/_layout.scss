@@ -266,3 +266,37 @@
 .nowrap {
   white-space: nowrap;
 }
+
+/**
+ * Utility classes
+ */
+.text-center {
+  text-align: center;
+}
+
+.section-divider {
+  margin: 1.5em 0;
+}
+
+/**
+ * Component classes
+ */
+.colophon-strapline {
+  text-align: center;
+  font-style: italic;
+  max-width: 66%;
+  margin: 0 auto;
+}
+
+.footer-meta {
+  color: $grey-color;
+  font-size: $small-font-size;
+}
+
+.the-end {
+  text-align: center;
+}
+
+.porthole.porthole--thin {
+  height: 4px;
+}
