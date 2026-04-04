@@ -206,3 +206,16 @@ pre {
     fill: $grey-color;
   }
 }
+
+
+
+/**
+ * Accessibility: disable fixed background attachment for users
+ * who prefer reduced motion. Affects body background and porthole elements.
+ */
+@media (prefers-reduced-motion: reduce) {
+  body,
+  .porthole {
+    background-attachment: scroll;
+  }
+}

@@ -22,7 +22,7 @@ description: >
   and some other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://stories.upthebuzzard.com # upthebuzzard.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: upthebuzzard
+# twitter_username: upthebuzzard  # removed — account no longer active
 github_username:  upthebuzzard
 github_repo: https://github.com/upthebuzzard/upthebuzzard.github.io
 author: Chris Gathercole
