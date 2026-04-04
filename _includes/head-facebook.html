@@ -5,22 +5,8 @@
 {% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
 {% endif %}
 <meta property="article:author" content="{{ site.author }}" />
-{% assign og_image = nil %}
-{% if page.cover_image %}
-  {% assign og_image = page.cover_image %}
-{% elsif page.background_image_url %}
-  {% assign og_image = page.background_image_url %}
-{% else %}
-  {% if page.collection %}
-    {% assign collection = site.collections | where:"label", page.collection | first %}
-    {% if collection.background_image_url %}
-      {% assign og_image = collection.background_image_url %}
-    {% endif %}
-  {% endif %}
-{% endif %}
-{% unless og_image %}
-  {% assign og_image = site.default_background_image_url %}
-{% endunless %}
+{% include resolve-background-image.html %}
+{% assign og_image = page.cover_image | default: background_image_url %}
 {% if og_image %}
 <meta property="og:image"       content="{{ og_image | absolute_url }}" />
 {% endif %}

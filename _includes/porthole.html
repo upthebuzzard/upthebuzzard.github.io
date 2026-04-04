@@ -21,16 +21,7 @@ To include a portal within an html page, write
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    {% assign background_image_url = site.default_background_image_url %}
-    {% if page.collection %}
-      {% assign collection = site.collections | where:"label", page.collection | first %}
-      {% if collection.background_image_url %}
-        {% assign background_image_url = collection.background_image_url %}
-      {% endif %}
-    {% endif %}
-    {% if page.background_image_url %}
-      {% assign background_image_url = page.background_image_url %}
-    {% endif %}
+    {% include resolve-background-image.html %}
     {% if background_image_url %}
       background-image: url({{ background_image_url }});
     {% endif %}
