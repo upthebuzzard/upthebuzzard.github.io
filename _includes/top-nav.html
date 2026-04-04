@@ -6,7 +6,7 @@
   <span class="top-nav-collections">
     {% if page_zone == "site" %}
       <!-- Site-level page: show all zones as peers -->
-      <a href="/"><span class="site-link">{{ site.title | escape }}</span></a>
+      <a href="/"><span class="site-link">Eclectic Collection</span></a>
       <span class="top-nav-sections">
         &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/stories">Stories</a>
         &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/hobbies">Hobbies</a>
@@ -16,7 +16,7 @@
       </span>
     {% elsif page_zone == "B" %}
       <!-- Zone B: Pretensions branding with topics -->
-      <a href="/pretensions/"><span class="site-link">Pretensions</span></a>
+      <a href="/" class="page-link no-wrap">Welcome</a>&nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a href="/pretensions/"><span class="site-link">Pretensions</span></a>
       <span class="top-nav-sections">
         {% assign pretensions_posts = site.pretensions | where:"layout", "post" %}
         {% assign topic_list = "" %}
@@ -39,7 +39,7 @@
       </span>
     {% elsif page_zone == "C" %}
       <!-- Zone C: Hobbies branding -->
-      <a href="/hobbies"><span class="site-link">Hobbies</span></a>
+      <a href="/" class="page-link no-wrap">Welcome</a>&nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a href="/hobbies"><span class="site-link">Hobbies</span></a>
       <span class="top-nav-sections">
         {% assign collections = site.collections | sort: 'sequence' %}
         {% for collection in collections %}
@@ -51,7 +51,7 @@
       </span>
     {% else %}
       <!-- Default: Stories branding with Zone A collections -->
-      <a href="/stories"><span class="site-link">{{ site.title | escape }}</span></a>
+      <a href="/" class="page-link no-wrap">Welcome</a>&nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a href="/stories"><span class="site-link">{{ site.title | escape }}</span></a>
       <span class="top-nav-sections">
         {% assign collections = site.collections | sort: 'sequence' %}
         {% for collection in collections %}
