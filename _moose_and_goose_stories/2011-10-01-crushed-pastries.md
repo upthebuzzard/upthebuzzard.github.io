@@ -7,6 +7,8 @@ sequence: 5
 excerpt: >
   As they were walking from the tower, they saw a group of people bunched together, looking up at the tower. One of those people had a big video camera on their shoulder. Another was using a drawing board, sketching a picture of the tower. One wore a beret, and shouted at everyone else in the group.
 ---
+{% include_relative door_sign_include.html %}
+
 On this particular Monday morning, however, Moose was not there.
 
 In fact, Moose and his family were on holiday in Paris, visiting the Eiffel Tower. They were in a big queue of people waiting to take the leaning elevator in the north leg. Looking up, they could see the complicated, metal, criss-cross structure of the tower looming over them. They could also see hundreds of big, flappy seagulls wheeling about.
@@ -68,21 +70,7 @@ Before the man with a beret could tell him to go away, Moose continued. "I under
 "Why yes, but who are you?"
 
 Moose handed over his business card, which said
-<div>
-<table border="1" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td><strong> </strong>
-<p style="text-align:center;"><strong><span style="font-family:Tahoma;font-size:medium;">Moose &amp; Goose</span></strong></p>
-<p style="text-align:center;"><strong><span style="font-family:Tahoma;font-size:small;">  Private Investigators </span></strong><strong><span style="font-family:Tahoma;font-size:small;">and </span></strong><strong><span style="font-family:Tahoma;font-size:small;">Solvers of Tricky Problems.  </span></strong><strong><span style="font-family:Tahoma;font-size:xx-small;"> </span></strong></p>
-<p style="text-align:center;"><strong><span style="font-family:Tahoma;font-size:xx-small;">  No problem is too big or too small, t</span></strong><strong><span style="font-family:Tahoma;font-size:xx-small;">oo difficult or too easy,</span></strong></p>
-<p style="text-align:center;"><strong><span style="font-family:Tahoma;font-size:xx-small;">too weird or too obvious.</span></strong></p>
-<p style="text-align:center;"></p>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+{% include_relative door_sign_include.html variant="card" %}
 
 As the beret man read the card, Moose asked "Would you be interested if I could arrange for a giant hamster to climb the Eiffel Tower?"
 

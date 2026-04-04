@@ -7,6 +7,8 @@ sequence: 8
 excerpt: >
   Last week was busy, this week was quiet. No work to do; no-one calling; no challenging puzzles to solve; nothing.
 ---
+{% include_relative door_sign_include.html %}
+
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, bored. Last week was busy, this week was quiet. No work to do; no-one calling; no challenging puzzles to solve; nothing.
 
 Moose got them each another cup of tea, because that always seemed to help, and said "Let's solve a problem of our own, for a change. Why is no-one calling?" Goose took a careful sip of tea, because it was still hot, and agreed with a nod.

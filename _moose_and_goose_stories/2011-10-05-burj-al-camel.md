@@ -7,6 +7,8 @@ sequence: 7
 excerpt: >
   "Zis is not just a normal infestation of ants. We appear to be an ant magnet. None of ze usual solutions work. Our local pest control experts are at a loss. Can you 'elp?"
 ---
+{% include_relative door_sign_include.html %}
+
 On this particular Monday morning, Moose and Goose (private investigators and solvers of tricky problems) were sitting in their office, each sipping a cup of Lapsang Souchong (a smoky black tea from China that smells as if someone is repairing a road right next to you), when the phone rang.
 
 Moose answered it, "Hello".  

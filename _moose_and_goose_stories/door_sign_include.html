@@ -1,8 +1,10 @@
+{% unless include.variant == "card" %}
 <p>
   <em>Somewhere, there is a seaside town where there is an office with a door on which a sign says,</em>
 </p>
+{% endunless %}
 <div>
-  <table border="1" cellspacing="0" cellpadding="20" class="door-sign">
+  <table border="1" cellspacing="0" cellpadding="20" class="door-sign {% if include.variant == 'card' %}door-sign--card{% endif %}">
     <tbody>
       <tr>
         <td>

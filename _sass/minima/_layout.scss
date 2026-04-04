@@ -289,6 +289,39 @@
   margin-right: auto;
   text-align: center;
 
+  &--card {
+    font-weight: bold;
+    width: 75%;
+    letter-spacing: 0.15em;
+
+    td {
+      position: relative;
+      border: 3px double #666;
+      padding: 24px 20px;
+
+      &::before,
+      &::after {
+        display: block;
+        text-align: center;
+        color: #999;
+        font-size: 1.2em;
+        letter-spacing: 0.4em;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      &::before {
+        content: "⚜ ❧ ⚜";
+        margin-bottom: 8px;
+      }
+
+      &::after {
+        content: "⚜ ❧ ⚜";
+        margin-top: 8px;
+      }
+    }
+  }
+
   &__title { font-size: x-large; }
   &__subtitle { font-size: large; }
   &__connector { font-size: small; }
