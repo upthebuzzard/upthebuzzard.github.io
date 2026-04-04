@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-  // border-top: 5px solid $grey-color-dark;
-  //border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
@@ -45,7 +43,6 @@
 }
 
 .site-nav {
-  // float: right;
   line-height: 56px;
 
   .menu-icon {
@@ -62,11 +59,7 @@
     }
   }
 
-  // @include media-query($on-palm) {
-    // position: absolute;
-    // top: 9px;
-    // right: $spacing-unit / 2;
-    background-color: $background-color;
+  background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -104,7 +97,6 @@
       }
       margin-left: 20px;
     }
-  //}
 }
 
 .top-nav {
@@ -125,21 +117,6 @@
   .nav-collection-divider {
     font-size: small;
   }
-
-  // .top-nav-side-by-side {
-  //   display: table;
-  //   clear: both;
-  // }
-  //
-  // .top-nav-collections {
-  //   float: left;
-  //   width: 80%;
-  // }
-  //
-  // .top-nav-hamburger {
-  //   float: left;
-  //   width: 20%;
-  // }
 }
 
 
@@ -148,7 +125,6 @@
  * Site footer
  */
 .site-footer {
-  //border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -299,4 +275,18 @@
 
 .porthole.porthole--thin {
   height: 4px;
+}
+
+/**
+ * Door sign (Moose & Goose)
+ */
+.door-sign {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  &__title { font-size: x-large; }
+  &__subtitle { font-size: large; }
+  &__connector { font-size: small; }
+  &__tagline { font-size: medium; }
 }
