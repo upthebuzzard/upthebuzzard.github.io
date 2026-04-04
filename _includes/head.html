@@ -6,7 +6,8 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Rosario&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -43,6 +44,6 @@
 
   {% include head-twitter.html %}
   {% include head-facebook.html %}
-
+  {% include json-ld.html %}
 
 </head>

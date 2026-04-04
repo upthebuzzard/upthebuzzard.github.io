@@ -5,7 +5,7 @@ layout: default
 
   {% if page.cover_image %}
   <figure class="post-cover">
-    <img src="{{ page.cover_image }}" alt="{{ page.title | escape }}">
+    <img src="{{ page.cover_image }}" alt="{{ page.title | escape }}" loading="lazy">
     {% if page.cover_image_caption %}<figcaption>{{ page.cover_image_caption }}</figcaption>{% endif %}
   </figure>
   {% endif %}

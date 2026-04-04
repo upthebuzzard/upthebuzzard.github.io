@@ -1,0 +1,33 @@
+{% if page.layout == "post" %}
+{% include resolve-background-image.html %}
+{% assign ld_image = page.cover_image | default: background_image_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | escape | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  {% if page.excerpt %}"description": {{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | jsonify }},{% endif %}
+  {% if ld_image %}"image": "{{ ld_image | absolute_url }}",{% endif %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ site.author | jsonify }}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": {{ site.author | jsonify }}
+  }
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "url": "{{ site.url }}",
+  "description": {{ site.description | strip_html | normalize_whitespace | jsonify }}
+}
+</script>
+{% endif %}
