@@ -12,6 +12,8 @@ Run each check. If any fails, stop and report the problem.
 - [ ] **HTTPS URL** — use Grep to check that the `url:` field in `_config.yml` uses `https://`, not `http://`.
 - [ ] **Jekyll build** — run `bundle exec jekyll build --quiet`. If it fails, stop and show the errors.
 
+- [ ] **Gallery freshness** — find the commit SHA of the last change to `_data/gallery.yml` (`git log -1 --format=%H -- _data/gallery.yml`), then list image files added since that SHA under `assets/img/` excluding `assets/img/thumbnails/` (`git diff --name-only --diff-filter=A <sha>..HEAD -- 'assets/img/'`). Filter out any paths already present as `src:` entries in `_data/gallery.yml`. If any candidates remain, show the list to the user and ask: "Add these to the gallery before deploying, skip them, or abort?" If they choose to add, follow `update-gallery.md` then resume this ritual from the top. If skip, proceed. If abort, stop.
+
 - [ ] **Dependabot alerts** — run `gh api repos/upthebuzzard/upthebuzzard.github.io/dependabot/alerts --jq '.[] | select(.state == "open")'` to check for open security alerts. If there are any, report them in a table (number, severity, package, summary). Ask the user to acknowledge before proceeding. If new alerts have appeared (i.e. alerts not previously dismissed or known), stop and investigate.
 
 Report: "Pre-flight checks passed" with a summary of branch name and alert count.
