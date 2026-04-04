@@ -38,7 +38,7 @@
     {% assign nexturl = posts.first.url %}
 
     {% for links in posts %}
-      {% if links.title == page.title %}
+      {% if links.url == page.url %}
         {% unless forloop.first %}
           {% assign prevurl = prev.url %}
         {% endunless %}

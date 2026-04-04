@@ -41,7 +41,7 @@
     <!-- list main site pages, e.g. 'about' -->
     {% for my_page in site.pages %}
       {% if my_page.title and my_page.layout == 'page' %}
-        {% if my_page.title == page.title %}
+        {% if my_page.url == page.url %}
           {% assign prefix = "*&nbsp;" %}
         {% else %}
           {% assign prefix = "" %}
@@ -60,7 +60,7 @@
       {% if sorted_posts.size > 0 %}
         <hr/>
         {% for my_post in sorted_posts %}
-          {% if my_post.title == page.title %}
+          {% if my_post.url == page.url %}
             {% assign prefix = "*&nbsp;" %}
           {% else %}
             {% assign prefix = "" %}
@@ -74,7 +74,7 @@
       {% if sorted_pages.size > 0 %}
         <hr/>
         {% for my_page in sorted_pages %}
-          {% if my_page.title == page.title %}
+          {% if my_page.url == page.url %}
             {% assign prefix = "*&nbsp;" %}
           {% else %}
             {% assign prefix = "" %}
