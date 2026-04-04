@@ -8,8 +8,11 @@
       <!-- Site-level page: show all zones as peers -->
       <a href="/"><span class="site-link">{{ site.title | escape }}</span></a>
       <span class="top-nav-sections">
+        &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/stories">Stories</a>
         &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/hobbies">Hobbies</a>
         &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/pretensions/">Pretensions</a>
+        &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/about">about (stories)</a>
+        &nbsp;<span class="nav-collection-divider">|</span>&nbsp;&nbsp;<a class="page-link no-wrap" href="/pretensions/about">about (pretensions)</a>
       </span>
     {% elsif page_zone == "B" %}
       <!-- Zone B: Pretensions branding with topics -->
@@ -48,7 +51,7 @@
       </span>
     {% else %}
       <!-- Default: Stories branding with Zone A collections -->
-      <a href="/"><span class="site-link">{{ site.title | escape }}</span></a>
+      <a href="/stories"><span class="site-link">{{ site.title | escape }}</span></a>
       <span class="top-nav-sections">
         {% assign collections = site.collections | sort: 'sequence' %}
         {% for collection in collections %}
