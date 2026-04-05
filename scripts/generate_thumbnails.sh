@@ -32,11 +32,22 @@ grep 'src:' "$GALLERY_FILE" | sed 's/.*src: //' | while IFS= read -r src; do
     continue
   fi
 
-  # Copy original to temp file, resize, convert to JPEG
-  tmp="/tmp/thumb_$$_$(basename "$full_path")"
-  cp "$full_path" "$tmp"
-  sips --resampleHeightWidth "$SIZE" "$SIZE" --setProperty format jpeg --setProperty formatOptions 70 "$tmp" --out "$thumb_path" >/dev/null 2>&1
-  rm -f "$tmp"
+  # Scale so the shorter edge becomes SIZE (preserving aspect ratio), then
+  # center-crop to a SIZE x SIZE square and write as JPEG. Everything is done
+  # in one sips invocation writing to --out so we never modify in place --
+  # sips cannot re-encode some formats (e.g. webp) in place on macOS.
+  dims=$(sips -g pixelWidth -g pixelHeight "$full_path" 2>/dev/null)
+  w=$(echo "$dims" | awk '/pixelWidth:/ {print $2}')
+  h=$(echo "$dims" | awk '/pixelHeight:/ {print $2}')
+  if [ "$w" -le "$h" ]; then
+    sips --resampleWidth "$SIZE" --cropToHeightWidth "$SIZE" "$SIZE" \
+      --setProperty format jpeg --setProperty formatOptions 70 \
+      "$full_path" --out "$thumb_path" >/dev/null 2>&1
+  else
+    sips --resampleHeight "$SIZE" --cropToHeightWidth "$SIZE" "$SIZE" \
+      --setProperty format jpeg --setProperty formatOptions 70 \
+      "$full_path" --out "$thumb_path" >/dev/null 2>&1
+  fi
 
   new_size=$(stat -f%z "$thumb_path")
   echo " OK  $thumb_name ($(( new_size / 1024 ))KB)"
