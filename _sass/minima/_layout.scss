@@ -202,6 +202,12 @@
   background-color: white;
   padding: 1%;
 
+  figure img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
   figure figcaption {
     max-width: 70%;
     margin: 0 auto;
