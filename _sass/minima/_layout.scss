@@ -334,6 +334,50 @@
   }
 }
 
+.homepage-text h2 {
+  margin-top: $spacing-unit * 1.5;
+}
+
+.homepage-listing {
+  width: 100%;
+  border-collapse: collapse;
+
+  tr {
+    border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  td {
+    padding: 6px 8px;
+    vertical-align: top;
+  }
+
+  &__name {
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__desc {
+    font-size: $small-font-size;
+    color: $grey-color-dark;
+  }
+
+  &--2col {
+    table-layout: fixed;
+
+    .homepage-listing__name {
+      width: 40%;
+    }
+
+    .homepage-listing__desc {
+      width: 60%;
+    }
+  }
+}
+
 .share-buttons {
   font-size: $small-font-size;
   color: $grey-color;

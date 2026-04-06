@@ -18,30 +18,43 @@ If you'd like to go further, here are the main areas:
 ## [Stories & Creative Writing](/stories)
 
 {% assign sorted = site.collections | sort: 'sequence' %}
+<table class="homepage-listing homepage-listing--2col">
 {% for collection in sorted %}
 {% if collection.label != "posts" and collection.zone == "A" %}
-* [{{ collection.title }}]({{ collection.label }}) — {{ collection.description }}
+  <tr>
+    <td class="homepage-listing__name"><a href="{{ collection.label }}">{{ collection.title }}</a></td>
+    <td class="homepage-listing__desc">{{ collection.description }}</td>
+  </tr>
 {% endif %}
 {% endfor %}
+</table>
 
 ## [Professional Articles](/pretensions/)
 
 Opinionated articles on product, tech, and strategy. aka 'Pretensions'.
 
-{% for post in site.pretensions %}
-{% if post.layout == "post" %}
-* [{{ post.title }}]({{ post.url }})
-{% endif %}
+{% assign pretensions_posts = site.pretensions | where:"layout", "post" | sort: "date" | reverse %}
+<table class="homepage-listing homepage-listing--1col">
+{% for post in pretensions_posts %}
+  <tr>
+    <td class="homepage-listing__name"><a href="{{ post.url }}">{{ post.title }}</a></td>
+  </tr>
 {% endfor %}
+</table>
 
 ## [Hobbies](/hobbies)
 
 {% assign sorted_hobbies = site.collections | sort: 'sequence' %}
+<table class="homepage-listing homepage-listing--2col">
 {% for collection in sorted_hobbies %}
 {% if collection.label != "posts" and collection.zone == "C" %}
-* [{{ collection.title }}]({{ collection.label }}) — {{ collection.description }}
+  <tr>
+    <td class="homepage-listing__name"><a href="{{ collection.label }}">{{ collection.title }}</a></td>
+    <td class="homepage-listing__desc">{{ collection.description }}</td>
+  </tr>
 {% endif %}
 {% endfor %}
+</table>
 
 </div>
 <div class="homepage-gallery">
