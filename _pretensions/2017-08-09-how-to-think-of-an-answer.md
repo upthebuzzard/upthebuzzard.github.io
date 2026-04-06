@@ -6,7 +6,7 @@ categories: []
 topics: [Thinking]
 sequence: 10
 excerpt: >
-  walking helps, and so does talking; avoid getting stuck in a rut
+  Walking helps, and so does talking; avoid getting stuck in a rut
 redirect_from:
   - /overgeneralisations/how-to-think-of-an-answer.html
   - /overgeneralisations/2018-08-09-how-to-think-of-an-answer.html

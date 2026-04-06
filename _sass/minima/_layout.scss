@@ -255,6 +255,7 @@
   border-collapse: collapse;
 
   tr {
+    border-top: 1px solid $grey-color-light;
     border-bottom: 1px solid $grey-color-light;
   }
 
@@ -293,6 +294,43 @@
     margin: 2px 2px;
     border-radius: 3px;
     font-size: 0.8em;
+  }
+}
+
+.collection-listing {
+  width: 100%;
+  border-collapse: collapse;
+
+  tr {
+    border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  td {
+    padding: 6px 8px;
+    vertical-align: top;
+  }
+
+  &__name {
+    font-weight: bold;
+    white-space: nowrap;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__count {
+    text-align: center;
+    color: $grey-color;
+    font-size: $small-font-size;
+    white-space: nowrap;
+    width: 1%;
+  }
+
+  &__desc {
+    font-size: $small-font-size;
+    color: $grey-color-dark;
   }
 }
 

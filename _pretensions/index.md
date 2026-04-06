@@ -5,7 +5,7 @@ date: 2024-08-13 12:00
 categories: []
 permalink: /:collection/index.html
 excerpt: >
-  opinionated articles on product, tech, and strategy
+  Opinionated articles on product, tech, and strategy
 ---
 <div class="homepage-columns">
 <div class="homepage-text" markdown="1">

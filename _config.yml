@@ -65,7 +65,7 @@ collections:
     title: The Moose and Goose Stories
     title_singular: A Moose and Goose Story
     title_abbrev: Moose & Goose
-    description: a collection of stories about a pair of Solvers of Tricky Problems
+    description: A collection of stories about a pair of Solvers of Tricky Problems
     sequence: 1
     zone: A
     background_image_url: /assets/img/moose-and-goose/P1070818-H800.JPG
@@ -76,7 +76,7 @@ collections:
     title: The Grey Parrot Stories
     title_singular: A Grey Parrot Story
     title_abbrev: Grey Parrot
-    description: a collection of stories about a (too) clever parrot
+    description: A collection of stories about a (too) clever parrot
     sequence: 2
     zone: A
     background_image_url: /assets/img/grey-parrot/P1070812-H800.JPG
@@ -87,7 +87,7 @@ collections:
     title: Predicting the Present
     title_singular: A Predicting the Present Story
     title_abbrev: The Present
-    description: short stories that are less predicting the future and more the now.
+    description: Short stories that are less predicting the future and more the now.
     sequence: 10
     zone: A
   emus_all_the_way_down:
@@ -95,7 +95,7 @@ collections:
     title: Emus All The Way Down
     title_singular: Emus All The Way Down
     title_abbrev: Emus
-    description: riffing on the Predicting The Present story.
+    description: Riffing on the Predicting The Present story.
     sequence: 11
     zone: A
   fragments:
@@ -103,7 +103,7 @@ collections:
     title: Fragments of writing
     title_singular: A Fragment
     title_abbrev: Fragments
-    description: riffing on whatever is riff-worthy
+    description: Riffing on whatever is riff-worthy
     sequence: 20
     zone: A
     reverse_posts: true
@@ -112,7 +112,7 @@ collections:
     title: Assorted haiku
     title_singular: A haiku
     title_abbrev: Haiku
-    description: striving to overcome the 5-7-5
+    description: Striving to overcome the 5-7-5
     sequence: 25
     zone: A
     reverse_posts: true
@@ -121,7 +121,7 @@ collections:
     title: Notes on games
     title_singular: A Games Note
     title_abbrev: Games
-    description: exploring game ideas and mechanics
+    description: Exploring game ideas and mechanics
     sequence: 30
     zone: C
     reverse_posts: true
@@ -133,7 +133,7 @@ collections:
     title: Overgeneralisations
     title_singular: An Overgeneralisation
     title_abbrev: Overgeneral
-    description: observations based on insufficient evidence
+    description: Observations based on insufficient evidence
     sequence: 40
     zone: D
     reverse_posts: true
@@ -142,7 +142,7 @@ collections:
     title: Distractions
     title_singular: A Distraction
     title_abbrev: Distractions
-    description: a collection of interesting links
+    description: A collection of interesting links
     sequence: 90
     zone: D
   jekyll_notes:
@@ -150,7 +150,7 @@ collections:
     title: Jekyll Notes
     title_singular: A Jekyll Note
     title_abbrev: Jekyll Notes
-    description: a collection of notes and observations from and aide-memoires for using Jekyll for the first time.
+    description: A collection of notes and observations from and aide-memoires for using Jekyll for the first time.
     sequence: 100
     zone: D
     background_image_url: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
@@ -162,7 +162,7 @@ collections:
     title: Pretensions
     title_singular: A Pretension
     title_abbrev: Pretensions
-    description: opinionated articles on product, tech, and strategy
+    description: Opinionated articles on product, tech, and strategy
     sequence: 50
     zone: B
     reverse_posts: true
