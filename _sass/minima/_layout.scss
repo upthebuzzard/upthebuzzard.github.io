@@ -249,6 +249,22 @@
   white-space: nowrap;
 }
 
+.share-buttons {
+  font-size: $small-font-size;
+  color: $grey-color;
+  text-align: right;
+  padding: 0 1%;
+  margin-bottom: $spacing-unit / 2;
+
+  .share-label {
+    margin-right: 4px;
+  }
+
+  .share-link {
+    margin-left: 8px;
+  }
+}
+
 /**
  * Utility classes
  */

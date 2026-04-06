@@ -1,0 +1,8 @@
+{% assign share_url = page.url | absolute_url | url_encode %}
+{% assign share_title = page.title | url_encode %}
+<div class="share-buttons">
+  <span class="share-label">Share:</span>
+  <a class="share-link" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+  <a class="share-link" href="mailto:?subject={{ share_title }}&body={{ share_url }}" title="Share via email">Email</a>
+  <a class="share-link share-link--copy" href="{{ page.url | absolute_url }}" title="Copy link" onclick="event.preventDefault();navigator.clipboard.writeText(this.href);this.textContent='Copied!'">Copy link</a>
+</div>
