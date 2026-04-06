@@ -1,4 +1,4 @@
-# Homepage gallery — 42 images, 3 wide x 14 deep
+# Homepage gallery — 45 images, 3 wide x 15 deep
 # group: used to filter subsets for landing pages
 # Each links to its source post or collection
 
@@ -114,7 +114,13 @@
   link: /pretensions/2024-06-14-so-you-think-you-have-a-strategy.html
   group: pretensions
 
-# Row 9 — General + Cardbot Derby
+# Row 9 — More Pretensions + Experiments
+- src: /assets/img/pretensions/vibe-coding-monolith.png
+  alt: Vibe-coding monolith
+  link: /pretensions/2026-04-06-vibe-coding-i-dont-think-that-means-what-you-think-it-means.html
+  group: pretensions
+
+# Row 10 — General + Cardbot Derby
 - src: /assets/img/general/reflections_2016-12-27_13.31.04_w1280_cropped.jpg
   alt: Reflections
   link: /
@@ -128,7 +134,7 @@
   link: /games/cardbot-derby.html
   group: hobbies
 
-# Row 10 — More Cardbot Derby
+# Row 11 — More Cardbot Derby
 - src: /assets/img/cardbot/cardbot_robot_perspective_w800.JPG
   alt: Cardbot robot perspective
   link: /games/cardbot-derby.html
@@ -142,7 +148,7 @@
   link: /games/cardbot-derby.html
   group: hobbies
 
-# Row 11 — Greedy Devils
+# Row 12 — Greedy Devils
 - src: /assets/img/greedy-devils/P1080042w800.JPG
   alt: Greedy Devils setup
   link: /games/pouches-of-destiny.html
@@ -156,7 +162,7 @@
   link: /games/pouches-of-destiny.html
   group: hobbies
 
-# Row 12 — More Greedy Devils + Tasmanian Devil sign
+# Row 13 — More Greedy Devils + Tasmanian Devil sign
 - src: /assets/img/greedy-devils/P1080050w800.JPG
   alt: Greedy Devils confrontation
   link: /games/pouches-of-destiny.html
@@ -170,7 +176,7 @@
   link: /games/boulesless.html
   group: hobbies
 
-# Row 13 — More Boulesless
+# Row 14 — More Boulesless
 - src: /assets/img/boulesless/four-non-boules-and-a-jack-2.jpg
   alt: Boulesless arrangement two
   link: /games/boulesless.html
@@ -184,7 +190,7 @@
   link: /games/boulesless.html
   group: hobbies
 
-# Row 14 — Last Boulesless + Hifi + Jekyll Notes
+# Row 15 — Last Boulesless + Hifi + Jekyll Notes
 - src: /assets/img/boulesless/four-non-boules-and-a-jack-5.jpg
   alt: Boulesless arrangement five
   link: /games/boulesless.html
@@ -196,4 +202,14 @@
 - src: /assets/img/jekyll-notes/JekyllAndHydeWikipedia.jpg
   alt: Dr Jekyll and Mr Hyde
   link: /jekyll_notes/
+  group: other
+
+# Row 16 — Experiments
+- src: /assets/img/experiments/canute-rebukes-courtiers.png
+  alt: Canute rebukes his courtiers — engraving
+  link: /experiments/2026-04-06-ascii-art-from-images.html
+  group: other
+- src: /assets/img/experiments/canute-rebukes-courtiers-hicontrast.png
+  alt: Canute engraving — high contrast
+  link: /experiments/2026-04-06-ascii-art-from-images.html
   group: other
