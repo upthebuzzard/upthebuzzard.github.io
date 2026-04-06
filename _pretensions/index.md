@@ -19,37 +19,27 @@ Some were previously published on <a href="https://www.linkedin.com/in/chrisgath
 
 <p class="text-center">by <a href="/pretensions/about">Chris Gathercole</a></p>
 
-{% assign all_posts = site[page.collection] | where:"layout", "post" %}
-{% assign topic_list = "" %}
-{% for post in all_posts %}
-  {% for topic in post.topics %}
-    {% assign topic_check = topic_list | prepend: "|" | append: "|" %}
-    {% assign topic_needle = topic | prepend: "|" | append: "|" %}
-    {% unless topic_check contains topic_needle %}
-      {% if topic_list != "" %}{% assign topic_list = topic_list | append: "|" %}{% endif %}
-      {% assign topic_list = topic_list | append: topic %}
-    {% endunless %}
-  {% endfor %}
-{% endfor %}
-{% assign topics = topic_list | split: "|" | sort %}
-
-{% for topic in topics %}
-<h2 id="{{ topic | slugify }}">{{ topic }}</h2>
-
-{% for item in all_posts %}
-  {% if item.topics contains topic %}
-  {% assign wordCount = item.content | number_of_words %}
-### [{{ item.title }}]({{ item.url }})
-<span class="post-meta">{{ item.date | date: "%B %Y" }} &middot; {{ wordCount }} words</span>
-
-> {{ item.excerpt }}
-
-  {% endif %}
-{% endfor %}
-{% endfor %}
-
 </div>
 <div class="homepage-gallery">
 {% include gallery-frame.html groups="pretensions" %}
 </div>
 </div>
+
+{% assign all_posts = site[page.collection] | where:"layout", "post" | sort: "date" | reverse %}
+
+<table class="pretensions-listing">
+{% for item in all_posts %}
+  {% assign wordCount = item.content | number_of_words %}
+  <tr>
+    <td class="pretensions-listing__title"><a href="{{ item.url }}">{{ item.title }}</a></td>
+    <td class="pretensions-listing__excerpt">{{ item.excerpt }}</td>
+    <td class="pretensions-listing__meta">
+      {{ item.date | date: "%B %Y" }}<br>
+      {{ wordCount }} words
+      {% if item.topics %}<br>
+      {% for topic in item.topics %}<span class="pretensions-listing__topic">{{ topic }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
+      {% endif %}
+    </td>
+  </tr>
+{% endfor %}
+</table>

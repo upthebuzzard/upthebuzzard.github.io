@@ -249,6 +249,53 @@
   white-space: nowrap;
 }
 
+.pretensions-listing {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  td {
+    padding: 8px 10px;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  &__title {
+    width: 35%;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__excerpt {
+    width: 50%;
+    font-size: $small-font-size;
+    color: $grey-color-dark;
+  }
+
+  &__meta {
+    width: 15%;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+
+  &__topic {
+    display: inline-block;
+    background-color: $grey-color-light;
+    padding: 1px 6px;
+    margin: 2px 2px;
+    border-radius: 3px;
+    font-size: 0.8em;
+  }
+}
+
 .share-buttons {
   font-size: $small-font-size;
   color: $grey-color;
