@@ -4,3 +4,4 @@ _site
 *.tmp
 .env
 .DS_Store
+tmp/

@@ -59,6 +59,7 @@ exclude:
   - CLAUDE.md
   - CHANGELOG.md
   - scripts
+  - tmp
 collections:
   moose_and_goose_stories:
     output: true
