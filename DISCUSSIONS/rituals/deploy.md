@@ -46,14 +46,15 @@ Report: "Pushed to origin/main."
 
 ## Step 4: Monitor deployment
 
-Get the HEAD commit SHA. Then poll the GitHub Actions workflow runs API every 10 seconds for up to 5 minutes:
+Capture the pushed commit's full 40-char SHA with `git rev-parse HEAD` — do **not** hardcode or fabricate a SHA in the poll loop, and do **not** expand a 7-char short SHA into a made-up 40-char hash. Then poll the GitHub Actions workflow runs API every 10 seconds for up to 5 minutes:
 
 ```
+EXPECTED=$(git rev-parse HEAD)
 gh api repos/upthebuzzard/upthebuzzard.github.io/actions/runs?branch=main&per_page=1 --jq '.workflow_runs[0]'
 ```
 
 Look for a run where:
-- The `head_sha` field matches the pushed SHA
+- The `head_sha` field equals `$EXPECTED` (full 40-char match)
 - The `status` field is `"completed"` and `conclusion` is `"success"`
 
 If `conclusion` is anything other than `"success"`, stop and report the failure with the run URL (`html_url`).

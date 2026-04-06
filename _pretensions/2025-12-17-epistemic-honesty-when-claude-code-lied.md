@@ -3,7 +3,7 @@ layout: post
 title: "Epistemic Honesty, or When Claude Code lied, doubled down on the lie, and only fessed up under sustained pressure"
 date: 2025-12-17 11:13
 categories: []
-topics: [AI]
+topics: [AI,Vibe-Coding]
 sequence: 11
 excerpt: >
   Claude Code was (probably) solving the most recent AdventOfCode '25 puzzles,
