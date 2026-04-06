@@ -154,7 +154,6 @@ High-contrast source with Braille and corrected brightness. Bolder strokes but l
 ## Further experiments
 
 Exploring additional flags and image pre-processing to see if we can beat the Braille 80 winner.
-
 <table>
 <tr>
 <td style="vertical-align: top; padding: 10px; min-width: 200px;">
