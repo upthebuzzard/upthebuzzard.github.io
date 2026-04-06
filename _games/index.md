@@ -13,27 +13,42 @@ Here we have a (small) assortment of newly-developed games. So far, they are all
 
 {% assign totalWordCount = 0 %}
 {% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'date' | reverse %}
+
+<table class="pretensions-listing">
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
   {% assign totalWordCount = totalWordCount | plus: wordCount %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
-> {{ item.excerpt }}
+  <tr>
+    <td class="pretensions-listing__title"><a href="{{ item.url }}">{{ item.title }}</a></td>
+    <td class="pretensions-listing__meta">
+      {{ item.date | date: "%B %Y" }}<br>
+      {{ wordCount }} words
+    </td>
+    <td class="pretensions-listing__excerpt">{{ item.excerpt }}</td>
+  </tr>
 {% endfor %}
+</table>
 
 # Inspirations
 
-## Non standard, standard-cards-only games
-* [Lamarckian Poker](http://cheapass.com/free-games/poker-suite/) by CheapAss Games, which comes as part of a set of standard-cards-only games. <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/3270/lamarckian-poker))</sub>
-
-## Multi-layered use of cards
-* [Race For The Galaxy](http://riograndegames.com/games.html?id=240)<sub>([boardgamegeek](https://boardgamegeek.com/boardgame/28143/race-galaxy))</sub>
-
-## Synergies between cards
-* Dominion <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/36218/dominion))</sub>
-
-## Interesting mechanics
-* RoboRally <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/18/roborally))</sub>
-* Carcassonne <sub>([boardgamegeek](https://boardgamegeek.com/boardgame/822/carcassonne))</sub>
+<table class="games-inspirations">
+  <tr>
+    <td class="games-inspirations__category">Non standard, standard-cards-only games</td>
+    <td class="games-inspirations__items"><a href="http://cheapass.com/free-games/poker-suite/">Lamarckian Poker</a> by CheapAss Games, which comes as part of a set of standard-cards-only games. <sub>(<a href="https://boardgamegeek.com/boardgame/3270/lamarckian-poker">boardgamegeek</a>)</sub></td>
+  </tr>
+  <tr>
+    <td class="games-inspirations__category">Multi-layered use of cards</td>
+    <td class="games-inspirations__items"><a href="http://riograndegames.com/games.html?id=240">Race For The Galaxy</a> <sub>(<a href="https://boardgamegeek.com/boardgame/28143/race-galaxy">boardgamegeek</a>)</sub></td>
+  </tr>
+  <tr>
+    <td class="games-inspirations__category">Synergies between cards</td>
+    <td class="games-inspirations__items">Dominion <sub>(<a href="https://boardgamegeek.com/boardgame/36218/dominion">boardgamegeek</a>)</sub></td>
+  </tr>
+  <tr>
+    <td class="games-inspirations__category">Interesting mechanics</td>
+    <td class="games-inspirations__items">RoboRally <sub>(<a href="https://boardgamegeek.com/boardgame/18/roborally">boardgamegeek</a>)</sub><br>Carcassonne <sub>(<a href="https://boardgamegeek.com/boardgame/822/carcassonne">boardgamegeek</a>)</sub></td>
+  </tr>
+</table>
 
 # Other reading
 * [some US-centric words on game copyright, trademark, patents](https://boardgamegeek.com/thread/493249/mythbusting-game-design-and-copyright-trademarks-a)

@@ -21,28 +21,50 @@ who's there at the start (or one of the starts) and works out what happens at th
 
 {% assign totalWordCount = 0 %}
 {% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'sequence' %}
+
+<table class="pretensions-listing">
 {% for item in sorted %}
 	{% unless item.categories contains 'tangential' %}
 		{% assign wordCount = item.content | number_of_words %}
 		{% assign totalWordCount = totalWordCount | plus: wordCount %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
-> {{ item.excerpt }}
+  <tr>
+    <td class="pretensions-listing__title"><a href="{{ item.url }}">{{ item.title }}</a></td>
+    <td class="pretensions-listing__meta">
+      {{ wordCount }} words
+    </td>
+    <td class="pretensions-listing__excerpt">{{ item.excerpt }}</td>
+  </tr>
 	{% endunless %}
 {% endfor %}
-
-Total Word Count: {{ totalWordCount }} ...
+  <tr>
+    <td class="pretensions-listing__title">Total</td>
+    <td class="pretensions-listing__meta">{{ totalWordCount }} words</td>
+    <td class="pretensions-listing__excerpt"></td>
+  </tr>
+</table>
 
 ## contemporaneous, or possibly precursors
 
 {% assign sorted = site[page.collection] | where:"layout", "post" | where_exp:"item", "item.categories contains 'tangential'" | sort: 'sequence' %}
+
+<table class="pretensions-listing">
 {% for item in sorted %}
 	{% assign wordCount = item.content | number_of_words %}
 	{% assign totalWordCount = totalWordCount | plus: wordCount %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words)
-> {{ item.excerpt }}
+  <tr>
+    <td class="pretensions-listing__title"><a href="{{ item.url }}">{{ item.title }}</a></td>
+    <td class="pretensions-listing__meta">
+      {{ wordCount }} words
+    </td>
+    <td class="pretensions-listing__excerpt">{{ item.excerpt }}</td>
+  </tr>
 {% endfor %}
-
-Total Word Count (including extras): {{ totalWordCount }}
+  <tr>
+    <td class="pretensions-listing__title">Total</td>
+    <td class="pretensions-listing__meta">{{ totalWordCount }} words</td>
+    <td class="pretensions-listing__excerpt"></td>
+  </tr>
+</table>
 
 ## glossary
 

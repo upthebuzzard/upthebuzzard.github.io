@@ -297,6 +297,34 @@
   }
 }
 
+.games-inspirations {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  tr {
+    border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  td {
+    padding: 8px 10px;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  &__category {
+    width: 40%;
+    font-weight: bold;
+  }
+
+  &__items {
+    width: 60%;
+    font-size: $small-font-size;
+  }
+}
+
 .collection-listing {
   width: 100%;
   border-collapse: collapse;
@@ -429,7 +457,10 @@
 }
 
 .start-here {
-  color: #00ff00;
+  color: #000;
+  background-color: #90ee90;
+  padding: 1px 6px;
+  border-radius: 3px;
 }
 
 /**

@@ -24,12 +24,20 @@ And so, to the stories. <em>There are tricky problems to solve</em>...
 
 {% assign totalWordCount = 0 %}
 {% assign sorted = site[page.collection] | where:"layout", "post" | sort: 'sequence' %}
+
+<table class="pretensions-listing">
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
   {% assign totalWordCount = totalWordCount | plus: wordCount %}
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words) {% if forloop.first %}<span class="start-here"> &lt;-- START HERE</span>{% endif %}
-> {{ item.excerpt }}
+  <tr>
+    <td class="pretensions-listing__title"><a href="{{ item.url }}">{{ item.title }}</a>{% if forloop.first %}<br><span class="start-here"> --&gt; START HERE &lt;--</span>{% endif %}</td>
+    <td class="pretensions-listing__meta">
+      {{ wordCount }} words
+    </td>
+    <td class="pretensions-listing__excerpt">{{ item.excerpt }}</td>
+  </tr>
 {% endfor %}
+</table>
 
 Total Word Count: {{ totalWordCount }} ...
 
