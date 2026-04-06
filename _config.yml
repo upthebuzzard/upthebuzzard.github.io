@@ -170,6 +170,15 @@ collections:
     background_image_url: /assets/img/pretensions/DSCF1646_Snapseed.JPG
     credits:
       - "[Background image](/assets/img/pretensions/DSCF1646_Snapseed.JPG) by [me](/copyright)"
+  experiments:
+    output: true
+    title: Experiments
+    title_singular: An Experiment
+    title_abbrev: Experiments
+    description: Tinkering with tools, techniques, and ideas
+    sequence: 115
+    zone: C
+    reverse_posts: true
   hifi:
     output: true
     title: Good Hifi On The Cheap
