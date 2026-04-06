@@ -1,31 +1,46 @@
 ---
-layout: collection
+layout: default
 title: Predicting the Present
 date: 2013-06-24 21:33
 categories: []
 permalink: /:collection/index.html
 excerpt: >
-  So what are these stories about?
-
-  Working backwards from my own dribblings, I've decided what this is really all about is less predicting the future and more "predicting the present", a phrase used (and possibly coined) by [Cory Doctorow](http://www.slate.com/articles/podcasts/future_tense/2013/05/cory_doctorow_joins_tim_wu_for_the_slate_podcast_stranger_than_fiction.html), who may (or may not) have borrowed it from [Bruce Sterling](http://en.wikipedia.org/wiki/Bruce_Sterling), about Science Fiction (which this sort of is).
+  Short stories that are less predicting the future and more the now.
 ---
+<article class="post">
 <div class="homepage-columns">
-<div class="homepage-text" markdown="1">
+<div class="homepage-text">
 
-So what are these stories about?
+<h1 class="post-title">Predicting the Present</h1>
+<p class="site-collection-description"> - Short stories that are less predicting the future and more the now.</p>
+
+</div>
+<div class="homepage-gallery">
+{% include gallery-frame.html groups="predicting_the_present" %}
+</div>
+</div>
 
 {% assign sorted = site[page.collection] | where:"layout", "post" | where: "categories","story" | sort: 'date' | reverse %}
+
+<table class="pretensions-listing">
 {% for item in sorted %}
   {% assign wordCount = item.content | number_of_words %}
-  {% assign yyyymmdd = item.date | split: " " | first %}
-
-* [{{ item.title }}]({{ item.url }}) ({{ wordCount }} words{% if item.categories contains "tweet" %}, in a tweet{% endif %}, {{ yyyymmdd }}{% if item.categories contains "prize-winner" %}, prize-winner!{% endif %})
-> {{ item.excerpt }}
+  <tr>
+    <td class="pretensions-listing__title"><a href="{{ item.url }}">{{ item.title }}</a></td>
+    <td class="pretensions-listing__meta">
+      {{ item.date | date: "%B %Y" }}<br>
+      {{ wordCount }} words
+      {% if item.categories contains "tweet" %}<br>in a tweet{% endif %}
+      {% if item.categories contains "prize-winner" %}<br>prize-winner!{% endif %}
+    </td>
+    <td class="pretensions-listing__excerpt">{{ item.excerpt }}</td>
+  </tr>
 {% endfor %}
+</table>
 
-and some extrapolations
+<p markdown="1">and some extrapolations: [Emus all the way down ...](/emus_all_the_way_down)</p>
 
-* [Emus all the way down ...](/emus_all_the_way_down)
+<div markdown="1">
 
 ## Found Foundation Myths
 
@@ -70,7 +85,4 @@ There is a distinct difference between the free-form capturing of ideas in a min
 The momentum thing feels a smidge like trying to solve a Sudoku puzzle in a hurry. There are times when you are stuck, or cannot properly deduce the next definitely correct number, so you take a punt and carry on, hoping it was a good choice. In Sudoku, if you have chosen the wrong number, you can still make what seems like progress for several more steps before you bump into a contradiction that means you must have made a mistake earlier. Until that bump, you are hopeful but worried that your construct might come crashing down, but you are still ok to go on a little further.
 
 </div>
-<div class="homepage-gallery">
-{% include gallery-frame.html groups="predicting_the_present" %}
-</div>
-</div>
+</article>
