@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vibe-Coding: I don't think that means what you think it means"
-date: 2026-03-15 12:00
+date: 2026-04-06 12:00
 categories: []
 topics: [AI,Vibe-Coding,Strategy]
 sequence: 12
@@ -15,7 +15,7 @@ cover_image_caption: "A monolithic gray stone block shattering from the inside t
 
 Vibe-coding [[wikip](https://en.wikipedia.org/wiki/Vibe_coding)] 'officially' means pair-programming with an LLM, where the human expresses the 'vibe' in natural language, and the LLM implements it in code. But the implications for orgs are so profound, so beneficial, so scary, with immediate consequences for almost all business processes, that it is better thought of in terms of Vibe-Process-Engineering. Perhaps Vibe-Org-ing? (ok, no, maybe not. Still seeking a better term). What it is not, is _just_ devs working a bit faster
 
-tl;dr  We can keep our existing staff and achieve far, far more with them if, and it's an enormous, I-fear-the-worst if, we can get the old ways out of the way and think of new ways. We can know more, understand more, and make better-informed decisions across the entire org. We can do more, and achieve more. How we accelerate is in our control. We have the tools. We can take small steps, but so very many of them and so quickly. The scary part is how rapid the progress could be.
+*tl;dr  We can keep our existing staff and achieve far, far more with them if, and it's an enormous, I-fear-the-worst if, we can get the old ways out of the way and think of new ways. We can know more, understand more, and make better-informed decisions across the entire org. We can do more, and achieve more. How we accelerate is in our control. We have the tools. We can take small steps, but so very many of them and so quickly. The scary part is how rapid the progress could be.*
 
 What follows includes a mix of unfair, unfounded, wild over-generalisation, [Citation needed], and [Anecdote Alert!], but a pivotal moment is upon us.
 
@@ -156,7 +156,7 @@ Revisiting the "let's be even fairer" sections:
 * Set the direction. Where are we going, and why, and how? Radical transparency. This is how you steer projects.
 * If you have a good, clearly stated strategy, you and everyone else can make accurate judgement calls about whether an idea is compatible, or consequential, perhaps worth a 5min spike at the very least.
 * You can track strategy alignment across the whole company, folding in every in-flight initiative.
-* The 'Situational Awareness' aspect of a good strategy, truly understanding the internal state and capabilities of your org, is now easily achievable. Imagine: actually knowing what is actually going on in your own org, without worrying about multiple layers of obfusticating spin. Crazy talk no longer.
+* The 'Situational Awareness' aspect of a good strategy, truly understanding the internal state and capabilities of your org, is now easily achievable. Imagine: actually knowing what is actually going on in your own org, without worrying about multiple layers of obfusticating spin. [Crazy talk no longer](/pretensions/2024-06-14-so-you-think-you-have-a-strategy#1-diagnosis-and-strapline).
 * You can have continual, automated health checks on all aspects of the strategy and its application.
 
 "Fractional Seniors" (new term):
@@ -200,7 +200,7 @@ Revisiting the "let's be even fairer" sections:
 
 Ending on a repeat of the tl;dr, because I was struggling to round this off.
 
-tl;dr  We can keep our existing staff and achieve far, far more with them if, and it's an enormous, I-fear-the-worst if, we can get the old ways out of the way and think of new ways. We can know more, understand more, and make better-informed decisions across the entire org. We can do more, and achieve more. How we accelerate is in our control. We have the tools. We can take small steps, but so very many of them and so quickly. The scary part is how rapid the progress could be.
+*tl;dr  We can keep our existing staff and achieve far, far more with them if, and it's an enormous, I-fear-the-worst if, we can get the old ways out of the way and think of new ways. We can know more, understand more, and make better-informed decisions across the entire org. We can do more, and achieve more. How we accelerate is in our control. We have the tools. We can take small steps, but so very many of them and so quickly. The scary part is how rapid the progress could be.*
 
 <br>
 
