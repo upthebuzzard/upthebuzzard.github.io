@@ -20,6 +20,27 @@
     <br>{% include related-posts.html %}
     {% endif %}
   {% include credits.html %}
+  {% if page.changelog %}
+  ...
+  <br>Changelog
+  <table style="margin: 0 auto; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid; padding: 4px 8px;">Date</th>
+        <th style="border: 1px solid; padding: 4px 8px;">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for entry in page.changelog %}
+      <tr>
+        <td style="border: 1px solid; padding: 4px 8px;">{{ entry.date }}</td>
+        <td style="border: 1px solid; padding: 4px 8px;">{{ entry.note | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <br>
+  {% endif %}
 
   {% if page.context %}
       ...

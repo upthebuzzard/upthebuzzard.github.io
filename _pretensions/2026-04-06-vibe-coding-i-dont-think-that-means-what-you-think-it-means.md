@@ -11,13 +11,20 @@ excerpt: >
   Vibe-Process-Engineering. What it is not, is just devs working a bit faster.
 cover_image: /assets/img/pretensions/vibe-coding-monolith.png
 cover_image_caption: "A monolithic gray stone block shattering from the inside to reveal a flowing river of neon liquid data."
+changelog:
+  - date: 2026-04-06
+    note: Initial publication
+  - date: 2026-04-07
+    note: Added changelog
+  - date: 2026-04-07
+    note: Extended "What follows" self-deprecation
 ---
 
 Vibe-coding [[wikip](https://en.wikipedia.org/wiki/Vibe_coding)] 'officially' means pair-programming with an LLM, where the human expresses the 'vibe' in natural language, and the LLM implements it in code. But the implications for orgs are so profound, so beneficial, so scary, with immediate consequences for almost all business processes, that it is better thought of in terms of Vibe-Process-Engineering. Perhaps Vibe-Org-ing? (ok, no, maybe not. Still seeking a better term). What it is not, is _just_ devs working a bit faster
 
 *tl;dr  We can keep our existing staff and achieve far, far more with them if, and it's an enormous, I-fear-the-worst if, we can get the old ways out of the way and think of new ways. We can know more, understand more, and make better-informed decisions across the entire org. We can do more, and achieve more. How we accelerate is in our control. We have the tools. We can take small steps, but so very many of them and so quickly. The scary part is how rapid the progress could be.*
 
-What follows includes a mix of unfair, unfounded, wild over-generalisation, [Citation needed], and [Anecdote Alert!], but a pivotal moment is upon us.
+What follows includes a mix of unfair, unfounded, wild over-generalisation, incomplete-yet-too-long, painfully opinionated, [Citation needed], and [Anecdote Alert!], but a pivotal moment is upon us.
 
 Watching the performative nonsense scrolling past (on LI mostly, TBF, which is a low bar), the hair-rending, ritual chest-beating, doom-laden bon mots about the end of human developers, and related dogmatic declarations, etc etc, aargh. I so want to join in. To be clear, yes, we/they may all be doomed - the societal impact alone of these reflex mass redundancies and hiring freezes is likely to be devastating, even without the emergence of our AI overlords (who I, for one, welcome…[[wikip](https://en.wikipedia.org/wiki/Portal:The_Simpsons/Character_quote/37)]  I read scifi - I know things.)
 

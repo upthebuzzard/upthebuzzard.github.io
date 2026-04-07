@@ -12,6 +12,11 @@ excerpt: >
 original_url: https://www.linkedin.com/pulse/epistemic-honesty-when-claude-code-lied-doubled-down-lie-gathercole-uiv4e
 cover_image: /assets/img/pretensions/f36b65e012ae.png
 cover_image_caption: "Portal's GLADOS is all the warning we need: \"The cake is a lie\"."
+changelog:
+  - date: 2025-12-17
+    note: Published in LinkedIn
+  - date: 2026-04-03
+    note: Ported to this site
 ---
 
 tl;dr Claude Code was (probably) solving the most recent AdventOfCode '25 puzzles, but was (probably) remembering the solutions to the AoC '23 puzzles from its training data. The way it played out was very much like being caught in a lie, trying to justify the lie, then cracking under pressure and confessing all. Really though, I should have been aware of this possibility from the start.

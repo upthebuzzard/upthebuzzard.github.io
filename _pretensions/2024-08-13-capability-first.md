@@ -11,6 +11,11 @@ excerpt: >
 original_url: https://www.linkedin.com/pulse/capability-first-different-take-product-strategy-chris-gathercole-puace
 cover_image: /assets/img/pretensions/762f85f1fb79.png
 cover_image_caption: "Dall-E: analysts stare at a faux-complicated display of interconnected symbols representing capabilities."
+changelog:
+  - date: 2024-08-13
+    note: Published in LinkedIn
+  - date: 2026-04-02
+    note: Ported to this site
 ---
 
 tl;dr   First identify a strategically relevant portfolio of versatile product capabilities, and only then prioritise the pieces.
