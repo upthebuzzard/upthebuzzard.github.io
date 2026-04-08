@@ -24,10 +24,13 @@
   {% if posts.size > 1 %}
     {% if include.sort_by %}
       {% assign posts = posts | sort: include.sort_by  %}
+      {% assign sorted_by_date = false %}
     {% elsif posts.first.sequence %}
       {% assign posts = posts | sort: 'sequence'  %}
+      {% assign sorted_by_date = false %}
     {% else %}
       {% assign posts = posts | sort: 'date' %}
+      {% assign sorted_by_date = true %}
     {% endif %}
 
     {% if reverse_collection_posts == true %}
@@ -36,15 +39,19 @@
 
     {% assign prevurl = posts.last.url %}
     {% assign nexturl = posts.first.url %}
+    {% assign prev_wraps = true %}
+    {% assign next_wraps = true %}
 
     {% for links in posts %}
       {% if links.url == page.url %}
         {% unless forloop.first %}
           {% assign prevurl = prev.url %}
+          {% assign prev_wraps = false %}
         {% endunless %}
         {% unless forloop.last %}
           {% assign next = posts[forloop.index] %}
           {% assign nexturl = next.url %}
+          {% assign next_wraps = false %}
         {% endunless %}
       {% endif %}
       {% assign prev = links %}
@@ -62,6 +69,22 @@
       {% assign nexttext = 'NEXT&gt;&gt;' %}
     {% endif %}
 
+    {% if sorted_by_date == true %}
+      {% assign wrap_prev_label = '&lt;&lt;NEWEST' %}
+      {% assign wrap_next_label = 'OLDEST&gt;&gt;' %}
+    {% else %}
+      {% assign wrap_prev_label = '&lt;&lt;LAST' %}
+      {% assign wrap_next_label = 'FIRST&gt;&gt;' %}
+    {% endif %}
+
+    {% if reverse_collection_posts == true %}
+      {% if next_wraps %}{% assign prevtext = wrap_prev_label %}{% endif %}
+      {% if prev_wraps %}{% assign nexttext = wrap_next_label %}{% endif %}
+    <a href="{{ nexturl }}" class="prev">{{ prevtext }}</a>&nbsp;<a href="{{ prevurl }}" class="next">{{ nexttext }}</a>
+    {% else %}
+      {% if prev_wraps %}{% assign prevtext = wrap_prev_label %}{% endif %}
+      {% if next_wraps %}{% assign nexttext = wrap_next_label %}{% endif %}
     <a href="{{ prevurl }}" class="prev">{{ prevtext }}</a>&nbsp;<a href="{{ nexturl }}" class="next">{{ nexttext }}</a>
+    {% endif %}
   {% endif %}
 {% endif %}

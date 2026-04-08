@@ -4,7 +4,6 @@ title: How to think of an answer, to a joke, when challenged
 date: 2017-08-09 23:01
 categories: []
 topics: [Thinking]
-sequence: 10
 excerpt: >
   Walking helps, and so does talking; avoid getting stuck in a rut
 redirect_from:

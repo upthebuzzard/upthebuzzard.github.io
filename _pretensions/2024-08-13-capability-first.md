@@ -4,7 +4,6 @@ title: "Capability-First: A Different Take On Product Strategy And Prioritisatio
 date: 2024-08-13 12:00
 categories: []
 topics: [Product Strategy]
-sequence: 1
 excerpt: >
   First identify a strategically relevant portfolio of versatile
   product capabilities, and only then prioritise the pieces.

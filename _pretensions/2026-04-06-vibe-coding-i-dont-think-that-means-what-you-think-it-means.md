@@ -4,7 +4,6 @@ title: "Vibe-Coding: I don't think that means what you think it means"
 date: 2026-04-06 12:00
 categories: []
 topics: [AI,Vibe-Coding,Strategy]
-sequence: 12
 excerpt: >
   Vibe-coding 'officially' means pair-programming with an LLM, but the
   implications for orgs are so profound that it is better thought of as
