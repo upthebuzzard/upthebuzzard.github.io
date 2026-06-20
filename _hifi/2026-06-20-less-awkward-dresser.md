@@ -30,3 +30,5 @@ An opportunity for series of GAS attacks...
 
 And yes, it all sounds epic. Volume levels can be cranked up safely without booming up in the alcove. Looks nice. No hum. All usable. A most excellent series of changes.
 
+{% include 2023-04-02-related-notes-and-terms.md %}
+
