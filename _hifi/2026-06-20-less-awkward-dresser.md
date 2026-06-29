@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Less Awkward Dresser, or "If you want your hifi, it'll have look nice there"
+title: Less Awkward Dresser, or "If you want your hifi, it'll have to look nice there"
 date: 2026-06-20 00:00
 categories: [hifi]
 excerpt: >
@@ -19,7 +19,7 @@ And there it might have ended, but we were back to a previous issue where the re
 
 Found a small, square, mid-height Ikea table which fitted the gap perfectly, within 1cm. It was fate. Kitted it out with shelving to separate the separates. Slid them all into place. Except, ugh, the amp would not slide in without major faffage. Missed this when measuring up. The inside gap between the table legs was too narrow. Only worked if all other pieces were removed, and the amp angled in, then everything else stacked back in. Very clumsy. A total pain if any cabling needing adjusting.
 
-An opportunity for series of GAS attacks...
+An opportunity for a series of GAS attacks...
 
 1. A narrower amp, and why not get one with a decent DAC (to replace the separate DAC)? Much internetting later and a reduced Mission 778X was purchased. 
 
