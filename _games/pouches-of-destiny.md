@@ -38,7 +38,7 @@ The winner will be the first marsupial with a pouch full of 5 different foods, s
       * or actual little plastic marsupial figures for that extra touch of authenticity...
          * [these](https://www.safariltd.com/toobs-the-land-down-under-figurines-681404) work nicely ([via UK AMZ](https://www.amazon.co.uk/gp/product/B000GYUYOW))
 * enough space
-   * in the middle, to lay out a 6x6 grid of cards, with room round the edge since it might spread wider than that.
+   * in the middle, to lay out a 3x3 grid of cards, with room round the edge since it might spread wider than that.
    * in front of each player, to display up to 6 cards.
 
 # Prepare the heap
@@ -85,7 +85,7 @@ If you have any
 * Spades => you can PICK two cards (rather than one),
 * Diamonds => you can MOVE up a height difference of 5 (rather than 4),
 * Clubs => each card (of any suit) you play in a fight scores +1,
-* Hearts => if you play it in a fight, and there is a tie, the highest heart acts as a tie-breaker.
+* Hearts => in a fight, if there is a tie, the highest heart acts as a tie-breaker.
 
 # Actions
 
@@ -95,7 +95,7 @@ In each round, each player in turn chooses one of the following deliberate actio
 * DISCARD
 * or simply do nothing
 
-Once the MOVE/PICK/CHOICE has been made, if the payer who's turn it is is on a shared location (whether newly arrived, or still there from an earlier MOVE), there may be a FIGHT.
+Once the MOVE/PICK/CHOICE has been made, if the player whose turn it is is on a shared location (whether newly arrived, or still there from an earlier MOVE), there may be a FIGHT.
 
 ## MOVE
 
@@ -106,7 +106,7 @@ If you are beside the heap, on bedrock, you can move diagonally, cutting across 
 You can
 * step along to a card of the same value.
 * step uphill, from a lower card (or bedrock) to a higher-value card, if the difference is less than or equal to 4 (or 5, if you hold a diamond).
-* slide downhill over multiple spots in one glorious _swoosh_ (as far as you choose, even down to bedrock), perhaps changing direction along the way, as long as you follow a sequence of ever lower cards.
+* slide downhill over multiple spots in one glorious _swoosh_ (as far as you choose, even down to bedrock), perhaps changing direction along the way, as long as you follow a sequence of ever lower cards. While _swooshing_, no other actions (such as FIGHT) can happen.
 * stay where you are.
 
 ## PICK
@@ -138,7 +138,9 @@ Whenever two or more marsupials end up (or are already) on the same location, no
 
 Each marsupial in a turn has one chance to initiate one fight on a shared location. This might mean choosing to fight again with the marsupial who only just initiated the previous fight.
 
-The option to initiate a fight starts with the marsupial who's turn it currently is, and proceeds turn-wise round the group of marsupials on the same location. If no-one wants a fight, no fight happens.
+The one who initiates a fight is the attacker, and the other is the defender. These roles switch if the defender chooses to attack in their next turn.
+
+The option to initiate a fight starts with the marsupial whose turn it currently is, and proceeds turn-wise round the group of marsupials on the same location. If no-one wants a fight, no fight happens.
 
 For a fight between two marsupials, each gathers up their pouch and secretly selects a card to be a weapon. The weapons are revealed simultaneously. The two card values are compared, factoring in any 'leaching' effects, and the higher value wins.
 
@@ -238,7 +240,7 @@ So the game is tightly poised, and you are all doing a fine job of stopping anyo
 * 1.9 (2017-12-18)
    * added Advanced Rules
 * 1.8 (2017-12-17)
-   * general tidy or the wording, typos
+   * general tidy of the wording, typos
    * added a prep rule for 5 players
    * re-jigged and added to the Maybes
 * 1.7 (2017-12-16)

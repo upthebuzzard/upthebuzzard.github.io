@@ -40,7 +40,7 @@ Impatient? Skip ahead to [The Crucial Bit](#the-crucial-bit).
 
 First establish your field of play, and agree what is in and out of bounds. For example, keeping clear of the windows and flower beds, flower pots, pets, etc.
 
-Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To adhere to the spirit of game, it is essential that these non-boules are 'found' objects, located in the field of play at the time of the game. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics. It should not need saing, but, none of the non-boules should be actual boules.
+Next, each player selects their weapons. Or rather, the two non-boules they are going to throw in the first round. These non-boules can be anything that is even vaguely throwable, ranging from bottle caps to pine cones to footballs to tennis rackets, shoes or twigs. To adhere to the spirit of game, it is essential that these non-boules are 'found' objects, located in the field of play at the time of the game. To make the game interesting it helps to have a set of non-boules with a wide range of characteristics. It should not need saying, but, none of the non-boules should be actual boules.
 
 Find a visible and easily throwable thing to act as the jack or the target. A golf ball is good, as is an old cereal box. Ironically, a boule is perfect in this role.
 
@@ -58,7 +58,7 @@ Once everyone has thrown one non-boule, the first player throws their second non
 
 Once all players have thrown both their non-boules, it is time to score the round.
 
-Considering only in-bounds non-boules, the player with a non-boule nearest the jack scores one point. If that player has two non-boules nearest the jack they score 2 points. The remaining players are ranked according to how close their closest non-boule was to the jack.
+Considering only in-bounds non-boules, the player with a non-boule nearest the jack scores one point. If that player has two non-boules nearest the jack they score 2 points. The remaining players get no points, but should note their relative distances from the jack.
 
 # The Crucial Bit
 

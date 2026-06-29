@@ -30,8 +30,9 @@ You are controlling your robot, across a dangerous and complex tubular surface, 
 
 * two standard decks of playing cards
 * at least 2 players (also works with 3, and 4, and almost certainly more - the more the better)
-* a unique token to mark each robot's position and direction on the heap
-   * NB, it needs to be obvious and unambiguous in which direction the robot is pointing
+* a unique token to mark each robot's position and direction on the grid
+   * NB, it needs to be obvious and unambiguous in which direction the robot is pointing. 
+   * We use the terms up/down/left/right to name the cardinal directions the robot could face.
 * enough space
    * in the middle, to lay out a 7x7 grid of cards
    * in front of each player, to display a few cards.
@@ -67,13 +68,13 @@ At the start of each round, each player decides on their sequence of commands wh
 * Pick the next 5 cards from the top of their (face down) pile.
 * Review the 5 cards.
 * Sort the 5 cards into a suitable sequence.
-* Hand these 5 command cards in a pile, face down, 1st command on top, to the next player along.
+* Hand these 5 command cards in a pile, face down, 1st command on top, to the neighbouring player (say, clockwise).
 
 Timing is of the essence. Once one player has set up their command card sequence, *all* other players have 30 seconds to do the same, otherwise their 5 cards are handed on as-is.
 
 ## 2. Enact
 
-Each player enacts their neighbour's commands with their neighbour's robot.
+Each player enacts the commands they received from their neighbour with that neighbour's robot, and is responsible for any COLLISION 'ping' decisions for that robot during that round. 
 
 For the first command, in sync across all the players:
 * Reveal the top (face down) command card.
@@ -100,33 +101,36 @@ The top and bottom of the grid do not wrap.
 At most one robot can ever be on a given location.
 
 If a robot attempts to enter an occupied location
-* the mover wins and shoves the occupant along to the neighbouring location
-   * unless that neighbouring location is also occupied, or would push the occupant off the end of the grid, in which case the shoved robot pings out sideways, in a direction of the mover's choosing
-   * unless there is no available location for the shoved robot to be pinged into, in which case the attempted move fails and neither the shoved nor shover moves.
+* the mover wins and shoves the occupant along to the neighbouring location, in the direction the mover was going
+   * unless that neighbouring location is also occupied by another robot, or would push the occupant off the top or bottom of the grid, in which case the shoved robot pings out sideways into an empty location (ie one of the two adjacent locations perpendicular to the direction of travel), in a direction chosen by the player enacting the robot's moves.
+      * unless there is no available empty location for the shoved robot to be pinged into, in which case the attempted move fails and neither the shoved nor shover moves.
+
+In general, if a MOVE or a CONVEYER BELT causes a COLLISION, and the robot being collided with cannot move (or ping out), then it stays in place, as does the robot colliding with it.
 
 ### TURN
 
-If the command card being played is one of 2-9, turn the robot that many times 90' clockwise.
+If the command card being played is one of 2-9, turn the robot that many times 90° clockwise.
 
-For example, if the card is a
-* 2, turn the robot 2x90', i.e., to face in the opposite direction
-* 3, turn the robot 3x90', i.e., to face left
-* 4, the robot spins in place and ends up facing the same direction
-* 5, turn the robot 5x90', i.e. to face right
+For example, for a robot facing up, if the card is a
+* 2, turn the robot 2x90°, i.e., to face in the opposite direction, down.
+* 3, turn the robot 3x90°, i.e., to face left.
+* 4, the robot spins in place and ends up facing the same direction.
+* 5, turn the robot 5x90°, i.e. to face right.
 * etc
 
 ### CONVEYER BELT
 
-Once the current command card has been acted upon, for all robots, if a robot is sitting on a CONVEYER BELT (i.e., a line of black cards starting with an Ace) it is moved one position along the belt (away from the Ace).
+Once the current command card has been acted upon, for all robots, checking from front to back (i.e., from furthest from the Ace, to the Ace), if a robot is sitting on a CONVEYER BELT (i.e., a line of black cards starting with an Ace) it is moved one position along the belt (away from the Ace).
 
-If the robot is already on the last belt position, it is moved onto the next location along from the belt (according to the same rules as a standard MOVE, in the case that location is already occupied).    
+If the robot is already on the last belt position, it is moved onto the next location along from the belt (according to the same rules as a standard COLLISION, with pings decided by the enacting player, in the case that location is already occupied).    
+
 
 ## 3. Reset
 
 Once all 5 commands have been acted out:
 * Return the cards to each player, to be placed face down, underneath their pile (NB, no shuffling, or reviewing the pile)
 * If, during that round, a player's robot was (however fleetingly) on their next target location (in order, a red Jack, Queen, King),
-   * remove the matching card from that player's pile
+   * remove the equivalent Jack/Queen/King card from that player's pile
    * place it face up under the target location (so everyone can see which robots have reached that target)
    * shuffle the player's remaining pile, ensuring it remains face down
 
@@ -210,6 +214,6 @@ Treat the black cards as special features on the grid, and the red court cards a
 * 0.3 (2017-12-29)
    * re-assigned cards to different features on the grid
 * 0.2 (2017-12-27)
-   * amended the turn mechanic from odd/even to card num x 90'
+   * amended the turn mechanic from odd/even to card num x 90°
 * 0.1 (2017-12-26)
    * the initial version
